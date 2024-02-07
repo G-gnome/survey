@@ -1,0 +1,379 @@
+IQ-TREE 2.2.2.6 COVID-edition built May 27 2023
+
+Input file name: Mojave2020.Naganishia.muscle.fasaln.clipkit
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 888980
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 44 sequences with 724 nucleotide sites
+Number of constant sites: 378 (= 52.2099% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 378 (= 52.2099% of all sites)
+Number of parsimony informative sites: 285
+Number of distinct site patterns: 291
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TPM2u+F+R2
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TPM2u+F+R2        -2834.552    5853.105 +    0.183    5880.224 +    0.255    6274.906 +     0.33
+HKY+F+R2          -2838.173    5858.346 -   0.0133    5884.840 -   0.0254    6275.562 +    0.238
+TPM2+R2           -2844.979    5867.958 - 0.000109    5893.226 - 0.000383    6276.004 +     0.19
+TIM2+F+R2         -2832.843    5851.686 +    0.371    5879.438 +    0.378    6278.072 +   0.0677
+TN+F+R2           -2836.213    5856.427 -   0.0347    5883.546 -   0.0485    6278.228 +   0.0626
+TIM2e+R2          -2843.100    5866.201 - 0.000262    5892.077 - 0.000681    6278.832 -   0.0463
+TPM3u+F+R2        -2837.584    5859.168 -  0.00882    5886.287 -   0.0123    6280.968 -   0.0159
+K3Pu+F+R2         -2837.923    5859.846 -  0.00628    5886.965 -  0.00878    6281.647 -   0.0113
+TPM2u+F+I+R2      -2834.923    5855.846 -   0.0464    5883.598 -   0.0472    6282.232 -  0.00846
+TPM2+I+R2         -2845.034    5870.068 - 3.79e-05    5895.945 - 9.85e-05    6282.699 -   0.0067
+K2P+R2            -2852.030    5880.061 - 2.56e-07    5904.728 - 1.22e-06    6283.522 -  0.00444
+TIM3+F+R2         -2835.626    5857.251 -    0.023    5885.004 -   0.0234    6283.637 -  0.00419
+HKY+F+I+R2        -2839.016    5862.033 -   0.0021    5889.152 -  0.00294    6283.834 -   0.0038
+TIM+F+R2          -2835.968    5857.937 -   0.0163    5885.689 -   0.0166    6284.322 -  0.00297
+TNe+R2            -2849.874    5877.749 - 8.14e-07    5903.017 - 2.87e-06    6285.795 -  0.00142
+TIM2+F+I+R2       -2833.496    5854.992 +   0.0711    5883.387 +   0.0525    6285.963 -  0.00131
+TIM2e+I+R2        -2843.606    5869.211 - 5.81e-05    5895.705 - 0.000111    6286.427 -  0.00104
+TVM+F+R2          -2833.759    5855.519 +   0.0547    5883.913 -   0.0404    6286.489 -  0.00101
+TN+F+I+R2         -2837.087    5860.174 -  0.00533    5887.927 -  0.00543    6286.560 - 0.000972
+TVMe+R2           -2844.625    5871.249 -  2.1e-05    5897.743 - 4.01e-05    6288.465 - 0.000375
+K3P+R2            -2851.336    5880.671 - 1.89e-07    5905.940 - 6.65e-07    6288.718 -  0.00033
+TPM3u+F+I+R2      -2838.451    5862.902 -  0.00136    5890.655 -  0.00139    6289.288 - 0.000248
+GTR+F+R2          -2832.110    5854.220 +    0.105    5883.264 +   0.0558    6289.775 - 0.000195
+K3Pu+F+I+R2       -2838.822    5863.644 -  0.00094    5891.396 - 0.000957    6290.029 - 0.000171
+TPM3+R2           -2852.030    5882.060 - 9.43e-08    5907.328 - 3.32e-07    6290.106 - 0.000165
+TIMe+R2           -2849.184    5878.367 - 5.97e-07    5904.244 - 1.55e-06    6290.998 - 0.000106
+SYM+R2            -2842.759    5869.518 - 4.99e-05    5896.637 - 6.97e-05    6291.319 -    9e-05
+TIM3+F+I+R2       -2836.508    5861.017 -   0.0035    5889.411 -  0.00258    6291.987 - 6.44e-05
+K2P+I+R2          -2852.975    5883.951 - 3.66e-08    5909.219 - 1.29e-07    6291.997 - 6.41e-05
+TIM3e+R2          -2849.872    5879.744 -    3e-07    5905.621 -  7.8e-07    6292.375 - 5.31e-05
+TIM+F+I+R2        -2836.885    5861.770 -   0.0024    5890.164 -  0.00177    6292.740 - 4.42e-05
+TVM+F+I+R2        -2834.257    5858.513 -   0.0122    5887.558 -  0.00652    6294.068 - 2.28e-05
+TNe+I+R2          -2850.865    5881.729 - 1.11e-07    5907.606 - 2.89e-07    6294.360 - 1.97e-05
+TVMe+I+R2         -2844.853    5873.706 - 6.14e-06    5900.824 - 8.59e-06    6295.506 - 1.11e-05
+K3P+I+R2          -2852.337    5884.674 - 2.55e-08    5910.551 - 6.63e-08    6297.305 - 4.51e-06
+GTR+F+I+R2        -2832.727    5857.454 -   0.0208    5887.158 -  0.00797    6297.594 -  3.9e-06
+TPM3+I+R2         -2852.992    5885.983 - 1.33e-08    5911.860 - 3.45e-08    6298.614 - 2.34e-06
+SYM+I+R2          -2843.316    5872.633 - 1.05e-05    5900.385 - 1.07e-05    6299.018 - 1.92e-06
+F81+F+R2          -2853.355    5886.709 - 9.22e-09    5912.586 -  2.4e-08    6299.341 - 1.63e-06
+TIMe+I+R2         -2850.230    5882.461 - 7.71e-08    5908.954 - 1.47e-07    6299.677 - 1.38e-06
+TIM3e+I+R2        -2850.872    5883.745 - 4.06e-08    5910.239 - 7.75e-08    6300.961 - 7.25e-07
+GTR+F+R3          -2832.108    5858.215 -   0.0142    5888.586 -   0.0039    6302.940 -  2.7e-07
+JC+R2             -2865.547    5905.094 - 9.39e-13    5929.169 - 6.01e-12    6303.970 - 1.61e-07
+GTR+F+G4          -2844.434    5876.867 - 1.26e-06    5905.262 - 9.34e-07    6307.838 - 2.33e-08
+F81+F+I+R2        -2854.490    5890.980 - 1.09e-09    5917.473 - 2.08e-09    6308.196 - 1.95e-08
+GTR+F+I+R3        -2832.588    5861.176 -  0.00323    5892.222 - 0.000634    6310.485 -  6.2e-09
+JC+I+R2           -2866.728    5909.456 - 1.06e-13    5934.124 - 5.04e-13    6312.918 - 1.84e-09
+GTR+F+I+G4        -2845.394    5880.787 - 1.78e-07    5909.832 -  9.5e-08    6316.343 - 3.31e-10
+GTR+F+I           -2872.081    5932.162 - 1.24e-18    5960.557 - 9.19e-19    6363.133 - 2.29e-20
+GTR+F             -2879.125    5944.249 - 2.95e-21    5972.002 -    3e-21    6370.635 - 5.38e-22
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TPM2u+F+R2
+
+Rate parameter R:
+
+  A-C: 1.7210
+  A-G: 2.8609
+  A-T: 1.7210
+  C-G: 1.0000
+  C-T: 2.8609
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2889
+  pi(C) = 0.2109
+  pi(G) = 0.2063
+  pi(T) = 0.2938
+
+Rate matrix Q:
+
+  A    -1.038    0.2582    0.4199    0.3596
+  C    0.3537    -1.098    0.1468    0.5978
+  G     0.588      0.15   -0.9469    0.2089
+  T    0.3537    0.4292    0.1468   -0.9297
+
+Model of rate heterogeneity: FreeRate with 2 categories
+Site proportion and rates:  (0.9162,0.4349) (0.08383,7.176)
+
+ Category  Relative_rate  Proportion
+  1         0.4349         0.9162
+  2         7.176          0.08383
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2832.1037 (s.e. 96.4895)
+Unconstrained log-likelihood (without tree): -3656.4137
+Number of free parameters (#branches + #model parameters): 92
+Akaike information criterion (AIC) score: 5848.2075
+Corrected Akaike information criterion (AICc) score: 5875.3263
+Bayesian information criterion (BIC) score: 6270.0083
+
+Total tree length (sum of branch lengths): 2.4689
+Sum of internal branch lengths: 2.2594 (91.5148% of tree length)
+
+WARNING: 15 near-zero internal branches (<0.0014) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ASV17024.20' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--ASV17024.20
+|
+|                          +**NR_111051.1_Naganishia
+|                       +**| (0/57)
+|                       |  |              +**KHKNaganishiaDiffluens
+|                       |  |           +**| (0/50)
+|                       |  |           |  +--PI7
+|                       |  |        +--| (92.4/97)
+|                       |  |        |  +**JDC33_Naganishia
+|                       |  |     +**| (0/43)
+|                       |  |     |  +**ASV490.1959
+|                       |  |  +**| (0/54)
+|                       |  |  |  +**NR_077113.1_Naganishia
+|                       |  +--| (92.4/83)
+|                       |     +**NR_073220.1_Naganishia
+|                    +--| (99/100)
+|                    |  +**ASV20749.22
+|                 +--| (29.7/46)
+|                 |  +--NR_111045.1_Naganishia
+|              +--| (93.7/98)
+|              |  |              +**ASV1979.310
+|              |  |           +**| (0/41)
+|              |  |           |  |                                                           +--XL_G2
+|              |  |           |  |                                                        +--| (71.5/97)
+|              |  |           |  |                                                        |  +--XL_G3
+|              |  |           |  |  +-----------------------------------------------------| (100/100)
+|              |  |           |  |  |                                                     +--XL_H4
+|              |  |           |  +--| (85.8/81)
+|              |  |           |     +**NR_149342.1__Cryptococcus_
+|              |  |        +--| (93/67)
+|              |  |        |  +**NR_111046.1_Naganishia
+|              |  |     +--| (88.6/80)
+|              |  |     |  |     +**ASV1348.695
+|              |  |     |  |  +**| (0/6)
+|              |  |     |  |  |  |  +--NR_149344.1__Cryptococcus_
+|              |  |     |  |  |  +**| (0/11)
+|              |  |     |  |  |     +--ASV11205.33
+|              |  |     |  +**| (0/6)
+|              |  |     |     +**NR_149343.1__Cryptococcus_
+|              |  |  +--| (86.9/83)
+|              |  |  |  +--NR_111050.1_Naganishia
+|              |  +--| (74.6/65)
+|              |     +--NR_073219.1_Naganishia
+|           +--| (98.5/100)
+|           |  |     +**ASV3276.192
+|           |  |  +**| (0/62)
+|           |  |  |  |  +--NR_111049.1_Naganishia
+|           |  |  |  +--| (84.3/95)
+|           |  |  |     +--NR_152963.1__Cryptococcus_
+|           |  +--| (82/90)
+|           |     |  +**ASV1716.446
+|           |     +--| (93.3/99)
+|           |        +--NR_077082.1_Naganishia
+|        +--| (45.6/67)
+|        |  |  +**ASV339.3085
+|        |  +--| (83.3/93)
+|        |     +**NR_111118.1_Naganishia
+|     +--| (96.1/99)
+|     |  |                 +**ASV54.20554
+|     |  |              +**| (0/74)
+|     |  |              |  |  +--ASV25397.31
+|     |  |              |  +**| (0/70)
+|     |  |              |     +--ASV10975.77
+|     |  |           +--| (91.6/98)
+|     |  |           |  +**NR_152962.1_Naganishia
+|     |  |        +--| (74.1/91)
+|     |  |        |  +--NR_152985.1_Naganishia
+|     |  |     +--| (92.1/97)
+|     |  |     |  +**NR_111047.1_Naganishia
+|     |  |  +**| (0/84)
+|     |  |  |  |  +--ASV5326.108
+|     |  |  |  +--| (86.5/95)
+|     |  |  |     +**ASV328.3169
+|     |  +--| (100/100)
+|     |     |     +**ASV551.1431
+|     |     |  +**| (0/48)
+|     |     |  |  +--ASV12032.33
+|     |     +--| (85.8/95)
+|     |        +**ASV23198.459
+|  +**| (0/64)
+|  |  |  +**ASV8075.24
+|  |  +--| (53.1/96)
+|  |     +**NR_111371.1_Naganishia
++**| (0/48)
+|  +**ASV26252.534
+|
++**ASV482.1688
+
+Tree in newick format:
+
+(ASV17024.20:0.0103348031,(((((((((NR_111051.1_Naganishia:0.0000009967,(((((KHKNaganishiaDiffluens:0.0000009967,PI7:0.0036858583)0/50:0.0000009967,JDC33_Naganishia:0.0000009967)92.4/97:0.0018238036,ASV490.1959:0.0000009967)0/43:0.0000009967,NR_077113.1_Naganishia:0.0000009967)0/54:0.0000009967,NR_073220.1_Naganishia:0.0000009967)92.4/83:0.0015668373)0/57:0.0000023972,ASV20749.22:0.0000009967)99/100:0.0148294048,NR_111045.1_Naganishia:0.0066078045)29.7/46:0.0025276177,(((((ASV1979.310:0.0000009967,(((XL_G2:0.0133038433,XL_G3:0.0114426485)71.5/97:0.0475102779,XL_H4:0.0988635331)100/100:1.9867702310,NR_149342.1__Cryptococcus_:0.0000024792)85.8/81:0.0138849494)0/41:0.0000024277,NR_111046.1_Naganishia:0.0000009967)93/67:0.0031259586,((ASV1348.695:0.0000009967,(NR_149344.1__Cryptococcus_:0.0016858804,ASV11205.33:0.0068497519)0/11:0.0000009967)0/6:0.0000024543,NR_149343.1__Cryptococcus_:0.0000009967)0/6:0.0000009967)88.6/80:0.0031242454,NR_111050.1_Naganishia:0.0032100801)86.9/83:0.0032105957,NR_073219.1_Naganishia:0.0095990635)74.6/65:0.0023813255)93.7/98:0.0094081219,((ASV3276.192:0.0000009967,(NR_111049.1_Naganishia:0.0018369456,NR_152963.1__Cryptococcus_:0.0020810311)84.3/95:0.0041866820)0/62:0.0000009967,(ASV1716.446:0.0000009967,NR_077082.1_Naganishia:0.0030395000)93.3/99:0.0094217204)82/90:0.0077262332)98.5/100:0.0205940049,(ASV339.3085:0.0000009967,NR_111118.1_Naganishia:0.0000009967)83.3/93:0.0041480539)45.6/67:0.0112226666,((((((ASV54.20554:0.0000009967,(ASV25397.31:0.0031870672,ASV10975.77:0.0064255278)0/70:0.0000009967)0/74:0.0000009967,NR_152962.1_Naganishia:0.0000009967)91.6/98:0.0059347496,NR_152985.1_Naganishia:0.0094484932)74.1/91:0.0018815520,NR_111047.1_Naganishia:0.0000009967)92.1/97:0.0056933607,(ASV5326.108:0.0032280335,ASV328.3169:0.0000009967)86.5/95:0.0065513701)0/84:0.0012263843,((ASV551.1431:0.0000009967,ASV12032.33:0.0065068310)0/48:0.0000009967,ASV23198.459:0.0000009967)85.8/95:0.0184518620)100/100:0.0503907161)96.1/99:0.0259402367,(ASV8075.24:0.0000009967,NR_111371.1_Naganishia:0.0000009967)53.1/96:0.0039777630)0/64:0.0000023427,ASV26252.534:0.0000009967)0/48:0.0000023427,ASV482.1688:0.0000009967);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -2832.124190
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--ASV17024.20
+|
+|                          +--NR_111051.1_Naganishia
+|                       +--| (57)
+|                       |  |              +--KHKNaganishiaDiffluens
+|                       |  |           +--| (50)
+|                       |  |           |  +--PI7
+|                       |  |        +--| (97)
+|                       |  |        |  +--JDC33_Naganishia
+|                       |  |     +--| (43)
+|                       |  |     |  +--ASV490.1959
+|                       |  |  +--| (54)
+|                       |  |  |  +--NR_077113.1_Naganishia
+|                       |  +--| (83)
+|                       |     +--NR_073220.1_Naganishia
+|                    +--| (100)
+|                    |  +--ASV20749.22
+|                 +--| (46)
+|                 |  +--NR_111045.1_Naganishia
+|              +--| (98)
+|              |  |                    +--ASV1979.310
+|              |  |                 +--| (41)
+|              |  |                 |  |                                                           +--XL_G2
+|              |  |                 |  |                                                        +--| (97)
+|              |  |                 |  |                                                        |  +--XL_G3
+|              |  |                 |  |  +-----------------------------------------------------| (100)
+|              |  |                 |  |  |                                                     +--XL_H4
+|              |  |                 |  +--| (81)
+|              |  |                 |     +--NR_149342.1__Cryptococcus_
+|              |  |              +--| (67)
+|              |  |              |  +--NR_111046.1_Naganishia
+|              |  |           +--| (32)
+|              |  |           |  +--ASV11205.33
+|              |  |        +--| (21)
+|              |  |        |  +--ASV1348.695
+|              |  |     +--| (80)
+|              |  |     |  |  +--NR_149344.1__Cryptococcus_
+|              |  |     |  +--| (42)
+|              |  |     |     +--NR_149343.1__Cryptococcus_
+|              |  |  +--| (83)
+|              |  |  |  +--NR_111050.1_Naganishia
+|              |  +--| (65)
+|              |     +--NR_073219.1_Naganishia
+|           +--| (100)
+|           |  |     +--ASV3276.192
+|           |  |  +--| (62)
+|           |  |  |  |  +--NR_111049.1_Naganishia
+|           |  |  |  +--| (95)
+|           |  |  |     +--NR_152963.1__Cryptococcus_
+|           |  +--| (90)
+|           |     |  +--ASV1716.446
+|           |     +--| (99)
+|           |        +--NR_077082.1_Naganishia
+|        +--| (67)
+|        |  |  +--ASV339.3085
+|        |  +--| (93)
+|        |     +--NR_111118.1_Naganishia
+|     +--| (99)
+|     |  |                 +--ASV54.20554
+|     |  |              +--| (74)
+|     |  |              |  |  +--ASV25397.31
+|     |  |              |  +--| (70)
+|     |  |              |     +--ASV10975.77
+|     |  |           +--| (98)
+|     |  |           |  +--NR_152962.1_Naganishia
+|     |  |        +--| (91)
+|     |  |        |  +--NR_152985.1_Naganishia
+|     |  |     +--| (97)
+|     |  |     |  +--NR_111047.1_Naganishia
+|     |  |  +--| (84)
+|     |  |  |  |  +--ASV5326.108
+|     |  |  |  +--| (95)
+|     |  |  |     +--ASV328.3169
+|     |  +--| (100)
+|     |     |     +--ASV551.1431
+|     |     |  +--| (48)
+|     |     |  |  +--ASV12032.33
+|     |     +--| (95)
+|     |        +--ASV23198.459
+|  +--| (64)
+|  |  |  +--ASV8075.24
+|  |  +--| (96)
+|  |     +--NR_111371.1_Naganishia
++--| (48)
+|  +--ASV26252.534
+|
++--ASV482.1688
+
+
+Consensus tree in newick format: 
+
+(ASV17024.20:0.0103391754,(((((((((NR_111051.1_Naganishia:0.0000023504,(((((KHKNaganishiaDiffluens:0.0000023504,PI7:0.0036895866)50:0.0000023504,JDC33_Naganishia:0.0000023504)97:0.0018259811,ASV490.1959:0.0000023504)43:0.0000023504,NR_077113.1_Naganishia:0.0000023504)54:0.0000023504,NR_073220.1_Naganishia:0.0000023504)83:0.0015685068)57:0.0000020171,ASV20749.22:0.0000023504)100:0.0148506220,NR_111045.1_Naganishia:0.0066165857)46:0.0025293514,(((((((ASV1979.310:0.0000023504,(((XL_G2:0.0132612996,XL_G3:0.0114725364)97:0.0478893489,XL_H4:0.0986947893)100:1.9868954398,NR_149342.1__Cryptococcus_:0.0000029663)81:0.0139020275)41:0.0000028982,NR_111046.1_Naganishia:0.0000023504)67:0.0031276409,ASV11205.33:0.0068562583)32:0.0000023534,ASV1348.695:0.0000023504)21:0.0000023534,(NR_149344.1__Cryptococcus_:0.0016909758,NR_149343.1__Cryptococcus_:0.0000023504)42:0.0000023504)80:0.0031282815,NR_111050.1_Naganishia:0.0032143630)83:0.0032142832,NR_073219.1_Naganishia:0.0096118705)65:0.0023848955)98:0.0094156815,((ASV3276.192:0.0000023504,(NR_111049.1_Naganishia:0.0018376465,NR_152963.1__Cryptococcus_:0.0020819485)95:0.0041890295)62:0.0000020171,(ASV1716.446:0.0000023504,NR_077082.1_Naganishia:0.0030419579)99:0.0094270784)90:0.0077284567)100:0.0206052094,(ASV339.3085:0.0000023504,NR_111118.1_Naganishia:0.0000023504)93:0.0041522815)67:0.0111294289,((((((ASV54.20554:0.0000023504,(ASV25397.31:0.0031869343,ASV10975.77:0.0064268097)70:0.0000023504)74:0.0000023504,NR_152962.1_Naganishia:0.0000023504)98:0.0059361025,NR_152985.1_Naganishia:0.0094515586)91:0.0018805690,NR_111047.1_Naganishia:0.0000023504)97:0.0056947895,(ASV5326.108:0.0032280626,ASV328.3169:0.0000023504)95:0.0065550877)84:0.0013030894,((ASV551.1431:0.0000023504,ASV12032.33:0.0065091513)48:0.0000023504,ASV23198.459:0.0000023504)95:0.0182650344)100:0.0503378235)99:0.0260233240,(ASV8075.24:0.0000023504,NR_111371.1_Naganishia:0.0000023504)96:0.0039800434)64:0.0000023504,ASV26252.534:0.0000023504)48:0.0000023504,ASV482.1688:0.0000023504);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t Mojave2020.Naganishia.muscle.fasaln.clipkit.treefile -m "TPM2u{1.72096,2.86091}+F{0.288946,0.210943,0.206345,0.293765}+R2{0.916172,0.434884,0.0838281,7.17626}" --length 724
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Mojave2020.Naganishia.muscle.fasaln.clipkit --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Mojave2020.Naganishia.muscle.fasaln.clipkit --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Dec 10 12:30:39 2023
+Total CPU time used: 19.310931 seconds (0h:0m:19s)
+Total wall-clock time used: 9.84591198 seconds (0h:0m:9s)
+

@@ -1,0 +1,23 @@
+SampleID	SampleID_2	Locus	Flowcell	Site	Site_layer	Layer	Soil_type	Soil_type_layer	Crust_type	Sampling_month	Sampling_Date
+AlphaA1.TR.1	AlphaA1.TR.1	ITS		AB	AB_Sub	Subsurface	Granite	Granite_Sub	SMC.Sub		
+AlphaB1.TR.2	AlphaB1.TR.2	ITS		AB	AB_SF	Surface	Granite	Granite_SF	SMC		
+AlphaB3.TR.2	AlphaB3.TR.2	ITS		AB	AB_SF	Surface	Granite	Granite_SF	SMC		
+AlphaB4.TR.1	AlphaB4.TR.1	ITS		AB	AB_SF	Surface	Granite	Granite_SF	SMC		
+AlphaB5.TR.2.1	AlphaB5.TR.2.1	ITS		AB	AB_SF	Surface	Granite	Granite_SF	SMC		
+AlphaB5.TR.2.2	AlphaB5.TR.2.2	ITS		AB	AB_SF	Surface	Granite	Granite_SF	SMC		
+AlphaC2.TR.2	AlphaC2.TR.2	ITS		AB	AB_SF	Surface	Granite	Granite_SF	SMC.ster		
+AlphaC4.TR.2	AlphaC4.TR.2	ITS		AB	AB_SF	Surface	Granite	Granite_SF	SMC.ster		
+BetaA3.TR.2	BetaA3.TR.2	ITS		ODLO	ODLO_Sub	Subsurface	Granite	Granite_Sub	SMC.Sub		
+BetaB1.TR.1	BetaB1.TR.1	ITS		ODLO	ODLO_SF	Surface	Granite	Granite_SF	SMC		
+BetaB2.TR.2	BetaB2.TR.2	ITS		ODLO	ODLO_SF	Surface	Granite	Granite_SF	SMC.ster		
+BetaC1.TR.2	BetaC1.TR.2	ITS		ODLO	ODLO_SF	Surface	Granite	Granite_SF	SMC.ster		
+BetaC2.TR.2	BetaC2.TR.2	ITS		ODLO	ODLO_SF	Surface	Granite	Granite_SF	SMC		
+GammaA5.TR.2	GammaA5.TR.2	ITS		CIMA	CIMA_Sub	Subsurface	Granite	Granite_Sub	SMC.Sub		
+GammaB1.TR.1	GammaB1.TR.1	ITS		CIMA	CIMA_SF	Surface	Volcanic	Volcanic_SF	SMC		
+GammaB4.TR.2	GammaB4.TR.2	ITS		CIMA	CIMA_SF	Surface	Volcanic	Volcanic_SF	SMC		
+GammaB5.TR.2	GammaB5.TR.2	ITS		CIMA	CIMA_SF	Surface	Volcanic	Volcanic_SF	SMC		
+GammaC2.TR.2.1	GammaC2.TR.2.1	ITS		CIMA	CIMA_SF	Surface	Volcanic	Volcanic_SF	SMC.ster		
+GammaC2.TR.2.2	GammaC2.TR.2.2	ITS		CIMA	CIMA_SF	Surface	Volcanic	Volcanic_SF	SMC.ster		
+GammaC3.TR.1	GammaC3.TR.1	ITS		CIMA	CIMA_SF	Surface	Volcanic	Volcanic_SF	SMC.ster		
+GammaD4.TR.2	GammaD4.TR.2	ITS		CIMA	CIMA_SF	Surface	Volcanic	Volcanic_SF	Dirt		
+GammaD5.TR.2	GammaD5.TR.2	ITS		CIMA	CIMA_SF	Surface	Volcanic	Volcanic_SF	Dirt		

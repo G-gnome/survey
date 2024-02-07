@@ -1,0 +1,42 @@
+Loading amptk/1.6
+  Loading requirement: usearch/10 mafft/7.505 fasttree/2.1.11
+/bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis/results/amptk /bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis
+[08:43:38 AM]: OS: Rocky Linux 8.5, 64 cores, ~ 528 GB RAM. Python: 3.10.0
+[08:43:38 AM]: AMPtk v1.6.0, VSEARCH v2.22.1
+[08:43:38 AM]: Loading OTU table: Mojave2020_KKelly202307.otu_table.txt
+[08:43:39 AM]: OTU table contains 77 samples, 30,109 OTUs, and 8,828,978 reads counts
+[08:43:39 AM]: Sorting OTU table naturally
+/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/amptk/1.6/lib/python3.10/site-packages/amptk/filter.py:300: FutureWarning: In a future version of pandas all arguments of DataFrame.any and Series.any will be keyword-only.
+  filt2 = filtered.loc[(filtered != 0).any(1)]
+[08:43:40 AM]: Removing 14 OTUs according to --min_reads_otu 2
+[08:43:44 AM]: Normalizing OTU table to number of reads per sample
+[08:43:44 AM]: Overwriting auto detect index-bleed, setting to 0.500000%
+[08:44:20 AM]: Filtered OTU table contains 77 samples, 30,095 OTUs, and 8,767,134 read counts
+[08:44:20 AM]: Finding valid OTUs
+-------------------------------------------------------
+-------------------------------------------------------
+OTU Table filtering finished
+-------------------------------------------------------
+OTU Table Stats:      Mojave2020_KKelly202307.stats.txt
+Sorted OTU table:     Mojave2020_KKelly202307.sorted.txt
+Normalized/filter:    Mojave2020_KKelly202307.normalized.txt
+Final Binary table:   Mojave2020_KKelly202307.final.binary.txt
+Final OTU table:      Mojave2020_KKelly202307.final.txt
+Filtered OTUs:        Mojave2020_KKelly202307.filtered.otus.fa
+-------------------------------------------------------
+
+Example of next cmd: amptk taxonomy -f Mojave2020_KKelly202307.filtered.otus.fa -i Mojave2020_KKelly202307.final.txt -m mapping_file.txt -d ITS2
+
+[08:44:23 AM]: OS: Rocky Linux 8.5, 64 cores, ~ 528 GB RAM. Python: 3.10.0
+[08:44:23 AM]: AMPtk v1.6.0, VSEARCH v2.22.1
+[08:44:23 AM]: Loading FASTA Records
+[08:44:23 AM]: 0 OTUs
+[08:44:23 AM]: Global alignment OTUs with usearch_global (VSEARCH) against ITS.udb
+[08:44:42 AM]: Classifying OTUs with SINTAX (VSEARCH)
+[08:44:43 AM]: SINTAX results empty
+[08:44:43 AM]: Parsing taxonomy failed -- see logfile
+-------------------------------------------------------
+usage: amptk-funguild.py [-h] -i INPUT [-o OUT] [-d DATABASE] [-u URL]
+amptk-funguild.py: error: unrecognized arguments: --db fungi
+/var/spool/slurmd/job12159431/slurm_script: line 38: Mojave2020_KKelly202307.taxonomy.txt: No such file or directory
+/bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis

@@ -1,0 +1,76 @@
+Loading amptk/1.6
+  Loading requirement: usearch/10 mafft/7.505 fasttree/2.1.11
+/bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis/results/amptk /bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis
+[03:05:34 PM]: OS: Rocky Linux 8.5, 64 cores, ~ 528 GB RAM. Python: 3.10.0
+[03:05:34 PM]: AMPtk v1.6.0, VSEARCH v2.22.1
+[03:05:34 PM]: Gzipped files detected, uncompressing
+[03:06:47 PM]: ITS1-F fwd primer found in AMPtk primer db, setting to: CTTGGTCATTTAGAGGAAGTAA
+[03:06:47 PM]: ITS2 rev primer found in AMPtk primer db, setting to: GCTGCGTTCTTCATCGATGC
+[03:06:47 PM]: Demuxing data using 64 cpus
+[03:06:47 PM]: Dropping reads less than 100 bp and setting lossless trimming to 250 bp.
+[03:06:47 PM]: Strip Primers and Merge PE reads. FwdPrimer: CTTGGTCATTTAGAGGAAGTAA RevPrimer: GCTGCGTTCTTCATCGATGC
+-------------------------------------------------------
+     Progress: 0.00%      Progress: 0.00%      Progress: 0.00%      Progress: 0.00%      Progress: 0.00%      Progress: 0.00%      Progress: 0.00%      Progress: 0.00%      Progress: 0.00%      Progress: 2.08%      Progress: 2.08%      Progress: 2.08%      Progress: 2.08%      Progress: 2.08%      Progress: 2.08%      Progress: 4.17%      Progress: 4.17%      Progress: 4.17%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 6.25%      Progress: 8.33%      Progress: 8.33%      Progress: 8.33%      Progress: 8.33%      Progress: 8.33%      Progress: 10.42%      Progress: 10.42%      Progress: 10.42%      Progress: 12.50%      Progress: 12.50%      Progress: 12.50%      Progress: 12.50%      Progress: 12.50%      Progress: 12.50%      Progress: 14.58%      Progress: 16.67%      Progress: 16.67%      Progress: 18.75%      Progress: 20.83%      Progress: 27.08%      Progress: 27.08%      Progress: 29.17%      Progress: 31.25%      Progress: 31.25%      Progress: 37.50%      Progress: 41.67%      Progress: 41.67%      Progress: 41.67%      Progress: 41.67%      Progress: 41.67%      Progress: 45.83%      Progress: 52.08%      Progress: 54.17%      Progress: 56.25%      Progress: 60.42%      Progress: 64.58%      Progress: 64.58%      Progress: 68.75%      Progress: 68.75%      Progress: 75.00%      Progress: 77.08%      Progress: 81.25%      Progress: 85.42%      Progress: 87.50%      Progress: 87.50%      Progress: 89.58%      Progress: 89.58%      Progress: 89.58%      Progress: 89.58%      Progress: 89.58%      Progress: 91.67%      Progress: 93.75%      Progress: 93.75%      Progress: 93.75%      Progress: 93.75%      Progress: 95.83%      Progress: 95.83%      Progress: 95.83%      Progress: 95.83%      Progress: 97.92%      Progress: 97.92%      Progress: 97.92%      Progress: 97.92%      Progress: 97.92%      Progress: 97.92%      Progress: 97.92%      Progress: 97.92% [03:08:34 PM]: Concatenating Demuxed Files
+[03:08:43 PM]: 8,162,833 total reads
+[03:08:43 PM]: 1,269,230 Fwd Primer found, 1,724,339 Rev Primer found
+[03:08:43 PM]: 1,371 discarded Primer incompatibility
+[03:08:43 PM]: 220 discarded too short (< 100 bp)
+[03:08:43 PM]: 8,161,242 valid output reads
+[03:09:00 PM]: Found 48 barcoded samples
+                        Sample:  Count
+                    SRR9106083:  306064
+                    SRR9106087:  285177
+                    SRR9106090:  261870
+                    SRR9106105:  249411
+                    SRR9106072:  239013
+                    SRR9106074:  222861
+                    SRR9106084:  222586
+                    SRR9106064:  213504
+                    SRR9106070:  208588
+                    SRR9106077:  204331
+                    SRR9106076:  203579
+                    SRR9106096:  201685
+                    SRR9106085:  201031
+                    SRR9106061:  199884
+                    SRR9106103:  194529
+                    SRR9106097:  194343
+                    SRR9106082:  191928
+                    SRR9106063:  190206
+                    SRR9106059:  186998
+                    SRR9106094:  186751
+                    SRR9106060:  184275
+                    SRR9106086:  181557
+                    SRR9106080:  178816
+                    SRR9106081:  176331
+                    SRR9106106:  175664
+                    SRR9106095:  173688
+                    SRR9106099:  168282
+                    SRR9106101:  167518
+                    SRR9106089:  162238
+                    SRR9106066:  154961
+                    SRR9106092:  152644
+                    SRR9106067:  151898
+                    SRR9106075:  151728
+                    SRR9106091:  145135
+                    SRR9106093:  144424
+                    SRR9106069:  142156
+                    SRR9106104:  137869
+                    SRR9106068:  136178
+                    SRR9106079:  132966
+                    SRR9106100:  132155
+                    SRR9106102:  131859
+                    SRR9106071:  119507
+                    SRR9106078:  116988
+                    SRR9106098:  103370
+                    SRR9106065:  87327
+                    SRR9106073:  36820
+                    SRR9106062:  32065
+                    SRR9106088:  18484
+[03:09:09 PM]: Output file:  Mojave2020.demux.fq.gz (444.2 MB)
+[03:09:09 PM]: Mapping file: Mojave2020.mapping_file.txt
+-------------------------------------------------------
+-------------------------------------------------------
+
+Example of next cmd: amptk cluster -i Mojave2020.demux.fq.gz -o out
+
+/bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis

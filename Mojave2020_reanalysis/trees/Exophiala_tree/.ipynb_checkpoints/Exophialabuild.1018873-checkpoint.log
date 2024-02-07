@@ -1,0 +1,62 @@
+Loading samtools/1.18
+  Loading requirement: libdeflate/1.17 htslib/1.18
+cat: ../lib/Exophiala_lib.fa: No such file or directory
+nthread = 0
+nthreadpair = 0
+nthreadtb = 0
+ppenalty_ex = 0
+Warning: Only 0 sequence found.
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+
+muscle 5.1.linux64 [12f0e2]  528Gb RAM, 64 cores
+Built Jan 13 2022 23:17:13
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+Input: 0 seqs, avg length 0, max 0
+
+/var/spool/slurmd/job1018873/slurm_script: line 21: 307412 Floating point exception(core dumped) muscle -align Mojave2020.Exo.fas -output Mojave2020.Exo.muscle.fasaln
+Traceback (most recent call last):
+  File "/opt/linux/rocky/8.x/x86_64/pkgs/clipkit/1.3.0/bin/clipkit", line 10, in <module>
+    sys.exit(main())
+  File "/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/clipkit/1.3.0/lib/python3.7/site-packages/clipkit/clipkit.py", line 124, in main
+    execute(**process_args(args))
+  File "/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/clipkit/1.3.0/lib/python3.7/site-packages/clipkit/clipkit.py", line 65, in execute
+    input_file, file_format=input_file_format
+  File "/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/clipkit/1.3.0/lib/python3.7/site-packages/clipkit/files.py", line 50, in get_alignment_and_format
+    raise Exception("Input file could not be read")
+Exception: Input file could not be read
+Input file does not exist
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Linux 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    i04 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -nt AUTO -s Mojave2020.Exo.fasaln.clipkit -alrt 1000 -bb 1000 -m MFP
+Seed:    235518 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Nov 15 23:19:58 2023
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file Mojave2020.Exo.fasaln.clipkit ... ERROR: File not found Mojave2020.Exo.fasaln.clipkit
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Linux 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    i04 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -nt AUTO -s Mojave2020.Exo.muscle.fasaln.clipkit -alrt 1000 -bb 1000 -m MFP
+Seed:    239460 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Nov 15 23:19:58 2023
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file Mojave2020.Exo.muscle.fasaln.clipkit ... ERROR: File not found Mojave2020.Exo.muscle.fasaln.clipkit

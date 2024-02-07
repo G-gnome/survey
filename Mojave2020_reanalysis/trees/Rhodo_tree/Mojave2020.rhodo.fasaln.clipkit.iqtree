@@ -1,0 +1,484 @@
+IQ-TREE 2.2.2.6 COVID-edition built May 27 2023
+
+Input file name: Mojave2020.rhodo.fasaln.clipkit
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 109334
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 55 sequences with 600 nucleotide sites
+Number of constant sites: 260 (= 43.3333% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 260 (= 43.3333% of all sites)
+Number of parsimony informative sites: 212
+Number of distinct site patterns: 370
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: SYM+I+R2
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+SYM+I+R2          -4239.889    8709.777 -  0.00307    8764.901 -   0.0242    9215.424 +    0.419
+TIM2+F+G4         -4243.628    8715.257 - 0.000198    8769.318 -  0.00266    9216.507 +    0.244
+TIM2+F+R3         -4234.865    8703.729 +   0.0632    8761.015 +    0.169    9218.170 +    0.106
+TIM2+F+I+R2       -4238.142    8708.285 -  0.00648    8764.483 -   0.0298    9218.328 +    0.098
+GTR+F+I+R2        -4232.945    8701.889 +    0.159    8760.276 +    0.244    9220.727 -   0.0295
+GTR+F+G4          -4239.994    8711.988 -  0.00102    8768.187 -  0.00468    9222.032 -   0.0154
+TIM+F+R3          -4236.918    8707.836 -  0.00811    8765.123 -   0.0217    9222.277 -   0.0136
+SYM+G4            -4249.845    8725.691 - 1.08e-06    8778.703 - 2.44e-05    9222.544 -   0.0119
+TIM+F+G4          -4246.720    8721.441 - 9.01e-06    8775.503 - 0.000121    9222.691 -   0.0111
+TIM2+F+I+R3       -4234.212    8704.425 -   0.0446    8762.811 +   0.0688    9223.262 -  0.00832
+TIM+F+I+R2        -4240.762    8713.524 - 0.000472    8769.723 -  0.00217    9223.568 -  0.00714
+TIM2+F+I+G4       -4244.113    8718.225 -  4.5e-05    8773.349 - 0.000354    9223.872 -  0.00613
+TN+F+R3           -4240.966    8713.931 - 0.000385    8770.130 -  0.00177    9223.975 -  0.00582
+GTR+F+R3          -4231.393    8700.786 +    0.275    8760.286 +    0.243    9224.021 -  0.00569
+TN+F+G4           -4250.768    8727.535 - 4.28e-07    8780.548 - 9.69e-06    9224.388 -  0.00474
+SYM+I+R3          -4238.668    8711.336 -  0.00141    8768.622 -  0.00377    9225.777 -  0.00237
+SYM+R3            -4241.873    8715.746 - 0.000155    8771.945 - 0.000715    9225.790 -  0.00235
+TIM2e+I+R2        -4251.741    8729.482 - 1.62e-07    8782.494 - 3.66e-06    9226.335 -  0.00179
+TIM3+F+R3         -4239.127    8712.254 - 0.000891    8769.540 -  0.00238    9226.694 -  0.00149
+TIM3+F+G4         -4248.735    8725.471 -  1.2e-06    8779.533 - 1.61e-05    9226.721 -  0.00148
+TN+F+I+R2         -4245.958    8721.916 - 7.11e-06    8777.040 -  5.6e-05    9227.563 - 0.000968
+TIM3+F+I+R2       -4243.044    8718.089 - 4.82e-05    8774.288 - 0.000222    9228.133 - 0.000728
+GTR+F+I+R3        -4230.539    8701.078 +    0.238    8761.704 +     0.12    9228.709 - 0.000546
+GTR+F+I+G4        -4240.368    8714.736 - 0.000257    8772.023 - 0.000688    9229.177 - 0.000432
+TIM+F+I+R3        -4237.260    8710.519 -  0.00212    8768.906 -  0.00327    9229.357 - 0.000395
+TIM+F+I+G4        -4247.050    8724.100 - 2.38e-06    8779.224 - 1.88e-05    9229.747 - 0.000325
+TIM2e+G4          -4259.894    8741.787 - 3.44e-10    8792.738 - 2.18e-08    9229.846 - 0.000309
+SYM+I+G4          -4250.324    8728.648 - 2.45e-07    8782.710 - 3.29e-06    9229.898 - 0.000301
+TIM2e+R3          -4250.863    8729.727 - 1.43e-07    8783.788 - 1.92e-06    9230.976 - 0.000176
+TN+F+I+R3         -4241.328    8716.655 - 9.86e-05    8773.941 - 0.000264    9231.096 - 0.000166
+TN+F+I+G4         -4251.252    8730.505 - 9.69e-08    8784.567 -  1.3e-06    9231.755 - 0.000119
+TIM3+F+I+R3       -4239.254    8714.509 - 0.000288    8772.896 - 0.000445    9233.347 - 5.37e-05
+GTR+F+R4          -4229.737    8701.475 +    0.195    8763.241 +   0.0555    9233.503 - 4.97e-05
+TPM2u+F+R3        -4245.899    8723.799 - 2.77e-06    8779.998 - 1.28e-05    9233.843 - 4.19e-05
+TIM3+F+I+G4       -4249.198    8728.396 - 2.78e-07    8783.520 - 2.19e-06    9234.043 - 3.79e-05
+TIM2e+I+R3        -4249.549    8729.098 - 1.96e-07    8784.222 - 1.54e-06    9234.745 - 2.67e-05
+TIM2e+I+G4        -4260.341    8744.682 - 8.09e-11    8796.657 - 3.08e-09    9237.138 - 8.07e-06
+K3Pu+F+R3         -4247.671    8727.343 - 4.71e-07    8783.542 - 2.17e-06    9237.387 - 7.13e-06
+HKY+F+R3          -4251.674    8733.348 - 2.34e-08    8788.472 - 1.84e-07    9238.995 - 3.19e-06
+TVM+F+R3          -4242.245    8720.490 - 1.45e-05    8778.877 - 2.23e-05    9239.328 -  2.7e-06
+TPM2u+F+G4        -4258.581    8743.162 - 1.73e-10    8796.175 - 3.92e-09    9240.015 - 1.91e-06
+TVMe+I+R2         -4255.456    8738.911 - 1.45e-09    8792.973 - 1.94e-08    9240.161 - 1.78e-06
+TPM2u+F+I+R2      -4252.423    8734.846 - 1.11e-08    8789.970 - 8.71e-08    9240.493 - 1.51e-06
+TPM3u+F+R3        -4249.501    8731.002 - 7.56e-08    8787.201 - 3.48e-07    9241.046 - 1.14e-06
+TPM2u+F+I+R3      -4246.985    8727.970 - 3.44e-07    8785.257 -  9.2e-07    9242.411 - 5.78e-07
+TVM+F+I+R2        -4247.041    8728.082 - 3.26e-07    8785.368 -  8.7e-07    9242.523 - 5.46e-07
+TVMe+R3           -4254.354    8738.707 -  1.6e-09    8793.831 - 1.26e-08    9244.354 - 2.19e-07
+TVM+F+G4          -4254.566    8739.133 -  1.3e-09    8794.256 - 1.02e-08    9244.779 - 1.77e-07
+K3Pu+F+I+R2       -4254.781    8739.563 - 1.05e-09    8794.687 - 8.24e-09    9245.210 - 1.43e-07
+K3Pu+F+G4         -4261.594    8749.187 - 8.51e-12    8802.200 - 1.93e-10    9246.040 - 9.41e-08
+TVMe+G4           -4265.207    8754.415 - 6.23e-13    8806.390 - 2.37e-11    9246.871 - 6.21e-08
+TVM+F+I+R3        -4242.850    8723.701 - 2.91e-06    8783.201 - 2.57e-06    9246.936 - 6.02e-08
+TPM2u+F+I+G4      -4258.885    8745.771 - 4.69e-11    8799.832 - 6.29e-10    9247.021 - 5.77e-08
+K3Pu+F+I+R3       -4249.330    8732.659 -  3.3e-08    8789.946 - 8.82e-08    9247.100 - 5.54e-08
+TIM3e+I+R2        -4262.334    8750.668 - 4.06e-12    8803.680 - 9.19e-11    9247.521 - 4.49e-08
+HKY+F+G4          -4265.693    8755.385 - 3.84e-13    8807.361 - 1.46e-11    9247.841 - 3.82e-08
+TVMe+I+R3         -4253.185    8738.371 -  1.9e-09    8794.569 - 8.74e-09    9248.414 - 2.87e-08
+HKY+F+I+R3        -4253.483    8738.966 - 1.41e-09    8795.164 - 6.49e-09    9249.010 - 2.13e-08
+HKY+F+I+R2        -4259.936    8747.871 - 1.64e-11    8801.933 -  2.2e-10    9249.121 - 2.02e-08
+TPM2+R3           -4263.190    8752.380 - 1.72e-12    8805.393 -  3.9e-11    9249.233 - 1.91e-08
+TPM3u+F+I+R2      -4256.801    8743.601 - 1.39e-10    8798.725 - 1.09e-09    9249.248 - 1.89e-08
+TPM3u+F+G4        -4263.360    8752.721 - 1.45e-12    8805.733 - 3.29e-11    9249.574 - 1.61e-08
+TPM3u+F+I+R3      -4251.074    8736.147 - 5.77e-09    8793.434 - 1.54e-08    9250.588 - 9.69e-09
+TPM2+I+R2         -4267.071    8758.143 - 9.66e-14    8810.118 - 3.67e-12    9250.599 - 9.64e-09
+TIM3e+G4          -4270.680    8763.360 - 7.12e-15    8814.310 - 4.52e-13    9251.419 - 6.39e-09
+GTR+F+R2          -4251.540    8737.079 - 3.62e-09    8794.366 - 9.68e-09    9251.520 - 6.08e-09
+TVM+F+I+G4        -4254.752    8741.504 - 3.96e-10    8797.703 - 1.82e-09    9251.548 - 5.99e-09
+TIM3e+R3          -4261.466    8750.932 - 3.56e-12    8804.993 - 4.76e-11    9252.181 - 4.37e-09
+TIMe+I+R2         -4264.713    8755.425 - 3.76e-13    8808.437 - 8.51e-12    9252.278 - 4.16e-09
+K3Pu+F+I+G4       -4261.666    8751.333 - 2.91e-12    8805.394 -  3.9e-11    9252.583 - 3.57e-09
+TPM2+G4           -4275.015    8770.031 - 2.53e-16    8819.970 - 2.67e-14    9253.693 - 2.05e-09
+TVMe+I+G4         -4265.438    8756.875 - 1.82e-13    8809.888 - 4.12e-12    9253.728 - 2.01e-09
+TIMe+R3           -4262.536    8753.072 - 1.22e-12    8807.134 - 1.63e-11    9254.322 -  1.5e-09
+HKY+F+I+G4        -4265.938    8757.875 -  1.1e-13    8810.887 -  2.5e-12    9254.728 - 1.22e-09
+TPM2+I+R3         -4263.233    8754.466 - 6.07e-13    8808.528 - 8.14e-12    9255.716 - 7.46e-10
+TIMe+G4           -4272.988    8767.976 - 7.08e-16    8818.926 - 4.49e-14    9256.035 - 6.36e-10
+TPM3u+F+I+G4      -4263.543    8755.086 - 4.46e-13    8809.147 - 5.97e-12    9256.336 - 5.47e-10
+TIM3e+I+R3        -4260.397    8750.794 - 3.81e-12    8805.918 -    3e-11    9256.441 - 5.19e-10
+TIM3e+I+G4        -4271.158    8766.316 - 1.62e-15    8818.291 - 6.17e-14    9258.772 - 1.62e-10
+TNe+I+R2          -4271.574    8767.149 - 1.07e-15    8819.124 - 4.07e-14    9259.605 - 1.07e-10
+TNe+R3            -4268.390    8762.779 - 9.51e-15    8815.792 - 2.15e-13    9259.632 - 1.05e-10
+TIMe+I+R3         -4262.433    8754.867 - 4.97e-13    8809.991 - 3.92e-12    9260.513 - 6.77e-11
+TPM2+I+G4         -4275.240    8772.479 - 7.45e-17    8823.430 - 4.73e-15    9260.539 - 6.69e-11
+TNe+G4            -4278.681    8777.362 - 6.48e-18    8827.300 - 6.82e-16    9261.024 - 5.25e-11
+TIMe+I+G4         -4273.228    8770.456 - 2.05e-16    8822.431 - 7.79e-15    9262.912 - 2.04e-11
+TNe+I+R3          -4268.815    8765.630 - 2.29e-15    8819.692 - 3.06e-14    9266.880 - 2.81e-12
+TNe+I+G4          -4279.091    8780.183 - 1.58e-18    8831.134 -    1e-16    9268.242 - 1.42e-12
+TPM3+R3           -4273.726    8773.451 - 4.58e-17    8826.463 - 1.04e-15    9270.304 - 5.07e-13
+K3P+R3            -4274.903    8775.807 - 1.41e-17    8828.819 - 3.19e-16    9272.660 - 1.56e-13
+TPM3+I+R2         -4278.450    8780.901 -  1.1e-18    8832.876 -  4.2e-17    9273.357 -  1.1e-13
+K2P+R3            -4280.704    8785.407 - 1.16e-19    8837.382 - 4.41e-18    9277.863 - 1.16e-14
+K3P+I+R2          -4280.706    8785.412 - 1.16e-19    8837.387 -  4.4e-18    9277.868 - 1.15e-14
+TPM3+G4           -4287.543    8795.085 - 9.18e-22    8845.024 - 9.67e-20    9278.748 - 7.44e-15
+TPM3+I+R3         -4274.796    8777.592 - 5.78e-18    8831.653 - 7.74e-17    9278.842 -  7.1e-15
+K3P+I+R3          -4276.485    8780.969 - 1.07e-18    8835.031 - 1.43e-17    9282.219 - 1.31e-15
+K3P+G4            -4289.515    8799.030 - 1.28e-22    8848.969 - 1.35e-20    9282.693 - 1.03e-15
+K2P+I+R2          -4287.526    8797.053 - 3.43e-22    8848.004 - 2.18e-20    9285.112 - 3.09e-16
+TPM3+I+G4         -4287.728    8797.456 - 2.81e-22    8848.407 - 1.78e-20    9285.515 - 2.52e-16
+K2P+I+R3          -4282.429    8790.857 - 7.61e-21    8843.870 - 1.72e-19    9287.710 - 8.42e-17
+K2P+G4            -4295.338    8808.676 - 1.03e-24    8857.614 - 1.78e-22    9287.941 -  7.5e-17
+K3P+I+G4          -4289.496    8800.993 - 4.79e-23    8851.944 - 3.04e-21    9289.052 -  4.3e-17
+K2P+I+G4          -4295.513    8811.026 - 3.17e-25    8860.965 - 3.34e-23    9294.688 - 2.57e-18
+GTR+F+I           -4315.413    8862.826 - 1.79e-36    8919.025 - 8.25e-36    9372.870 - 2.71e-35
+F81+F+R3          -4337.099    8902.198 - 5.06e-45    8956.260 - 6.77e-44    9403.448 - 6.21e-42
+F81+F+I+R2        -4341.615    8909.230 -  1.5e-46    8962.243 -  3.4e-45    9406.083 - 1.66e-42
+F81+F+I+R3        -4338.611    8907.223 -  4.1e-46    8962.347 - 3.23e-45    9412.870 - 5.59e-44
+F81+F+G4          -4351.484    8924.968 - 5.75e-50    8975.919 - 3.65e-48    9413.027 - 5.16e-44
+F81+F+I+G4        -4351.962    8927.924 - 1.31e-50    8979.899 - 4.98e-49    9420.380 - 1.31e-45
+JC+R3             -4360.944    8943.888 - 4.48e-54    8994.838 - 2.84e-52    9431.947 - 4.02e-48
+JC+I+R2           -4364.951    8949.903 - 2.21e-55    8999.841 - 2.33e-53    9433.565 - 1.79e-48
+JC+I+R3           -4362.372    8948.745 - 3.95e-55    9000.720 -  1.5e-53    9441.201 - 3.94e-50
+JC+G4             -4376.617    8969.234 -  1.4e-59    9017.185 - 3.99e-57    9444.102 - 9.23e-51
+JC+I+G4           -4376.988    8971.976 - 3.56e-60    9020.915 - 6.18e-58    9451.242 -  2.6e-52
+GTR+F             -4461.292    9152.584 - 2.15e-99    9207.708 -  1.7e-98    9658.231 - 2.93e-97
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: SYM+I+R2
+
+Rate parameter R:
+
+  A-C: 1.3274
+  A-G: 3.4614
+  A-T: 3.9334
+  C-G: 0.7089
+  C-T: 7.5396
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A   -0.9707    0.1477    0.3852    0.4378
+  C    0.1477    -1.066   0.07889    0.8391
+  G    0.3852   0.07889   -0.5754    0.1113
+  T    0.4378    0.8391    0.1113    -1.388
+
+Model of rate heterogeneity: Invar+FreeRate with 2 categories
+Proportion of invariable sites: 0.3183
+Site proportion and rates:  (0.51,0.4465) (0.1717,4.498)
+
+ Category  Relative_rate  Proportion
+  0         0              0.3183
+  1         0.4465         0.51
+  2         4.498          0.1717
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4193.1963 (s.e. 146.5786)
+Unconstrained log-likelihood (without tree): -3216.5942
+Number of free parameters (#branches + #model parameters): 115
+Akaike information criterion (AIC) score: 8616.3925
+Corrected Akaike information criterion (AICc) score: 8671.5165
+Bayesian information criterion (BIC) score: 9122.0395
+
+Total tree length (sum of branch lengths): 4.3168
+Sum of internal branch lengths: 1.1836 (27.4183% of tree length)
+
+WARNING: 14 near-zero internal branches (<0.0017) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ASV22.55943' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**ASV22.55943
+|
+|                                +--ASV92.12470
+|                             +**| (0/69)
+|                             |  |           +**ASV504.1975
+|                             |  |        +**| (0/75)
+|                             |  |        |  |  +--ASV6698.71
+|                             |  |        |  +**| (0/62)
+|                             |  |        |     |  +**ASV16301.17
+|                             |  |        |     +--| (81.2/98)
+|                             |  |        |        +--ASV30449.2
+|                             |  |     +--| (96.7/99)
+|                             |  |     |  +--Rhodotorula_araucariae_CBS
+|                             |  |  +**| (0/61)
+|                             |  |  |  |  +**ASV1915.411
+|                             |  |  |  +**| (0/78)
+|                             |  |  |     +--ASV27211.0
+|                             |  +--| (87.1/93)
+|                             |     +**Rhodotorula_kratochvilovae_CBS
+|                          +--| (97.8/87)
+|                          |  |              +**ASV380.2661
+|                          |  |           +**| (0/88)
+|                          |  |           |  +--ASV4004.145
+|                          |  |        +--| (74.9/91)
+|                          |  |        |  |  +**Rhodotorula_glutinis_CBS
+|                          |  |        |  +**| (0/77)
+|                          |  |        |     +**Rhodotorula_graminis_CBS
+|                          |  |     +--| (78.3/96)
+|                          |  |     |  |  +**ASV395.2557
+|                          |  |     |  +--| (87.7/98)
+|                          |  |     |     +**Rhodotorula_babjevae_CBS
+|                          |  |  +--| (71/82)
+|                          |  |  |  |  +--Rhodotorula_evergladensis_CBS
+|                          |  |  |  +--| (95.8/97)
+|                          |  |  |     +--Rhodotorula_ngohengohe_ICMP
+|                          |  +--| (96.5/90)
+|                          |     |     +--ASV1035.1230
+|                          |     |  +--| (75.5/98)
+|                          |     |  |  +--ASV28897.3
+|                          |     +--| (84.6/94)
+|                          |        |  +**ASV1282.691
+|                          |        +--| (77.9/99)
+|                          |           +**Rhodotorula_diobovata_CBS
+|                       +--| (76.8/52)
+|                       |  |  +--ASV114.10706
+|                       |  +--| (74/76)
+|                       |     |     +**ASV622.1422
+|                       |     |  +**| (0/43)
+|                       |     |  |  +**Rhodotorula_paludigena_CBS
+|                       |     +--| (97.2/98)
+|                       |        +**ASV8738.184
+|                    +--| (31.2/25)
+|                    |  |  +---------Sporobolomyces_roseus_CBS
+|                    |  +**| (0/15)
+|                    |     +-------------------------------------------------------Xylaria_necrophora_CBS
+|                 +--| (37.1/38)
+|                 |  |        +**ASV3627.104
+|                 |  |     +**| (0/47)
+|                 |  |     |  +**Rhodotorula_toruloides_CBS
+|                 |  |  +--| (67.7/88)
+|                 |  |  |  +**ASV6603.117
+|                 |  +--| (99.7/98)
+|                 |     |  +**ASV4317.178
+|                 |     +--| (69.3/91)
+|                 |        +--ASV7199.33
+|              +--| (83.8/64)
+|              |  |     +--ASV2674.233
+|              |  |  +--| (91.4/96)
+|              |  |  |  |  +--ASV5766.91
+|              |  |  |  +--| (87.1/98)
+|              |  |  |     +**ASV9521.35
+|              |  +--| (97.3/90)
+|              |     +--ASV7018.64
+|           +--| (89.8/83)
+|           |  |                    +--Curvibasidium_nothafagi__JDC25_A
+|           |  |                 +--| (82.9/99)
+|           |  |                 |  +**NR_073292.1__Rhodotorula__nothofagi
+|           |  |     +-----------| (99.8/100)
+|           |  |     |           |  +**NR_111077.1_Curvibasidium_cygneicollum
+|           |  |     |           +--| (56.4/96)
+|           |  |     |              +**NR_154743.1__Rhodotorula__futronensis
+|           |  +-----| (97.1/93)
+|           |        |         +--------------------Rhodotorula_Sphearocarpa__KHK86_
+|           |        +---------| (96.2/98)
+|           |                  +--------------------Rhodotorula_kratochvilovae__VB21_
+|        +--| (76/85)
+|        |  |     +**ASV972.965
+|        |  |  +--| (99/100)
+|        |  |  |  +**Rhodotorula_sphaerocarpa_CBS
+|        |  +--| (93/91)
+|        |     |  +--ASV1115.759
+|        |     +--| (64.8/89)
+|        |        |  +**ASV3658.210
+|        |        +**| (0/89)
+|        |           +**Rhodotorula_taiwanensis_CBS
+|     +--| (81.6/79)
+|     |  +**ASV518.1939
+|  +--| (82.3/91)
+|  |  |  +**ASV350.3117
+|  |  +--| (78.3/93)
+|  |     +--Rhodotorula_frigidialcoholis_EX
++**| (0/90)
+|  +**Rhodotorula_mucilaginosa_CBS
+|
+|  +--ASV5215.94
++**| (0/55)
+   |  +--ASV9892.52
+   +**| (0/53)
+      +--Rhodotorula_alborubescens_JCM
+
+Tree in newick format:
+
+(ASV22.55943:0.0000010028,(((((((((((ASV92.12470:0.0322152613,((((ASV504.1975:0.0000010028,(ASV6698.71:0.0040806650,(ASV16301.17:0.0000010028,ASV30449.2:0.0040858858)81.2/98:0.0040746171)0/62:0.0000010028)0/75:0.0000010028,Rhodotorula_araucariae_CBS:0.0042247615)96.7/99:0.0063036799,(ASV1915.411:0.0000010028,ASV27211.0:0.0040820339)0/78:0.0000010028)0/61:0.0000010028,Rhodotorula_kratochvilovae_CBS:0.0000010028)87.1/93:0.0053148808)0/69:0.0002942219,(((((ASV380.2661:0.0000010028,ASV4004.145:0.0040663537)0/88:0.0000010028,(Rhodotorula_glutinis_CBS:0.0000010028,Rhodotorula_graminis_CBS:0.0000010028)0/77:0.0000010028)74.9/91:0.0017046986,(ASV395.2557:0.0000010028,Rhodotorula_babjevae_CBS:0.0000010028)87.7/98:0.0052103650)78.3/96:0.0039268111,(Rhodotorula_evergladensis_CBS:0.0307437129,Rhodotorula_ngohengohe_ICMP:0.0195507745)95.8/97:0.0202782085)71/82:0.0040141548,((ASV1035.1230:0.0041747117,ASV28897.3:0.0040248498)75.5/98:0.0039110316,(ASV1282.691:0.0000010028,Rhodotorula_diobovata_CBS:0.0000010028)77.9/99:0.0032835842)84.6/94:0.0083664240)96.5/90:0.0141770333)97.8/87:0.0303395907,(ASV114.10706:0.0073672184,((ASV622.1422:0.0000010028,Rhodotorula_paludigena_CBS:0.0000010028)0/43:0.0000021331,ASV8738.184:0.0000010028)97.2/98:0.0363314346)74/76:0.0086355571)76.8/52:0.0088488137,(Sporobolomyces_roseus_CBS:0.2676845812,Xylaria_necrophora_CBS:1.4486588392)0/15:0.0000024554)31.2/25:0.0077759346,(((ASV3627.104:0.0000010028,Rhodotorula_toruloides_CBS:0.0000010028)0/47:0.0000010028,ASV6603.117:0.0000010028)67.7/88:0.0045430136,(ASV4317.178:0.0000010028,ASV7199.33:0.0040480958)69.3/91:0.0038546533)99.7/98:0.0628609404)37.1/38:0.0170495021,((ASV2674.233:0.0241171208,(ASV5766.91:0.0079973626,ASV9521.35:0.0000010028)87.1/98:0.0193359574)91.4/96:0.0318550684,ASV7018.64:0.0286085189)97.3/90:0.0641412966)83.8/64:0.0241948017,(((Curvibasidium_nothafagi__JDC25_A:0.0334959669,NR_073292.1__Rhodotorula__nothofagi:0.0000010028)82.9/99:0.0102309728,(NR_111077.1_Curvibasidium_cygneicollum:0.0000010028,NR_154743.1__Rhodotorula__futronensis:0.0000010028)56.4/96:0.0027529905)99.8/100:0.3127263369,(Rhodotorula_Sphearocarpa__KHK86_:0.5561224063,Rhodotorula_kratochvilovae__VB21_:0.5421258643)96.2/98:0.2769016547)97.1/93:0.1602405201)89.8/83:0.0213432373,((ASV972.965:0.0000010028,Rhodotorula_sphaerocarpa_CBS:0.0000010028)99/100:0.0294959491,(ASV1115.759:0.0040596484,(ASV3658.210:0.0000010028,Rhodotorula_taiwanensis_CBS:0.0000010028)0/89:0.0000021570)64.8/89:0.0115582824)93/91:0.0199129050)76/85:0.0063420025,ASV518.1939:0.0000028309)81.6/79:0.0071370961,(ASV350.3117:0.0000010028,Rhodotorula_frigidialcoholis_EX:0.0028746728)78.3/93:0.0028071301)82.3/91:0.0030953237,Rhodotorula_mucilaginosa_CBS:0.0000010028)0/90:0.0000024631,(ASV5215.94:0.0037789713,(ASV9892.52:0.0076572677,Rhodotorula_alborubescens_JCM:0.0016846252)0/53:0.0000206556)0/55:0.0000010028);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -4193.214319
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--ASV22.55943
+|
+|                                +--ASV92.12470
+|                             +--| (69)
+|                             |  |           +--ASV504.1975
+|                             |  |        +--| (75)
+|                             |  |        |  |  +--ASV6698.71
+|                             |  |        |  +--| (62)
+|                             |  |        |     |  +--ASV16301.17
+|                             |  |        |     +--| (98)
+|                             |  |        |        +--ASV30449.2
+|                             |  |     +--| (99)
+|                             |  |     |  +--Rhodotorula_araucariae_CBS
+|                             |  |  +--| (61)
+|                             |  |  |  |  +--ASV1915.411
+|                             |  |  |  +--| (78)
+|                             |  |  |     +--ASV27211.0
+|                             |  +--| (93)
+|                             |     +--Rhodotorula_kratochvilovae_CBS
+|                          +--| (87)
+|                          |  |              +--ASV380.2661
+|                          |  |           +--| (88)
+|                          |  |           |  +--ASV4004.145
+|                          |  |        +--| (91)
+|                          |  |        |  |  +--Rhodotorula_glutinis_CBS
+|                          |  |        |  +--| (77)
+|                          |  |        |     +--Rhodotorula_graminis_CBS
+|                          |  |     +--| (96)
+|                          |  |     |  |  +--ASV395.2557
+|                          |  |     |  +--| (98)
+|                          |  |     |     +--Rhodotorula_babjevae_CBS
+|                          |  |  +--| (82)
+|                          |  |  |  |  +--Rhodotorula_evergladensis_CBS
+|                          |  |  |  +--| (97)
+|                          |  |  |     +--Rhodotorula_ngohengohe_ICMP
+|                          |  +--| (90)
+|                          |     |     +--ASV1035.1230
+|                          |     |  +--| (98)
+|                          |     |  |  +--ASV28897.3
+|                          |     +--| (94)
+|                          |        |  +--ASV1282.691
+|                          |        +--| (99)
+|                          |           +--Rhodotorula_diobovata_CBS
+|                       +--| (52)
+|                       |  |  +--ASV114.10706
+|                       |  +--| (76)
+|                       |     |  +--ASV622.1422
+|                       |     +--| (98)
+|                       |        |  +--ASV8738.184
+|                       |        +--| (55)
+|                       |           +--Rhodotorula_paludigena_CBS
+|                    +--| (25)
+|                    |  |  +---------Sporobolomyces_roseus_CBS
+|                    |  +--| (15)
+|                    |     +-------------------------------------------------------Xylaria_necrophora_CBS
+|                 +--| (38)
+|                 |  |        +--ASV3627.104
+|                 |  |     +--| (47)
+|                 |  |     |  +--Rhodotorula_toruloides_CBS
+|                 |  |  +--| (88)
+|                 |  |  |  +--ASV6603.117
+|                 |  +--| (98)
+|                 |     |  +--ASV4317.178
+|                 |     +--| (91)
+|                 |        +--ASV7199.33
+|              +--| (64)
+|              |  |     +--ASV2674.233
+|              |  |  +--| (96)
+|              |  |  |  |  +--ASV5766.91
+|              |  |  |  +--| (98)
+|              |  |  |     +--ASV9521.35
+|              |  +--| (90)
+|              |     +--ASV7018.64
+|           +--| (83)
+|           |  |                    +--Curvibasidium_nothafagi__JDC25_A
+|           |  |                 +--| (99)
+|           |  |                 |  +--NR_073292.1__Rhodotorula__nothofagi
+|           |  |     +-----------| (100)
+|           |  |     |           |  +--NR_111077.1_Curvibasidium_cygneicollum
+|           |  |     |           +--| (96)
+|           |  |     |              +--NR_154743.1__Rhodotorula__futronensis
+|           |  +-----| (93)
+|           |        |         +--------------------Rhodotorula_Sphearocarpa__KHK86_
+|           |        +---------| (98)
+|           |                  +--------------------Rhodotorula_kratochvilovae__VB21_
+|        +--| (85)
+|        |  |     +--ASV972.965
+|        |  |  +--| (100)
+|        |  |  |  +--Rhodotorula_sphaerocarpa_CBS
+|        |  +--| (91)
+|        |     |  +--ASV1115.759
+|        |     +--| (89)
+|        |        |  +--ASV3658.210
+|        |        +--| (89)
+|        |           +--Rhodotorula_taiwanensis_CBS
+|     +--| (79)
+|     |  +--ASV518.1939
+|  +--| (91)
+|  |  |  +--ASV350.3117
+|  |  +--| (93)
+|  |     +--Rhodotorula_frigidialcoholis_EX
++--| (90)
+|  +--Rhodotorula_mucilaginosa_CBS
+|
+|  +--ASV5215.94
++--| (55)
+   |  +--ASV9892.52
+   +--| (53)
+      +--Rhodotorula_alborubescens_JCM
+
+
+Consensus tree in newick format: 
+
+(ASV22.55943:0.0000026303,(((((((((((ASV92.12470:0.0322048145,((((ASV504.1975:0.0000026303,(ASV6698.71:0.0040773693,(ASV16301.17:0.0000026303,ASV30449.2:0.0040825372)98:0.0040712287)62:0.0000026303)75:0.0000026303,Rhodotorula_araucariae_CBS:0.0042219649)99:0.0062997901,(ASV1915.411:0.0000026303,ASV27211.0:0.0040788871)78:0.0000026303)61:0.0000026303,Rhodotorula_kratochvilovae_CBS:0.0000026303)93:0.0053141998)69:0.0002954717,(((((ASV380.2661:0.0000026303,ASV4004.145:0.0040635791)88:0.0000026303,(Rhodotorula_glutinis_CBS:0.0000026303,Rhodotorula_graminis_CBS:0.0000026303)77:0.0000026303)91:0.0017036943,(ASV395.2557:0.0000026303,Rhodotorula_babjevae_CBS:0.0000026344)98:0.0052068973)96:0.0039236798,(Rhodotorula_evergladensis_CBS:0.0307291600,Rhodotorula_ngohengohe_ICMP:0.0195403861)97:0.0202734015)82:0.0040126466,((ASV1035.1230:0.0041716433,ASV28897.3:0.0040217338)98:0.0039087232,(ASV1282.691:0.0000026303,Rhodotorula_diobovata_CBS:0.0000022287)99:0.0032804310)94:0.0083650690)90:0.0141687053)87:0.0303363812,(ASV114.10706:0.0073605533,(ASV622.1422:0.0000026303,(ASV8738.184:0.0000026303,Rhodotorula_paludigena_CBS:0.0000020027)55:0.0000026875)98:0.0363112014)76:0.0086443504)52:0.0088529213,(Sporobolomyces_roseus_CBS:0.2675582672,Xylaria_necrophora_CBS:1.4481333345)15:0.0000028443)25:0.0077780799,(((ASV3627.104:0.0000026303,Rhodotorula_toruloides_CBS:0.0000024035)47:0.0000024035,ASV6603.117:0.0000026303)88:0.0045407450,(ASV4317.178:0.0000026303,ASV7199.33:0.0040458732)91:0.0038549591)98:0.0628391427)38:0.0171277022,((ASV2674.233:0.0241169651,(ASV5766.91:0.0079950640,ASV9521.35:0.0000026303)98:0.0193290515)96:0.0318246138,ASV7018.64:0.0286278017)90:0.0641024486)64:0.0240887193,(((Curvibasidium_nothafagi__JDC25_A:0.0334926854,NR_073292.1__Rhodotorula__nothofagi:0.0000026420)99:0.0101417590,(NR_111077.1_Curvibasidium_cygneicollum:0.0000026303,NR_154743.1__Rhodotorula__futronensis:0.0000026303)96:0.0028437900)100:0.3126069843,(Rhodotorula_Sphearocarpa__KHK86_:0.5560009780,Rhodotorula_kratochvilovae__VB21_:0.5419954762)98:0.2768732248)93:0.1602044455)83:0.0213693713,((ASV972.965:0.0000026303,Rhodotorula_sphaerocarpa_CBS:0.0000022183)100:0.0294937340,(ASV1115.759:0.0040588130,(ASV3658.210:0.0000026303,Rhodotorula_taiwanensis_CBS:0.0000020286)89:0.0000021849)89:0.0115568820)91:0.0199201121)85:0.0063430691,ASV518.1939:0.0000026344)79:0.0071349349,(ASV350.3117:0.0000026303,Rhodotorula_frigidialcoholis_EX:0.0028745911)93:0.0028083267)91:0.0030951177,Rhodotorula_mucilaginosa_CBS:0.0000026303)90:0.0000495479,(ASV5215.94:0.0037785990,(ASV9892.52:0.0076560981,Rhodotorula_alborubescens_JCM:0.0016322029)53:0.0000241255)55:0.0000026303);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t Mojave2020.rhodo.fasaln.clipkit.treefile -m "SYM{1.32742,3.46136,3.93341,0.70889,7.5396}+FQ+I{0.318329}+R2{0.509984,0.44651,0.171687,4.49823}" --length 600
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Mojave2020.rhodo.fasaln.clipkit --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Mojave2020.rhodo.fasaln.clipkit --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Dec  9 14:56:35 2023
+Total CPU time used: 36.400271 seconds (0h:0m:36s)
+Total wall-clock time used: 18.62941599 seconds (0h:0m:18s)
+

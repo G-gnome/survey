@@ -1,0 +1,74 @@
+Loading amptk/1.6
+  Loading requirement: usearch/10 mafft/7.505 fasttree/2.1.11
+/bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis/results/amptk /bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis
+[08:31:47 PM]: OS: Rocky Linux 8.5, 64 cores, ~ 528 GB RAM. Python: 3.10.0
+[08:31:47 PM]: AMPtk v1.6.0, VSEARCH v2.22.1
+[08:31:47 PM]: Loading FASTQ Records
+[08:34:00 PM]: 4,774,940 reads (1.7 GB)
+[08:34:00 PM]: Quality Filtering, expected errors < 0.9
+[08:37:38 PM]: 7,133,246 reads passed
+[08:37:38 PM]: De-replication (remove duplicate reads)
+[08:38:03 PM]: 1,484,176 reads passed
+[08:38:06 PM]: Clustering OTUs (VSEARCH --cluster_smallmem)
+[08:38:33 PM]: De novo Chimera detection (VSEARCH --uchime_denovo)
+[08:39:10 PM]: 15,103 OTUs
+[08:39:10 PM]: Cleaning up padding from OTUs
+[08:39:10 PM]: Chimera Filtering (VSEARCH) using ITS DB
+[08:44:46 PM]: 15,038 OTUs passed, 65 ref chimeras
+[08:44:46 PM]: Validating OTU orientation
+[08:44:58 PM]: 15,023 OTUs validated (15 dropped)
+[08:44:58 PM]: Mapping Reads to OTUs and Building OTU table
+[08:52:25 PM]: 6,785,283 reads mapped to OTUs (142%)
+-------------------------------------------------------
+-------------------------------------------------------
+OTU Clustering Script has Finished Successfully
+-------------------------------------------------------
+Clustered OTUs: Mojave2020.cluster.otus.fa
+OTU Table: Mojave2020.otu_table.txt
+-------------------------------------------------------
+
+Example of next cmd: amptk filter -i Mojave2020.otu_table.txt -f Mojave2020.cluster.otus.fa -b <mock barcode>
+
+[08:52:28 PM]: OS: Rocky Linux 8.5, 64 cores, ~ 528 GB RAM. Python: 3.10.0
+[08:52:28 PM]: AMPtk v1.6.0, VSEARCH v2.22.1
+[08:52:28 PM]: Loading OTU table: Mojave2020.otu_table.txt
+[08:52:28 PM]: OTU table contains 48 samples, 15,023 OTUs, and 6,785,283 reads counts
+[08:52:28 PM]: Sorting OTU table naturally
+/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/amptk/1.6/lib/python3.10/site-packages/amptk/filter.py:300: FutureWarning: In a future version of pandas all arguments of DataFrame.any and Series.any will be keyword-only.
+  filt2 = filtered.loc[(filtered != 0).any(1)]
+[08:52:30 PM]: Normalizing OTU table to number of reads per sample
+[08:52:30 PM]: Overwriting auto detect index-bleed, setting to 0.500000%
+[08:52:42 PM]: Filtered OTU table contains 48 samples, 15,019 OTUs, and 6,755,426 read counts
+[08:52:42 PM]: Finding valid OTUs
+-------------------------------------------------------
+-------------------------------------------------------
+OTU Table filtering finished
+-------------------------------------------------------
+OTU Table Stats:      Mojave2020.stats.txt
+Sorted OTU table:     Mojave2020.sorted.txt
+Normalized/filter:    Mojave2020.normalized.txt
+Final Binary table:   Mojave2020.final.binary.txt
+Final OTU table:      Mojave2020.final.txt
+Filtered OTUs:        Mojave2020.filtered.otus.fa
+-------------------------------------------------------
+
+Example of next cmd: amptk taxonomy -f Mojave2020.filtered.otus.fa -i Mojave2020.final.txt -m mapping_file.txt -d ITS2
+
+[08:52:44 PM]: OS: Rocky Linux 8.5, 64 cores, ~ 528 GB RAM. Python: 3.10.0
+[08:52:44 PM]: AMPtk v1.6.0, VSEARCH v2.22.1
+[08:52:44 PM]: Loading FASTA Records
+[08:52:44 PM]: 15,019 OTUs
+[08:52:44 PM]: Global alignment OTUs with usearch_global (VSEARCH) against ITS.udb
+[08:56:58 PM]: Classifying OTUs with SINTAX (VSEARCH)
+[08:57:36 PM]: Appending taxonomy to OTU table and OTUs
+[08:57:38 PM]: Generating phylogenetic tree (MAFFT/FastTree)
+[09:45:23 PM]: Taxonomy finished: Mojave2020.taxonomy.txt
+[09:45:23 PM]: Classic OTU table with taxonomy: Mojave2020.otu_table.taxonomy.txt
+[09:45:44 PM]: BIOM OTU table created: Mojave2020.biom
+[09:45:44 PM]: OTUs with taxonomy: Mojave2020.otus.taxonomy.fa
+[09:45:44 PM]: OTU phylogeny: Mojave2020.tree.phy
+-------------------------------------------------------
+-------------------------------------------------------
+usage: amptk-funguild.py [-h] -i INPUT [-o OUT] [-d DATABASE] [-u URL]
+amptk-funguild.py: error: unrecognized arguments: --db fungi
+/bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis

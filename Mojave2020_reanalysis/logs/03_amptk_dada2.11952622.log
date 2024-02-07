@@ -1,0 +1,39 @@
+Loading amptk/1.6
+  Loading requirement: usearch/10 mafft/7.505 fasttree/2.1.11
+/bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis/results/amptk /bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis
+[08:33:49 PM]: OS: Rocky Linux 8.5, 64 cores, ~ 528 GB RAM. Python: 3.10.0
+[08:33:49 PM]: AMPtk v1.6.0, VSEARCH v2.22.1
+[08:33:52 PM]: R v4.2.2; DADA2 v1.26.0
+[08:33:52 PM]: Loading FASTQ Records
+[08:39:29 PM]: 8,161,242 reads (4.0 GB)
+[08:39:29 PM]: Quality Filtering, expected errors < 1.0
+[08:43:42 PM]: 7,175,854 reads passed
+[08:43:42 PM]: Splitting FASTQ file by Sample into individual files
+[08:53:02 PM]: Running DADA2 pipeline on each sample
+[04:28:29 AM]: 31,474 total amplicon sequence variants (ASVs)
+[04:28:29 AM]: 3,049 denovo chimeras removed
+[04:28:29 AM]: 28,425 valid ASVs
+[04:28:29 AM]: Chimera Filtering (VSEARCH) using ITS DB
+[04:40:05 AM]: 28,335 ASVs passed, 90 ref chimeras removed
+[04:40:05 AM]: Validating ASV orientation
+[04:40:12 AM]: 27,154 ASVs validated (1,181 dropped)
+[04:40:12 AM]: Mapping reads to DADA2 ASVs
+[04:52:12 AM]: 7,388,186 reads mapped to ASVs (91%)
+[04:52:12 AM]: Clustering ASVs at 97% to generate biological OTUs
+[04:52:18 AM]: 11,441 OTUs generated
+[04:52:24 AM]: Mapping reads to OTUs
+[05:00:49 AM]: 7,225,598 reads mapped to OTUs (89%)
+-------------------------------------------------------
+-------------------------------------------------------
+DADA2 Script has Finished Successfully
+-------------------------------------------------------
+Amplicon sequence variants: Mojave2020.ASVs.fa
+ASV OTU Table: Mojave2020.otu_table.txt
+Clustered OTUs: Mojave2020.cluster.otus.fa
+OTU Table: Mojave2020.cluster.otu_table.txt
+ASVs 2 OTUs: Mojave2020.ASVs2clusters.txt
+-------------------------------------------------------
+
+Example of next cmd: amptk filter -i Mojave2020.cluster.otu_table.txt -f Mojave2020.cluster.otus.fa -b <mock barcode>
+
+/bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis

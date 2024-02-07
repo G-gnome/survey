@@ -1,0 +1,53 @@
+Loading amptk/1.6
+  Loading requirement: usearch/10 mafft/7.505 fasttree/2.1.11
+/bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis/results/amptk /bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis
+[10:51:34 PM]: OS: Rocky Linux 8.5, 256 cores, ~ 528 GB RAM. Python: 3.10.0
+[10:51:34 PM]: AMPtk v1.6.0, VSEARCH v2.22.1
+[10:51:35 PM]: R v4.2.2; DADA2 v1.26.0
+[10:51:35 PM]: Loading FASTQ Records
+[10:53:28 PM]: 9,874,121 reads (4.7 GB)
+[10:53:28 PM]: Quality Filtering, expected errors < 1.0
+[10:54:53 PM]: 8,448,762 reads passed
+[10:54:53 PM]: Splitting FASTQ file by Sample into individual files
+[10:58:00 PM]: Running DADA2 pipeline on each sample
+[01:06:39 AM]: 35,249 total amplicon sequence variants (ASVs)
+[01:06:39 AM]: 3,260 denovo chimeras removed
+[01:06:39 AM]: 31,989 valid ASVs
+[01:06:39 AM]: Chimera Filtering (VSEARCH) using ITS DB
+[01:10:44 AM]: 31,829 ASVs passed, 160 ref chimeras removed
+[01:10:44 AM]: Validating ASV orientation
+[01:10:46 AM]: 30,166 ASVs validated (1,663 dropped)
+[01:10:46 AM]: Mapping reads to DADA2 ASVs
+[01:15:32 AM]: 8,828,978 reads mapped to ASVs (89%)
+[01:15:32 AM]: Clustering ASVs at 97% to generate biological OTUs
+[01:15:34 AM]: 12,798 OTUs generated
+[01:15:35 AM]: Mapping reads to OTUs
+[01:19:14 AM]: 8,652,628 reads mapped to OTUs (88%)
+-------------------------------------------------------
+-------------------------------------------------------
+DADA2 Script has Finished Successfully
+-------------------------------------------------------
+Amplicon sequence variants: Mojave2020_KKelly202307.ASVs.fa
+ASV OTU Table: Mojave2020_KKelly202307.otu_table.txt
+Clustered OTUs: Mojave2020_KKelly202307.cluster.otus.fa
+OTU Table: Mojave2020_KKelly202307.cluster.otu_table.txt
+ASVs 2 OTUs: Mojave2020_KKelly202307.ASVs2clusters.txt
+-------------------------------------------------------
+
+Example of next cmd: amptk filter -i Mojave2020_KKelly202307.cluster.otu_table.txt -f Mojave2020_KKelly202307.cluster.otus.fa -b <mock barcode>
+
+[01:19:17 AM]: OS: Rocky Linux 8.5, 256 cores, ~ 528 GB RAM. Python: 3.10.0
+[01:19:17 AM]: AMPtk v1.6.0, VSEARCH v2.22.1
+[01:19:17 AM]: Loading FASTA Records
+-------------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/linux/rocky/8.x/x86_64/pkgs/amptk/1.6/bin/amptk", line 8, in <module>
+    sys.exit(main())
+  File "/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/amptk/1.6/lib/python3.10/site-packages/amptk/amptk.py", line 784, in main
+    mod.main(arguments)
+  File "/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/amptk/1.6/lib/python3.10/site-packages/amptk/assign_taxonomy.py", line 224, in main
+    total = lib.countfasta(args.fasta)
+  File "/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/amptk/1.6/lib/python3.10/site-packages/amptk/amptklib.py", line 445, in countfasta
+    with open(input, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'Mojave2020_KKelly202307.filtered.otus.fa'
+/bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis

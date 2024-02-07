@@ -1,0 +1,37 @@
+[01/14/24 23:20:11]: /opt/linux/rocky/8.x/x86_64/pkgs/amptk/1.6/bin/amptk taxonomy -f Mojave2020_KKelly202307.cultures.ASVs.fa -i Mojave2020_KKelly202307.final.cultures.txt -d ITS
+
+[01/14/24 23:20:11]: OS: Rocky Linux 8.8, 64 cores, ~ 528 GB RAM. Python: 3.10.0
+[01/14/24 23:20:11]: Python Modules: numpy v1.24.2, pandas v1.5.3, matplotlib v3.7.1, psutil v5.9.4, natsort v8.3.1, biopython v1.81, edlib v1.3.9, biom-format v2.1.14
+[01/14/24 23:20:11]: AMPtk v1.6.0, VSEARCH v2.22.1
+[01/14/24 23:20:11]: Loading FASTA Records
+[01/14/24 23:20:11]: 30,243 OTUs
+[01/14/24 23:20:11]: Global alignment OTUs with usearch_global (VSEARCH) against ITS.udb
+[01/14/24 23:20:11]: vsearch --usearch_global Mojave2020_KKelly202307.cultures.ASVs.fa --db /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/amptk/1.6/lib/python3.10/site-packages/amptk/DB/ITS.udb --userout Mojave2020_KKelly202307.cultures.ASVs.usearch.txt --id 0.7 --strand both --output_no_hits --maxaccepts 500 --top_hits_only --userfields query+target+id --notrunclabels --threads 64
+[01/14/24 23:29:58]: vsearch v2.22.1_linux_x86_64, 503.9GB RAM, 64 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/amptk/1.6/lib/python3.10/site-packages/amptk/DB/ITS.udb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+3660214381 nt in 6484445 seqs, min 100, max 6778, avg 564
+Searching 100%
+Matching unique query sequences: 5038 of 30243 (16.66%)
+
+[01/14/24 23:29:59]: Classifying OTUs with SINTAX (VSEARCH)
+[01/14/24 23:29:59]: vsearch --sintax Mojave2020_KKelly202307.cultures.ASVs.fa --db /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/amptk/1.6/lib/python3.10/site-packages/amptk/DB/ITS_SINTAX.udb --tabbedout Mojave2020_KKelly202307.cultures.ASVs.sintax.txt -sintax_cutoff 0.8 --threads 64 --notrunclabels
+[01/14/24 23:31:39]: vsearch v2.22.1_linux_x86_64, 503.9GB RAM, 64 cores
+https://github.com/torognes/vsearch
+
+Reading UDB file /bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/amptk/1.6/lib/python3.10/site-packages/amptk/DB/ITS_SINTAX.udb 100%
+Reorganizing data in memory 100%
+Creating bitmaps 100%
+Parsing abundances 100%
+173522626 nt in 290642 seqs, min 100, max 6778, avg 597
+Classifying sequences 100%
+Classified 4004 of 30243 sequences (13.24%)
+
+[01/14/24 23:31:39]: SINTAX results parsed, resulting in 3,935 taxonomy predictions
+[01/14/24 23:31:50]: Global alignment results parsed, resulting in 30,243 taxonomy predictions
+[01/14/24 23:31:53]: Combined OTU taxonomy dictionary contains 30,243 taxonomy predictions
+[01/14/24 23:31:53]: Appending taxonomy to OTU table and OTUs

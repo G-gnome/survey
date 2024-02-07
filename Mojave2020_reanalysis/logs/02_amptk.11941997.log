@@ -1,0 +1,13 @@
+Loading amptk/1.6
+  Loading requirement: usearch/10 mafft/7.505 fasttree/2.1.11
+/bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis/results/amptk /bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis
+[03:54:41 PM]: OS: Rocky Linux 8.5, 128 cores, ~ 528 GB RAM. Python: 3.10.0
+[03:54:41 PM]: AMPtk v1.6.0, VSEARCH v2.22.1
+[03:54:42 PM]: R v4.2.2; DADA2 v1.26.0
+[03:54:42 PM]: Loading FASTQ Records
+[03:56:39 PM]: 8,161,242 reads (4.0 GB)
+[03:56:39 PM]: Quality Filtering, expected errors < 1.0
+[03:58:06 PM]: 7,175,854 reads passed
+[03:58:06 PM]: Splitting FASTQ file by Sample into individual files
+[04:01:22 PM]: Running DADA2 pipeline on each sample
+slurmstepd-r09: error: *** JOB 11941997 ON r09 CANCELLED AT 2023-07-12T17:54:30 DUE TO TIME LIMIT ***

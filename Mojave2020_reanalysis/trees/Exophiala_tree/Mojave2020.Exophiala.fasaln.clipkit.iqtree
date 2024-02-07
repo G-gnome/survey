@@ -1,0 +1,521 @@
+IQ-TREE 2.2.2.6 COVID-edition built May 27 2023
+
+Input file name: Mojave2020.Exophiala.fasaln.clipkit
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 85791
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 79 sequences with 921 nucleotide sites
+Number of constant sites: 374 (= 40.608% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 374 (= 40.608% of all sites)
+Number of parsimony informative sites: 313
+Number of distinct site patterns: 591
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2e+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TIM2e+G4         -10297.840   20913.679 -  0.00561   20980.539 +   0.0605   21680.928 +     0.99
+TIM2e+I+R3       -10289.401   20904.802 +    0.475   20975.428 +    0.779   21691.352 -   0.0054
+SYM+G4           -10296.432   20914.864 -  0.00311   20983.591 -   0.0131   21691.763 -  0.00439
+TIM2+F+G4        -10298.045   20920.089 - 0.000228   20989.762 - 0.000601   21701.814 - 2.89e-05
+SYM+I+R3         -10288.691   20907.382 +    0.131   20979.939 +   0.0816   21703.583 - 1.19e-05
+TIM2+F+I+R3      -10287.654   20907.309 +    0.136   20980.842 +    0.052   21708.335 - 1.11e-06
+GTR+F+G4         -10298.007   20924.013 -  3.2e-05   20995.601 - 3.24e-05   21715.389 - 3.26e-08
+GTR+F+I+R3       -10287.564   20911.128 -   0.0201   20986.639 -  0.00286   21721.806 - 1.32e-09
+GTR+F+I+G4       -10299.734   20929.468 - 2.09e-06   21002.025 - 1.31e-06   21725.669 - 1.91e-10
+GTR+F+I+R4       -10283.277   20906.555 +    0.198   20984.075 -   0.0103   21726.883 - 1.04e-10
+TNe+G4           -10332.059   20980.119 -  2.1e-17   21046.056 - 3.59e-16   21742.541 - 4.14e-14
+GTR+F+R5         -10288.247   20918.493 - 0.000506   20997.030 - 1.59e-05   21743.647 - 2.38e-14
+GTR+F+R6         -10282.141   20910.281 -   0.0307   20990.876 - 0.000344   21745.086 - 1.16e-14
+TIM3e+G4         -10330.584   20979.168 - 3.38e-17   21046.028 - 3.64e-16   21746.417 - 5.96e-15
+TIMe+G4          -10331.937   20981.875 - 8.73e-18   21048.734 -  9.4e-17   21749.123 - 1.54e-15
+GTR+F+R4         -10299.520   20937.041 - 4.75e-08   21013.552 -  4.1e-09   21752.544 - 2.78e-16
+TPM2u+F+G4       -10326.965   20975.930 - 1.71e-16   21044.657 - 7.22e-16   21752.829 - 2.41e-16
+TNe+I+R3         -10324.081   20972.162 - 1.12e-15   21041.835 - 2.96e-15   21753.887 - 1.42e-16
+TPM2+G4          -10340.078   20996.155 - 6.92e-21   21062.092 - 1.18e-19   21758.578 - 1.36e-17
+TPM2u+F+I+R3     -10316.401   20962.803 - 1.21e-13   21035.359 - 7.54e-14   21759.004 -  1.1e-17
+TIM3e+I+R3       -10323.288   20972.577 - 9.12e-16   21043.203 - 1.49e-15   21759.127 - 1.04e-17
+TIMe+I+R3        -10324.002   20974.003 - 4.47e-16   21044.630 - 7.32e-16   21760.553 - 5.07e-18
+TN+F+G4          -10332.979   20987.957 - 4.17e-19   21056.685 - 1.77e-18   21764.856 -  5.9e-19
+TVM+F+G4         -10326.867   20979.733 - 2.55e-17   21050.359 - 4.17e-17   21766.283 - 2.89e-19
+TPM2+I+R3        -10330.496   20984.991 - 1.84e-18   21054.664 - 4.85e-18   21766.716 - 2.33e-19
+TVMe+G4          -10338.510   20997.019 - 4.49e-21   21064.808 - 3.04e-20   21769.093 - 7.09e-20
+GTR+F+I+R2       -10318.706   20969.411 - 4.44e-15   21042.945 -  1.7e-15   21770.438 - 3.62e-20
+TIM+F+G4         -10332.918   20989.837 - 1.63e-19   21059.510 -  4.3e-19   21771.561 - 2.06e-20
+TIM3+F+G4        -10332.927   20989.854 - 1.61e-19   21059.527 - 4.26e-19   21771.579 - 2.05e-20
+TVM+F+I+R3       -10316.389   20966.779 - 1.66e-14   21041.297 - 3.87e-15   21772.631 - 1.21e-20
+TN+F+I+R3        -10323.527   20977.055 - 9.72e-17   21049.611 - 6.06e-17   21773.256 - 8.85e-21
+TVMe+I+R3        -10329.476   20986.952 - 6.89e-19   21058.539 - 6.98e-19   21778.327 - 7.01e-22
+TIM3+F+I+R3      -10323.494   20978.988 -  3.7e-17   21052.521 - 1.42e-17   21780.014 - 3.02e-22
+TIM+F+I+R3       -10323.494   20978.988 -  3.7e-17   21052.521 - 1.41e-17   21780.015 - 3.01e-22
+GTR+F+R3         -10323.029   20980.058 - 2.16e-17   21054.576 - 5.07e-18   21785.910 - 1.58e-23
+HKY+F+G4         -10359.707   21039.414 - 2.79e-30   21107.204 - 1.89e-29   21811.488 - 4.41e-29
+K2P+G4           -10371.536   21057.072 - 4.09e-34   21122.094 -  1.1e-32   21814.669 -    9e-30
+TPM3u+F+G4       -10359.623   21041.247 - 1.12e-30   21109.974 - 4.73e-30   21818.146 - 1.58e-30
+K3Pu+F+G4        -10359.677   21041.355 - 1.06e-30   21110.082 - 4.48e-30   21818.254 -  1.5e-30
+TPM3+G4          -10369.984   21055.968 - 7.11e-34   21121.905 - 1.21e-32   21818.391 -  1.4e-30
+K3P+G4           -10371.449   21058.897 - 1.64e-34   21124.834 - 2.81e-33   21821.320 - 3.24e-31
+HKY+F+I+R3       -10351.723   21031.446 -  1.5e-28   21103.033 - 1.52e-28   21822.821 - 1.53e-31
+K2P+I+R3         -10364.306   21050.613 - 1.03e-32   21119.340 - 4.38e-32   21827.512 - 1.46e-32
+K3Pu+F+I+R3      -10351.699   21033.398 - 5.66e-29   21105.954 - 3.53e-29   21829.599 - 5.15e-33
+TPM3u+F+I+R3     -10351.744   21033.488 - 5.41e-29   21106.044 - 3.38e-29   21829.688 - 4.93e-33
+TPM3+I+R3        -10363.052   21050.104 - 1.33e-32   21119.777 - 3.52e-32   21831.829 - 1.69e-33
+K3P+I+R3         -10364.233   21052.465 -  4.1e-33   21122.138 - 1.08e-32   21834.190 - 5.19e-34
+GTR+F+R2         -10405.368   21140.736 - 2.78e-52   21213.292 - 1.74e-52   21936.937 - 2.54e-56
+F81+F+G4         -10589.284   21496.569 - 1.5e-129   21563.428 - 1.62e-128   22263.817 - 2.65e-127
+F81+F+I+R3       -10579.670   21485.340 - 4.12e-127   21555.966 - 6.75e-127   22271.890 - 4.68e-129
+JC+G4            -10609.414   21530.828 - 5.46e-137   21594.944 - 2.32e-135   22283.600 - 1.34e-131
+JC+I+R3          -10599.754   21519.508 - 1.57e-134   21587.298 - 1.06e-133   22291.582 - 2.48e-133
+GTR+F+I          -10808.717   21945.434 - 5.09e-227   22017.021 - 5.16e-227   22736.809 - 5.18e-230
+GTR+F            -11414.061   23154.121 -        0   23224.747 -        0   23940.671 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TIM2e+G4
+
+Rate parameter R:
+
+  A-C: 2.0742
+  A-G: 3.0245
+  A-T: 2.0742
+  C-G: 1.0000
+  C-T: 6.6866
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A   -0.9046    0.2616    0.3814    0.2616
+  C    0.2616    -1.231    0.1261    0.8432
+  G    0.3814    0.1261   -0.6336    0.1261
+  T    0.2616    0.8432    0.1261    -1.231
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.3495
+
+ Category  Relative_rate  Proportion
+  1         0.01015        0.25
+  2         0.1431         0.25
+  3         0.6703         0.25
+  4         3.176          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -10296.1295 (s.e. 398.1158)
+Unconstrained log-likelihood (without tree): -5407.2441
+Number of free parameters (#branches + #model parameters): 159
+Akaike information criterion (AIC) score: 20910.2589
+Corrected Akaike information criterion (AICc) score: 20977.1183
+Bayesian information criterion (BIC) score: 21677.5071
+
+Total tree length (sum of branch lengths): 8.1399
+Sum of internal branch lengths: 2.4242 (29.7809% of tree length)
+
+WARNING: 10 near-zero internal branches (<0.0011) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ASV237.3307' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**ASV237.3307
+|
+|              +**ASV418.1989
+|           +--| (87.4/99)
+|           |  +--ASV16426.14
+|        +**| (0/80)
+|        |  +**ASV2759.143
+|     +--| (96.3/97)
+|     |  |  +**ASV459.150
+|     |  +--| (77.1/99)
+|     |     +**ASV26915.37
+|  +--| (0/85)
+|  |  +--ASV3022.26
++**| (0/79)
+|  |                                            +**ASV11884.4
+|  |                                         +**| (0/49)
+|  |                                         |  +**ASV14055.2
+|  |                                      +**| (0/76)
+|  |                                      |  |        +--ASV18950.0
+|  |                                      |  |     +**| (0/94)
+|  |                                      |  |     |  +**ASV24213.3
+|  |                                      |  |  +**| (0/53)
+|  |                                      |  |  |  +**ASV31174.1
+|  |                                      |  +--| (89.5/98)
+|  |                                      |     +--ASV31965.0
+|  |                                   +--| (99.1/100)
+|  |                                   |  +--Exophiala_eucalyptigena
+|  |                                +--| (93.6/56)
+|  |                                |  |              +--ASV30148.23
+|  |                                |  |           +--| (69.5/97)
+|  |                                |  |           |  |  +--Exophiala_prostantherae
+|  |                                |  |           |  +--| (90.5/99)
+|  |                                |  |           |     +--Exophiala_aquamarina
+|  |                                |  |        +--| (56.6/85)
+|  |                                |  |        |  +--Exophiala_pisciphila
+|  |                                |  |     +--| (90.3/99)
+|  |                                |  |     |  |        +--Exophiala_tremulae
+|  |                                |  |     |  |     +--| (60.8/92)
+|  |                                |  |     |  |     |  +--Exophiala_radicis
+|  |                                |  |     |  |  +--| (30.4/86)
+|  |                                |  |     |  |  |  +--Exophiala_equina
+|  |                                |  |     |  +--| (75.4/91)
+|  |                                |  |     |     +--Exophiala_salmonis
+|  |                                |  |  +--| (96/97)
+|  |                                |  |  |  |                 +**Exophiala_clavispora
+|  |                                |  |  |  |              +--| (85/99)
+|  |                                |  |  |  |              |  +--Exophiala_bonariae
+|  |                                |  |  |  |           +**| (0/54)
+|  |                                |  |  |  |           |  +--Exophiala_opportunistica
+|  |                                |  |  |  |        +--| (93.6/95)
+|  |                                |  |  |  |        |  +--Exophiala_embothrii
+|  |                                |  |  |  |     +--| (91.4/95)
+|  |                                |  |  |  |     |  +--Exophiala_lacus
+|  |                                |  |  |  |  +--| (85.2/98)
+|  |                                |  |  |  |  |  +--Exophiala_cancerae
+|  |                                |  |  |  +--| (97.1/99)
+|  |                                |  |  |     +--Exophiala_psychrophila
+|  |                                |  +--| (38.6/27)
+|  |                                |     |  +--Exophiala_nagquensis
+|  |                                |     +--| (92.1/63)
+|  |                                |        +-----_Exophiala__eucalyptorum
+|  |                             +--| (49.9/64)
+|  |                             |  +--Exophiala_siamensis
+|  |                          +--| (72.7/81)
+|  |                          |  |     +--Exophiala_mali
+|  |                          |  |  +--| (94.5/98)
+|  |                          |  |  |  +--Exophiala_lecanii-corni
+|  |                          |  +--| (100/100)
+|  |                          |     |  +--Exophiala_mesophila
+|  |                          |     +--| (98.5/100)
+|  |                          |        +--Exophiala_castellanii
+|  |                       +--| (82.4/88)
+|  |                       |  |        +**ASV17684.25
+|  |                       |  |     +--| (95.8/98)
+|  |                       |  |     |  |        +**ASV19090.18
+|  |                       |  |     |  |     +--| (71.7/99)
+|  |                       |  |     |  |     |  +--ASV27487.4
+|  |                       |  |     |  |  +**| (0/57)
+|  |                       |  |     |  |  |  +--Exophiala_Nrusticola__KHK47_
+|  |                       |  |     |  +**| (0/38)
+|  |                       |  |     |     +**Exophiala_crusticola
+|  |                       |  |  +--| (88.5/96)
+|  |                       |  |  |  |  +--ASV27616.4
+|  |                       |  |  |  +--| (77.1/96)
+|  |                       |  |  |     +**ASV28786.3
+|  |                       |  +--| (98.7/99)
+|  |                       |     +--ASV30273.3
+|  |                    +--| (92.6/85)
+|  |                    |  |     +------------------------------------------------Mortierella_globalpina
+|  |                    |  |  +--| (34.4/59)
+|  |                    |  |  |  +--Exophiala_eucalypticola
+|  |                    |  +--| (98.7/71)
+|  |                    |     +--Exophiala_lignicola
+|  |                 +--| (85.1/91)
+|  |                 |  |     +--Exophiala_halophila
+|  |                 |  |  +--| (99.4/100)
+|  |                 |  |  |  +--Exophiala_alcalophila
+|  |                 |  +--| (88/88)
+|  |                 |     |  +--Exophiala_angulospora
+|  |                 |     +--| (76.9/89)
+|  |                 |        +--Exophiala_asiatica
+|  |              +--| (63.5/76)
+|  |              |  |     +--Exophiala_nidicola
+|  |              |  |  +--| (99.6/100)
+|  |              |  |  |  +--Exophiala_heteromorpha
+|  |              |  +--| (99.3/100)
+|  |              |     +--Exophiala_dermatitidis
+|  |           +--| (80.6/86)
+|  |           |  |     +--Exophiala_quercina
+|  |           |  |  +--| (94.8/99)
+|  |           |  |  |  +--Exophiala_moniliae
+|  |           |  +--| (96.9/99)
+|  |           |     +--Exophiala_abietophila
+|  |        +--| (90.9/96)
+|  |        |  +--Exophiala_palmae
+|  |     +--| (90.6/96)
+|  |     |  |           +--ASV29522.0
+|  |     |  |        +--| (59.6/84)
+|  |     |  |        |  +--Exophiala_sideris
+|  |     |  |     +--| (98.5/88)
+|  |     |  |     |  +--Exophiala_capensis
+|  |     |  |  +--| (86.6/88)
+|  |     |  |  |  |  +--Exophiala_Nigra__KHK9_
+|  |     |  |  |  +--| (76.2/98)
+|  |     |  |  |     +--Exophiala_nigra
+|  |     |  +--| (96.4/99)
+|  |     |     +--Exophiala_bergeri
+|  |  +--| (49.8/86)
+|  |  |  |              +--ASV26055.0
+|  |  |  |           +**| (0/96)
+|  |  |  |           |  +--Exophiala_lamphunensis
+|  |  |  |        +--| (76/96)
+|  |  |  |        |  +--Exophiala_saxicola
+|  |  |  |     +--| (87.7/97)
+|  |  |  |     |  +**Exophiala_xenobiotica
+|  |  |  |  +--| (92.1/99)
+|  |  |  |  |  +--Exophiala_lapidea
+|  |  |  +--| (99.8/100)
+|  |  |     |        +--Exophiala_spartinae
+|  |  |     |     +--| (88.1/97)
+|  |  |     |     |  |     +--Exophiala_oligosperma
+|  |  |     |     |  |  +--| (89.8/98)
+|  |  |     |     |  |  |  |  +--Exophiala_spinifera
+|  |  |     |     |  |  |  +--| (93.2/100)
+|  |  |     |     |  |  |     +--NR_111130.1_Exophiala
+|  |  |     |     |  +--| (93.6/99)
+|  |  |     |     |     +--Exophiala_jeanselmei
+|  |  |     |  +--| (39.2/83)
+|  |  |     |  |  +--Exophiala_polymorpha
+|  |  |     +--| (92.5/97)
+|  |  |        |  +--Exophiala_hongkongensis
+|  |  |        +--| (99.9/100)
+|  |  |           +--Exophiala_nishimurae
+|  +--| (99.9/100)
+|     +--Exophiala_ellipsoidea
+|
++**ASV2307.1807
+
+Tree in newick format:
+
+(ASV237.3307:0.0000010234,(((((ASV418.1989:0.0000010234,ASV16426.14:0.0034032153)87.4/99:0.0034267294,ASV2759.143:0.0000010234)0/80:0.0000305755,(ASV459.150:0.0000010234,ASV26915.37:0.0000010234)77.1/99:0.0068648529)96.3/97:0.0141834063,ASV3022.26:0.0035049242)0/85:0.0034676382,(((((((((((((((ASV11884.4:0.0000010234,ASV14055.2:0.0000010234)0/49:0.0000010234,(((ASV18950.0:0.0037813206,ASV24213.3:0.0000010234)0/94:0.0000020023,ASV31174.1:0.0000010234)0/53:0.0000027468,ASV31965.0:0.0076109618)89.5/98:0.0037835620)0/76:0.0000021762,Exophiala_eucalyptigena:0.0137287941)99.1/100:0.0530515751,(((((ASV30148.23:0.0447143692,(Exophiala_prostantherae:0.0178259768,Exophiala_aquamarina:0.0133225537)90.5/99:0.0118861276)69.5/97:0.0060152144,Exophiala_pisciphila:0.0323633372)56.6/85:0.0099019907,(((Exophiala_tremulae:0.0020073920,Exophiala_radicis:0.0057487820)60.8/92:0.0035417795,Exophiala_equina:0.0064345479)30.4/86:0.0053908467,Exophiala_salmonis:0.0747365479)75.4/91:0.0104467353)90.3/99:0.0198852866,((((((Exophiala_clavispora:0.0000026335,Exophiala_bonariae:0.0179099279)85/99:0.0037364253,Exophiala_opportunistica:0.0097057699)0/54:0.0000028074,Exophiala_embothrii:0.0027776312)93.6/95:0.0138734620,Exophiala_lacus:0.0425871330)91.4/95:0.0140344971,Exophiala_cancerae:0.0214045068)85.2/98:0.0190152574,Exophiala_psychrophila:0.0269642800)97.1/99:0.0303266927)96/97:0.0355452868,(Exophiala_nagquensis:0.0383746706,_Exophiala__eucalyptorum:0.4206210181)92.1/63:0.0416888813)38.6/27:0.0135064594)93.6/56:0.0399802772,Exophiala_siamensis:0.1214605927)49.9/64:0.0245326753,((Exophiala_mali:0.0182673602,Exophiala_lecanii-corni:0.0136508483)94.5/98:0.0323116795,(Exophiala_mesophila:0.0258699704,Exophiala_castellanii:0.0344169398)98.5/100:0.0582886577)100/100:0.0967950748)72.7/81:0.0360440307,(((ASV17684.25:0.0000010234,(((ASV19090.18:0.0000010234,ASV27487.4:0.0035660502)71.7/99:0.0035610533,Exophiala_Nrusticola__KHK47_:0.0062850825)0/57:0.0000025392,Exophiala_crusticola:0.0000010234)0/38:0.0000020116)95.8/98:0.0420024321,(ASV27616.4:0.0174662024,ASV28786.3:0.0000021320)77.1/96:0.0161204336)88.5/96:0.0450125894,ASV30273.3:0.0585220120)98.7/99:0.1209287249)82.4/88:0.0297597682,((Mortierella_globalpina:3.0368266788,Exophiala_eucalypticola:0.0606046960)34.4/59:0.0416362060,Exophiala_lignicola:0.0729200743)98.7/71:0.0814651992)92.6/85:0.0372798550,((Exophiala_halophila:0.0611382202,Exophiala_alcalophila:0.0606639886)99.4/100:0.0729626718,(Exophiala_angulospora:0.0839821173,Exophiala_asiatica:0.2147405040)76.9/89:0.0195737965)88/88:0.0340708290)85.1/91:0.0325379239,((Exophiala_nidicola:0.0335366266,Exophiala_heteromorpha:0.0153178478)99.6/100:0.0780872536,Exophiala_dermatitidis:0.0227240825)99.3/100:0.0945363443)63.5/76:0.0212747692,((Exophiala_quercina:0.0357553441,Exophiala_moniliae:0.0195500241)94.8/99:0.0453640465,Exophiala_abietophila:0.0788720650)96.9/99:0.0561583567)80.6/86:0.0251804326,Exophiala_palmae:0.1440480039)90.9/96:0.0422427877,((((ASV29522.0:0.0200480177,Exophiala_sideris:0.0448691905)59.6/84:0.0032201685,Exophiala_capensis:0.0107636966)98.5/88:0.0366960103,(Exophiala_Nigra__KHK9_:0.0069921869,Exophiala_nigra:0.0232554302)76.2/98:0.0068325871)86.6/88:0.0255964959,Exophiala_bergeri:0.0078442937)96.4/99:0.0460748439)90.6/96:0.0337987686,(((((ASV26055.0:0.0040776758,Exophiala_lamphunensis:0.0041740172)0/96:0.0000706694,Exophiala_saxicola:0.0021284809)76/96:0.0064264408,Exophiala_xenobiotica:0.0000020127)87.7/97:0.0158942725,Exophiala_lapidea:0.0350733506)92.1/99:0.0356186337,(((Exophiala_spartinae:0.1948308095,((Exophiala_oligosperma:0.0319303706,(Exophiala_spinifera:0.0199325185,NR_111130.1_Exophiala:0.0055497097)93.2/100:0.0207215181)89.8/98:0.0314466014,Exophiala_jeanselmei:0.0247816076)93.6/99:0.0337296100)88.1/97:0.0387748084,Exophiala_polymorpha:0.1030547478)39.2/83:0.0200964198,(Exophiala_hongkongensis:0.0511982679,Exophiala_nishimurae:0.0223353769)99.9/100:0.0902882099)92.5/97:0.0328190357)99.8/100:0.0927243541)49.8/86:0.0649349978,Exophiala_ellipsoidea:0.0463574539)99.9/100:0.2439238208)0/79:0.0000022595,ASV2307.1807:0.0000010234);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -10296.440518
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--ASV237.3307
+|
+|              +--ASV418.1989
+|           +--| (99)
+|           |  +--ASV16426.14
+|        +--| (80)
+|        |  +--ASV2759.143
+|     +--| (97)
+|     |  |  +--ASV459.150
+|     |  +--| (99)
+|     |     +--ASV26915.37
+|  +--| (85)
+|  |  +--ASV3022.26
++--| (79)
+|  |                                                +--ASV11884.4
+|  |                                             +--| (49)
+|  |                                             |  +--ASV14055.2
+|  |                                          +--| (76)
+|  |                                          |  |        +--ASV18950.0
+|  |                                          |  |     +--| (94)
+|  |                                          |  |     |  +--ASV24213.3
+|  |                                          |  |  +--| (53)
+|  |                                          |  |  |  +--ASV31174.1
+|  |                                          |  +--| (98)
+|  |                                          |     +--ASV31965.0
+|  |                                       +--| (100)
+|  |                                       |  +--Exophiala_eucalyptigena
+|  |                                    +--| (64)
+|  |                                    |  |           +--ASV30148.23
+|  |                                    |  |        +--| (97)
+|  |                                    |  |        |  |  +--Exophiala_prostantherae
+|  |                                    |  |        |  +--| (99)
+|  |                                    |  |        |     +--Exophiala_aquamarina
+|  |                                    |  |     +--| (85)
+|  |                                    |  |     |  +--Exophiala_pisciphila
+|  |                                    |  |  +--| (99)
+|  |                                    |  |  |  |        +--Exophiala_tremulae
+|  |                                    |  |  |  |     +--| (92)
+|  |                                    |  |  |  |     |  +--Exophiala_radicis
+|  |                                    |  |  |  |  +--| (86)
+|  |                                    |  |  |  |  |  +--Exophiala_equina
+|  |                                    |  |  |  +--| (91)
+|  |                                    |  |  |     +--Exophiala_salmonis
+|  |                                    |  +--| (97)
+|  |                                    |     |                 +--Exophiala_clavispora
+|  |                                    |     |              +--| (99)
+|  |                                    |     |              |  +--Exophiala_bonariae
+|  |                                    |     |           +--| (54)
+|  |                                    |     |           |  +--Exophiala_opportunistica
+|  |                                    |     |        +--| (95)
+|  |                                    |     |        |  +--Exophiala_embothrii
+|  |                                    |     |     +--| (95)
+|  |                                    |     |     |  +--Exophiala_lacus
+|  |                                    |     |  +--| (98)
+|  |                                    |     |  |  +--Exophiala_cancerae
+|  |                                    |     +--| (99)
+|  |                                    |        +--Exophiala_psychrophila
+|  |                                 +--| (56)
+|  |                                 |  |  +--Exophiala_nagquensis
+|  |                                 |  +--| (63)
+|  |                                 |     +-----_Exophiala__eucalyptorum
+|  |                              +--| (64)
+|  |                              |  +--Exophiala_siamensis
+|  |                           +--| (81)
+|  |                           |  |     +--Exophiala_mali
+|  |                           |  |  +--| (98)
+|  |                           |  |  |  +--Exophiala_lecanii-corni
+|  |                           |  +--| (100)
+|  |                           |     |  +--Exophiala_mesophila
+|  |                           |     +--| (100)
+|  |                           |        +--Exophiala_castellanii
+|  |                        +--| (88)
+|  |                        |  |        +--ASV17684.25
+|  |                        |  |     +--| (98)
+|  |                        |  |     |  |        +--ASV19090.18
+|  |                        |  |     |  |     +--| (99)
+|  |                        |  |     |  |     |  +--ASV27487.4
+|  |                        |  |     |  |  +--| (57)
+|  |                        |  |     |  |  |  +--Exophiala_Nrusticola__KHK47_
+|  |                        |  |     |  +--| (38)
+|  |                        |  |     |     +--Exophiala_crusticola
+|  |                        |  |  +--| (96)
+|  |                        |  |  |  |  +--ASV27616.4
+|  |                        |  |  |  +--| (96)
+|  |                        |  |  |     +--ASV28786.3
+|  |                        |  +--| (99)
+|  |                        |     +--ASV30273.3
+|  |                     +--| (85)
+|  |                     |  |     +------------------------------------------------Mortierella_globalpina
+|  |                     |  |  +--| (59)
+|  |                     |  |  |  +--Exophiala_eucalypticola
+|  |                     |  +--| (71)
+|  |                     |     +--Exophiala_lignicola
+|  |                  +--| (91)
+|  |                  |  |     +--Exophiala_halophila
+|  |                  |  |  +--| (100)
+|  |                  |  |  |  +--Exophiala_alcalophila
+|  |                  |  +--| (88)
+|  |                  |     |  +--Exophiala_angulospora
+|  |                  |     +--| (89)
+|  |                  |        +--Exophiala_asiatica
+|  |               +--| (76)
+|  |               |  |     +--Exophiala_nidicola
+|  |               |  |  +--| (100)
+|  |               |  |  |  +--Exophiala_heteromorpha
+|  |               |  +--| (100)
+|  |               |     +--Exophiala_dermatitidis
+|  |            +--| (86)
+|  |            |  |     +--Exophiala_quercina
+|  |            |  |  +--| (99)
+|  |            |  |  |  +--Exophiala_moniliae
+|  |            |  +--| (99)
+|  |            |     +--Exophiala_abietophila
+|  |         +--| (96)
+|  |         |  +--Exophiala_palmae
+|  |      +--| (96)
+|  |      |  |           +--ASV29522.0
+|  |      |  |        +--| (84)
+|  |      |  |        |  +--Exophiala_sideris
+|  |      |  |     +--| (88)
+|  |      |  |     |  +--Exophiala_capensis
+|  |      |  |  +--| (88)
+|  |      |  |  |  |  +--Exophiala_Nigra__KHK9_
+|  |      |  |  |  +--| (98)
+|  |      |  |  |     +--Exophiala_nigra
+|  |      |  +--| (99)
+|  |      |     +--Exophiala_bergeri
+|  |   +--| (86)
+|  |   |  |              +--ASV26055.0
+|  |   |  |           +--| (96)
+|  |   |  |           |  +--Exophiala_lamphunensis
+|  |   |  |        +--| (96)
+|  |   |  |        |  +--Exophiala_saxicola
+|  |   |  |     +--| (97)
+|  |   |  |     |  +--Exophiala_xenobiotica
+|  |   |  |  +--| (99)
+|  |   |  |  |  +--Exophiala_lapidea
+|  |   |  +--| (100)
+|  |   |     |        +--Exophiala_spartinae
+|  |   |     |     +--| (97)
+|  |   |     |     |  |     +--Exophiala_oligosperma
+|  |   |     |     |  |  +--| (98)
+|  |   |     |     |  |  |  |  +--Exophiala_spinifera
+|  |   |     |     |  |  |  +--| (100)
+|  |   |     |     |  |  |     +--NR_111130.1_Exophiala
+|  |   |     |     |  +--| (99)
+|  |   |     |     |     +--Exophiala_jeanselmei
+|  |   |     |  +--| (83)
+|  |   |     |  |  +--Exophiala_polymorpha
+|  |   |     +--| (97)
+|  |   |        |  +--Exophiala_hongkongensis
+|  |   |        +--| (100)
+|  |   |           +--Exophiala_nishimurae
+|  +---| (100)
+|      +--Exophiala_ellipsoidea
+|
++--ASV2307.1807
+
+
+Consensus tree in newick format: 
+
+(ASV237.3307:0.0000020623,(((((ASV418.1989:0.0000020623,ASV16426.14:0.0034074573)99:0.0034312084,ASV2759.143:0.0000020623)80:0.0000244549,(ASV459.150:0.0000020623,ASV26915.37:0.0000020623)99:0.0068769583)97:0.0141946867,ASV3022.26:0.0035199289)85:0.0015213107,((((((((((((((((ASV11884.4:0.0000020623,ASV14055.2:0.0000020623)49:0.0000020623,(((ASV18950.0:0.0010209416,ASV24213.3:0.0000020623)94:0.0027445586,ASV31174.1:0.0000020623)53:0.0000020623,ASV31965.0:0.0076057455)98:0.0037805247)76:0.0064464848,Exophiala_eucalyptigena:0.0093917484)100:0.0592262007,((((ASV30148.23:0.0448010468,(Exophiala_prostantherae:0.0179609919,Exophiala_aquamarina:0.0132145278)99:0.0118764229)97:0.0063072027,Exophiala_pisciphila:0.0322409217)85:0.0099942400,(((Exophiala_tremulae:0.0020159910,Exophiala_radicis:0.0057488493)92:0.0035346579,Exophiala_equina:0.0064601152)86:0.0055630778,Exophiala_salmonis:0.0746885952)91:0.0100545511)99:0.0211465547,((((((Exophiala_clavispora:0.0000020623,Exophiala_bonariae:0.0179601149)99:0.0037458179,Exophiala_opportunistica:0.0097269871)54:0.0000020721,Exophiala_embothrii:0.0027829786)95:0.0138743182,Exophiala_lacus:0.0427047463)95:0.0139089329,Exophiala_cancerae:0.0216309535)98:0.0183672349,Exophiala_psychrophila:0.0276253910)99:0.0290654908)97:0.0336231548)64:0.0217085313,(Exophiala_nagquensis:0.0312850810,_Exophiala__eucalyptorum:0.4250502544)63:0.0395388369)56:0.0339445011,Exophiala_siamensis:0.1160682683)64:0.0255258622,((Exophiala_mali:0.0192358150,Exophiala_lecanii-corni:0.0126210876)98:0.0320061968,(Exophiala_mesophila:0.0255650368,Exophiala_castellanii:0.0347327123)100:0.0582621824)100:0.0979871285)81:0.0383082491,(((ASV17684.25:0.0000020623,(((ASV19090.18:0.0000020623,ASV27487.4:0.0035682485)99:0.0035632017,Exophiala_Nrusticola__KHK47_:0.0062830493)57:0.0000023008,Exophiala_crusticola:0.0000020623)38:0.0000021628)98:0.0414345447,(ASV27616.4:0.0174638077,ASV28786.3:0.0000020623)96:0.0169283341)96:0.0431490782,ASV30273.3:0.0603388439)99:0.1179303170)88:0.0320615023,((Mortierella_globalpina:3.0216166030,Exophiala_eucalypticola:0.0628288203)59:0.0369601616,Exophiala_lignicola:0.0750577394)71:0.0835312787)85:0.0351995414,((Exophiala_halophila:0.0608615347,Exophiala_alcalophila:0.0609515279)100:0.0729428405,(Exophiala_angulospora:0.0849030889,Exophiala_asiatica:0.2140447316)89:0.0198737408)88:0.0332021289)91:0.0325484024,((Exophiala_nidicola:0.0336230000,Exophiala_heteromorpha:0.0153369029)100:0.0772544591,Exophiala_dermatitidis:0.0237939292)100:0.0941299607)76:0.0211481501,((Exophiala_quercina:0.0356563457,Exophiala_moniliae:0.0196682280)99:0.0452862113,Exophiala_abietophila:0.0791335741)99:0.0564915161)86:0.0241522793,Exophiala_palmae:0.1430906942)96:0.0431239027,((((ASV29522.0:0.0200813409,Exophiala_sideris:0.0448800376)84:0.0031762323,Exophiala_capensis:0.0107491274)88:0.0366480062,(Exophiala_Nigra__KHK9_:0.0069866767,Exophiala_nigra:0.0232843474)98:0.0068650633)88:0.0255892390,Exophiala_bergeri:0.0078173317)99:0.0467772188)96:0.0339298810,(((((ASV26055.0:0.0040688586,Exophiala_lamphunensis:0.0040501234)96:0.0001950369,Exophiala_saxicola:0.0021276431)96:0.0064258248,Exophiala_xenobiotica:0.0000026034)97:0.0161045306,Exophiala_lapidea:0.0348688316)99:0.0357192323,(((Exophiala_spartinae:0.1949901911,((Exophiala_oligosperma:0.0319598105,(Exophiala_spinifera:0.0199382492,NR_111130.1_Exophiala:0.0055480975)100:0.0207222928)98:0.0314950924,Exophiala_jeanselmei:0.0247437957)99:0.0336226579)97:0.0388284535,Exophiala_polymorpha:0.1030382224)83:0.0198838508,(Exophiala_hongkongensis:0.0512104918,Exophiala_nishimurae:0.0223257769)100:0.0905030715)97:0.0326420380)100:0.0924859092)86:0.0645335226,Exophiala_ellipsoidea:0.0457669101)100:0.2450715836)79:0.0019773395,ASV2307.1807:0.0000020623);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t Mojave2020.Exophiala.fasaln.clipkit.treefile -m "TIM2e{2.07425,3.02447,6.68657}+FQ+G4{0.349467}" --length 921
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Mojave2020.Exophiala.fasaln.clipkit --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Mojave2020.Exophiala.fasaln.clipkit --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Nov 16 00:18:15 2023
+Total CPU time used: 101.365296 seconds (0h:1m:41s)
+Total wall-clock time used: 34.8589921 seconds (0h:0m:34s)
+

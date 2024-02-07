@@ -1,0 +1,1419 @@
+Loading samtools/1.18
+  Loading requirement: libdeflate/1.17 htslib/1.18
+nthread = 0
+nthreadpair = 0
+nthreadtb = 0
+ppenalty_ex = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+
+There are 2 ambiguous characters.
+    1 / 78
+done.
+
+Constructing a UPGMA tree (efffree=0) ... 
+    0 / 78   10 / 78   20 / 78   30 / 78   40 / 78   50 / 78   60 / 78   70 / 78
+done.
+
+Progressive alignment 1/2... 
+STEP     1 / 77  fSTEP     2 / 77  fSTEP     3 / 77  fSTEP     4 / 77  fSTEP     5 / 77  fSTEP     6 / 77  fSTEP     7 / 77  fSTEP     8 / 77  fSTEP     9 / 77  fSTEP    10 / 77  fSTEP    11 / 77  fSTEP    12 / 77  fSTEP    13 / 77  fSTEP    14 / 77  fSTEP    15 / 77  fSTEP    16 / 77  fSTEP    17 / 77  fSTEP    18 / 77  fSTEP    19 / 77  fSTEP    20 / 77  fSTEP    21 / 77  fSTEP    22 / 77  fSTEP    23 / 77  fSTEP    24 / 77  fSTEP    25 / 77  fSTEP    26 / 77  fSTEP    27 / 77  fSTEP    28 / 77  fSTEP    29 / 77  fSTEP    30 / 77  fSTEP    31 / 77  fSTEP    32 / 77  fSTEP    33 / 77  fSTEP    34 / 77  fSTEP    35 / 77  fSTEP    36 / 77  fSTEP    37 / 77  fSTEP    38 / 77  fSTEP    39 / 77  fSTEP    40 / 77  fSTEP    41 / 77  fSTEP    42 / 77  fSTEP    43 / 77  fSTEP    44 / 77  fSTEP    45 / 77  fSTEP    46 / 77  fSTEP    47 / 77  fSTEP    48 / 77  fSTEP    49 / 77  fSTEP    50 / 77  fSTEP    51 / 77  fSTEP    52 / 77  fSTEP    53 / 77  fSTEP    54 / 77  fSTEP    55 / 77  fSTEP    56 / 77  fSTEP    57 / 77  fSTEP    58 / 77  fSTEP    59 / 77  fSTEP    60 / 77  fSTEP    61 / 77  fSTEP    62 / 77  fSTEP    63 / 77  fSTEP    64 / 77  fSTEP    65 / 77  fSTEP    66 / 77  f
+Reallocating..done. *alloclen = 2728
+STEP    67 / 77  fSTEP    68 / 77  fSTEP    69 / 77  fSTEP    70 / 77  fSTEP    71 / 77  fSTEP    72 / 77  fSTEP    73 / 77  fSTEP    74 / 77  fSTEP    75 / 77  fSTEP    76 / 77  fSTEP    77 / 77  f
+done.
+
+Making a distance matrix from msa.. 
+    0 / 78
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+    0 / 78   10 / 78   20 / 78   30 / 78   40 / 78   50 / 78   60 / 78   70 / 78
+done.
+
+Progressive alignment 2/2... 
+STEP     1 / 77  fSTEP     2 / 77  fSTEP     3 / 77  fSTEP     4 / 77  fSTEP     5 / 77  fSTEP     6 / 77  fSTEP     7 / 77  fSTEP     8 / 77  fSTEP     9 / 77  fSTEP    10 / 77  fSTEP    11 / 77  fSTEP    12 / 77  fSTEP    13 / 77  fSTEP    14 / 77  fSTEP    15 / 77  fSTEP    16 / 77  fSTEP    17 / 77  fSTEP    18 / 77  fSTEP    19 / 77  fSTEP    20 / 77  fSTEP    21 / 77  fSTEP    22 / 77  fSTEP    23 / 77  fSTEP    24 / 77  fSTEP    25 / 77  fSTEP    26 / 77  fSTEP    27 / 77  fSTEP    28 / 77  fSTEP    29 / 77  fSTEP    30 / 77  fSTEP    31 / 77  fSTEP    32 / 77  fSTEP    33 / 77  fSTEP    34 / 77  fSTEP    35 / 77  fSTEP    36 / 77  fSTEP    37 / 77  fSTEP    38 / 77  fSTEP    39 / 77  fSTEP    40 / 77  fSTEP    41 / 77  fSTEP    42 / 77  fSTEP    43 / 77  fSTEP    44 / 77  fSTEP    45 / 77  fSTEP    46 / 77  fSTEP    47 / 77  fSTEP    48 / 77  fSTEP    49 / 77  fSTEP    50 / 77  fSTEP    51 / 77  fSTEP    52 / 77  fSTEP    53 / 77  fSTEP    54 / 77  fSTEP    55 / 77  fSTEP    56 / 77  fSTEP    57 / 77  fSTEP    58 / 77  fSTEP    59 / 77  fSTEP    60 / 77  fSTEP    61 / 77  fSTEP    62 / 77  fSTEP    63 / 77  fSTEP    64 / 77  fSTEP    65 / 77  fSTEP    66 / 77  fSTEP    67 / 77  fSTEP    68 / 77  fSTEP    69 / 77  fSTEP    70 / 77  f
+Reallocating..done. *alloclen = 2692
+STEP    71 / 77  fSTEP    72 / 77  fSTEP    73 / 77  fSTEP    74 / 77  fSTEP    75 / 77  fSTEP    76 / 77  fSTEP    77 / 77  f
+done.
+
+disttbfast (nuc) Version 7.505
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+
+muscle 5.1.linux64 [12f0e2]  528Gb RAM, 64 cores
+Built Jan 13 2022 23:17:13
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+Input: 78 seqs, avg length 489, max 773
+
+00:00 4.4Mb  CPU has 64 cores, defaulting to 20 threads
+
+WARNING: Max OMP threads 8
+
+00:00 130Mb   0.033% Calc posteriors00:01 600Mb     0.3% Calc posteriors00:02 541Mb     6.3% Calc posteriors00:03 542Mb    11.8% Calc posteriors00:04 542Mb    17.8% Calc posteriors00:05 543Mb    23.4% Calc posteriors00:06 543Mb    29.6% Calc posteriors00:07 544Mb    35.2% Calc posteriors00:08 544Mb    41.1% Calc posteriors00:09 544Mb    46.9% Calc posteriors00:10 545Mb    52.6% Calc posteriors00:11 545Mb    58.6% Calc posteriors00:12 545Mb    63.9% Calc posteriors00:13 545Mb    69.1% Calc posteriors00:14 545Mb    72.5% Calc posteriors00:15 545Mb    75.1% Calc posteriors00:16 545Mb    77.5% Calc posteriors00:17 545Mb    79.8% Calc posteriors00:18 545Mb    82.0% Calc posteriors00:19 545Mb    84.2% Calc posteriors00:20 545Mb    86.6% Calc posteriors00:21 545Mb    89.0% Calc posteriors00:22 545Mb    91.1% Calc posteriors00:23 545Mb    93.4% Calc posteriors00:24 545Mb    95.6% Calc posteriors00:25 545Mb    97.6% Calc posteriors00:26 545Mb    99.0% Calc posteriors00:27 545Mb    99.8% Calc posteriors00:27 545Mb   100.0% Calc posteriors
+00:27 545Mb   0.033% Consistency (1/2)00:28 545Mb    31.6% Consistency (1/2)00:29 545Mb    80.2% Consistency (1/2)00:30 545Mb    99.3% Consistency (1/2)00:30 545Mb   100.0% Consistency (1/2)
+00:30 545Mb   0.033% Consistency (2/2)00:31 545Mb    50.0% Consistency (2/2)00:32 545Mb    90.2% Consistency (2/2)00:32 545Mb   100.0% Consistency (2/2)
+00:32 545Mb     1.3% UPGMA5           00:32 545Mb   100.0% UPGMA5
+00:32 546Mb     1.0% Refining00:33 550Mb    31.0% Refining00:33 557Mb   100.0% Refining
+
+Determining smart-gap threshold...
+
+-------------
+| Arguments |
+-------------
+Input file: Mojave2020.Exophiala.fasaln (format: fasta)
+Output file: Mojave2020.Exophiala.fasaln.clipkit (format: fasta)
+Gaps threshold: 0.9872
+Trimming mode: smart-gap
+Create complementary output: False
+Create log file: False
+
+
+------------------------
+| Processing Alignment |
+------------------------
+
+  0%|                                                                                                                                                                        | 0/1065 [00:00<?, ?it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1065/1065 [00:00<00:00, 11017.96it/s]
+
+
+------------------------
+| Writing output files |
+------------------------
+trimmed alignment: Mojave2020.Exophiala.fasaln.clipkit
+complement file: False
+log file: False
+
+
+---------------------
+| Output Statistics |
+---------------------
+Number of sites kept: 955
+Number of sites trimmed: 110
+
+Percentage of alignment trimmed: 10.329%
+
+Execution time: 0.245s
+
+
+Determining smart-gap threshold...
+
+-------------
+| Arguments |
+-------------
+Input file: Mojave2020.Exophiala.muscle.fasaln (format: fasta)
+Output file: Mojave2020.Exophiala.muscle.fasaln.clipkit (format: fasta)
+Gaps threshold: 0.9744
+Trimming mode: smart-gap
+Create complementary output: False
+Create log file: False
+
+
+------------------------
+| Processing Alignment |
+------------------------
+
+  0%|                                                                                                                                                                        | 0/1089 [00:00<?, ?it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1089/1089 [00:00<00:00, 10888.56it/s]
+
+
+------------------------
+| Writing output files |
+------------------------
+trimmed alignment: Mojave2020.Exophiala.muscle.fasaln.clipkit
+complement file: False
+log file: False
+
+
+---------------------
+| Output Statistics |
+---------------------
+Number of sites kept: 834
+Number of sites trimmed: 255
+
+Percentage of alignment trimmed: 23.416%
+
+Execution time: 0.247s
+
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Linux 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    i04 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -nt AUTO -s Mojave2020.Exophiala.fasaln.clipkit -alrt 1000 -bb 1000 -m MFP
+Seed:    33137 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Nov 15 23:36:46 2023
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file Mojave2020.Exophiala.fasaln.clipkit ... Fasta format detected
+Reading fasta file: done in 0.00127888 secs
+NOTE: Change sequence name 'Exophiala Nigra (KHK9)' -> Exophiala_Nigra
+NOTE: Change sequence name 'Exophiala Nrtsticola (KHK47)' -> Exophiala_Nrtsticola
+NOTE: Change sequence name 'NR_184988.1 Exophiala siamensis CMU 417 ITS region; from TYPE material' -> NR_184988.1_Exophiala
+NOTE: Change sequence name 'NR_184987.1 Exophiala saxicola CMU 415 ITS region; from TYPE material' -> NR_184987.1_Exophiala
+NOTE: Change sequence name 'NR_184986.1 Exophiala lapidea CMU 409 ITS region; from TYPE material' -> NR_184986.1_Exophiala
+NOTE: Change sequence name 'NR_184985.1 Exophiala lamphunensis CMU 404 ITS region; from TYPE material' -> NR_184985.1_Exophiala
+NOTE: Change sequence name 'NR_184364.1 Exophiala eucalyptigena CBS 148273 ITS region; from TYPE material' -> NR_184364.1_Exophiala
+NOTE: Change sequence name 'NR_174648.1 Exophiala spartinae CBS 147266 ITS region; from TYPE material' -> NR_174648.1_Exophiala
+NOTE: Change sequence name 'NR_172238.1 Exophiala ellipsoidea CGMCC 3.17348 ITS region; from TYPE material' -> NR_172238.1_Exophiala
+NOTE: Change sequence name 'NR_172237.1 Exophiala nagquensis CGMCC 3.17333 ITS region; from TYPE material' -> NR_172237.1_Exophiala
+NOTE: Change sequence name 'NR_172236.1 Exophiala clavispora CGMCC 3.17517 ITS region; from TYPE material' -> NR_172236.1_Exophiala
+NOTE: Change sequence name 'NR_171990.1 Exophiala prostantherae CBS 146794 ITS region; from TYPE material' -> NR_171990.1_Exophiala
+NOTE: Change sequence name 'NR_171988.1 Exophiala mali CBS 146791 ITS region; from TYPE material' -> NR_171988.1_Exophiala
+NOTE: Change sequence name 'NR_171982.1 Exophiala embothrii CBS 146558 ITS region; from TYPE material' -> NR_171982.1_Exophiala
+NOTE: Change sequence name 'NR_170053.1 Exophiala quercina CPC 33408 ITS region; from TYPE material' -> NR_170053.1_Exophiala
+NOTE: Change sequence name 'NR_165997.1 Exophiala bergeri CBS 353.52 ITS region; from TYPE material' -> NR_165997.1_Exophiala
+NOTE: Change sequence name 'NR_163358.1 Exophiala lignicola ITS region; from TYPE material' -> NR_163358.1_Exophiala
+NOTE: Change sequence name 'NR_163357.1 Exophiala abietophila ITS region; from TYPE material' -> NR_163357.1_Exophiala
+NOTE: Change sequence name 'NR_161045.1 Exophiala nidicola FMR 3889 ITS region; from TYPE material' -> NR_161045.1_Exophiala
+NOTE: Change sequence name 'NR_159874.1 Exophiala tremulae CBS 129355 ITS region; from TYPE material' -> NR_159874.1_Exophiala
+NOTE: Change sequence name 'NR_159867.1 Exophiala crusticola CBS 119970 ITS region; from TYPE material' -> NR_159867.1_Exophiala
+NOTE: Change sequence name 'NR_111671.2 Exophiala hongkongensis HKU 32 ITS region; from TYPE material' -> NR_111671.2_Exophiala
+NOTE: Change sequence name 'NR_121493.1 Exophiala capensis CBS 128771 ITS region; from TYPE material' -> NR_121493.1_Exophiala
+NOTE: Change sequence name 'NR_121461.1 Exophiala mesophila CBS 402.95 ITS region; from TYPE material' -> NR_121461.1_Exophiala
+NOTE: Change sequence name 'NR_121460.1 Exophiala castellanii CBS 158.58 ITS region; from TYPE material' -> NR_121460.1_Exophiala
+NOTE: Change sequence name 'NR_121270.1 Exophiala salmonis CBS 157.67 ITS region; from TYPE material' -> NR_121270.1_Exophiala
+NOTE: Change sequence name 'NR_121269.1 Exophiala pisciphila CBS 537.73 ITS region; from TYPE material' -> NR_121269.1_Exophiala
+NOTE: Change sequence name 'NR_121268.1 Exophiala dermatitidis CBS 207.35 ITS region; from TYPE material' -> NR_121268.1_Exophiala
+NOTE: Change sequence name 'NR_111629.1 Exophiala lacus CBS 117497 ITS region; from TYPE material' -> NR_111629.1_Exophiala
+NOTE: Change sequence name 'NR_111628.1 Exophiala halophila CBS 121512 ITS region; from TYPE material' -> NR_111628.1_Exophiala
+NOTE: Change sequence name 'NR_111627.1 Exophiala equina CBS 119.23 ITS region; from TYPE material' -> NR_111627.1_Exophiala
+NOTE: Change sequence name 'NR_111626.1 Exophiala aquamarina CBS 119918 ITS region; from TYPE material' -> NR_111626.1_Exophiala
+NOTE: Change sequence name 'NR_111625.1 Exophiala angulospora CBS 482.92 ITS region; from TYPE material' -> NR_111625.1_Exophiala
+NOTE: Change sequence name 'NR_111624.1 Exophiala alcalophila CBS 520.82 ITS region; from TYPE material' -> NR_111624.1_Exophiala
+NOTE: Change sequence name 'NR_111553.1 Exophiala sideris CBS 121818 ITS region; from TYPE material' -> NR_111553.1_Exophiala
+NOTE: Change sequence name 'NR_111448.1 Exophiala moniliae CBS 520.76 ITS region; from TYPE material' -> NR_111448.1_Exophiala
+NOTE: Change sequence name 'NR_111332.1 Exophiala asiatica CBS 122847 ITS region; from TYPE material' -> NR_111332.1_Exophiala
+NOTE: Change sequence name 'NR_111203.1 Exophiala xenobiotica CBS 118157 ITS region; from TYPE material' -> NR_111203.1_Exophiala
+NOTE: Change sequence name 'NR_111184.1 Exophiala heteromorpha CBS 232.33 ITS region; from TYPE material' -> NR_111184.1_Exophiala
+NOTE: Change sequence name 'NR_111134.1 Exophiala oligosperma CBS 725.88 ITS region; from TYPE material' -> NR_111134.1_Exophiala
+NOTE: Change sequence name 'NR_111131.1 Exophiala spinifera CBS 899.68 ITS region; from TYPE material' -> NR_111131.1_Exophiala
+NOTE: Change sequence name 'NR_111130.1 Exophiala exophialae CBS 668.76 ITS region; from TYPE material' -> NR_111130.1_Exophiala
+NOTE: Change sequence name 'NR_111129.1 Exophiala jeanselmei CBS 507.90 ITS region; from TYPE material' -> NR_111129.1_Exophiala
+NOTE: Change sequence name 'NR_158438.1 Exophiala eucalypticola ITS region; from TYPE material' -> NR_158438.1_Exophiala
+NOTE: Change sequence name 'NR_158414.1 Exophiala palmae UPCB 86822 ITS region; from TYPE material' -> NR_158414.1_Exophiala
+NOTE: Change sequence name 'NR_158397.1 Exophiala radicis CBS 140402 ITS region; from TYPE material' -> NR_158397.1_Exophiala
+NOTE: Change sequence name 'NR_154974.1 Exophiala nigra CBS 535.94 ITS region; from TYPE material' -> NR_154974.1_Exophiala
+NOTE: Change sequence name 'NR_154915.1 Exophiala polymorpha CBS 138920 ITS region; from TYPE material' -> NR_154915.1_Exophiala
+NOTE: Change sequence name 'NR_154906.1 Exophiala opportunistica CBS 109811 ITS region; from TYPE material' -> NR_154906.1_Exophiala
+NOTE: Change sequence name 'NR_145351.1 Exophiala lecanii-corni CBS 123.33 ITS region; from TYPE material' -> NR_145351.1_Exophiala
+NOTE: Change sequence name 'NR_144964.1 Exophiala bonariae CBS 139957 ITS region; from TYPE material' -> NR_144964.1_Exophiala
+NOTE: Change sequence name 'NR_137092.1 Exophiala nishimurae CBS 101538 ITS region; from TYPE material' -> NR_137092.1_Exophiala
+NOTE: Change sequence name 'NR_132882.1 [Exophiala] eucalyptorum CBS 121638 ITS region; from TYPE material' -> NR_132882.1_[Exophiala]
+NOTE: Change sequence name 'NR_145371.1 Exophiala psychrophila CBS 191.87 ITS region; from TYPE material' -> NR_145371.1_Exophiala
+NOTE: Change sequence name 'NR_137766.1 Exophiala cancerae CBS 120420 ITS region; from TYPE material' -> NR_137766.1_Exophiala
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00269103 secs using 713.9% CPU
+Alignment has 78 sequences with 955 columns, 630 distinct patterns
+445 parsimony-informative, 187 singleton sites, 323 constant sites
+WARNING: Some sequence names are changed as follows:
+NR_132882.1_[Exophiala] -> NR_132882.1__Exophiala_
+
+                         Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 5.19753e-05 secs using 242.4% CPU
+   1  ASV237.3307               74.24%    passed     82.90%
+   2  ASV418.1989               73.93%    passed     76.27%
+   3  ASV459.150                73.93%    passed     74.15%
+   4  ASV2307.1807              73.82%    passed     84.00%
+   5  ASV2759.143               73.93%    passed     81.79%
+   6  ASV3022.26                73.82%    passed     87.92%
+   7  ASV11884.4                75.50%    passed     67.53%
+   8  ASV14055.2                73.93%    passed     83.05%
+   9  ASV16426.14               73.93%    passed     83.13%
+  10  ASV17684.25               74.03%    passed     97.30%
+  11  ASV18950.0                73.93%    passed     73.51%
+  12  ASV19090.18               74.03%    passed     94.70%
+  13  ASV24213.3                75.50%    passed     58.26%
+  14  ASV26055.0                75.92%    passed     22.69%
+  15  ASV26915.37               73.82%    passed     76.50%
+  16  ASV27487.4                74.03%    passed     93.53%
+  17  ASV27616.4                73.82%    passed     99.30%
+  18  ASV28786.3                73.82%    passed     99.73%
+  19  ASV29522.0                73.82%    passed     59.82%
+  20  ASV30148.23               73.82%    passed     31.72%
+  21  ASV30273.3                74.45%    passed     81.77%
+  22  ASV31174.1                73.82%    passed     81.44%
+  23  ASV31965.0                73.93%    passed     73.66%
+  24  Exophiala_Nigra           43.77%    passed      6.16%
+  25  Exophiala_Nrtsticola      41.68%    passed      6.68%
+  26  NR_184988.1_Exophiala     34.97%    passed     93.74%
+  27  NR_184987.1_Exophiala     35.81%    passed     56.65%
+  28  NR_184986.1_Exophiala     35.39%    passed     69.38%
+  29  NR_184985.1_Exophiala     34.35%    passed     38.01%
+  30  NR_184364.1_Exophiala     34.97%    passed     94.85%
+  31  NR_174648.1_Exophiala     27.33%    passed     21.87%
+  32  NR_172238.1_Exophiala     51.62%    passed     47.36%
+  33  NR_172237.1_Exophiala     50.68%    passed     48.09%
+  34  NR_172236.1_Exophiala     50.26%    passed     98.83%
+  35  NR_171990.1_Exophiala     31.52%    passed     87.75%
+  36  NR_171988.1_Exophiala     30.26%    passed     99.10%
+  37  NR_171982.1_Exophiala     42.51%    passed     83.30%
+  38  NR_170053.1_Exophiala     33.93%    passed     94.88%
+  39  NR_165997.1_Exophiala     34.66%    passed     92.10%
+  40  NR_163358.1_Exophiala     36.96%    passed     73.77%
+  41  NR_163357.1_Exophiala     35.18%    passed     69.04%
+  42  NR_161045.1_Exophiala     39.58%    passed     77.95%
+  43  NR_159874.1_Exophiala     34.24%    passed     97.43%
+  44  NR_159867.1_Exophiala     42.51%    passed     87.04%
+  45  NR_111671.2_Exophiala     38.22%    passed     72.06%
+  46  NR_121493.1_Exophiala     31.62%    passed     89.24%
+  47  NR_121461.1_Exophiala     31.94%    passed     70.18%
+  48  NR_121460.1_Exophiala     32.04%    passed     37.78%
+  49  NR_121270.1_Exophiala     25.76%    passed     90.32%
+  50  NR_121269.1_Exophiala     31.62%    passed     81.10%
+  51  NR_121268.1_Exophiala     29.42%    passed     80.68%
+  52  NR_111629.1_Exophiala     41.88%    passed     87.41%
+  53  NR_111628.1_Exophiala     39.79%    passed     26.89%
+  54  NR_111627.1_Exophiala     41.88%    passed     93.05%
+  55  NR_111626.1_Exophiala     41.36%    passed     96.27%
+  56  NR_111625.1_Exophiala     42.83%    passed     78.35%
+  57  NR_111624.1_Exophiala     40.73%    passed     51.07%
+  58  NR_111553.1_Exophiala     42.30%    passed     99.02%
+  59  NR_111448.1_Exophiala     40.42%    passed     97.68%
+  60  NR_111332.1_Exophiala     39.58%    passed     58.72%
+  61  NR_111203.1_Exophiala     43.87%    passed     47.48%
+  62  NR_111184.1_Exophiala     40.73%    passed     60.84%
+  63  NR_111134.1_Exophiala     41.68%    passed     98.42%
+  64  NR_111131.1_Exophiala     43.56%    passed     78.85%
+  65  NR_111130.1_Exophiala     43.66%    passed     82.34%
+  66  NR_111129.1_Exophiala     36.86%    passed     99.95%
+  67  NR_158438.1_Exophiala     32.67%    passed     89.55%
+  68  NR_158414.1_Exophiala     46.39%    passed     75.36%
+  69  NR_158397.1_Exophiala     38.74%    passed     93.44%
+  70  NR_154974.1_Exophiala     39.48%    passed     91.40%
+  71  NR_154915.1_Exophiala     27.75%    passed     98.94%
+  72  NR_154906.1_Exophiala     40.63%    passed     93.99%
+  73  NR_145351.1_Exophiala     39.79%    passed     78.78%
+  74  NR_144964.1_Exophiala     39.06%    passed     90.48%
+  75  NR_137092.1_Exophiala     38.12%    passed     61.77%
+  76  NR_132882.1__Exophiala_   45.55%    passed     55.66%
+  77  NR_145371.1_Exophiala     41.88%    passed     85.70%
+  78  NR_137766.1_Exophiala     34.66%    passed     89.25%
+WARNING: 26 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                     48.90%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 0.000447989 secs using 575.5% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.015 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+81 trees examined
+Threads: 1 / Time: 8.004 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -17044
+Threads: 2 / Time: 5.346 sec / Speedup: 1.497 / Efficiency: 75% / LogL: -17044
+Threads: 3 / Time: 4.741 sec / Speedup: 1.688 / Efficiency: 56% / LogL: -17044
+Threads: 4 / Time: 4.392 sec / Speedup: 1.823 / Efficiency: 46% / LogL: -17044
+Determining AUTO threadcount: done in 22.4884 secs using 228.8% CPU
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.120117 secs using 298.5% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -10672.179
+Optimal log-likelihood: -10671.230
+Rate parameters:  A-C: 2.03024  A-G: 3.45390  A-T: 2.28524  C-G: 1.03476  C-T: 6.04185  G-T: 1.00000
+Base frequencies:  A: 0.234  C: 0.283  G: 0.242  T: 0.241
+Proportion of invariable sites: 0.110
+Gamma shape alpha: 0.548
+Parameters optimization took 1 rounds (0.046 sec)
+Time for fast ML tree search: 0.431 seconds
+
+NOTE: ModelFinder requires 18 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 955) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         11743.780    161 23809.561    23875.341    24592.296
+  2  GTR+F+I       11364.522    162 23053.044    23119.725    23840.641
+  3  GTR+F+G4      10667.291    162 21658.583    21725.265    22446.180
+  4  GTR+F+I+G4    10668.025    163 21662.050    21729.640    22454.509
+  5  GTR+F+R2      10751.513    163 21829.025    21896.616    22621.484
+  6  GTR+F+R3      10671.823    165 21673.645    21743.075    22475.828
+  7  GTR+F+R4      10650.457    167 21634.915    21706.213    22446.820
+  8  GTR+F+R5      10643.256    169 21624.511    21697.709    22446.140
+  9  GTR+F+R6      10640.351    171 21622.702    21697.829    22454.055
+ 14  GTR+F+I+R2    10700.170    164 21728.340    21796.846    22525.661
+ 15  GTR+F+I+R3    10659.511    166 21651.021    21721.382    22458.065
+ 16  GTR+F+I+R4    10649.692    168 21635.385    21707.629    22452.152
+ 17  GTR+F+I+R5    10646.245    170 21632.490    21706.649    22458.981
+ 25  SYM+G4        10668.278    159 21654.555    21718.555    22427.567
+ 26  SYM+I+G4      10668.869    160 21657.739    21722.625    22435.613
+ 29  SYM+R4        10652.291    164 21632.581    21701.087    22429.902
+ 30  SYM+R5        10642.719    166 21617.438    21687.798    22424.482
+ 31  SYM+R6        10642.415    168 21620.829    21693.073    22437.597
+ 38  SYM+I+R4      10651.131    165 21632.263    21701.692    22434.445
+ 47  TVM+F+G4      10689.043    161 21700.086    21765.867    22482.822
+ 48  TVM+F+I+G4    10689.869    162 21703.739    21770.420    22491.336
+ 51  TVM+F+R4      10670.546    166 21673.091    21743.451    22480.135
+ 52  TVM+F+R5      10660.268    168 21656.537    21728.781    22473.304
+ 53  TVM+F+R6      10660.939    170 21661.878    21736.036    22488.369
+ 60  TVM+F+I+R4    10669.681    167 21673.361    21744.660    22485.267
+ 69  TVMe+G4       10701.266    158 21718.533    21781.654    22486.683
+ 70  TVMe+I+G4     10701.877    159 21721.754    21785.754    22494.766
+ 73  TVMe+R4       10682.660    163 21691.319    21758.910    22483.778
+ 74  TVMe+R5       10671.967    165 21673.935    21743.364    22476.117
+ 75  TVMe+R6       10672.693    167 21679.386    21750.684    22491.291
+ 82  TVMe+I+R4     10681.926    164 21691.853    21760.359    22489.173
+ 91  TIM3+F+G4     10702.710    160 21725.419    21790.306    22503.293
+ 92  TIM3+F+I+G4   10703.532    161 21729.064    21794.845    22511.800
+ 95  TIM3+F+R4     10681.891    165 21693.782    21763.212    22495.965
+ 96  TIM3+F+R5     10672.940    167 21679.880    21751.179    22491.786
+ 97  TIM3+F+R6     10673.657    169 21685.313    21758.511    22506.943
+104  TIM3+F+I+R4   10682.599    166 21697.197    21767.557    22504.241
+113  TIM3e+G4      10701.973    157 21717.945    21780.194    22481.234
+114  TIM3e+I+G4    10702.635    158 21721.269    21784.390    22489.420
+117  TIM3e+R4      10682.037    162 21688.074    21754.755    22475.671
+118  TIM3e+R5      10672.897    164 21673.794    21742.300    22471.114
+119  TIM3e+R6      10673.591    166 21679.183    21749.543    22486.227
+126  TIM3e+I+R4    10682.669    163 21691.337    21758.928    22483.796
+135  TIM2+F+G4     10667.650    160 21655.300    21720.186    22433.174
+136  TIM2+F+I+G4   10668.382    161 21658.763    21724.544    22441.499
+139  TIM2+F+R4     10651.003    165 21632.006    21701.436    22434.188
+140  TIM2+F+R5     10641.075    167 21616.149    21687.448    22428.055
+141  TIM2+F+R6     10640.864    169 21619.728    21692.925    22441.357
+148  TIM2+F+I+R4   10650.289    166 21632.579    21702.939    22439.623
+157  TIM2e+G4      10669.000    157 21651.999    21714.248    22415.288
+158  TIM2e+I+G4    10669.587    158 21655.174    21718.294    22423.324
+161  TIM2e+R4      10652.994    162 21629.989    21696.671    22417.586
+162  TIM2e+R5      10642.927    164 21613.855    21682.361    22411.175
+163  TIM2e+R6      10642.835    166 21617.671    21688.031    22424.715
+170  TIM2e+I+R4    10651.940    163 21629.880    21697.471    22422.339
+179  TIM+F+G4      10702.529    160 21725.058    21789.944    22502.932
+180  TIM+F+I+G4    10703.468    161 21728.935    21794.716    22511.671
+183  TIM+F+R4      10681.963    165 21693.926    21763.356    22496.108
+184  TIM+F+R5      10672.799    167 21679.597    21750.896    22491.503
+185  TIM+F+R6      10673.712    169 21685.424    21758.621    22507.053
+192  TIM+F+I+R4    10682.569    166 21697.138    21767.498    22504.182
+201  TIMe+G4       10702.279    157 21718.558    21780.807    22481.847
+202  TIMe+I+G4     10703.072    158 21722.144    21785.265    22490.295
+205  TIMe+R4       10682.439    162 21688.879    21755.561    22476.476
+206  TIMe+R5       10673.233    164 21674.466    21742.972    22471.787
+207  TIMe+R6       10674.202    166 21680.404    21750.765    22487.448
+214  TIMe+I+R4     10682.976    163 21691.951    21759.542    22484.410
+223  TPM3u+F+G4    10722.598    159 21763.196    21827.196    22536.208
+224  TPM3u+F+I+G4  10723.412    160 21766.825    21831.711    22544.698
+227  TPM3u+F+R4    10702.505    164 21733.010    21801.517    22530.331
+228  TPM3u+F+R5    10691.441    166 21714.882    21785.242    22521.926
+229  TPM3u+F+R6    10690.911    168 21717.822    21790.066    22534.589
+236  TPM3u+F+I+R4  10703.689    165 21737.377    21806.807    22539.560
+245  TPM3+G4       10732.677    156 21777.354    21838.738    22535.781
+246  TPM3+I+G4     10733.319    157 21780.639    21842.887    22543.927
+249  TPM3+R4       10712.655    161 21747.309    21813.090    22530.045
+250  TPM3+R5       10701.155    163 21728.310    21795.901    22520.769
+251  TPM3+R6       10701.073    165 21732.146    21801.576    22534.329
+258  TPM3+I+R4     10714.220    162 21752.439    21819.121    22540.036
+267  TPM2u+F+G4    10689.191    159 21696.382    21760.382    22469.394
+268  TPM2u+F+I+G4  10690.128    160 21700.257    21765.143    22478.130
+271  TPM2u+F+R4    10670.943    164 21669.885    21738.391    22467.206
+272  TPM2u+F+R5    10660.518    166 21653.036    21723.396    22460.080
+273  TPM2u+F+R6    10661.366    168 21658.733    21730.977    22475.500
+280  TPM2u+F+I+R4  10670.218    165 21670.437    21739.866    22472.619
+289  TPM2+G4       10701.808    156 21715.617    21777.000    22474.044
+290  TPM2+I+G4     10702.543    157 21719.086    21781.335    22482.375
+293  TPM2+R4       10683.361    161 21688.723    21754.503    22471.458
+294  TPM2+R5       10672.701    163 21671.403    21738.993    22463.862
+295  TPM2+R6       10673.548    165 21677.096    21746.526    22479.278
+302  TPM2+I+R4     10682.775    162 21689.551    21756.232    22477.148
+311  K3Pu+F+G4     10722.610    159 21763.220    21827.220    22536.232
+312  K3Pu+F+I+G4   10723.423    160 21766.846    21831.733    22544.720
+315  K3Pu+F+R4     10702.551    164 21733.103    21801.609    22530.423
+316  K3Pu+F+R5     10691.389    166 21714.779    21785.139    22521.823
+317  K3Pu+F+R6     10690.895    168 21717.789    21790.034    22534.557
+324  K3Pu+F+I+R4   10703.720    165 21737.440    21806.870    22539.623
+333  K3P+G4        10733.205    156 21778.409    21839.793    22536.836
+334  K3P+I+G4      10733.842    157 21781.684    21843.932    22544.973
+337  K3P+R4        10713.165    161 21748.330    21814.111    22531.066
+338  K3P+R5        10701.763    163 21729.526    21797.116    22521.985
+339  K3P+R6        10701.644    165 21733.287    21802.717    22535.469
+346  K3P+I+R4      10714.676    162 21753.353    21820.035    22540.950
+355  TN+F+G4       10702.551    159 21723.102    21787.102    22496.115
+356  TN+F+I+G4     10703.489    160 21726.977    21791.864    22504.851
+359  TN+F+R4       10681.996    164 21691.992    21760.499    22489.313
+360  TN+F+R5       10672.842    166 21677.684    21748.045    22484.728
+361  TN+F+R6       10673.753    168 21683.505    21755.750    22500.273
+368  TN+F+I+R4     10682.727    165 21695.453    21764.883    22497.635
+377  TNe+G4        10702.282    156 21716.563    21777.947    22474.990
+378  TNe+I+G4      10703.075    157 21720.151    21782.399    22483.440
+381  TNe+R4        10682.455    161 21686.910    21752.691    22469.646
+382  TNe+R5        10673.242    163 21672.485    21740.075    22464.944
+383  TNe+R6        10674.187    165 21678.373    21747.803    22480.555
+390  TNe+I+R4      10682.979    162 21689.958    21756.640    22477.555
+399  HKY+F+G4      10722.668    158 21761.336    21824.456    22529.486
+400  HKY+F+I+G4    10723.478    159 21764.956    21828.956    22537.968
+403  HKY+F+R4      10702.607    163 21731.214    21798.805    22523.673
+404  HKY+F+R5      10691.469    165 21712.937    21782.367    22515.120
+405  HKY+F+R6      10690.985    167 21715.971    21787.269    22527.876
+412  HKY+F+I+R4    10703.771    164 21735.543    21804.049    22532.864
+421  K2P+G4        10733.223    155 21776.447    21836.972    22530.012
+422  K2P+I+G4      10733.859    156 21779.718    21841.102    22538.145
+425  K2P+R4        10713.171    160 21746.342    21811.229    22524.216
+426  K2P+R5        10701.789    162 21727.578    21794.260    22515.175
+427  K2P+R6        10701.678    164 21731.355    21799.861    22528.676
+434  K2P+I+R4      10714.805    161 21751.610    21817.391    22534.346
+443  F81+F+G4      10953.591    157 22221.183    22283.431    22984.472
+444  F81+F+I+G4    10954.231    158 22224.462    22287.583    22992.613
+447  F81+F+R4      10936.288    162 22196.576    22263.258    22984.173
+448  F81+F+R5      10926.030    164 22180.061    22248.567    22977.381
+449  F81+F+R6      10926.444    166 22184.889    22255.249    22991.933
+456  F81+F+I+R4    10938.048    163 22202.097    22269.687    22994.556
+465  JC+G4         10971.895    154 22251.791    22311.466    23000.494
+466  JC+I+G4       10972.598    155 22255.196    22315.721    23008.761
+469  JC+R4         10954.027    159 22226.054    22290.054    22999.066
+470  JC+R5         10944.199    161 22210.397    22276.178    22993.133
+471  JC+R6         10944.820    163 22215.640    22283.230    23008.099
+478  JC+I+R4       10956.168    160 22232.336    22297.223    23010.210
+Akaike Information Criterion:           TIM2e+R5
+Corrected Akaike Information Criterion: TIM2e+R5
+Bayesian Information Criterion:         TIM2e+R5
+Best-fit model: TIM2e+R5 chosen according to BIC
+
+All model information printed to Mojave2020.Exophiala.fasaln.clipkit.model.gz
+CPU time for ModelFinder: 584.413 seconds (0h:9m:44s)
+Wall-clock time for ModelFinder: 202.516 seconds (0h:3m:22s)
+Generating 1000 samples for ultrafast bootstrap (seed: 33137)...
+
+NOTE: 10 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -10642.927
+Optimal log-likelihood: -10642.809
+Rate parameters:  A-C: 1.97170  A-G: 3.15735  A-T: 1.97170  C-G: 1.00000  C-T: 5.99996  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.520,0.068) (0.007,0.165) (0.092,0.619) (0.133,1.096) (0.248,3.071)
+Parameters optimization took 1 rounds (0.086 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.010778 secs using 299.9% CPU
+Computing ML distances took 0.010912 sec (of wall-clock time) 0.032620 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000144005 secs using 324.3% CPU
+Constructing RapidNJ tree: done in 0.00147796 secs using 215% CPU
+Computing RapidNJ tree took 0.001722 sec (of wall-clock time) 0.004602 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -10856.132
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.963 second
+Computing log-likelihood of 98 initial trees ... 0.887 seconds
+Current best score: -10642.809
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.0953159 secs using 288.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -10642.707
+Optimizing NNI: done in 0.25038 secs using 296.9% CPU
+Optimizing NNI: done in 0.224873 secs using 296.4% CPU
+Optimizing NNI: done in 0.256844 secs using 293.8% CPU
+Optimizing NNI: done in 0.234472 secs using 294% CPU
+Optimizing NNI: done in 0.242456 secs using 296.4% CPU
+Optimizing NNI: done in 0.2554 secs using 296.3% CPU
+Optimizing NNI: done in 0.241273 secs using 293.3% CPU
+Optimizing NNI: done in 0.236125 secs using 295.3% CPU
+Optimizing NNI: done in 0.274786 secs using 293.5% CPU
+Iteration 10 / LogL: -10649.553 / Time: 0h:0m:4s
+Optimizing NNI: done in 0.250103 secs using 298% CPU
+Optimizing NNI: done in 0.24042 secs using 292.9% CPU
+Optimizing NNI: done in 0.253683 secs using 294.3% CPU
+Optimizing NNI: done in 0.257689 secs using 296.8% CPU
+Optimizing NNI: done in 0.299226 secs using 297.3% CPU
+Optimizing NNI: done in 0.255463 secs using 295.6% CPU
+Optimizing NNI: done in 0.257223 secs using 295.2% CPU
+Optimizing NNI: done in 0.247082 secs using 296.3% CPU
+Optimizing NNI: done in 0.259615 secs using 293% CPU
+Optimizing NNI: done in 0.250973 secs using 297.1% CPU
+Iteration 20 / LogL: -10657.439 / Time: 0h:0m:7s
+Finish initializing candidate tree set (9)
+Current best tree score: -10642.707 / CPU time: 6.856
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.246237 secs using 297.8% CPU
+BETTER TREE FOUND at iteration 21: -10642.705
+Optimizing NNI: done in 0.254167 secs using 296.7% CPU
+UPDATE BEST LOG-LIKELIHOOD: -10642.704
+Optimizing NNI: done in 0.284565 secs using 298.2% CPU
+Optimizing NNI: done in 0.195452 secs using 297.6% CPU
+Optimizing NNI: done in 0.240795 secs using 297.5% CPU
+Optimizing NNI: done in 0.251396 secs using 297.9% CPU
+Optimizing NNI: done in 0.286623 secs using 296.2% CPU
+Optimizing NNI: done in 0.26675 secs using 295.7% CPU
+BETTER TREE FOUND at iteration 28: -10642.702
+Optimizing NNI: done in 0.20748 secs using 297.9% CPU
+Optimizing NNI: done in 0.330476 secs using 296.6% CPU
+Iteration 30 / LogL: -10645.549 / Time: 0h:0m:10s (0h:0m:33s left)
+Optimizing NNI: done in 0.23479 secs using 298.8% CPU
+Optimizing NNI: done in 0.225179 secs using 296.2% CPU
+Optimizing NNI: done in 0.273145 secs using 297.2% CPU
+Optimizing NNI: done in 0.301813 secs using 295.5% CPU
+Optimizing NNI: done in 0.257497 secs using 294.3% CPU
+Optimizing NNI: done in 0.274388 secs using 295.1% CPU
+Optimizing NNI: done in 0.26407 secs using 295.7% CPU
+Optimizing NNI: done in 0.277466 secs using 295.7% CPU
+Optimizing NNI: done in 0.223911 secs using 297.4% CPU
+Optimizing NNI: done in 0.283829 secs using 295.6% CPU
+Iteration 40 / LogL: -10643.576 / Time: 0h:0m:12s (0h:0m:28s left)
+Optimizing NNI: done in 0.286723 secs using 294.6% CPU
+Optimizing NNI: done in 0.224804 secs using 296.3% CPU
+Optimizing NNI: done in 0.246647 secs using 297.3% CPU
+Optimizing NNI: done in 0.264557 secs using 296% CPU
+Optimizing NNI: done in 0.237516 secs using 296.6% CPU
+Optimizing NNI: done in 0.303081 secs using 298.4% CPU
+Optimizing NNI: done in 0.261365 secs using 297.3% CPU
+Optimizing NNI: done in 0.273264 secs using 295.8% CPU
+Optimizing NNI: done in 0.252984 secs using 294.5% CPU
+Optimizing NNI: done in 0.262668 secs using 296.4% CPU
+Iteration 50 / LogL: -10642.824 / Time: 0h:0m:15s (0h:0m:24s left)
+Log-likelihood cutoff on original alignment: -10676.761
+Optimizing NNI: done in 0.20871 secs using 297.7% CPU
+Optimizing NNI: done in 0.24967 secs using 294.9% CPU
+Optimizing NNI: done in 0.230476 secs using 297% CPU
+Optimizing NNI: done in 0.312503 secs using 297.5% CPU
+Optimizing NNI: done in 0.262355 secs using 296.1% CPU
+Optimizing NNI: done in 0.207504 secs using 297.6% CPU
+Optimizing NNI: done in 0.2793 secs using 298.1% CPU
+Optimizing NNI: done in 0.228018 secs using 296.5% CPU
+Optimizing NNI: done in 0.261578 secs using 296.4% CPU
+Optimizing NNI: done in 0.308025 secs using 297% CPU
+Iteration 60 / LogL: -10655.825 / Time: 0h:0m:18s (0h:0m:21s left)
+Optimizing NNI: done in 0.205762 secs using 298.1% CPU
+Optimizing NNI: done in 0.189733 secs using 297.9% CPU
+Optimizing NNI: done in 0.277246 secs using 295.7% CPU
+Optimizing NNI: done in 0.240575 secs using 296.2% CPU
+Optimizing NNI: done in 0.260036 secs using 296.8% CPU
+Optimizing NNI: done in 0.271207 secs using 294% CPU
+Optimizing NNI: done in 0.219402 secs using 295.9% CPU
+Optimizing NNI: done in 0.255335 secs using 295.6% CPU
+Optimizing NNI: done in 0.260743 secs using 297.5% CPU
+Optimizing NNI: done in 0.268699 secs using 298.3% CPU
+Iteration 70 / LogL: -10642.744 / Time: 0h:0m:20s (0h:0m:17s left)
+Optimizing NNI: done in 0.227668 secs using 297.1% CPU
+Optimizing NNI: done in 0.25571 secs using 297.1% CPU
+Optimizing NNI: done in 0.302093 secs using 296.5% CPU
+Optimizing NNI: done in 0.206992 secs using 294.7% CPU
+Optimizing NNI: done in 0.346464 secs using 295.2% CPU
+Optimizing NNI: done in 0.214202 secs using 298.6% CPU
+Optimizing NNI: done in 0.288086 secs using 298% CPU
+Optimizing NNI: done in 0.256784 secs using 296.9% CPU
+Optimizing NNI: done in 0.307679 secs using 295.8% CPU
+Optimizing NNI: done in 0.226648 secs using 297.6% CPU
+Iteration 80 / LogL: -10644.532 / Time: 0h:0m:23s (0h:0m:14s left)
+Optimizing NNI: done in 0.242326 secs using 296.5% CPU
+Optimizing NNI: done in 0.337556 secs using 294.6% CPU
+Optimizing NNI: done in 0.245171 secs using 297% CPU
+Optimizing NNI: done in 0.245596 secs using 298% CPU
+Optimizing NNI: done in 0.266031 secs using 298.6% CPU
+Optimizing NNI: done in 0.176052 secs using 297.8% CPU
+Optimizing NNI: done in 0.300923 secs using 296.4% CPU
+Optimizing NNI: done in 0.31653 secs using 295.5% CPU
+Optimizing NNI: done in 0.275122 secs using 295.8% CPU
+Optimizing NNI: done in 0.235119 secs using 296.1% CPU
+Iteration 90 / LogL: -10644.763 / Time: 0h:0m:26s (0h:0m:11s left)
+Optimizing NNI: done in 0.292299 secs using 296.7% CPU
+Optimizing NNI: done in 0.225277 secs using 296.3% CPU
+Optimizing NNI: done in 0.26535 secs using 298.5% CPU
+Optimizing NNI: done in 0.253973 secs using 295.9% CPU
+Optimizing NNI: done in 0.215916 secs using 297.7% CPU
+Optimizing NNI: done in 0.330224 secs using 298.2% CPU
+Optimizing NNI: done in 0.218445 secs using 297.3% CPU
+Optimizing NNI: done in 0.200481 secs using 297.4% CPU
+Optimizing NNI: done in 0.297164 secs using 295.3% CPU
+Optimizing NNI: done in 0.268664 secs using 296.8% CPU
+Iteration 100 / LogL: -10643.858 / Time: 0h:0m:28s (0h:0m:8s left)
+Log-likelihood cutoff on original alignment: -10677.312
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Optimizing NNI: done in 0.231566 secs using 296.6% CPU
+Optimizing NNI: done in 0.292537 secs using 295.7% CPU
+Optimizing NNI: done in 0.213276 secs using 296.3% CPU
+Optimizing NNI: done in 0.228039 secs using 297.2% CPU
+Optimizing NNI: done in 0.223957 secs using 294% CPU
+Optimizing NNI: done in 0.233975 secs using 298.2% CPU
+Optimizing NNI: done in 0.214884 secs using 296.7% CPU
+Optimizing NNI: done in 0.232418 secs using 294.8% CPU
+Optimizing NNI: done in 0.252686 secs using 297.9% CPU
+Optimizing NNI: done in 0.306762 secs using 298% CPU
+Iteration 110 / LogL: -10642.782 / Time: 0h:0m:31s (0h:0m:26s left)
+Optimizing NNI: done in 0.25405 secs using 294.4% CPU
+Optimizing NNI: done in 0.184107 secs using 295.8% CPU
+Optimizing NNI: done in 0.276741 secs using 296.2% CPU
+Optimizing NNI: done in 0.261376 secs using 294.1% CPU
+Optimizing NNI: done in 0.23121 secs using 293.8% CPU
+Optimizing NNI: done in 0.231908 secs using 296.1% CPU
+Optimizing NNI: done in 0.258111 secs using 298.3% CPU
+Optimizing NNI: done in 0.229755 secs using 294.8% CPU
+Optimizing NNI: done in 0.296079 secs using 296% CPU
+Optimizing NNI: done in 0.299796 secs using 297.1% CPU
+Iteration 120 / LogL: -10645.548 / Time: 0h:0m:34s (0h:0m:22s left)
+Optimizing NNI: done in 0.219689 secs using 296.8% CPU
+Optimizing NNI: done in 0.259822 secs using 298.7% CPU
+Optimizing NNI: done in 0.195709 secs using 298.1% CPU
+Optimizing NNI: done in 0.26313 secs using 296.4% CPU
+Optimizing NNI: done in 0.21878 secs using 298.5% CPU
+Optimizing NNI: done in 0.275025 secs using 295.8% CPU
+Optimizing NNI: done in 0.274162 secs using 295.4% CPU
+Optimizing NNI: done in 0.235026 secs using 295.7% CPU
+Optimizing NNI: done in 0.295362 secs using 297% CPU
+TREE SEARCH COMPLETED AFTER 129 ITERATIONS / Time: 0h:0m:36s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -10642.702
+2. Current log-likelihood: -10642.643
+3. Current log-likelihood: -10642.617
+4. Current log-likelihood: -10642.598
+5. Current log-likelihood: -10642.579
+6. Current log-likelihood: -10642.560
+7. Current log-likelihood: -10642.541
+8. Current log-likelihood: -10642.521
+9. Current log-likelihood: -10642.500
+10. Current log-likelihood: -10642.479
+11. Current log-likelihood: -10642.456
+12. Current log-likelihood: -10642.432
+13. Current log-likelihood: -10642.407
+14. Current log-likelihood: -10642.381
+15. Current log-likelihood: -10642.354
+16. Current log-likelihood: -10642.325
+17. Current log-likelihood: -10642.294
+18. Current log-likelihood: -10642.262
+19. Current log-likelihood: -10642.228
+20. Current log-likelihood: -10642.194
+21. Current log-likelihood: -10642.157
+22. Current log-likelihood: -10642.120
+23. Current log-likelihood: -10642.082
+24. Current log-likelihood: -10642.043
+25. Current log-likelihood: -10642.004
+26. Current log-likelihood: -10641.966
+27. Current log-likelihood: -10641.929
+28. Current log-likelihood: -10641.894
+29. Current log-likelihood: -10641.862
+30. Current log-likelihood: -10641.832
+31. Current log-likelihood: -10641.806
+32. Current log-likelihood: -10641.783
+33. Current log-likelihood: -10641.764
+34. Current log-likelihood: -10641.748
+35. Current log-likelihood: -10641.734
+36. Current log-likelihood: -10641.724
+Optimal log-likelihood: -10641.715
+Rate parameters:  A-C: 1.98029  A-G: 3.14219  A-T: 1.98029  C-G: 1.00000  C-T: 6.05224  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.528,0.071) (0.000,0.171) (0.172,0.745) (0.096,1.818) (0.204,3.233)
+Parameters optimization took 36 rounds (3.321 sec)
+BEST SCORE FOUND : -10641.715
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.410 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file Mojave2020.Exophiala.fasaln.clipkit.splits.nex
+Total tree length: 15.822
+
+Total number of iterations: 129
+CPU time used for tree search: 104.855 sec (0h:1m:44s)
+Wall-clock time used for tree search: 35.989 sec (0h:0m:35s)
+Total CPU time used: 118.194 sec (0h:1m:58s)
+Total wall-clock time used: 40.466 sec (0h:0m:40s)
+
+Computing bootstrap consensus tree...
+Reading input file Mojave2020.Exophiala.fasaln.clipkit.splits.nex...
+78 taxa and 458 splits.
+Consensus tree written to Mojave2020.Exophiala.fasaln.clipkit.contree
+Reading input trees file Mojave2020.Exophiala.fasaln.clipkit.contree
+Log-likelihood of consensus tree: -10641.723
+
+Analysis results written to: 
+  IQ-TREE report:                Mojave2020.Exophiala.fasaln.clipkit.iqtree
+  Maximum-likelihood tree:       Mojave2020.Exophiala.fasaln.clipkit.treefile
+  Likelihood distances:          Mojave2020.Exophiala.fasaln.clipkit.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Mojave2020.Exophiala.fasaln.clipkit.splits.nex
+  Consensus tree:                Mojave2020.Exophiala.fasaln.clipkit.contree
+  Screen log file:               Mojave2020.Exophiala.fasaln.clipkit.log
+
+Date and Time: Wed Nov 15 23:40:49 2023
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Linux 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    i04 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -nt AUTO -s Mojave2020.Exophiala.muscle.fasaln.clipkit -alrt 1000 -bb 1000 -m MFP
+Seed:    150754 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Nov 15 23:40:49 2023
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file Mojave2020.Exophiala.muscle.fasaln.clipkit ... Fasta format detected
+Reading fasta file: done in 0.00109792 secs using 98% CPU
+NOTE: Change sequence name 'NR_171982.1 Exophiala embothrii CBS 146558 ITS region; from TYPE material' -> NR_171982.1_Exophiala
+NOTE: Change sequence name 'NR_121460.1 Exophiala castellanii CBS 158.58 ITS region; from TYPE material' -> NR_121460.1_Exophiala
+NOTE: Change sequence name 'NR_111628.1 Exophiala halophila CBS 121512 ITS region; from TYPE material' -> NR_111628.1_Exophiala
+NOTE: Change sequence name 'NR_111624.1 Exophiala alcalophila CBS 520.82 ITS region; from TYPE material' -> NR_111624.1_Exophiala
+NOTE: Change sequence name 'NR_121461.1 Exophiala mesophila CBS 402.95 ITS region; from TYPE material' -> NR_121461.1_Exophiala
+NOTE: Change sequence name 'NR_111332.1 Exophiala asiatica CBS 122847 ITS region; from TYPE material' -> NR_111332.1_Exophiala
+NOTE: Change sequence name 'NR_111671.2 Exophiala hongkongensis HKU 32 ITS region; from TYPE material' -> NR_111671.2_Exophiala
+NOTE: Change sequence name 'NR_111134.1 Exophiala oligosperma CBS 725.88 ITS region; from TYPE material' -> NR_111134.1_Exophiala
+NOTE: Change sequence name 'NR_145351.1 Exophiala lecanii-corni CBS 123.33 ITS region; from TYPE material' -> NR_145351.1_Exophiala
+NOTE: Change sequence name 'NR_121269.1 Exophiala pisciphila CBS 537.73 ITS region; from TYPE material' -> NR_121269.1_Exophiala
+NOTE: Change sequence name 'NR_172236.1 Exophiala clavispora CGMCC 3.17517 ITS region; from TYPE material' -> NR_172236.1_Exophiala
+NOTE: Change sequence name 'NR_121268.1 Exophiala dermatitidis CBS 207.35 ITS region; from TYPE material' -> NR_121268.1_Exophiala
+NOTE: Change sequence name 'NR_111203.1 Exophiala xenobiotica CBS 118157 ITS region; from TYPE material' -> NR_111203.1_Exophiala
+NOTE: Change sequence name 'NR_184987.1 Exophiala saxicola CMU 415 ITS region; from TYPE material' -> NR_184987.1_Exophiala
+NOTE: Change sequence name 'NR_172238.1 Exophiala ellipsoidea CGMCC 3.17348 ITS region; from TYPE material' -> NR_172238.1_Exophiala
+NOTE: Change sequence name 'NR_184988.1 Exophiala siamensis CMU 417 ITS region; from TYPE material' -> NR_184988.1_Exophiala
+NOTE: Change sequence name 'NR_111625.1 Exophiala angulospora CBS 482.92 ITS region; from TYPE material' -> NR_111625.1_Exophiala
+NOTE: Change sequence name 'NR_145371.1 Exophiala psychrophila CBS 191.87 ITS region; from TYPE material' -> NR_145371.1_Exophiala
+NOTE: Change sequence name 'NR_163357.1 Exophiala abietophila ITS region; from TYPE material' -> NR_163357.1_Exophiala
+NOTE: Change sequence name 'Exophiala Nrtsticola (KHK47)' -> Exophiala_Nrtsticola
+NOTE: Change sequence name 'NR_158438.1 Exophiala eucalypticola ITS region; from TYPE material' -> NR_158438.1_Exophiala
+NOTE: Change sequence name 'NR_111627.1 Exophiala equina CBS 119.23 ITS region; from TYPE material' -> NR_111627.1_Exophiala
+NOTE: Change sequence name 'NR_184364.1 Exophiala eucalyptigena CBS 148273 ITS region; from TYPE material' -> NR_184364.1_Exophiala
+NOTE: Change sequence name 'NR_161045.1 Exophiala nidicola FMR 3889 ITS region; from TYPE material' -> NR_161045.1_Exophiala
+NOTE: Change sequence name 'NR_111130.1 Exophiala exophialae CBS 668.76 ITS region; from TYPE material' -> NR_111130.1_Exophiala
+NOTE: Change sequence name 'NR_158397.1 Exophiala radicis CBS 140402 ITS region; from TYPE material' -> NR_158397.1_Exophiala
+NOTE: Change sequence name 'NR_111553.1 Exophiala sideris CBS 121818 ITS region; from TYPE material' -> NR_111553.1_Exophiala
+NOTE: Change sequence name 'NR_165997.1 Exophiala bergeri CBS 353.52 ITS region; from TYPE material' -> NR_165997.1_Exophiala
+NOTE: Change sequence name 'NR_121493.1 Exophiala capensis CBS 128771 ITS region; from TYPE material' -> NR_121493.1_Exophiala
+NOTE: Change sequence name 'NR_171990.1 Exophiala prostantherae CBS 146794 ITS region; from TYPE material' -> NR_171990.1_Exophiala
+NOTE: Change sequence name 'NR_111448.1 Exophiala moniliae CBS 520.76 ITS region; from TYPE material' -> NR_111448.1_Exophiala
+NOTE: Change sequence name 'NR_154906.1 Exophiala opportunistica CBS 109811 ITS region; from TYPE material' -> NR_154906.1_Exophiala
+NOTE: Change sequence name 'NR_170053.1 Exophiala quercina CPC 33408 ITS region; from TYPE material' -> NR_170053.1_Exophiala
+NOTE: Change sequence name 'NR_172237.1 Exophiala nagquensis CGMCC 3.17333 ITS region; from TYPE material' -> NR_172237.1_Exophiala
+NOTE: Change sequence name 'NR_163358.1 Exophiala lignicola ITS region; from TYPE material' -> NR_163358.1_Exophiala
+NOTE: Change sequence name 'NR_137766.1 Exophiala cancerae CBS 120420 ITS region; from TYPE material' -> NR_137766.1_Exophiala
+NOTE: Change sequence name 'NR_174648.1 Exophiala spartinae CBS 147266 ITS region; from TYPE material' -> NR_174648.1_Exophiala
+NOTE: Change sequence name 'Exophiala Nigra (KHK9)' -> Exophiala_Nigra
+NOTE: Change sequence name 'NR_184985.1 Exophiala lamphunensis CMU 404 ITS region; from TYPE material' -> NR_184985.1_Exophiala
+NOTE: Change sequence name 'NR_121270.1 Exophiala salmonis CBS 157.67 ITS region; from TYPE material' -> NR_121270.1_Exophiala
+NOTE: Change sequence name 'NR_111626.1 Exophiala aquamarina CBS 119918 ITS region; from TYPE material' -> NR_111626.1_Exophiala
+NOTE: Change sequence name 'NR_184986.1 Exophiala lapidea CMU 409 ITS region; from TYPE material' -> NR_184986.1_Exophiala
+NOTE: Change sequence name 'NR_111184.1 Exophiala heteromorpha CBS 232.33 ITS region; from TYPE material' -> NR_111184.1_Exophiala
+NOTE: Change sequence name 'NR_171988.1 Exophiala mali CBS 146791 ITS region; from TYPE material' -> NR_171988.1_Exophiala
+NOTE: Change sequence name 'NR_132882.1 [Exophiala] eucalyptorum CBS 121638 ITS region; from TYPE material' -> NR_132882.1_[Exophiala]
+NOTE: Change sequence name 'NR_154915.1 Exophiala polymorpha CBS 138920 ITS region; from TYPE material' -> NR_154915.1_Exophiala
+NOTE: Change sequence name 'NR_137092.1 Exophiala nishimurae CBS 101538 ITS region; from TYPE material' -> NR_137092.1_Exophiala
+NOTE: Change sequence name 'NR_111629.1 Exophiala lacus CBS 117497 ITS region; from TYPE material' -> NR_111629.1_Exophiala
+NOTE: Change sequence name 'NR_111131.1 Exophiala spinifera CBS 899.68 ITS region; from TYPE material' -> NR_111131.1_Exophiala
+NOTE: Change sequence name 'NR_111129.1 Exophiala jeanselmei CBS 507.90 ITS region; from TYPE material' -> NR_111129.1_Exophiala
+NOTE: Change sequence name 'NR_154974.1 Exophiala nigra CBS 535.94 ITS region; from TYPE material' -> NR_154974.1_Exophiala
+NOTE: Change sequence name 'NR_144964.1 Exophiala bonariae CBS 139957 ITS region; from TYPE material' -> NR_144964.1_Exophiala
+NOTE: Change sequence name 'NR_159867.1 Exophiala crusticola CBS 119970 ITS region; from TYPE material' -> NR_159867.1_Exophiala
+NOTE: Change sequence name 'NR_158414.1 Exophiala palmae UPCB 86822 ITS region; from TYPE material' -> NR_158414.1_Exophiala
+NOTE: Change sequence name 'NR_159874.1 Exophiala tremulae CBS 129355 ITS region; from TYPE material' -> NR_159874.1_Exophiala
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00177717 secs using 518.9% CPU
+Alignment has 78 sequences with 834 columns, 602 distinct patterns
+455 parsimony-informative, 147 singleton sites, 232 constant sites
+WARNING: Some sequence names are changed as follows:
+NR_132882.1_[Exophiala] -> NR_132882.1__Exophiala_
+
+                         Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.69685e-05 secs using 374.7% CPU
+   1  NR_171982.1_Exophiala     34.53%    passed     83.05%
+   2  ASV3022.26                70.02%    passed     88.21%
+   3  ASV459.150                70.14%    passed     74.80%
+   4  NR_121460.1_Exophiala     23.26%    passed     35.63%
+   5  ASV27616.4                70.02%    passed     99.16%
+   6  NR_111628.1_Exophiala     31.18%    passed     27.33%
+   7  NR_111624.1_Exophiala     32.49%    passed     50.55%
+   8  NR_121461.1_Exophiala     23.02%    passed     65.88%
+   9  NR_111332.1_Exophiala     31.29%    passed     63.48%
+  10  ASV30273.3                70.98%    passed     78.06%
+  11  ASV16426.14               70.14%    passed     83.59%
+  12  ASV31965.0                70.14%    passed     73.29%
+  13  NR_111671.2_Exophiala     30.10%    passed     86.64%
+  14  NR_111134.1_Exophiala     33.33%    passed     98.97%
+  15  NR_145351.1_Exophiala     31.41%    passed     79.61%
+  16  ASV237.3307               70.50%    passed     83.33%
+  17  NR_121269.1_Exophiala     21.70%    passed     81.48%
+  18  NR_172236.1_Exophiala     43.29%    passed     99.43%
+  19  ASV2759.143               70.14%    passed     82.30%
+  20  NR_121268.1_Exophiala     19.54%    passed     80.84%
+  21  NR_111203.1_Exophiala     35.73%    passed     45.68%
+  22  NR_184987.1_Exophiala     26.50%    passed     54.87%
+  23  NR_172238.1_Exophiala     44.60%    passed     48.48%
+  24  ASV19090.18               70.26%    passed     95.02%
+  25  NR_184988.1_Exophiala     25.66%    passed     93.45%
+  26  NR_111625.1_Exophiala     34.77%    passed     72.24%
+  27  NR_145371.1_Exophiala     33.45%    passed     85.30%
+  28  ASV26055.0                72.42%    passed     22.26%
+  29  ASV29522.0                70.02%    passed     59.54%
+  30  ASV17684.25               70.26%    passed     97.49%
+  31  NR_163357.1_Exophiala     27.70%    passed     76.61%
+  32  Exophiala_Nrtsticola      37.65%    passed      7.93%
+  33  ASV18950.0                70.14%    passed     73.25%
+  34  NR_158438.1_Exophiala     22.90%    passed     79.67%
+  35  NR_111627.1_Exophiala     33.45%    passed     93.43%
+  36  NR_184364.1_Exophiala     25.66%    passed     94.72%
+  37  NR_161045.1_Exophiala     32.01%    passed     77.00%
+  38  NR_111130.1_Exophiala     35.49%    passed     83.07%
+  39  ASV28786.3                70.02%    passed     99.69%
+  40  NR_158397.1_Exophiala     29.86%    passed     93.44%
+  41  NR_111553.1_Exophiala     33.93%    passed     98.88%
+  42  NR_165997.1_Exophiala     25.18%    passed     91.31%
+  43  ASV30148.23               70.02%    passed     30.74%
+  44  NR_121493.1_Exophiala     21.94%    passed     90.88%
+  45  ASV11884.4                71.94%    passed     67.46%
+  46  ASV27487.4                70.26%    passed     93.99%
+  47  ASV31174.1                70.02%    passed     81.07%
+  48  NR_171990.1_Exophiala     21.58%    passed     87.58%
+  49  NR_111448.1_Exophiala     32.37%    passed     98.95%
+  50  ASV14055.2                70.14%    passed     82.73%
+  51  NR_154906.1_Exophiala     32.01%    passed     93.60%
+  52  NR_170053.1_Exophiala     24.70%    passed     95.87%
+  53  NR_172237.1_Exophiala     43.53%    passed     49.42%
+  54  NR_163358.1_Exophiala     27.82%    passed     73.16%
+  55  NR_137766.1_Exophiala     25.18%    passed     90.00%
+  56  NR_174648.1_Exophiala     17.27%    passed     26.25%
+  57  Exophiala_Nigra           37.29%    passed      9.87%
+  58  NR_184985.1_Exophiala     24.70%    passed     37.14%
+  59  ASV24213.3                71.94%    passed     58.11%
+  60  NR_121270.1_Exophiala     11.75%    passed     53.83%
+  61  NR_111626.1_Exophiala     33.09%    passed     96.73%
+  62  NR_184986.1_Exophiala     26.14%    passed     70.66%
+  63  NR_111184.1_Exophiala     33.09%    passed     63.00%
+  64  NR_171988.1_Exophiala     20.62%    passed     99.20%
+  65  NR_132882.1__Exophiala_   37.89%    passed     58.88%
+  66  ASV26915.37               70.02%    passed     77.21%
+  67  NR_154915.1_Exophiala     24.82%    passed     93.09%
+  68  ASV418.1989               70.14%    passed     76.89%
+  69  NR_137092.1_Exophiala     29.62%    passed     65.51%
+  70  NR_111629.1_Exophiala     33.45%    passed     88.13%
+  71  NR_111131.1_Exophiala     35.37%    passed     79.71%
+  72  NR_111129.1_Exophiala     28.06%    passed     99.92%
+  73  NR_154974.1_Exophiala     30.70%    passed     90.35%
+  74  NR_144964.1_Exophiala     30.22%    passed     91.08%
+  75  NR_159867.1_Exophiala     34.05%    passed     87.00%
+  76  NR_158414.1_Exophiala     38.85%    passed     74.71%
+  77  ASV2307.1807              70.02%    passed     84.41%
+  78  NR_159874.1_Exophiala     24.70%    passed     97.29%
+WARNING: 23 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                     41.80%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 0.000438213 secs using 504.1% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.015 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+88 trees examined
+Threads: 1 / Time: 8.067 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -17092
+Threads: 2 / Time: 6.289 sec / Speedup: 1.283 / Efficiency: 64% / LogL: -17092
+Threads: 3 / Time: 5.496 sec / Speedup: 1.468 / Efficiency: 49% / LogL: -17092
+Determining AUTO threadcount: done in 19.8538 secs using 192.3% CPU
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.0990329 secs using 199.1% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -11111.081
+Optimal log-likelihood: -11110.240
+Rate parameters:  A-C: 2.62901  A-G: 3.25116  A-T: 3.28283  C-G: 1.51804  C-T: 6.21755  G-T: 1.00000
+Base frequencies:  A: 0.234  C: 0.283  G: 0.242  T: 0.241
+Proportion of invariable sites: 0.083
+Gamma shape alpha: 0.521
+Parameters optimization took 1 rounds (0.027 sec)
+Time for fast ML tree search: 0.357 seconds
+
+NOTE: ModelFinder requires 17 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 834) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         12351.217    161 25024.434    25102.059    25785.358
+  2  GTR+F+I       11975.316    162 24274.632    24353.338    25040.281
+  3  GTR+F+G4      11108.560    162 22541.121    22619.827    23306.770
+  4  GTR+F+I+G4    11107.760    163 22541.520    22621.317    23311.896
+  5  GTR+F+R2      11203.258    163 22732.516    22812.313    23502.892
+  6  GTR+F+R3      11104.573    165 22539.145    22621.151    23318.974
+  7  GTR+F+R4      11091.358    167 22516.717    22600.969    23305.998
+  8  GTR+F+R5      11087.320    169 22512.641    22599.177    23311.374
+ 14  GTR+F+I+R2    11147.340    164 22622.681    22703.577    23397.783
+ 15  GTR+F+I+R3    11105.687    166 22543.374    22626.498    23327.929
+ 16  GTR+F+I+R4    11091.231    168 22518.462    22603.852    23312.470
+ 17  GTR+F+I+R5    11085.302    170 22510.603    22598.296    23314.063
+ 25  SYM+G4        11107.393    159 22532.785    22608.275    23284.256
+ 26  SYM+I+G4      11106.517    160 22533.033    22609.586    23289.231
+ 29  SYM+R4        11089.889    164 22507.778    22588.674    23282.880
+ 30  SYM+R5        11088.591    166 22509.181    22592.305    23293.736
+ 38  SYM+I+R4      11091.445    165 22512.890    22594.896    23292.718
+ 39  SYM+I+R5      11086.045    167 22506.089    22590.341    23295.370
+ 47  TVM+F+G4      11138.486    161 22598.972    22676.597    23359.896
+ 48  TVM+F+I+G4    11137.837    162 22599.674    22678.380    23365.324
+ 51  TVM+F+R4      11112.807    166 22557.615    22640.739    23342.170
+ 52  TVM+F+R5      11112.486    168 22560.972    22646.361    23354.979
+ 60  TVM+F+I+R4    11119.398    167 22572.797    22657.049    23362.078
+ 61  TVM+F+I+R5    11112.000    169 22562.001    22648.537    23360.734
+ 69  TVMe+G4       11150.136    158 22616.272    22690.708    23363.017
+ 70  TVMe+I+G4     11149.372    159 22616.745    22692.234    23368.216
+ 73  TVMe+R4       11125.821    163 22577.643    22657.440    23348.019
+ 74  TVMe+R5       11125.707    165 22581.415    22663.421    23361.243
+ 82  TVMe+I+R4     11131.875    164 22591.751    22672.648    23366.853
+ 83  TVMe+I+R5     11125.027    166 22582.054    22665.179    23366.609
+ 91  TIM3+F+G4     11166.049    160 22652.097    22728.650    23408.295
+ 92  TIM3+F+I+G4   11165.360    161 22652.720    22730.345    23413.644
+ 95  TIM3+F+R4     11140.483    165 22610.967    22692.973    23390.795
+ 96  TIM3+F+R5     11137.651    167 22609.301    22693.554    23398.582
+104  TIM3+F+I+R4   11148.244    166 22628.489    22711.613    23413.044
+105  TIM3+F+I+R5   11141.225    168 22618.449    22703.839    23412.457
+113  TIM3e+G4      11161.823    157 22637.647    22711.037    23379.665
+114  TIM3e+I+G4    11161.015    158 22638.029    22712.465    23384.774
+117  TIM3e+R4      11138.984    162 22601.968    22680.675    23367.618
+118  TIM3e+R5      11135.814    164 22599.628    22680.525    23374.730
+126  TIM3e+I+R4    11145.628    163 22617.255    22697.052    23387.631
+127  TIM3e+I+R5    11138.897    165 22607.795    22689.801    23387.623
+135  TIM2+F+G4     11114.140    160 22548.280    22624.833    23304.478
+136  TIM2+F+I+G4   11113.422    161 22548.844    22626.469    23309.768
+139  TIM2+F+R4     11093.146    165 22516.292    22598.298    23296.121
+140  TIM2+F+R5     11093.221    167 22520.441    22604.693    23309.722
+148  TIM2+F+I+R4   11097.386    166 22526.771    22609.896    23311.326
+149  TIM2+F+I+R5   11091.323    168 22518.647    22604.036    23312.654
+157  TIM2e+G4      11114.117    157 22542.235    22615.625    23284.253
+158  TIM2e+I+G4    11113.325    158 22542.650    22617.086    23289.395
+161  TIM2e+R4      11095.075    162 22514.150    22592.857    23279.800
+162  TIM2e+R5      11094.933    164 22517.865    22598.762    23292.967
+170  TIM2e+I+R4    11098.417    163 22522.833    22602.630    23293.209
+171  TIM2e+I+R5    11092.747    165 22515.493    22597.499    23295.322
+179  TIM+F+G4      11162.965    160 22645.930    22722.483    23402.128
+180  TIM+F+I+G4    11162.191    161 22646.381    22724.006    23407.305
+183  TIM+F+R4      11136.792    165 22603.585    22685.590    23383.413
+184  TIM+F+R5      11134.377    167 22602.754    22687.006    23392.035
+192  TIM+F+I+R4    11144.872    166 22621.744    22704.868    23406.299
+193  TIM+F+I+R5    11137.835    168 22611.670    22697.060    23405.677
+201  TIMe+G4       11160.382    157 22634.764    22708.154    23376.782
+202  TIMe+I+G4     11159.590    158 22635.179    22709.615    23381.924
+205  TIMe+R4       11136.426    162 22596.852    22675.558    23362.502
+206  TIMe+R5       11133.828    164 22595.656    22676.552    23370.758
+214  TIMe+I+R4     11143.818    163 22613.635    22693.432    23384.012
+215  TIMe+I+R5     11136.824    165 22603.647    22685.653    23383.476
+223  TPM3u+F+G4    11195.084    159 22708.168    22783.657    23459.639
+224  TPM3u+F+I+G4  11194.414    160 22708.827    22785.380    23465.024
+227  TPM3u+F+R4    11164.663    164 22657.325    22738.222    23432.428
+228  TPM3u+F+R5    11163.881    166 22659.761    22742.886    23444.316
+236  TPM3u+F+I+R4  11174.550    165 22679.100    22761.106    23458.928
+237  TPM3u+F+I+R5  11167.240    167 22668.479    22752.732    23457.760
+245  TPM3+G4       11203.149    156 22718.298    22790.652    23455.590
+246  TPM3+I+G4     11202.382    157 22718.764    22792.154    23460.782
+249  TPM3+R4       11174.533    161 22671.066    22748.691    23431.989
+250  TPM3+R5       11173.963    163 22673.927    22753.724    23444.303
+258  TPM3+I+R4     11184.838    162 22693.676    22772.382    23459.325
+259  TPM3+I+R5     11176.761    164 22681.521    22762.418    23456.624
+267  TPM2u+F+G4    11144.138    159 22606.276    22681.766    23357.747
+268  TPM2u+F+I+G4  11143.475    160 22606.950    22683.502    23363.147
+271  TPM2u+F+R4    11118.256    164 22564.511    22645.408    23339.613
+272  TPM2u+F+R5    11118.266    166 22568.533    22651.657    23353.087
+280  TPM2u+F+I+R4  11125.480    165 22580.959    22662.965    23360.788
+281  TPM2u+F+I+R5  11118.010    167 22570.020    22654.272    23359.301
+289  TPM2+G4       11157.060    156 22626.120    22698.474    23363.412
+290  TPM2+I+G4     11156.294    157 22626.587    22699.978    23368.606
+293  TPM2+R4       11131.699    161 22585.398    22663.023    23346.322
+294  TPM2+R5       11128.598    163 22583.195    22662.992    23353.571
+302  TPM2+I+R4     11138.809    162 22601.617    22680.324    23367.267
+303  TPM2+I+R5     11131.591    164 22591.183    22672.080    23366.285
+311  K3Pu+F+G4     11191.750    159 22701.501    22776.991    23452.972
+312  K3Pu+F+I+G4   11191.076    160 22702.153    22778.706    23458.350
+315  K3Pu+F+R4     11161.191    164 22650.381    22731.278    23425.483
+316  K3Pu+F+R5     11160.423    166 22652.845    22735.970    23437.400
+324  K3Pu+F+I+R4   11170.946    165 22671.892    22753.898    23451.721
+325  K3Pu+F+I+R5   11163.658    167 22661.317    22745.569    23450.598
+333  K3P+G4        11201.738    156 22715.475    22787.830    23452.767
+334  K3P+I+G4      11200.998    157 22715.996    22789.387    23458.015
+337  K3P+R4        11172.292    161 22666.584    22744.209    23427.507
+338  K3P+R5        11171.551    163 22669.103    22748.900    23439.479
+346  K3P+I+R4      11182.437    162 22688.873    22767.580    23454.523
+347  K3P+I+R5      11174.553    164 22677.106    22758.003    23452.209
+355  TN+F+G4       11166.054    159 22650.107    22725.597    23401.578
+356  TN+F+I+G4     11165.364    160 22650.729    22727.282    23406.926
+359  TN+F+R4       11140.192    164 22608.384    22689.281    23383.486
+360  TN+F+R5       11137.661    166 22607.322    22690.446    23391.877
+368  TN+F+I+R4     11148.335    165 22626.670    22708.676    23406.499
+369  TN+F+I+R5     11141.263    167 22616.525    22700.777    23405.806
+377  TNe+G4        11163.142    156 22638.284    22710.639    23375.577
+378  TNe+I+G4      11162.341    157 22638.683    22712.073    23380.701
+381  TNe+R4        11139.414    161 22600.828    22678.453    23361.752
+382  TNe+R5        11136.732    163 22599.464    22679.261    23369.841
+390  TNe+I+R4      11146.890    162 22617.780    22696.487    23383.430
+391  TNe+I+R5      11139.890    164 22607.781    22688.678    23382.883
+399  HKY+F+G4      11195.085    158 22706.170    22780.606    23452.915
+400  HKY+F+I+G4    11194.413    159 22706.825    22782.315    23458.296
+403  HKY+F+R4      11164.718    163 22655.435    22735.232    23425.811
+404  HKY+F+R5      11163.951    165 22657.902    22739.908    23437.730
+412  HKY+F+I+R4    11174.671    164 22677.342    22758.239    23452.445
+413  HKY+F+I+R5    11167.272    166 22666.544    22749.669    23451.099
+421  K2P+G4        11204.599    155 22719.198    22790.525    23451.764
+422  K2P+I+G4      11203.855    156 22719.711    22792.065    23457.003
+425  K2P+R4        11175.285    160 22670.571    22747.124    23426.768
+426  K2P+R5        11174.627    162 22673.254    22751.960    23438.904
+434  K2P+I+R4      11185.607    161 22693.214    22770.839    23454.137
+435  K2P+I+R5      11177.665    163 22681.329    22761.126    23451.705
+443  F81+F+G4      11331.595    157 22977.190    23050.581    23719.209
+444  F81+F+I+G4    11331.514    158 22979.027    23053.463    23725.772
+447  F81+F+R4      11299.504    162 22923.009    23001.715    23688.659
+448  F81+F+R5      11297.848    164 22923.696    23004.592    23698.798
+456  F81+F+I+R4    11305.274    163 22936.548    23016.345    23706.924
+457  F81+F+I+R5    11301.251    165 22932.502    23014.508    23712.331
+465  JC+G4         11346.343    154 23000.687    23070.996    23728.527
+466  JC+I+G4       11346.146    155 23002.292    23073.620    23734.859
+469  JC+R4         11315.633    159 22949.267    23024.756    23700.738
+470  JC+R5         11314.261    161 22950.522    23028.147    23711.446
+478  JC+I+R4       11321.057    160 22962.113    23038.666    23718.311
+479  JC+I+R5       11317.360    162 22958.720    23037.427    23724.370
+Akaike Information Criterion:           SYM+I+R5
+Corrected Akaike Information Criterion: SYM+R4
+Bayesian Information Criterion:         TIM2e+R4
+Best-fit model: TIM2e+R4 chosen according to BIC
+
+All model information printed to Mojave2020.Exophiala.muscle.fasaln.clipkit.model.gz
+CPU time for ModelFinder: 346.565 seconds (0h:5m:46s)
+Wall-clock time for ModelFinder: 175.418 seconds (0h:2m:55s)
+Generating 1000 samples for ultrafast bootstrap (seed: 150754)...
+
+NOTE: 8 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -11095.075
+2. Current log-likelihood: -11094.813
+3. Current log-likelihood: -11094.683
+Optimal log-likelihood: -11094.630
+Rate parameters:  A-C: 2.11455  A-G: 2.33834  A-T: 2.11455  C-G: 1.00000  C-T: 4.81112  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.552,0.089) (0.025,0.442) (0.189,0.976) (0.234,3.232)
+Parameters optimization took 3 rounds (0.229 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0130451 secs using 199.9% CPU
+Computing ML distances took 0.013214 sec (of wall-clock time) 0.026264 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000154972 secs using 208.4% CPU
+Constructing RapidNJ tree: done in 0.00111079 secs using 211.7% CPU
+Computing RapidNJ tree took 0.001335 sec (of wall-clock time) 0.002853 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -11295.568
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.939 second
+Computing log-likelihood of 98 initial trees ... 0.850 seconds
+Current best score: -11094.630
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.0694079 secs using 195.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -11094.349
+Optimizing NNI: done in 0.285315 secs using 197.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -11090.862
+Optimizing NNI: done in 0.2492 secs using 199.4% CPU
+Optimizing NNI: done in 0.267549 secs using 197.4% CPU
+Optimizing NNI: done in 0.424579 secs using 198.9% CPU
+Optimizing NNI: done in 0.250853 secs using 196.9% CPU
+Optimizing NNI: done in 0.208329 secs using 197.9% CPU
+Optimizing NNI: done in 0.429571 secs using 197.5% CPU
+Optimizing NNI: done in 0.225131 secs using 197.6% CPU
+Optimizing NNI: done in 0.403015 secs using 196.8% CPU
+Iteration 10 / LogL: -11091.775 / Time: 0h:0m:5s
+Optimizing NNI: done in 0.451723 secs using 198% CPU
+Optimizing NNI: done in 0.226965 secs using 195.9% CPU
+Optimizing NNI: done in 0.213801 secs using 198% CPU
+Optimizing NNI: done in 0.222501 secs using 198% CPU
+Optimizing NNI: done in 0.192014 secs using 197.8% CPU
+Optimizing NNI: done in 0.232147 secs using 198.5% CPU
+Optimizing NNI: done in 0.233428 secs using 197.2% CPU
+Optimizing NNI: done in 0.21351 secs using 197.4% CPU
+Optimizing NNI: done in 0.19444 secs using 197.3% CPU
+Optimizing NNI: done in 0.230832 secs using 197.5% CPU
+Iteration 20 / LogL: -11102.394 / Time: 0h:0m:7s
+Finish initializing candidate tree set (14)
+Current best tree score: -11090.862 / CPU time: 7.286
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.208401 secs using 199.6% CPU
+Optimizing NNI: done in 0.240776 secs using 197.3% CPU
+Optimizing NNI: done in 0.197271 secs using 197.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -11089.255
+Optimizing NNI: done in 0.234297 secs using 195.5% CPU
+Optimizing NNI: done in 0.219471 secs using 198% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -11089.210
+Optimizing NNI: done in 0.191438 secs using 198.2% CPU
+UPDATE BEST LOG-LIKELIHOOD: -11089.208
+Optimizing NNI: done in 0.200241 secs using 198.8% CPU
+Optimizing NNI: done in 0.270966 secs using 198.3% CPU
+Optimizing NNI: done in 0.28132 secs using 198.3% CPU
+Optimizing NNI: done in 0.288915 secs using 197.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -11088.948
+Iteration 30 / LogL: -11088.948 / Time: 0h:0m:10s (0h:0m:36s left)
+Optimizing NNI: done in 0.172976 secs using 198.7% CPU
+Optimizing NNI: done in 0.186978 secs using 197.2% CPU
+Optimizing NNI: done in 0.221125 secs using 198.4% CPU
+Optimizing NNI: done in 0.210713 secs using 198.9% CPU
+Optimizing NNI: done in 0.226842 secs using 197.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -11088.906
+Optimizing NNI: done in 0.224082 secs using 198.3% CPU
+Optimizing NNI: done in 0.186285 secs using 199.1% CPU
+Optimizing NNI: done in 0.170676 secs using 199.8% CPU
+Optimizing NNI: done in 0.218408 secs using 198.8% CPU
+Optimizing NNI: done in 0.2372 secs using 198.9% CPU
+Iteration 40 / LogL: -11092.132 / Time: 0h:0m:12s (0h:0m:30s left)
+Optimizing NNI: done in 0.227503 secs using 195.4% CPU
+Optimizing NNI: done in 0.222678 secs using 198.9% CPU
+Optimizing NNI: done in 0.250246 secs using 197.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -11088.534
+Optimizing NNI: done in 0.218355 secs using 198% CPU
+Optimizing NNI: done in 0.277092 secs using 198.6% CPU
+Optimizing NNI: done in 0.227083 secs using 199.3% CPU
+Optimizing NNI: done in 0.222847 secs using 198.8% CPU
+Optimizing NNI: done in 0.248988 secs using 197.3% CPU
+Optimizing NNI: done in 0.219208 secs using 198.5% CPU
+Optimizing NNI: done in 0.184083 secs using 198.3% CPU
+Iteration 50 / LogL: -11088.987 / Time: 0h:0m:15s (0h:0m:28s left)
+Log-likelihood cutoff on original alignment: -11136.077
+Optimizing NNI: done in 0.258779 secs using 198.2% CPU
+Optimizing NNI: done in 0.198438 secs using 196.3% CPU
+Optimizing NNI: done in 0.18478 secs using 198.8% CPU
+Optimizing NNI: done in 0.204171 secs using 198.8% CPU
+Optimizing NNI: done in 0.24013 secs using 199.3% CPU
+Optimizing NNI: done in 0.257695 secs using 197.6% CPU
+Optimizing NNI: done in 0.238783 secs using 198% CPU
+Optimizing NNI: done in 0.195585 secs using 197.3% CPU
+Optimizing NNI: done in 0.222727 secs using 198.4% CPU
+Optimizing NNI: done in 0.178493 secs using 196% CPU
+Iteration 60 / LogL: -11099.017 / Time: 0h:0m:17s (0h:0m:24s left)
+Optimizing NNI: done in 0.201891 secs using 198.4% CPU
+Optimizing NNI: done in 0.240029 secs using 197.7% CPU
+Optimizing NNI: done in 0.231274 secs using 198.1% CPU
+Optimizing NNI: done in 0.253261 secs using 198.7% CPU
+Optimizing NNI: done in 0.214438 secs using 197.8% CPU
+Optimizing NNI: done in 0.32401 secs using 197.2% CPU
+Optimizing NNI: done in 0.204241 secs using 196.3% CPU
+Optimizing NNI: done in 0.214768 secs using 197% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 68: -11088.285
+Optimizing NNI: done in 0.211141 secs using 196.1% CPU
+Optimizing NNI: done in 0.21206 secs using 197.9% CPU
+Iteration 70 / LogL: -11088.815 / Time: 0h:0m:20s (0h:0m:28s left)
+Optimizing NNI: done in 0.182811 secs using 197.7% CPU
+Optimizing NNI: done in 0.281164 secs using 197.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 72: -11087.674
+Optimizing NNI: done in 0.259237 secs using 199.3% CPU
+Optimizing NNI: done in 0.170774 secs using 199.2% CPU
+Optimizing NNI: done in 0.21253 secs using 197.9% CPU
+Optimizing NNI: done in 0.393899 secs using 198.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 76: -11086.987
+Optimizing NNI: done in 0.222913 secs using 197.1% CPU
+Optimizing NNI: done in 0.203748 secs using 198.4% CPU
+Optimizing NNI: done in 0.31345 secs using 196.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 79: -11086.874
+Optimizing NNI: done in 0.216482 secs using 198.6% CPU
+Iteration 80 / LogL: -11088.365 / Time: 0h:0m:22s (0h:0m:28s left)
+Optimizing NNI: done in 0.179873 secs using 199.4% CPU
+Optimizing NNI: done in 0.210796 secs using 199.4% CPU
+Optimizing NNI: done in 0.178536 secs using 199% CPU
+Optimizing NNI: done in 0.174171 secs using 199% CPU
+Optimizing NNI: done in 0.231457 secs using 198.7% CPU
+Optimizing NNI: done in 0.255383 secs using 196.8% CPU
+Optimizing NNI: done in 0.162913 secs using 198.7% CPU
+UPDATE BEST LOG-LIKELIHOOD: -11086.873
+Optimizing NNI: done in 0.22415 secs using 197.4% CPU
+Optimizing NNI: done in 0.209449 secs using 198.9% CPU
+Optimizing NNI: done in 0.182492 secs using 196.9% CPU
+Iteration 90 / LogL: -11090.027 / Time: 0h:0m:24s (0h:0m:24s left)
+Optimizing NNI: done in 0.203656 secs using 198.7% CPU
+Optimizing NNI: done in 0.22098 secs using 198% CPU
+Optimizing NNI: done in 0.256372 secs using 197.4% CPU
+UPDATE BEST LOG-LIKELIHOOD: -11086.873
+Optimizing NNI: done in 0.253716 secs using 198.9% CPU
+Optimizing NNI: done in 0.233798 secs using 198.5% CPU
+Optimizing NNI: done in 0.245276 secs using 198.9% CPU
+Optimizing NNI: done in 0.230841 secs using 197.6% CPU
+Optimizing NNI: done in 0.168269 secs using 196.9% CPU
+Optimizing NNI: done in 0.233466 secs using 197.4% CPU
+Optimizing NNI: done in 0.221202 secs using 199.6% CPU
+Iteration 100 / LogL: -11086.934 / Time: 0h:0m:27s (0h:0m:21s left)
+Log-likelihood cutoff on original alignment: -11126.017
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+Optimizing NNI: done in 0.331056 secs using 198.1% CPU
+Optimizing NNI: done in 0.312654 secs using 198.7% CPU
+Optimizing NNI: done in 0.24475 secs using 197.6% CPU
+Optimizing NNI: done in 0.187979 secs using 198.8% CPU
+Optimizing NNI: done in 0.223089 secs using 198.9% CPU
+Optimizing NNI: done in 0.232151 secs using 197.2% CPU
+Optimizing NNI: done in 0.218005 secs using 198.9% CPU
+Optimizing NNI: done in 0.212564 secs using 199% CPU
+Optimizing NNI: done in 0.207802 secs using 196.9% CPU
+Optimizing NNI: done in 0.262212 secs using 198.2% CPU
+Iteration 110 / LogL: -11088.005 / Time: 0h:0m:29s (0h:0m:24s left)
+Optimizing NNI: done in 0.204732 secs using 198.3% CPU
+Optimizing NNI: done in 0.192934 secs using 199.4% CPU
+Optimizing NNI: done in 0.285992 secs using 199% CPU
+Optimizing NNI: done in 0.199585 secs using 197.3% CPU
+Optimizing NNI: done in 0.214242 secs using 199.3% CPU
+Optimizing NNI: done in 0.188098 secs using 199.1% CPU
+Optimizing NNI: done in 0.191622 secs using 199.2% CPU
+Optimizing NNI: done in 0.187043 secs using 198.3% CPU
+Optimizing NNI: done in 0.230876 secs using 197.2% CPU
+Optimizing NNI: done in 0.265181 secs using 197.5% CPU
+Iteration 120 / LogL: -11099.038 / Time: 0h:0m:32s (0h:0m:21s left)
+Optimizing NNI: done in 0.251068 secs using 197.4% CPU
+Optimizing NNI: done in 0.191369 secs using 198.7% CPU
+Optimizing NNI: done in 0.285786 secs using 198% CPU
+Optimizing NNI: done in 0.243989 secs using 199% CPU
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -11086.752
+Optimizing NNI: done in 0.290068 secs using 199.1% CPU
+Optimizing NNI: done in 0.151721 secs using 197.6% CPU
+Optimizing NNI: done in 0.236211 secs using 196.8% CPU
+Optimizing NNI: done in 0.192639 secs using 196.8% CPU
+Optimizing NNI: done in 0.217478 secs using 197.5% CPU
+Optimizing NNI: done in 0.187284 secs using 198.8% CPU
+Iteration 130 / LogL: -11102.248 / Time: 0h:0m:34s (0h:0m:18s left)
+Optimizing NNI: done in 0.276029 secs using 199.3% CPU
+Optimizing NNI: done in 0.200196 secs using 198.3% CPU
+Optimizing NNI: done in 0.191924 secs using 195.7% CPU
+Optimizing NNI: done in 0.22379 secs using 198.2% CPU
+Optimizing NNI: done in 0.207857 secs using 198.9% CPU
+Optimizing NNI: done in 0.188267 secs using 196.7% CPU
+Optimizing NNI: done in 0.443437 secs using 197.3% CPU
+Optimizing NNI: done in 0.207683 secs using 197.4% CPU
+Optimizing NNI: done in 0.193948 secs using 196.8% CPU
+Optimizing NNI: done in 0.192882 secs using 197.3% CPU
+Iteration 140 / LogL: -11089.668 / Time: 0h:0m:37s (0h:0m:16s left)
+Optimizing NNI: done in 0.248599 secs using 198.1% CPU
+Optimizing NNI: done in 0.30573 secs using 199% CPU
+Optimizing NNI: done in 0.192841 secs using 199.2% CPU
+Optimizing NNI: done in 0.205581 secs using 197.8% CPU
+Optimizing NNI: done in 0.208644 secs using 197.5% CPU
+Optimizing NNI: done in 0.226325 secs using 197.6% CPU
+Optimizing NNI: done in 0.202091 secs using 197.3% CPU
+Optimizing NNI: done in 0.158327 secs using 198.1% CPU
+Optimizing NNI: done in 0.247937 secs using 198.2% CPU
+Optimizing NNI: done in 0.163517 secs using 199.4% CPU
+Iteration 150 / LogL: -11095.622 / Time: 0h:0m:39s (0h:0m:13s left)
+Log-likelihood cutoff on original alignment: -11126.017
+Optimizing NNI: done in 0.162289 secs using 199.4% CPU
+Optimizing NNI: done in 0.167219 secs using 197.9% CPU
+Optimizing NNI: done in 0.197557 secs using 198.7% CPU
+Optimizing NNI: done in 0.153619 secs using 198.7% CPU
+Optimizing NNI: done in 0.307813 secs using 197.1% CPU
+Optimizing NNI: done in 0.204219 secs using 197.9% CPU
+Optimizing NNI: done in 0.228743 secs using 198.5% CPU
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -11086.672
+Optimizing NNI: done in 0.197486 secs using 199.3% CPU
+Optimizing NNI: done in 0.20063 secs using 197.3% CPU
+Optimizing NNI: done in 0.222325 secs using 199.3% CPU
+Iteration 160 / LogL: -11095.660 / Time: 0h:0m:41s (0h:0m:10s left)
+Optimizing NNI: done in 0.256563 secs using 197.1% CPU
+Optimizing NNI: done in 0.202852 secs using 198.9% CPU
+Optimizing NNI: done in 0.210956 secs using 197% CPU
+Optimizing NNI: done in 0.187855 secs using 196.7% CPU
+Optimizing NNI: done in 0.226446 secs using 197.6% CPU
+Optimizing NNI: done in 0.190759 secs using 199.2% CPU
+Optimizing NNI: done in 0.287714 secs using 198% CPU
+Optimizing NNI: done in 0.251416 secs using 197.8% CPU
+Optimizing NNI: done in 0.225246 secs using 198.9% CPU
+Optimizing NNI: done in 0.174999 secs using 198.1% CPU
+Iteration 170 / LogL: -11094.098 / Time: 0h:0m:44s (0h:0m:7s left)
+Optimizing NNI: done in 0.164617 secs using 199.2% CPU
+Optimizing NNI: done in 0.208418 secs using 197% CPU
+Optimizing NNI: done in 0.212022 secs using 198.4% CPU
+Optimizing NNI: done in 0.202243 secs using 198.9% CPU
+Optimizing NNI: done in 0.275794 secs using 197.9% CPU
+Optimizing NNI: done in 0.186753 secs using 198.3% CPU
+Optimizing NNI: done in 0.227828 secs using 197.6% CPU
+Optimizing NNI: done in 0.223247 secs using 198.4% CPU
+Optimizing NNI: done in 0.196479 secs using 196.8% CPU
+Optimizing NNI: done in 0.233306 secs using 199% CPU
+Iteration 180 / LogL: -11087.436 / Time: 0h:0m:46s (0h:0m:5s left)
+TREE SEARCH COMPLETED AFTER 180 ITERATIONS / Time: 0h:0m:46s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -11086.672
+2. Current log-likelihood: -11086.607
+3. Current log-likelihood: -11086.540
+4. Current log-likelihood: -11086.473
+5. Current log-likelihood: -11086.406
+6. Current log-likelihood: -11086.340
+7. Current log-likelihood: -11086.273
+8. Current log-likelihood: -11086.208
+9. Current log-likelihood: -11086.145
+10. Current log-likelihood: -11086.083
+11. Current log-likelihood: -11086.022
+12. Current log-likelihood: -11085.965
+13. Current log-likelihood: -11085.910
+14. Current log-likelihood: -11085.857
+15. Current log-likelihood: -11085.808
+16. Current log-likelihood: -11085.761
+17. Current log-likelihood: -11085.718
+18. Current log-likelihood: -11085.678
+19. Current log-likelihood: -11085.641
+20. Current log-likelihood: -11085.608
+21. Current log-likelihood: -11085.577
+22. Current log-likelihood: -11085.550
+23. Current log-likelihood: -11085.525
+24. Current log-likelihood: -11085.503
+25. Current log-likelihood: -11085.483
+26. Current log-likelihood: -11085.466
+27. Current log-likelihood: -11085.451
+28. Current log-likelihood: -11085.437
+29. Current log-likelihood: -11085.426
+Optimal log-likelihood: -11085.416
+Rate parameters:  A-C: 2.09503  A-G: 2.30162  A-T: 2.09503  C-G: 1.00000  C-T: 4.87448  G-T: 1.00000
+Base frequencies:  A: 0.250  C: 0.250  G: 0.250  T: 0.250
+Site proportion and rates:  (0.550,0.091) (0.141,0.684) (0.107,1.561) (0.202,3.402)
+Parameters optimization took 29 rounds (1.833 sec)
+BEST SCORE FOUND : -11085.416
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.462 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file Mojave2020.Exophiala.muscle.fasaln.clipkit.splits.nex
+Total tree length: 15.197
+
+Total number of iterations: 180
+CPU time used for tree search: 89.747 sec (0h:1m:29s)
+Wall-clock time used for tree search: 45.796 sec (0h:0m:45s)
+Total CPU time used: 95.930 sec (0h:1m:35s)
+Total wall-clock time used: 48.845 sec (0h:0m:48s)
+
+Computing bootstrap consensus tree...
+Reading input file Mojave2020.Exophiala.muscle.fasaln.clipkit.splits.nex...
+78 taxa and 560 splits.
+Consensus tree written to Mojave2020.Exophiala.muscle.fasaln.clipkit.contree
+Reading input trees file Mojave2020.Exophiala.muscle.fasaln.clipkit.contree
+Log-likelihood of consensus tree: -11090.074
+
+Analysis results written to: 
+  IQ-TREE report:                Mojave2020.Exophiala.muscle.fasaln.clipkit.iqtree
+  Maximum-likelihood tree:       Mojave2020.Exophiala.muscle.fasaln.clipkit.treefile
+  Likelihood distances:          Mojave2020.Exophiala.muscle.fasaln.clipkit.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Mojave2020.Exophiala.muscle.fasaln.clipkit.splits.nex
+  Consensus tree:                Mojave2020.Exophiala.muscle.fasaln.clipkit.contree
+  Screen log file:               Mojave2020.Exophiala.muscle.fasaln.clipkit.log
+
+Date and Time: Wed Nov 15 23:44:33 2023

@@ -1,0 +1,20 @@
+Loading amptk/1.6
+  Loading requirement: usearch/10 mafft/7.505 fasttree/2.1.11
+[08:06:09 PM]: OS: Rocky Linux 8.8, 64 cores, ~ 528 GB RAM. Python: 3.10.0
+[08:06:09 PM]: AMPtk v1.6.0, VSEARCH v2.22.1
+[08:06:09 PM]: Loading FASTA Records
+[08:06:09 PM]: 30,243 OTUs
+[08:06:09 PM]: Global alignment OTUs with usearch_global (VSEARCH) against ITS.udb
+[08:15:02 PM]: Classifying OTUs with SINTAX (VSEARCH)
+[08:17:04 PM]: Appending taxonomy to OTU table and OTUs
+-------------------------------------------------------
+Traceback (most recent call last):
+  File "/opt/linux/rocky/8.x/x86_64/pkgs/amptk/1.6/bin/amptk", line 8, in <module>
+    sys.exit(main())
+  File "/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/amptk/1.6/lib/python3.10/site-packages/amptk/amptk.py", line 784, in main
+    mod.main(arguments)
+  File "/bigdata/operations/pkgadmin/opt/linux/centos/8.x/x86_64/pkgs/amptk/1.6/lib/python3.10/site-packages/amptk/assign_taxonomy.py", line 434, in main
+    with open(args.otu_table, 'r') as inTable:
+FileNotFoundError: [Errno 2] No such file or directory: 'Mojave2020_KKelly202307.final.cultures.txt'
+/var/spool/slurmd/job1345577/slurm_script: line 18: Mojave2020_KKelly202307.taxonomy.txt: No such file or directory
+/var/spool/slurmd/job1345577/slurm_script: line 21: popd: directory stack empty

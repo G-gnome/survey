@@ -1,0 +1,159 @@
+Loading samtools/1.18
+  Loading requirement: libdeflate/1.17 htslib/1.18
+nthread = 0
+nthreadpair = 0
+nthreadtb = 0
+ppenalty_ex = 0
+stacksize: 8192 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+    1 / 76
+done.
+
+Constructing a UPGMA tree (efffree=0) ... 
+    0 / 76   10 / 76   20 / 76   30 / 76   40 / 76   50 / 76   60 / 76   70 / 76
+done.
+
+Progressive alignment 1/2... 
+STEP     1 / 75  fSTEP     2 / 75  fSTEP     3 / 75  fSTEP     4 / 75  fSTEP     5 / 75  fSTEP     6 / 75  fSTEP     7 / 75  fSTEP     8 / 75  fSTEP     9 / 75  fSTEP    10 / 75  fSTEP    11 / 75  fSTEP    12 / 75  fSTEP    13 / 75  fSTEP    14 / 75  fSTEP    15 / 75  fSTEP    16 / 75  fSTEP    17 / 75  fSTEP    18 / 75  fSTEP    19 / 75  fSTEP    20 / 75  fSTEP    21 / 75  fSTEP    22 / 75  fSTEP    23 / 75  fSTEP    24 / 75  fSTEP    25 / 75  fSTEP    26 / 75  fSTEP    27 / 75  fSTEP    28 / 75  fSTEP    29 / 75  fSTEP    30 / 75  fSTEP    31 / 75  fSTEP    32 / 75  fSTEP    33 / 75  fSTEP    34 / 75  fSTEP    35 / 75  fSTEP    36 / 75  fSTEP    37 / 75  fSTEP    38 / 75  fSTEP    39 / 75  fSTEP    40 / 75  fSTEP    41 / 75  fSTEP    42 / 75  fSTEP    43 / 75  fSTEP    44 / 75  fSTEP    45 / 75  fSTEP    46 / 75  fSTEP    47 / 75  fSTEP    48 / 75  fSTEP    49 / 75  fSTEP    50 / 75  fSTEP    51 / 75  fSTEP    52 / 75  f
+Reallocating..done. *alloclen = 2434
+STEP    53 / 75  fSTEP    54 / 75  fSTEP    55 / 75  fSTEP    56 / 75  fSTEP    57 / 75  fSTEP    58 / 75  fSTEP    59 / 75  fSTEP    60 / 75  fSTEP    61 / 75  fSTEP    62 / 75  fSTEP    63 / 75  fSTEP    64 / 75  fSTEP    65 / 75  fSTEP    66 / 75  fSTEP    67 / 75  fSTEP    68 / 75  fSTEP    69 / 75  fSTEP    70 / 75  fSTEP    71 / 75  fSTEP    72 / 75  fSTEP    73 / 75  fSTEP    74 / 75  fSTEP    75 / 75  f
+done.
+
+Making a distance matrix from msa.. 
+    0 / 76
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+    0 / 76   10 / 76   20 / 76   30 / 76   40 / 76   50 / 76   60 / 76   70 / 76
+done.
+
+Progressive alignment 2/2... 
+STEP     1 / 75  fSTEP     2 / 75  fSTEP     3 / 75  fSTEP     4 / 75  fSTEP     5 / 75  fSTEP     6 / 75  fSTEP     7 / 75  fSTEP     8 / 75  fSTEP     9 / 75  fSTEP    10 / 75  fSTEP    11 / 75  fSTEP    12 / 75  fSTEP    13 / 75  fSTEP    14 / 75  fSTEP    15 / 75  fSTEP    16 / 75  fSTEP    17 / 75  fSTEP    18 / 75  fSTEP    19 / 75  fSTEP    20 / 75  fSTEP    21 / 75  fSTEP    22 / 75  fSTEP    23 / 75  fSTEP    24 / 75  fSTEP    25 / 75  fSTEP    26 / 75  fSTEP    27 / 75  fSTEP    28 / 75  fSTEP    29 / 75  fSTEP    30 / 75  fSTEP    31 / 75  fSTEP    32 / 75  fSTEP    33 / 75  fSTEP    34 / 75  fSTEP    35 / 75  fSTEP    36 / 75  fSTEP    37 / 75  fSTEP    38 / 75  fSTEP    39 / 75  fSTEP    40 / 75  fSTEP    41 / 75  fSTEP    42 / 75  fSTEP    43 / 75  fSTEP    44 / 75  f
+Reallocating..done. *alloclen = 2434
+STEP    45 / 75  fSTEP    46 / 75  fSTEP    47 / 75  fSTEP    48 / 75  fSTEP    49 / 75  fSTEP    50 / 75  fSTEP    51 / 75  fSTEP    52 / 75  fSTEP    53 / 75  fSTEP    54 / 75  fSTEP    55 / 75  fSTEP    56 / 75  fSTEP    57 / 75  fSTEP    58 / 75  fSTEP    59 / 75  fSTEP    60 / 75  fSTEP    61 / 75  fSTEP    62 / 75  fSTEP    63 / 75  fSTEP    64 / 75  fSTEP    65 / 75  fSTEP    66 / 75  fSTEP    67 / 75  fSTEP    68 / 75  fSTEP    69 / 75  fSTEP    70 / 75  fSTEP    71 / 75  fSTEP    72 / 75  fSTEP    73 / 75  fSTEP    74 / 75  fSTEP    75 / 75  f
+done.
+
+disttbfast (nuc) Version 7.505
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+0 thread(s)
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+
+muscle 5.1.linux64 [12f0e2]  264Gb RAM, 64 cores
+Built Jan 13 2022 23:17:13
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+Input: 76 seqs, avg length 307, max 711
+
+00:00 4.2Mb  CPU has 64 cores, defaulting to 20 threads
+
+WARNING: Max OMP threads 8
+
+00:00 130Mb   0.035% Calc posteriors00:01 551Mb    0.74% Calc posteriors00:02 538Mb    21.5% Calc posteriors00:03 539Mb    40.1% Calc posteriors00:04 541Mb    58.2% Calc posteriors00:05 541Mb    75.2% Calc posteriors00:06 541Mb    86.7% Calc posteriors00:07 541Mb    90.7% Calc posteriors00:08 541Mb    92.1% Calc posteriors00:09 541Mb    92.8% Calc posteriors00:10 541Mb    93.3% Calc posteriors00:11 541Mb    93.9% Calc posteriors00:12 541Mb    94.5% Calc posteriors00:13 541Mb    95.1% Calc posteriors00:14 541Mb    95.6% Calc posteriors00:15 541Mb    96.1% Calc posteriors00:16 541Mb    96.7% Calc posteriors00:17 541Mb    97.2% Calc posteriors00:18 541Mb    97.8% Calc posteriors00:19 541Mb    98.3% Calc posteriors00:20 541Mb    98.9% Calc posteriors00:21 541Mb    99.4% Calc posteriors00:21 541Mb   100.0% Calc posteriors
+00:21 541Mb   0.035% Consistency (1/2)00:22 541Mb     2.3% Consistency (1/2)00:23 541Mb    19.7% Consistency (1/2)00:24 541Mb    34.6% Consistency (1/2)00:25 541Mb    53.1% Consistency (1/2)00:26 541Mb    70.5% Consistency (1/2)00:27 541Mb    86.2% Consistency (1/2)00:28 541Mb    98.1% Consistency (1/2)00:28 541Mb   100.0% Consistency (1/2)
+00:28 541Mb   0.035% Consistency (2/2)00:29 541Mb    12.6% Consistency (2/2)00:30 541Mb    29.5% Consistency (2/2)00:31 541Mb    46.5% Consistency (2/2)00:32 541Mb    63.9% Consistency (2/2)00:33 541Mb    80.0% Consistency (2/2)00:34 541Mb    94.6% Consistency (2/2)00:34 541Mb   100.0% Consistency (2/2)
+00:34 541Mb     1.3% UPGMA5           00:34 541Mb   100.0% UPGMA5
+00:34 545Mb     1.0% Refining00:35 550Mb    19.0% Refining00:35 561Mb   100.0% Refining
+
+Determining smart-gap threshold...
+
+-------------
+| Arguments |
+-------------
+Input file: Mojave2020.Glomero.fasaln (format: fasta)
+Output file: Mojave2020.Glomero.fasaln.clipkit (format: fasta)
+Gaps threshold: 0.6974
+Trimming mode: smart-gap
+Create complementary output: False
+Create log file: False
+
+
+------------------------
+| Processing Alignment |
+------------------------
+
+  0%|                                                                                                                                  | 0/1031 [00:00<?, ?it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1031/1031 [00:00<00:00, 10339.54it/s]
+
+
+------------------------
+| Writing output files |
+------------------------
+trimmed alignment: Mojave2020.Glomero.fasaln.clipkit
+complement file: False
+log file: False
+
+
+---------------------
+| Output Statistics |
+---------------------
+Number of sites kept: 331
+Number of sites trimmed: 700
+
+Percentage of alignment trimmed: 67.895%
+
+Execution time: 0.242s
+
+
+Determining smart-gap threshold...
+
+-------------
+| Arguments |
+-------------
+Input file: Mojave2020.Glomero.muscle.fasaln (format: fasta)
+Output file: Mojave2020.Glomero.muscle.fasaln.clipkit (format: fasta)
+Gaps threshold: 0.6974
+Trimming mode: smart-gap
+Create complementary output: False
+Create log file: False
+
+
+------------------------
+| Processing Alignment |
+------------------------
+
+  0%|                                                                                                                                  | 0/1347 [00:00<?, ?it/s] 77%|█████████████████████████████████████████████████████████████████████████████████████████▏                          | 1036/1347 [00:00<00:00, 10353.89it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1347/1347 [00:00<00:00, 10340.84it/s]
+
+
+------------------------
+| Writing output files |
+------------------------
+trimmed alignment: Mojave2020.Glomero.muscle.fasaln.clipkit
+complement file: False
+log file: False
+
+
+---------------------
+| Output Statistics |
+---------------------
+Number of sites kept: 329
+Number of sites trimmed: 1018
+
+Percentage of alignment trimmed: 75.575%
+
+Execution time: 0.313s
+
+Checkpoint (Mojave2020.Glomero.fasaln.clipkit.ckp.gz) indicates that a previous run successfully finished
+Use `-redo` option if you really want to redo the analysis and overwrite all output files.
+Use `--redo-tree` option if you want to restore ModelFinder and only redo tree search.
+Use `--undo` option if you want to continue previous run when changing/adding options.
+Checkpoint (Mojave2020.Glomero.muscle.fasaln.clipkit.ckp.gz) indicates that a previous run successfully finished
+Use `-redo` option if you really want to redo the analysis and overwrite all output files.
+Use `--redo-tree` option if you want to restore ModelFinder and only redo tree search.
+Use `--undo` option if you want to continue previous run when changing/adding options.

@@ -1,0 +1,670 @@
+IQ-TREE 2.2.2.6 COVID-edition built May 27 2023
+
+Input file name: Mojave2020.Coniochaeta.muscle.fasaln.clipkit
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 672256
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 114 sequences with 1629 nucleotide sites
+Number of constant sites: 309 (= 18.9687% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 309 (= 18.9687% of all sites)
+Number of parsimony informative sites: 649
+Number of distinct site patterns: 1272
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TN+F+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TN+F+G4          -15386.612   31235.223 -  2.8e-06   31311.948 - 0.000344   32481.635 +     0.76
+TIM2+F+G4        -15384.409   31232.818 - 9.33e-06   31310.262 -   0.0008   32484.625 +     0.17
+TIM+F+G4         -15386.207   31236.413 - 1.55e-06   31313.858 - 0.000133   32488.221 -   0.0282
+TIM3+F+G4        -15386.633   31237.267 - 1.01e-06   31314.711 - 8.65e-05   32489.074 -   0.0184
+TN+F+I+G4        -15386.750   31237.501 - 8.97e-07   31314.945 -  7.7e-05   32489.308 -   0.0164
+TIM2+F+I+G4      -15384.384   31234.769 - 3.52e-06   31312.936 -  0.00021   32491.972 -  0.00433
+TIM+F+I+G4       -15386.314   31238.628 - 5.11e-07   31316.796 - 3.05e-05   32495.832 - 0.000628
+TNe+G4           -15405.187   31266.375 - 4.82e-13   31340.963 - 1.72e-10   32496.599 - 0.000428
+TIM3+F+I+G4      -15386.753   31239.507 - 3.29e-07   31317.674 - 1.97e-05   32496.710 - 0.000405
+GTR+F+G4         -15384.269   31236.537 - 1.45e-06   31315.432 - 6.03e-05   32499.136 -  0.00012
+TIM3e+G4         -15403.387   31264.773 - 1.07e-12   31340.070 - 2.69e-10   32500.393 - 6.42e-05
+TIM2e+G4         -15404.752   31267.504 - 2.74e-13   31342.801 - 6.88e-11   32503.125 - 1.64e-05
+TIMe+G4          -15404.967   31267.934 - 2.21e-13   31343.231 - 5.55e-11   32503.555 - 1.32e-05
+TNe+I+G4         -15405.412   31268.824 - 1.42e-13   31344.120 - 3.56e-11   32504.444 - 8.48e-06
+GTR+F+I+G4       -15384.134   31238.268 - 6.11e-07   31317.895 - 1.76e-05   32506.263 - 3.41e-06
+TIM3e+I+G4       -15403.847   31267.694 - 2.49e-13   31343.702 - 4.38e-11   32508.709 -    1e-06
+TIM2e+I+G4       -15404.834   31269.668 - 9.29e-14   31345.677 - 1.63e-11   32510.684 - 3.74e-07
+TIMe+I+G4        -15405.178   31270.356 - 6.58e-14   31346.365 - 1.16e-11   32511.372 - 2.65e-07
+SYM+G4           -15402.790   31267.579 - 2.64e-13   31344.303 - 3.24e-11   32513.991 - 7.16e-08
+HKY+F+G4         -15409.973   31279.946 - 5.45e-16   31355.954 - 9.58e-14   32520.962 - 2.19e-09
+SYM+I+G4         -15403.111   31270.222 - 7.04e-14   31347.666 - 6.04e-12   32522.030 - 1.29e-09
+HKY+F+I+G4       -15407.335   31276.669 -  2.8e-15   31353.394 - 3.45e-13   32523.081 - 7.61e-10
+K2P+G4           -15422.226   31298.451 - 5.22e-20   31372.336 - 2.66e-17   32523.280 - 6.89e-10
+TPM2u+F+G4       -15407.522   31277.044 - 2.32e-15   31353.769 - 2.86e-13   32523.456 - 6.31e-10
+GTR+F+I+R5       -15366.973   31217.947 -   0.0158   31302.804 -   0.0333   32523.711 - 5.55e-10
+TPM2u+F+I+G4     -15404.991   31273.981 - 1.07e-14   31351.426 - 9.22e-13   32525.789 - 1.96e-10
+K2P+I+G4         -15419.840   31295.680 - 2.09e-19   31370.269 - 7.46e-17   32525.905 - 1.85e-10
+GTR+F+I+R6       -15360.842   31209.685 +    0.984   31296.072 +    0.965   32526.241 - 1.57e-10
+TPM3+G4          -15420.605   31297.210 - 9.71e-20   31371.799 - 3.47e-17   32527.435 - 8.62e-11
+K3Pu+F+G4        -15409.568   31281.137 -    3e-16   31357.861 - 3.69e-14   32527.548 - 8.15e-11
+TPM3u+F+G4       -15409.971   31281.942 - 2.01e-16   31358.666 - 2.47e-14   32528.353 - 5.45e-11
+K3Pu+F+I+G4      -15406.868   31277.735 - 1.64e-15   31355.179 - 1.41e-13   32529.542 - 3.01e-11
+TPM2+G4          -15421.717   31299.435 - 3.19e-20   31374.023 - 1.14e-17   32529.659 - 2.84e-11
+K3P+G4           -15422.007   31300.014 - 2.39e-20   31374.603 - 8.55e-18   32530.239 - 2.12e-11
+TPM3+I+G4        -15418.405   31294.811 - 3.22e-19   31370.107 - 8.09e-17   32530.431 - 1.93e-11
+TPM3u+F+I+G4     -15407.326   31278.652 - 1.04e-15   31356.096 - 8.92e-14   32530.459 -  1.9e-11
+TPM2+I+G4        -15419.351   31296.702 - 1.25e-19   31371.998 - 3.14e-17   32532.322 - 7.49e-12
+K3P+I+G4         -15419.596   31297.192 -  9.8e-20   31372.489 - 2.46e-17   32532.812 - 5.86e-12
+TVM+F+G4         -15407.314   31280.627 - 3.87e-16   31358.795 - 2.31e-14   32537.830 - 4.77e-13
+TVM+F+I+G4       -15404.731   31277.463 - 1.88e-15   31356.358 - 7.83e-14   32540.062 - 1.56e-13
+TVMe+G4          -15419.925   31299.850 - 2.59e-20   31375.858 - 4.56e-18   32540.866 - 1.05e-13
+GTR+F+I+R4       -15383.499   31246.997 - 7.78e-09   31330.340 - 3.49e-08   32541.970 - 6.02e-14
+TVMe+I+G4        -15417.717   31297.434 - 8.68e-20   31374.159 - 1.07e-17   32543.846 - 2.36e-14
+GTR+F+R7         -15378.411   31246.822 - 8.49e-09   31333.981 - 5.66e-09   32568.774 -  9.1e-20
+GTR+F+R8         -15376.979   31247.958 - 4.81e-09   31336.670 - 1.47e-09   32580.701 - 2.34e-22
+GTR+F+I+R3       -15416.547   31309.093 - 2.55e-22   31390.938 - 2.42e-21   32593.275 - 4.35e-25
+GTR+F+R6         -15404.450   31294.899 - 3.08e-19   31380.519 - 4.44e-19   32606.059 - 7.29e-28
+GTR+F+R5         -15426.023   31334.046 - 9.74e-28   31418.144 -    3e-27   32634.415 - 5.07e-34
+JC+G4            -15488.318   31428.636 - 2.81e-48   31501.820 - 2.03e-45   32648.069 -  5.5e-37
+JC+I+G4          -15484.877   31423.755 - 3.22e-47   31497.639 - 1.64e-44   32648.583 - 4.25e-37
+F81+F+G4         -15477.819   31413.639 - 5.07e-45   31488.936 - 1.27e-42   32649.259 - 3.03e-37
+F81+F+I+G4       -15474.365   31408.731 -  5.9e-44   31484.739 - 1.04e-41   32649.747 - 2.38e-37
+GTR+F+R4         -15457.490   31392.980 - 1.55e-40   31475.572 - 1.02e-39   32682.558 - 1.78e-44
+GTR+F+I+R2       -15486.285   31444.571 - 9.73e-52   31524.933 - 1.94e-50   32717.961 - 3.66e-52
+GTR+F+R3         -15525.624   31525.248 - 2.95e-69   31606.349 - 4.06e-68   32804.034 - 7.46e-71
+GTR+F+R2         -15700.564   31871.127 - 2.3e-144   31950.754 - 6.64e-143   33139.122 - 1.29e-143
+GTR+F+I          -15921.122   32310.243 - 1.02e-239   32389.138 - 4.25e-238   33572.842 - 8.48e-238
+GTR+F            -16611.179   33688.359 -        0   33766.526 -        0   34945.562 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TN+F+G4
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.3243
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 2.5573
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2431
+  pi(C) = 0.2641
+  pi(G) = 0.2691
+  pi(T) = 0.2237
+
+Rate matrix Q:
+
+  A   -0.8657    0.2708    0.3654    0.2294
+  C    0.2493    -1.112    0.2759    0.5866
+  G    0.3302    0.2708   -0.8304    0.2294
+  T    0.2493    0.6926    0.2759    -1.218
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.3771
+
+ Category  Relative_rate  Proportion
+  1         0.01356        0.25
+  2         0.1645         0.25
+  3         0.7053         0.25
+  4         3.117          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -15364.6609 (s.e. 369.9756)
+Unconstrained log-likelihood (without tree): -11303.8744
+Number of free parameters (#branches + #model parameters): 231
+Akaike information criterion (AIC) score: 31191.3219
+Corrected Akaike information criterion (AICc) score: 31268.0463
+Bayesian information criterion (BIC) score: 32437.7336
+
+Total tree length (sum of branch lengths): 41.5271
+Sum of internal branch lengths: 17.6332 (42.4618% of tree length)
+
+WARNING: 19 near-zero internal branches (<0.0006) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ASV21445.5' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**ASV21445.5
+|
+|                                      +**Coniochaeta_sp_B6
+|                                   +--| (82.8/94)
+|                                   |  +---Coniochaeta_sp_B5
+|                                +**| (0/83)
+|                                |  +--Coniochaeta_sp_H3
+|                             +**| (0/86)
+|                             |  +**Coniochaeta_sp_C1
+|                          +--| (82.4/90)
+|                          |  +**Coniochaeta_sp_B8
+|                       +--| (88/73)
+|                       |  +**Coniochaeta_sp_A4
+|                    +**| (0/42)
+|                    |  |        +**Coniochaeta_sp_A2
+|                    |  |     +**| (0/54)
+|                    |  |     |  +--Coniochaeta_sp_B9
+|                    |  |  +--| (0/62)
+|                    |  |  |  +**Coniochaeta_sp_B7
+|                    |  +**| (0/60)
+|                    |     +-------------------Coniochaeta_sp_A6
+|                 +--| (72.8/85)
+|                 |  +**Coniochaeta_sp_A3
+|           +-----| (100/100)
+|           |     +--Coniochaeta_sp_A1
+|        +--| (81.3/77)
+|        |  |                                      +--ASV8333.56
+|        |  |                                   +--| (77.1/100)
+|        |  |                                   |  |  +--Coniochaeta_iranica_strain_0806
+|        |  |                                   |  +--| (78.2/100)
+|        |  |                                   |     +--Coniochaeta_euphorbiae_strain_1001
+|        |  |                                +--| (94.2/98)
+|        |  |                                |  +--Coniochaeta_baysunika_strain_MFLUCC
+|        |  |                             +--| (97.7/100)
+|        |  |                             |  |     +**ASV9354.47
+|        |  |                             |  |  +--| (99.9/100)
+|        |  |                             |  |  |  +--Coniochaeta_acaciae_strain_MFLUCC
+|        |  |                             |  +--| (88.3/99)
+|        |  |                             |     |     +--Coniochaeta_simbalensis_NFCCI_4236
+|        |  |                             |     |  +--| (99.1/100)
+|        |  |                             |     |  |  +**Coniochaeta_cateniformis_genomic_DNA
+|        |  |                             |     +--| (93.6/99)
+|        |  |                             |        |     +--ASV22598.8
+|        |  |                             |        |  +**| (0/73)
+|        |  |                             |        |  |  |     +--Coniochaeta_discospora_culture_CBS_168.58
+|        |  |                             |        |  |  |  +--| (74.7/99)
+|        |  |                             |        |  |  |  |  +--ASV12614.34
+|        |  |                             |        |  |  +--| (78.3/99)
+|        |  |                             |        |  |     +--ASV30270.2
+|        |  |                             |        +--| (89.6/92)
+|        |  |                             |           +--Coniochaeta_canina_strain_R-4810
+|        |  |                          +--| (41.5/67)
+|        |  |                          |  |              +**Coniochaeta_palaoa_voucher_ARIZ_AEANC0604
+|        |  |                          |  |           +**| (0/50)
+|        |  |                          |  |           |  +--Coniochaeta_endophytica_isolate_AEA
+|        |  |                          |  |        +**| (0/33)
+|        |  |                          |  |        |  +**Coniochaeta_prunicola_culture-collection_CBS_120875
+|        |  |                          |  |     +**| (0/77)
+|        |  |                          |  |     |  +**Coniochaeta_prunicola_culture-collection_CBS_121445
+|        |  |                          |  |  +--| (91.9/99)
+|        |  |                          |  |  |  +**Coniochaeta_cephalothecoides_strain_L821
+|        |  |                          |  +--| (90.7/98)
+|        |  |                          |     +--Rosellinia_ambigua_voucher_PAD
+|        |  |                       +--| (84.5/63)
+|        |  |                       |  |     +--Coniochaeta_leucoplaca_strain_CBS
+|        |  |                       |  |  +--| (95.2/88)
+|        |  |                       |  |  |  +**Coniochaeta_sp._strain_RGM_3301
+|        |  |                       |  +--| (81/71)
+|        |  |                       |     +--ASV26148.5
+|        |  |                    +--| (86.8/66)
+|        |  |                    |  |     +--Rosellinia_subsimilis_voucher_PAD
+|        |  |                    |  |  +--| (86/99)
+|        |  |                    |  |  |  +--Coniochaeta_rosae_TASM_6127
+|        |  |                    |  +--| (71/98)
+|        |  |                    |     +--Coniochaeta_coluteae_strain_MFLUCC
+|        |  |                 +--| (66.7/74)
+|        |  |                 |  |                                                            +--Coniochaeta_sp._isolate_PMML0158
+|        |  |                 |  |                                                         +**| (0/62)
+|        |  |                 |  |                                                         |  +--Coniochaeta_pulveracea_strain_CBS
+|        |  |                 |  |                                                      +--| (47.2/83)
+|        |  |                 |  |                                                      |  +--ASV28452.0
+|        |  |                 |  |                                                   +--| (99.5/99)
+|        |  |                 |  |                                                   |  +--Coniochaeta_rhopalochaeta_CBS_109872
+|        |  |                 |  |                                                +--| (99/98)
+|        |  |                 |  |                                                |  +--Coniochaeta_fibrosae_isolate_CX03C1
+|        |  |                 |  |                                             +--| (22.2/50)
+|        |  |                 |  |                                             |  |  +**Coniochaeta_deborreae_strain_BE19_001008
+|        |  |                 |  |                                             |  +--| (91.7/98)
+|        |  |                 |  |                                             |     |     +--ASV3874.131
+|        |  |                 |  |                                             |     |  +--| (94.2/99)
+|        |  |                 |  |                                             |     |  |  +--Coniochaeta_boothii_CBS_381.74
+|        |  |                 |  |                                             |     +--| (89.6/97)
+|        |  |                 |  |                                             |        +--Coniochaeta_sp._strain_CBS
+|        |  |                 |  |                                          +--| (78.7/67)
+|        |  |                 |  |                                          |  +-----------------Rosellinia_geophila_voucher_PAD
+|        |  |                 |  |                                       +**| (0/11)
+|        |  |                 |  |                                       |  +----Coniochaeta_taeniospora_strain_LTA
+|        |  |                 |  |                                    +--| (88.3/25)
+|        |  |                 |  |                                    |  |                     +--ASV23565.8
+|        |  |                 |  |                                    |  |                  +**| (0/57)
+|        |  |                 |  |                                    |  |                  |  |        +--Coniochaeta_polymorpha_D2
+|        |  |                 |  |                                    |  |                  |  |     +--| (84.4/97)
+|        |  |                 |  |                                    |  |                  |  |     |  |     +**ASV689.1147
+|        |  |                 |  |                                    |  |                  |  |     |  |  +**| (0/47)
+|        |  |                 |  |                                    |  |                  |  |     |  |  |  +**ASV29807.18
+|        |  |                 |  |                                    |  |                  |  |     |  +**| (0/49)
+|        |  |                 |  |                                    |  |                  |  |     |     |  +--ASV27077.0
+|        |  |                 |  |                                    |  |                  |  |     |     +**| (0/32)
+|        |  |                 |  |                                    |  |                  |  |     |        +--ASV26006.3
+|        |  |                 |  |                                    |  |                  |  |  +**| (0/65)
+|        |  |                 |  |                                    |  |                  |  |  |  +**ASV20608.20
+|        |  |                 |  |                                    |  |                  |  +--| (99.6/100)
+|        |  |                 |  |                                    |  |                  |     +--ASV25093.2
+|        |  |                 |  |                                    |  |               +--| (91.7/94)
+|        |  |                 |  |                                    |  |               |  |     +--ASV17043.11
+|        |  |                 |  |                                    |  |               |  |  +--| (84.5/98)
+|        |  |                 |  |                                    |  |               |  |  |  +**ASV7942.70
+|        |  |                 |  |                                    |  |               |  +**| (0/47)
+|        |  |                 |  |                                    |  |               |     +**Rosellinia_chordicola_voucher_PAD
+|        |  |                 |  |                                    |  |            +--| (44.6/88)
+|        |  |                 |  |                                    |  |            |  +--Coniochaeta_discoidea_CBS_158.80
+|        |  |                 |  |                                    |  |     +------| (99.9/100)
+|        |  |                 |  |                                    |  |     |      |  +--Lecythophora_sp._Kw448_genomic
+|        |  |                 |  |                                    |  |     |      +--| (77/99)
+|        |  |                 |  |                                    |  |     |         +**ASV1353.219
+|        |  |                 |  |                                    |  |  +--| (92.8/97)
+|        |  |                 |  |                                    |  |  |  |  +--Coniochaeta_ellipsoidea_culture_CBS_137.68
+|        |  |                 |  |                                    |  |  |  +--| (77.3/99)
+|        |  |                 |  |                                    |  |  |     +**Coniochaeta_punctulata_culture_CBS_159.80
+|        |  |                 |  |                                    |  +--| (99.3/97)
+|        |  |                 |  |                                    |     +**Coniochaeta_savoryi_culture_CBS_725.74
+|        |  |                 |  |                                 +**| (0/7)
+|        |  |                 |  |                                 |  |  +**Coniochaeta_marina_culture_MFLUCC_18-0408
+|        |  |                 |  |                                 |  +--| (5.4/84)
+|        |  |                 |  |                                 |     +**Coniochaeta_decumbens_CBS_153.42
+|        |  |                 |  |                              +--| (97.9/38)
+|        |  |                 |  |                              |  |  +--Coniochaeta_extramundana_culture_CBS_247.77
+|        |  |                 |  |                              |  +--| (75/93)
+|        |  |                 |  |                              |     +--Coniochaeta_tetraspora_culture_CBS_139.68
+|        |  |                 |  |                           +--| (69.7/26)
+|        |  |                 |  |                           |  +**Coniochaeta_cipronana_CBS_144016
+|        |  |                 |  |                        +--| (86.8/43)
+|        |  |                 |  |                        |  +--ASV29012.3
+|        |  |                 |  |                 +------| (98/72)
+|        |  |                 |  |                 |      +------Coniochaeta_navarrae_strain_LTA3
+|        |  |                 |  |              +--| (43.9/53)
+|        |  |                 |  |              |  |                                  +--Coniochaeta_cypraeaespora_culture_CBS_365.93
+|        |  |                 |  |              |  +----------------------------------| (100/100)
+|        |  |                 |  |              |                                     +--Coniochaeta_arxii_culture_CBS_192.89
+|        |  |                 |  |           +--| (92.1/56)
+|        |  |                 |  |           |  |           +--Coniochaeta_velutinosa_strain_Co29
+|        |  |                 |  |           |  |        +--| (76.7/82)
+|        |  |                 |  |           |  |        |  +-----ASV18361.17
+|        |  |                 |  |           |  |     +--| (84.2/77)
+|        |  |                 |  |           |  |     |  +------Coniochaeta_gigantospora_18S_ribosomal
+|        |  |                 |  |           |  |  +--| (47.9/71)
+|        |  |                 |  |           |  |  |  +--Coniochaeta_ostrea_CBS_507.70
+|        |  |                 |  |           |  +--| (36.6/81)
+|        |  |                 |  |           |     |          +--ASV11657.1
+|        |  |                 |  |           |     |       +**| (0/65)
+|        |  |                 |  |           |     |       |  +**ASV381.77
+|        |  |                 |  |           |     +-------| (99.4/100)
+|        |  |                 |  |           |             +--ASV6750.46
+|        |  |                 |  |        +--| (82.8/39)
+|        |  |                 |  |        |  |     +**Coniochaeta_hansenii_strain_CBS
+|        |  |                 |  |        |  +-----| (100/100)
+|        |  |                 |  |        |        +**Sordaria_hansenii_strain_RGM_3311
+|        |  |                 |  |     +--| (84.5/97)
+|        |  |                 |  |     |  |  +---------------------------------------------Chaetosphaeria_innumera_strain_MR
+|        |  |                 |  |     |  +--| (84/39)
+|        |  |                 |  |     |     +---Coniochaeta_verticillata_CBS_816.71
+|        |  |                 |  |  +--| (83.4/89)
+|        |  |                 |  |  |  +--Coniochaeta_polysperma_culture_CBS_669.77
+|        |  |                 |  +--| (83.3/80)
+|        |  |                 |     |  +--Coniochaeta_africana_culture-collection_CBS_120868
+|        |  |                 |     +--| (88/91)
+|        |  |                 |        +----Coniochaeta_dendrobiicola_isolate_DLCCR7
+|        |  |              +--| (90.2/90)
+|        |  |              |  |        +--Coniochaeta_sinensis_isolate_CS-04
+|        |  |              |  |     +--| (90.5/100)
+|        |  |              |  |     |  |  +--Coniochaeta_mongoliae_isolate_CS-09
+|        |  |              |  |     |  +--| (64.4/99)
+|        |  |              |  |     |     +--Lecythophora_fasciculata_genomic_DNA
+|        |  |              |  |  +--| (92.3/100)
+|        |  |              |  |  |  |  +--Coniochaeta_vineae_KUMCC_17-0322
+|        |  |              |  |  |  +--| (80.6/99)
+|        |  |              |  |  |     +--Coniochaeta_ligniaria_culture_CBS_424.65
+|        |  |              |  +--| (71.7/71)
+|        |  |              |     |  +**Coniochaeta_lignicola_CBS_267.33
+|        |  |              |     +--| (92.5/99)
+|        |  |              |        |  +--Coniochaeta_velutina_culture_CBS_981.68
+|        |  |              |        +--| (91.4/100)
+|        |  |              |           |  +**Lecythophora_mutabilis_genomic_DNA
+|        |  |              |           +--| (92.5/100)
+|        |  |              |              +--Lecythophora_luteoviridis_genomic_DNA
+|        |  |           +--| (29.9/87)
+|        |  |           |  |  +--Coniochaeta_nivea_voucher_RLG
+|        |  |           |  +--| (87/95)
+|        |  |           |     |  +--Coniochaeta_montana_voucher_RLG
+|        |  |           |     +--| (78.2/98)
+|        |  |           |        +--Coniochaeta_elegans_voucher_RLG
+|        |  |        +--| (81.3/93)
+|        |  |        |  |     +--Coniochaeta_angustispora_culture_CBS_144.70
+|        |  |        |  |  +--| (77.4/100)
+|        |  |        |  |  |  +**Coniochaeta_cymbiformispora_genes_for
+|        |  |        |  +--| (87.9/98)
+|        |  |        |     +-----Coniochaeta_nepalica_genes_for
+|        |  |     +--| (96.2/100)
+|        |  |     |  +--Coniochaeta_fodinicola_strain_FRL
+|        |  |  +--| (95.6/100)
+|        |  |  |  |  +--Lecythophora_hoffmannii_genomic_DNA
+|        |  |  |  +--| (80.2/100)
+|        |  |  |     |  +--ASV24421.3
+|        |  |  |     +--| (87.9/100)
+|        |  |  |        +**ASV1919.311
+|        |  +--| (34.4/83)
+|        |     +--Lecythophora_sp._UTHSC_01-20
+|     +--| (70.3/72)
+|     |  +--ASV14294.14
+|  +--| (86.4/95)
+|  |  +--ASV2401.274
++--| (87.4/100)
+|  |  +--ASV8895.68
+|  +--| (98.2/100)
+|     +**ASV3294.191
+|
++--ASV19828.11
+
+Tree in newick format:
+
+(ASV21445.5:0.0000022465,((((((((((((Coniochaeta_sp_B6:0.0000026425,Coniochaeta_sp_B5:0.5437122924)82.8/94:0.0317003102,Coniochaeta_sp_H3:0.0398381323)0/83:0.0000026097,Coniochaeta_sp_C1:0.0000021757)0/86:0.0000022197,Coniochaeta_sp_B8:0.0000023534)82.4/90:0.0311849090,Coniochaeta_sp_A4:0.0000020184)88/73:0.0478553801,(((Coniochaeta_sp_A2:0.0000010000,Coniochaeta_sp_B9:0.0179365930)0/54:0.0000025414,Coniochaeta_sp_B7:0.0000010000)0/62:0.0721196617,Coniochaeta_sp_A6:2.4157536256)0/60:0.0000021920)0/42:0.0000020180,Coniochaeta_sp_A3:0.0000026497)72.8/85:0.0182499893,Coniochaeta_sp_A1:0.0423980184)100/100:0.7911855375,(((((((((((((ASV8333.56:0.0267049913,(Coniochaeta_iranica_strain_0806:0.0578169972,Coniochaeta_euphorbiae_strain_1001:0.0810850614)78.2/100:0.0339052892)77.1/100:0.0454886198,Coniochaeta_baysunika_strain_MFLUCC:0.1195096516)94.2/98:0.1759371256,((ASV9354.47:0.0000010000,Coniochaeta_acaciae_strain_MFLUCC:0.0979060090)99.9/100:0.4432779596,((Coniochaeta_simbalensis_NFCCI_4236:0.0594237724,Coniochaeta_cateniformis_genomic_DNA:0.0000029889)99.1/100:0.2794503240,((ASV22598.8:0.0285631363,((Coniochaeta_discospora_culture_CBS_168.58:0.0342949488,ASV12614.34:0.0270372093)74.7/99:0.0254260917,ASV30270.2:0.1403069408)78.3/99:0.0266271118)0/73:0.0000029928,Coniochaeta_canina_strain_R-4810:0.1543947323)89.6/92:0.1291810765)93.6/99:0.1347971744)88.3/99:0.0735825393)97.7/100:0.1877880698,(((((Coniochaeta_palaoa_voucher_ARIZ_AEANC0604:0.0000010000,Coniochaeta_endophytica_isolate_AEA:0.1048051591)0/50:0.0000022340,Coniochaeta_prunicola_culture-collection_CBS_120875:0.0000010000)0/33:0.0000020416,Coniochaeta_prunicola_culture-collection_CBS_121445:0.0000010000)0/77:0.0000023926,Coniochaeta_cephalothecoides_strain_L821:0.0000010000)91.9/99:0.1804736119,Rosellinia_ambigua_voucher_PAD:0.1836753703)90.7/98:0.1791353978)41.5/67:0.0461197844,((Coniochaeta_leucoplaca_strain_CBS:0.1502219290,Coniochaeta_sp._strain_RGM_3301:0.0000028739)95.2/88:0.2383895698,ASV26148.5:0.2828445875)81/71:0.1110701836)84.5/63:0.0608887366,((Rosellinia_subsimilis_voucher_PAD:0.0285326136,Coniochaeta_rosae_TASM_6127:0.0288678817)86/99:0.1010372847,Coniochaeta_coluteae_strain_MFLUCC:0.4572266286)71/98:0.0257817021)86.8/66:0.0403759189,(((((((((((((((((((Coniochaeta_sp._isolate_PMML0158:0.1745722502,Coniochaeta_pulveracea_strain_CBS:0.0631763855)0/62:0.0000025243,ASV28452.0:0.4000841912)47.2/83:0.0696498445,Coniochaeta_rhopalochaeta_CBS_109872:0.1316072454)99.5/99:0.3001723735,Coniochaeta_fibrosae_isolate_CX03C1:0.2128898971)99/98:0.3150307877,(Coniochaeta_deborreae_strain_BE19_001008:0.0000023472,((ASV3874.131:0.0302276416,Coniochaeta_boothii_CBS_381.74:0.0471880525)94.2/99:0.1393081959,Coniochaeta_sp._strain_CBS:0.0322893623)89.6/97:0.0659949000)91.7/98:0.1323197623)22.2/50:0.1266925187,Rosellinia_geophila_voucher_PAD:2.1760679089)78.7/67:0.2127821711,Coniochaeta_taeniospora_strain_LTA:0.6042736989)0/11:0.0000022363,((((((ASV23565.8:0.0274638057,(((Coniochaeta_polymorpha_D2:0.0566496665,((ASV689.1147:0.0000010000,ASV29807.18:0.0000010000)0/47:0.0000010000,(ASV27077.0:0.0285673198,ASV26006.3:0.0287493213)0/32:0.0000022598)0/49:0.0000024925)84.4/97:0.0278377335,ASV20608.20:0.0000024432)0/65:0.0000026364,ASV25093.2:0.0578932335)99.6/100:0.2399377377)0/57:0.0000024154,((ASV17043.11:0.0551465431,ASV7942.70:0.0000021908)84.5/98:0.0274630416,Rosellinia_chordicola_voucher_PAD:0.0000023631)0/47:0.0000025783)91.7/94:0.0822982778,Coniochaeta_discoidea_CBS_158.80:0.2593690310)44.6/88:0.0379214930,(Lecythophora_sp._Kw448_genomic:0.0876198054,ASV1353.219:0.0000023887)77/99:0.0566069688)99.9/100:0.8418660830,(Coniochaeta_ellipsoidea_culture_CBS_137.68:0.0215229530,Coniochaeta_punctulata_culture_CBS_159.80:0.0000020512)77.3/99:0.0621504098)92.8/97:0.2489122854,Coniochaeta_savoryi_culture_CBS_725.74:0.0000021578)99.3/97:0.2835733809)88.3/25:0.0781111883,(Coniochaeta_marina_culture_MFLUCC_18-0408:0.0000021058,Coniochaeta_decumbens_CBS_153.42:0.0000010000)5.4/84:0.0538323669)0/7:0.0000027936,(Coniochaeta_extramundana_culture_CBS_247.77:0.1121149940,Coniochaeta_tetraspora_culture_CBS_139.68:0.0664838491)75/93:0.0316378247)97.9/38:0.2451064591,Coniochaeta_cipronana_CBS_144016:0.0000021858)69.7/26:0.0891186578,ASV29012.3:0.0766121706)86.8/43:0.3837318480,Coniochaeta_navarrae_strain_LTA3:0.8669385314)98/72:0.8609521888,(Coniochaeta_cypraeaespora_culture_CBS_365.93:0.1035777219,Coniochaeta_arxii_culture_CBS_192.89:0.0461042616)100/100:4.2173485950)43.9/53:0.2240935028,((((Coniochaeta_velutinosa_strain_Co29:0.3341980817,ASV18361.17:0.7900214687)76.7/82:0.0623661565,Coniochaeta_gigantospora_18S_ribosomal:0.8867253525)84.2/77:0.1398688118,Coniochaeta_ostrea_CBS_507.70:0.2214180559)47.9/71:0.1835281574,((ASV11657.1:0.4354071871,ASV381.77:0.0000010000)0/65:0.0000021436,ASV6750.46:0.0295207792)99.4/100:0.9627185085)36.6/81:0.0931952951)92.1/56:0.2526931192,(Coniochaeta_hansenii_strain_CBS:0.0000010000,Sordaria_hansenii_strain_RGM_3311:0.0000010000)100/100:0.8213075220)82.8/39:0.1368196362,(Chaetosphaeria_innumera_strain_MR:5.4065912467,Coniochaeta_verticillata_CBS_816.71:0.5209895106)84/39:0.4667002989)84.5/97:0.1598909909,Coniochaeta_polysperma_culture_CBS_669.77:0.4458860538)83.4/89:0.1115992175,(Coniochaeta_africana_culture-collection_CBS_120868:0.1115904876,Coniochaeta_dendrobiicola_isolate_DLCCR7:0.5938362986)88/91:0.0861124036)83.3/80:0.0703108740)66.7/74:0.0192612798,(((Coniochaeta_sinensis_isolate_CS-04:0.1573821138,(Coniochaeta_mongoliae_isolate_CS-09:0.0566871154,Lecythophora_fasciculata_genomic_DNA:0.2028613100)64.4/99:0.0635524786)90.5/100:0.0667518615,(Coniochaeta_vineae_KUMCC_17-0322:0.1796703945,Coniochaeta_ligniaria_culture_CBS_424.65:0.0979396188)80.6/99:0.0370476646)92.3/100:0.0736085223,(Coniochaeta_lignicola_CBS_267.33:0.0000021902,(Coniochaeta_velutina_culture_CBS_981.68:0.0313315090,(Lecythophora_mutabilis_genomic_DNA:0.0000010000,Lecythophora_luteoviridis_genomic_DNA:0.0504105560)92.5/100:0.0563241438)91.4/100:0.0517279762)92.5/99:0.0701890036)71.7/71:0.0125584971)90.2/90:0.0935386033,(Coniochaeta_nivea_voucher_RLG:0.0527472929,(Coniochaeta_montana_voucher_RLG:0.0206555105,Coniochaeta_elegans_voucher_RLG:0.0207647310)78.2/98:0.0357333728)87/95:0.0604754688)29.9/87:0.0301507074,((Coniochaeta_angustispora_culture_CBS_144.70:0.0304408686,Coniochaeta_cymbiformispora_genes_for:0.0000028271)77.4/100:0.1403153299,Coniochaeta_nepalica_genes_for:0.7420798370)87.9/98:0.1109712746)81.3/93:0.0677700982,Coniochaeta_fodinicola_strain_FRL:0.2561312303)96.2/100:0.1909502463,(Lecythophora_hoffmannii_genomic_DNA:0.1458698085,(ASV24421.3:0.0212999291,ASV1919.311:0.0000021977)87.9/100:0.1051034365)80.2/100:0.0689640734)95.6/100:0.2071227172,Lecythophora_sp._UTHSC_01-20:0.1118144809)34.4/83:0.0284818557)81.3/77:0.0579341378,ASV14294.14:0.0744047408)70.3/72:0.0181219302,ASV2401.274:0.0474077806)86.4/95:0.0591690512,(ASV8895.68:0.0298649580,ASV3294.191:0.0000027599)98.2/100:0.1900655690)87.4/100:0.0597921661,ASV19828.11:0.0227602842);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -15369.841470
+Robinson-Foulds distance between ML tree and consensus tree: 18
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--ASV21445.5
+|
+|                                      +--Coniochaeta_sp_B6
+|                                   +--| (94)
+|                                   |  +---Coniochaeta_sp_B5
+|                                +--| (83)
+|                                |  +--Coniochaeta_sp_H3
+|                             +--| (86)
+|                             |  +--Coniochaeta_sp_C1
+|                          +--| (90)
+|                          |  +--Coniochaeta_sp_B8
+|                       +--| (73)
+|                       |  +--Coniochaeta_sp_A4
+|                    +--| (42)
+|                    |  |        +--Coniochaeta_sp_A2
+|                    |  |     +--| (54)
+|                    |  |     |  +--Coniochaeta_sp_B9
+|                    |  |  +--| (62)
+|                    |  |  |  +--Coniochaeta_sp_B7
+|                    |  +--| (60)
+|                    |     +-------------------Coniochaeta_sp_A6
+|                 +--| (85)
+|                 |  +--Coniochaeta_sp_A3
+|           +-----| (100)
+|           |     +--Coniochaeta_sp_A1
+|        +--| (77)
+|        |  |                                      +--ASV8333.56
+|        |  |                                   +--| (100)
+|        |  |                                   |  |  +--Coniochaeta_iranica_strain_0806
+|        |  |                                   |  +--| (100)
+|        |  |                                   |     +--Coniochaeta_euphorbiae_strain_1001
+|        |  |                                +--| (98)
+|        |  |                                |  +--Coniochaeta_baysunika_strain_MFLUCC
+|        |  |                             +--| (100)
+|        |  |                             |  |     +--ASV9354.47
+|        |  |                             |  |  +--| (100)
+|        |  |                             |  |  |  +--Coniochaeta_acaciae_strain_MFLUCC
+|        |  |                             |  +--| (99)
+|        |  |                             |     |     +--Coniochaeta_simbalensis_NFCCI_4236
+|        |  |                             |     |  +--| (100)
+|        |  |                             |     |  |  +--Coniochaeta_cateniformis_genomic_DNA
+|        |  |                             |     +--| (99)
+|        |  |                             |        |     +--ASV22598.8
+|        |  |                             |        |  +--| (73)
+|        |  |                             |        |  |  |     +--Coniochaeta_discospora_culture_CBS_168.58
+|        |  |                             |        |  |  |  +--| (99)
+|        |  |                             |        |  |  |  |  +--ASV12614.34
+|        |  |                             |        |  |  +--| (99)
+|        |  |                             |        |  |     +--ASV30270.2
+|        |  |                             |        +--| (92)
+|        |  |                             |           +--Coniochaeta_canina_strain_R-4810
+|        |  |                          +--| (67)
+|        |  |                          |  |              +--Coniochaeta_palaoa_voucher_ARIZ_AEANC0604
+|        |  |                          |  |           +--| (50)
+|        |  |                          |  |           |  +--Coniochaeta_endophytica_isolate_AEA
+|        |  |                          |  |        +--| (42)
+|        |  |                          |  |        |  +--Coniochaeta_prunicola_culture-collection_CBS_121445
+|        |  |                          |  |     +--| (77)
+|        |  |                          |  |     |  +--Coniochaeta_prunicola_culture-collection_CBS_120875
+|        |  |                          |  |  +--| (99)
+|        |  |                          |  |  |  +--Coniochaeta_cephalothecoides_strain_L821
+|        |  |                          |  +--| (98)
+|        |  |                          |     +--Rosellinia_ambigua_voucher_PAD
+|        |  |                       +--| (63)
+|        |  |                       |  |     +--Coniochaeta_leucoplaca_strain_CBS
+|        |  |                       |  |  +--| (88)
+|        |  |                       |  |  |  +--Coniochaeta_sp._strain_RGM_3301
+|        |  |                       |  +--| (71)
+|        |  |                       |     +--ASV26148.5
+|        |  |                    +--| (66)
+|        |  |                    |  |     +--Rosellinia_subsimilis_voucher_PAD
+|        |  |                    |  |  +--| (99)
+|        |  |                    |  |  |  +--Coniochaeta_rosae_TASM_6127
+|        |  |                    |  +--| (98)
+|        |  |                    |     +--Coniochaeta_coluteae_strain_MFLUCC
+|        |  |                 +--| (74)
+|        |  |                 |  |                                            +--Coniochaeta_sp._isolate_PMML0158
+|        |  |                 |  |                                         +--| (62)
+|        |  |                 |  |                                         |  +--Coniochaeta_pulveracea_strain_CBS
+|        |  |                 |  |                                      +--| (83)
+|        |  |                 |  |                                      |  +--ASV28452.0
+|        |  |                 |  |                                   +--| (99)
+|        |  |                 |  |                                   |  +--Coniochaeta_rhopalochaeta_CBS_109872
+|        |  |                 |  |                                +--| (98)
+|        |  |                 |  |                                |  +--Coniochaeta_fibrosae_isolate_CX03C1
+|        |  |                 |  |                             +--| (50)
+|        |  |                 |  |                             |  |  +--Coniochaeta_deborreae_strain_BE19_001008
+|        |  |                 |  |                             |  +--| (98)
+|        |  |                 |  |                             |     |     +--ASV3874.131
+|        |  |                 |  |                             |     |  +--| (99)
+|        |  |                 |  |                             |     |  |  +--Coniochaeta_boothii_CBS_381.74
+|        |  |                 |  |                             |     +--| (97)
+|        |  |                 |  |                             |        +--Coniochaeta_sp._strain_CBS
+|        |  |                 |  |                          +--| (67)
+|        |  |                 |  |                          |  +-----------------Rosellinia_geophila_voucher_PAD
+|        |  |                 |  |                    +-----| (72)
+|        |  |                 |  |                    |     |        +--ASV29012.3
+|        |  |                 |  |                    |     |     +--| (47)
+|        |  |                 |  |                    |     |     |  +--Coniochaeta_cipronana_CBS_144016
+|        |  |                 |  |                    |     |  +--| (38)
+|        |  |                 |  |                    |     |  |  |     +-----Coniochaeta_taeniospora_strain_LTA
+|        |  |                 |  |                    |     |  |  |  +--| (24)
+|        |  |                 |  |                    |     |  |  |  |  |                     +--ASV23565.8
+|        |  |                 |  |                    |     |  |  |  |  |                  +--| (57)
+|        |  |                 |  |                    |     |  |  |  |  |                  |  |        +--Coniochaeta_polymorpha_D2
+|        |  |                 |  |                    |     |  |  |  |  |                  |  |     +--| (97)
+|        |  |                 |  |                    |     |  |  |  |  |                  |  |     |  |     +--ASV689.1147
+|        |  |                 |  |                    |     |  |  |  |  |                  |  |     |  |  +--| (47)
+|        |  |                 |  |                    |     |  |  |  |  |                  |  |     |  |  |  +--ASV29807.18
+|        |  |                 |  |                    |     |  |  |  |  |                  |  |     |  +--| (49)
+|        |  |                 |  |                    |     |  |  |  |  |                  |  |     |     |  +--ASV27077.0
+|        |  |                 |  |                    |     |  |  |  |  |                  |  |     |     +--| (32)
+|        |  |                 |  |                    |     |  |  |  |  |                  |  |     |        +--ASV26006.3
+|        |  |                 |  |                    |     |  |  |  |  |                  |  |  +--| (65)
+|        |  |                 |  |                    |     |  |  |  |  |                  |  |  |  +--ASV20608.20
+|        |  |                 |  |                    |     |  |  |  |  |                  |  +--| (100)
+|        |  |                 |  |                    |     |  |  |  |  |                  |     +--ASV25093.2
+|        |  |                 |  |                    |     |  |  |  |  |               +--| (94)
+|        |  |                 |  |                    |     |  |  |  |  |               |  |     +--ASV17043.11
+|        |  |                 |  |                    |     |  |  |  |  |               |  |  +--| (98)
+|        |  |                 |  |                    |     |  |  |  |  |               |  |  |  +--ASV7942.70
+|        |  |                 |  |                    |     |  |  |  |  |               |  +--| (47)
+|        |  |                 |  |                    |     |  |  |  |  |               |     +--Rosellinia_chordicola_voucher_PAD
+|        |  |                 |  |                    |     |  |  |  |  |            +--| (88)
+|        |  |                 |  |                    |     |  |  |  |  |            |  +--Coniochaeta_discoidea_CBS_158.80
+|        |  |                 |  |                    |     |  |  |  |  |     +------| (100)
+|        |  |                 |  |                    |     |  |  |  |  |     |      |  +--Lecythophora_sp._Kw448_genomic
+|        |  |                 |  |                    |     |  |  |  |  |     |      +--| (99)
+|        |  |                 |  |                    |     |  |  |  |  |     |         +--ASV1353.219
+|        |  |                 |  |                    |     |  |  |  |  |  +--| (97)
+|        |  |                 |  |                    |     |  |  |  |  |  |  |  +--Coniochaeta_ellipsoidea_culture_CBS_137.68
+|        |  |                 |  |                    |     |  |  |  |  |  |  +--| (99)
+|        |  |                 |  |                    |     |  |  |  |  |  |     +--Coniochaeta_punctulata_culture_CBS_159.80
+|        |  |                 |  |                    |     |  |  |  |  +--| (97)
+|        |  |                 |  |                    |     |  |  |  |     +--Coniochaeta_savoryi_culture_CBS_725.74
+|        |  |                 |  |                    |     |  |  +--| (18)
+|        |  |                 |  |                    |     |  |     |     +--Coniochaeta_extramundana_culture_CBS_247.77
+|        |  |                 |  |                    |     |  |     |  +--| (93)
+|        |  |                 |  |                    |     |  |     |  |  +--Coniochaeta_tetraspora_culture_CBS_139.68
+|        |  |                 |  |                    |     |  |     +--| (68)
+|        |  |                 |  |                    |     |  |        |  +--Coniochaeta_marina_culture_MFLUCC_18-0408
+|        |  |                 |  |                    |     |  |        +--| (84)
+|        |  |                 |  |                    |     |  |           +--Coniochaeta_decumbens_CBS_153.42
+|        |  |                 |  |                    |     +--| (52)
+|        |  |                 |  |                    |        +--------Coniochaeta_navarrae_strain_LTA3
+|        |  |                 |  |                 +--| (53)
+|        |  |                 |  |                 |  |                                  +--Coniochaeta_cypraeaespora_culture_CBS_365.93
+|        |  |                 |  |                 |  +----------------------------------| (100)
+|        |  |                 |  |                 |                                     +--Coniochaeta_arxii_culture_CBS_192.89
+|        |  |                 |  |              +--| (56)
+|        |  |                 |  |              |  |           +--Coniochaeta_velutinosa_strain_Co29
+|        |  |                 |  |              |  |        +--| (82)
+|        |  |                 |  |              |  |        |  +-----ASV18361.17
+|        |  |                 |  |              |  |     +--| (77)
+|        |  |                 |  |              |  |     |  +------Coniochaeta_gigantospora_18S_ribosomal
+|        |  |                 |  |              |  |  +--| (71)
+|        |  |                 |  |              |  |  |  +--Coniochaeta_ostrea_CBS_507.70
+|        |  |                 |  |              |  +--| (81)
+|        |  |                 |  |              |     |          +--ASV11657.1
+|        |  |                 |  |              |     |       +--| (65)
+|        |  |                 |  |              |     |       |  +--ASV381.77
+|        |  |                 |  |              |     +-------| (100)
+|        |  |                 |  |              |             +--ASV6750.46
+|        |  |                 |  |           +--| (44)
+|        |  |                 |  |           |  +-----------------------------------------------Chaetosphaeria_innumera_strain_MR
+|        |  |                 |  |        +--| (61)
+|        |  |                 |  |        |  |      +--Coniochaeta_hansenii_strain_CBS
+|        |  |                 |  |        |  +------| (100)
+|        |  |                 |  |        |         +--Sordaria_hansenii_strain_RGM_3311
+|        |  |                 |  |     +--| (97)
+|        |  |                 |  |     |  +-------Coniochaeta_verticillata_CBS_816.71
+|        |  |                 |  |  +--| (89)
+|        |  |                 |  |  |  +--Coniochaeta_polysperma_culture_CBS_669.77
+|        |  |                 |  +--| (80)
+|        |  |                 |     |  +--Coniochaeta_africana_culture-collection_CBS_120868
+|        |  |                 |     +--| (91)
+|        |  |                 |        +----Coniochaeta_dendrobiicola_isolate_DLCCR7
+|        |  |              +--| (90)
+|        |  |              |  |        +--Coniochaeta_sinensis_isolate_CS-04
+|        |  |              |  |     +--| (100)
+|        |  |              |  |     |  |  +--Coniochaeta_mongoliae_isolate_CS-09
+|        |  |              |  |     |  +--| (99)
+|        |  |              |  |     |     +--Lecythophora_fasciculata_genomic_DNA
+|        |  |              |  |  +--| (100)
+|        |  |              |  |  |  |  +--Coniochaeta_vineae_KUMCC_17-0322
+|        |  |              |  |  |  +--| (99)
+|        |  |              |  |  |     +--Coniochaeta_ligniaria_culture_CBS_424.65
+|        |  |              |  +--| (71)
+|        |  |              |     |  +--Coniochaeta_lignicola_CBS_267.33
+|        |  |              |     +--| (99)
+|        |  |              |        |  +--Coniochaeta_velutina_culture_CBS_981.68
+|        |  |              |        +--| (100)
+|        |  |              |           |  +--Lecythophora_mutabilis_genomic_DNA
+|        |  |              |           +--| (100)
+|        |  |              |              +--Lecythophora_luteoviridis_genomic_DNA
+|        |  |           +--| (87)
+|        |  |           |  |  +--Coniochaeta_nivea_voucher_RLG
+|        |  |           |  +--| (95)
+|        |  |           |     |  +--Coniochaeta_montana_voucher_RLG
+|        |  |           |     +--| (98)
+|        |  |           |        +--Coniochaeta_elegans_voucher_RLG
+|        |  |        +--| (93)
+|        |  |        |  |     +--Coniochaeta_angustispora_culture_CBS_144.70
+|        |  |        |  |  +--| (100)
+|        |  |        |  |  |  +--Coniochaeta_cymbiformispora_genes_for
+|        |  |        |  +--| (98)
+|        |  |        |     +-----Coniochaeta_nepalica_genes_for
+|        |  |     +--| (100)
+|        |  |     |  +--Coniochaeta_fodinicola_strain_FRL
+|        |  |  +--| (100)
+|        |  |  |  |  +--Lecythophora_hoffmannii_genomic_DNA
+|        |  |  |  +--| (100)
+|        |  |  |     |  +--ASV24421.3
+|        |  |  |     +--| (100)
+|        |  |  |        +--ASV1919.311
+|        |  +--| (83)
+|        |     +--Lecythophora_sp._UTHSC_01-20
+|     +--| (72)
+|     |  +--ASV14294.14
+|  +--| (95)
+|  |  +--ASV2401.274
++--| (100)
+|  |  +--ASV8895.68
+|  +--| (100)
+|     +--ASV3294.191
+|
++--ASV19828.11
+
+
+Consensus tree in newick format: 
+
+(ASV21445.5:0.0000021988,((((((((((((Coniochaeta_sp_B6:0.0000021988,Coniochaeta_sp_B5:0.5255489177)94:0.0307358313,Coniochaeta_sp_H3:0.0385911833)83:0.0000026529,Coniochaeta_sp_C1:0.0000021988)86:0.0000021496,Coniochaeta_sp_B8:0.0000021988)90:0.0303163352,Coniochaeta_sp_A4:0.0000021988)73:0.0463258445,(((Coniochaeta_sp_A2:0.0000021988,Coniochaeta_sp_B9:0.0000022826)54:0.0173788678,Coniochaeta_sp_B7:0.0000021988)62:0.0058017621,Coniochaeta_sp_A6:2.3288689795)60:0.0639228130)42:0.0000020714,Coniochaeta_sp_A3:0.0000021988)85:0.0161724453,Coniochaeta_sp_A1:0.0425056432)100:0.7683889184,(((((((((((((ASV8333.56:0.0259705101,(Coniochaeta_iranica_strain_0806:0.0559993107,Coniochaeta_euphorbiae_strain_1001:0.0787074626)100:0.0327433902)100:0.0439303835,Coniochaeta_baysunika_strain_MFLUCC:0.1158413880)98:0.1703236061,((ASV9354.47:0.0000021988,Coniochaeta_acaciae_strain_MFLUCC:0.0950967896)100:0.4289397013,((Coniochaeta_simbalensis_NFCCI_4236:0.0576262655,Coniochaeta_cateniformis_genomic_DNA:0.0000028056)100:0.2716558678,((ASV22598.8:0.0277829839,((Coniochaeta_discospora_culture_CBS_168.58:0.0332616575,ASV12614.34:0.0263245745)99:0.0246178583,ASV30270.2:0.1363948041)99:0.0258720171)73:0.0000028142,Coniochaeta_canina_strain_R-4810:0.1497944815)92:0.1256843836)99:0.1285412846)99:0.0722855144)100:0.1814211357,(((((Coniochaeta_palaoa_voucher_ARIZ_AEANC0604:0.0000021988,Coniochaeta_endophytica_isolate_AEA:0.1017086046)50:0.0000027358,Coniochaeta_prunicola_culture-collection_CBS_121445:0.0000021988)42:0.0000024354,Coniochaeta_prunicola_culture-collection_CBS_120875:0.0000021988)77:0.0000023393,Coniochaeta_cephalothecoides_strain_L821:0.0000021988)99:0.1746563625,Rosellinia_ambigua_voucher_PAD:0.1784952518)98:0.1729360370)67:0.0447753108,((Coniochaeta_leucoplaca_strain_CBS:0.1468291003,Coniochaeta_sp._strain_RGM_3301:0.0000029866)88:0.2306161598,ASV26148.5:0.2739025475)71:0.1070774229)63:0.0591588991,((Rosellinia_subsimilis_voucher_PAD:0.0277447178,Coniochaeta_rosae_TASM_6127:0.0280035089)99:0.0982869014,Coniochaeta_coluteae_strain_MFLUCC:0.4430599728)98:0.0245165266)66:0.0387664656,((((((((((((((Coniochaeta_sp._isolate_PMML0158:0.1705719343,Coniochaeta_pulveracea_strain_CBS:0.0621707176)62:0.0000020595,ASV28452.0:0.3897012686)83:0.0647715191,Coniochaeta_rhopalochaeta_CBS_109872:0.1298170192)99:0.2786831734,Coniochaeta_fibrosae_isolate_CX03C1:0.2209400041)98:0.3340198210,(Coniochaeta_deborreae_strain_BE19_001008:0.0000020222,((ASV3874.131:0.0294801243,Coniochaeta_boothii_CBS_381.74:0.0458109940)99:0.1348374329,Coniochaeta_sp._strain_CBS:0.0318837142)97:0.0634581250)98:0.0924593489)50:0.0588135711,Rosellinia_geophila_voucher_PAD:2.1292748876)67:0.1816721304,(((ASV29012.3:0.0847014704,Coniochaeta_cipronana_CBS_144016:0.0206930497)47:0.0244324329,((Coniochaeta_taeniospora_strain_LTA:0.6892617440,((((((ASV23565.8:0.0267597821,(((Coniochaeta_polymorpha_D2:0.0551843005,((ASV689.1147:0.0000021988,ASV29807.18:0.0000021988)47:0.0000021988,(ASV27077.0:0.0278872007,ASV26006.3:0.0280602488)32:0.0000021988)49:0.0000021988)97:0.0271045870,ASV20608.20:0.0000021988)65:0.0000025492,ASV25093.2:0.0565050075)100:0.2335631721)57:0.0000022787,((ASV17043.11:0.0537053041,ASV7942.70:0.0000021988)98:0.0267516903,Rosellinia_chordicola_voucher_PAD:0.0000021988)47:0.0000021988)94:0.0799765264,Coniochaeta_discoidea_CBS_158.80:0.2515648225)88:0.0371978193,(Lecythophora_sp._Kw448_genomic:0.0846317322,ASV1353.219:0.0000021988)99:0.0539417696)100:0.8106624196,(Coniochaeta_ellipsoidea_culture_CBS_137.68:0.0000028765,Coniochaeta_punctulata_culture_CBS_159.80:0.0194161408)99:0.0621709133)97:0.2413977408,Coniochaeta_savoryi_culture_CBS_725.74:0.0000028142)97:0.2931564947)24:0.0090514361,((Coniochaeta_extramundana_culture_CBS_247.77:0.1079855624,Coniochaeta_tetraspora_culture_CBS_139.68:0.0751501222)93:0.0337243127,(Coniochaeta_marina_culture_MFLUCC_18-0408:0.0000027404,Coniochaeta_decumbens_CBS_153.42:0.0000021988)84:0.0000029113)68:0.0722864068)18:0.2408356365)38:0.1326401850,Coniochaeta_navarrae_strain_LTA3:1.0824494747)52:0.1374466898)72:0.7139431619,(Coniochaeta_cypraeaespora_culture_CBS_365.93:0.0976912163,Coniochaeta_arxii_culture_CBS_192.89:0.0472203217)100:4.0823993839)53:0.2859095290,((((Coniochaeta_velutinosa_strain_Co29:0.3252974904,ASV18361.17:0.7678186198)82:0.0614862636,Coniochaeta_gigantospora_18S_ribosomal:0.8477177111)77:0.1280775559,Coniochaeta_ostrea_CBS_507.70:0.2169926455)71:0.1781886283,((ASV11657.1:0.4257135074,ASV381.77:0.0000021988)65:0.0000026948,ASV6750.46:0.0289234148)100:0.9394814334)81:0.0835626504)56:0.2712403958,Chaetosphaeria_innumera_strain_MR:5.5675416824)44:0.0094625200,(Coniochaeta_hansenii_strain_CBS:0.0000021215,Sordaria_hansenii_strain_RGM_3311:0.0000020133)100:0.8050421285)61:0.1164212204,Coniochaeta_verticillata_CBS_816.71:0.9379896991)97:0.1520495341,Coniochaeta_polysperma_culture_CBS_669.77:0.4349082367)89:0.1071905412,(Coniochaeta_africana_culture-collection_CBS_120868:0.1077373239,Coniochaeta_dendrobiicola_isolate_DLCCR7:0.5739746441)91:0.0842884659)80:0.0678312812)74:0.0191593384,(((Coniochaeta_sinensis_isolate_CS-04:0.1521518188,(Coniochaeta_mongoliae_isolate_CS-09:0.0549954640,Lecythophora_fasciculata_genomic_DNA:0.1965268067)99:0.0619098197)100:0.0643303930,(Coniochaeta_vineae_KUMCC_17-0322:0.1744641074,Coniochaeta_ligniaria_culture_CBS_424.65:0.0949237373)99:0.0360313491)100:0.0710620318,(Coniochaeta_lignicola_CBS_267.33:0.0000024079,(Coniochaeta_velutina_culture_CBS_981.68:0.0304744857,(Lecythophora_mutabilis_genomic_DNA:0.0000021988,Lecythophora_luteoviridis_genomic_DNA:0.0489624666)100:0.0546589835)100:0.0502501691)99:0.0681516376)71:0.0122608544)90:0.0907054934,(Coniochaeta_nivea_voucher_RLG:0.0510613345,(Coniochaeta_montana_voucher_RLG:0.0200120824,Coniochaeta_elegans_voucher_RLG:0.0201167700)98:0.0346375063)95:0.0584716034)87:0.0292361336,((Coniochaeta_angustispora_culture_CBS_144.70:0.0295424629,Coniochaeta_cymbiformispora_genes_for:0.0000021759)100:0.1421308629,Coniochaeta_nepalica_genes_for:0.7180284078)98:0.1068659796)93:0.0669498204,Coniochaeta_fodinicola_strain_FRL:0.2473784354)100:0.1825718187,(Lecythophora_hoffmannii_genomic_DNA:0.1414856272,(ASV24421.3:0.0207826920,ASV1919.311:0.0000021988)100:0.1027232417)100:0.0679172420)100:0.2002088133,Lecythophora_sp._UTHSC_01-20:0.1085834102)83:0.0274968915)77:0.0568360059,ASV14294.14:0.0723647003)72:0.0178065443,ASV2401.274:0.0461770596)95:0.0576454498,(ASV8895.68:0.0290655309,ASV3294.191:0.0000021988)100:0.1847933630)100:0.0582308834,ASV19828.11:0.0221867078);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t Mojave2020.Coniochaeta.muscle.fasaln.clipkit.treefile -m "TN{1.32432,2.55729}+F{0.243132,0.264097,0.269075,0.223696}+G4{0.377111}" --length 1629
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Mojave2020.Coniochaeta.muscle.fasaln.clipkit --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Mojave2020.Coniochaeta.muscle.fasaln.clipkit --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Aug 23 12:32:06 2023
+Total CPU time used: 429.226527 seconds (0h:7m:9s)
+Total wall-clock time used: 229.2601779 seconds (0h:3m:49s)
+

@@ -1,0 +1,71 @@
+SampleID	SampleID_2	Locus	Flowcell	Site	Site_layer	Layer	Soil_type	Soil_type_layer	Crust_type	Sampling_month	Sampling_Date	Description
+SRR9106059	GMT.SMC	ITS	TBD	GMT	GMT_SF	Surface	Granite	Granite_SF	SMC	March_2015	3/16/15	
+SRR9106060	GMT.RMC	ITS	TBD	GMT	GMT_SF	Surface	Granite	Granite_SF	RMC	March_2015	3/16/15	
+SRR9106061	CIMA.CLC.SUB	ITS		CIMA	CIMA_Sub	Subsurface	Volcanic	Volcanic_Sub	CLC.Sub			
+SRR9106062	KELSO.LAC.SUB	ITS		KELSO	KELSO_SF	Surface	Sand	Sand_SF	LAC	March_2015	3/16/15	
+SRR9106063	KELSO.GLC.SUB	ITS		KELSO	KELSO_SF	Surface	Sand	Sand_SF	GLC	March_2015	3/16/15	
+SRR9106064	NPMarch7SF	ITS	TBD	JTNP	JTNP_SF	Surface	Granite	Granite_SF	LAC	March_2017	3/31/17	
+SRR9106065	NPMarch7Sub	ITS	TBD	JTNP	JTNP_Sub	Subsurface	Granite	Granite_Sub	LAC.Sub	March_2017	3/31/17	
+SRR9106066	NPMarch6SF	ITS	TBD	JTNP	JTNP_SF	Surface	Granite	Granite_SF	CLC	March_2017	3/31/17	
+SRR9106067	NPMarch6Sub	ITS	TBD	JTNP	JTNP_Sub	Subsurface	Granite	Granite_Sub	CLC.Sub	March_2017	3/31/17	
+SRR9106068	NPMarch9SF	ITS	TBD	JTNP	JTNP_SF	Surface	Granite	Granite_SF	GLC	March_2017	3/31/17	
+SRR9106069	NPMarch9Sub	ITS	TBD	JTNP	JTNP_Sub	Subsurface	Granite	Granite_Sub	GLC.Sub	March_2017	3/31/17	
+SRR9106070	NPMarch8SF	ITS	TBD	JTNP	JTNP_SF	Surface	Granite	Granite_SF	LAC	March_2017	3/31/17	
+SRR9106071	NPMarch8Sub	ITS	TBD	JTNP	JTNP_Sub	Subsurface	Granite	Granite_Sub	LAC.Sub	March_2017	3/31/17	
+SRR9106072	CIMA.LAC	ITS	TBD	CIMA	CIMA_SF	Surface	Volcanic	Volcanic_SF	LAC	March_2015	3/16/15	
+SRR9106073	CIMA.CLC	ITS	TBD	CIMA	CIMA_SF	Surface	Volcanic	Volcanic_SF	CLC	March_2015	3/16/15	
+SRR9106074	GMT.CLC.SUB	ITS		GMT	GMT_Sub	Subsurface	Sand	Sand_SF	CLC.Sub			
+SRR9106075	GMT.CLC	ITS	TBD	GMT	GMT_SF	Surface	Granite	Granite_SF	CLC	August_2015	8/6/15	
+SRR9106076	GMT.LAC	ITS	TBD	GMT	GMT_SF	Surface	Granite	Granite_SF	LAC	March_2015	3/16/15	
+SRR9106077	CIMA.GLC.SUB	ITS		CIMA	CIMA_Sub	Subsurface	Volcanic	Volcanic_Sub	GLC.Sub			
+SRR9106078	KELSO.LAC	ITS	TBD	KELSO	KELSO_SF	Surface	Sand	Sand_SF	LAC	March_2015	3/16/15	
+SRR9106079	CIMA.RMC	ITS	TBD	CIMA	CIMA_SF	Surface	Volcanic	Volcanic_SF	RMC	March_2015	3/16/15	
+SRR9106080	CIMA.SMC	ITS	TBD	CIMA	CIMA_SF	Surface	Volcanic	Volcanic_SF	SMC	March_2015	3/16/15	
+SRR9106081	CIMA.GLC	ITS	TBD	CIMA	CIMA_SF	Surface	Volcanic	Volcanic_SF	GLC	March_2016	3/11/16	
+SRR9106082	KELSO.RMC	ITS	TBD	KELSO	KELSO_SF	Surface	Sand	Sand_SF	RMC	March_2015	3/16/15	
+SRR9106083	KELSO.SMC	ITS	TBD	KELSO	KELSO_SF	Surface	Sand	Sand_SF	SMC	March_2015	3/16/15	
+SRR9106084	KELSO.GLC	ITS	TBD	KELSO	KELSO_SF	Surface	Sand	Sand_SF	GLC	March_2015	3/16/15	
+SRR9106085	KELSO.CLC	ITS	TBD	KELSO	KELSO_SF	Surface	Sand	Sand_SF	CLC	March_2015	3/16/15	
+SRR9106086	CIMA.RMC.SUB	ITS		CIMA	CIMA_Sub	Subsurface	Volcanic	Volcanic_Sub	RMC.Sub			
+SRR9106087	CIMA.LAC.SUB	ITS		CIMA	CIMA_Sub	Subsurface	Volcanic	Volcanic_Sub	LAC.Sub			
+SRR9106088	CIMA.SMC.SUB	ITS		CIMA	CIMA_Sub	Subsurface	Volcanic	Volcanic_Sub	SMC.Sub			
+SRR9106089	GMT.RMC.SUB	ITS		GMT	GMT_Sub	Subsurface	Sand	Sand_SF	RMC.Sub			
+SRR9106090	GMT.GLC	ITS	TBD	GMT	GMT_SF	Surface	Granite	Granite_SF	GLC	March_2015	3/16/15	
+SRR9106091	GMT.GLC.SUB	ITS		GMT	GMT_Sub	Subsurface	Sand	Sand_SF	GLC.Sub			
+SRR9106092	GMT.LAC.SUB	ITS		GMT	GMT_Sub	Subsurface	Sand	Sand_SF	LAC.Sub			
+SRR9106093	KELSO.CLC.SUB	ITS		KELSO	KELSO_Sub	Subsurface	Granite	Granite_Sub	CLC.Sub			
+SRR9106094	KELSO.SMC.SUB	ITS		KELSO	KELSO_Sub	Subsurface	Granite	Granite_Sub	SMC.Sub			
+SRR9106095	GMT.SMC.SUB	ITS		GMT	GMT_Sub	Subsurface	Sand	Sand_SF	SMC.Sub			
+SRR9106096	NPMarch5SF	ITS	TBD	JTNP	JTNP_SF	Surface	Granite	Granite_SF	GLC	March_2017	3/31/17	
+SRR9106097	NPMarch2SF	ITS	TBD	JTNP	JTNP_SF	Surface	Granite	Granite_SF	CLC	March_2017	3/31/17	
+SRR9106098	NPMarch2Sub	ITS	TBD	JTNP	JTNP_Sub	Subsurface	Granite	Granite_Sub	CLC.Sub	March_2017	3/31/17	
+SRR9106099	NPMarch1SF	ITS	TBD	JTNP	JTNP_SF	Surface	Granite	Granite_SF	CLC	March_2017	3/31/17	
+SRR9106100	NPMarch1Sub	ITS	TBD	JTNP	JTNP_Sub	Subsurface	Granite	Granite_Sub	CLC.Sub	March_2017	3/31/17	
+SRR9106101	NPMarch4SF	ITS	TBD	JTNP	JTNP_SF	Surface	Granite	Granite_SF	LAC	March_2017	3/31/17	
+SRR9106102	NPMarch4Sub	ITS	TBD	JTNP	JTNP_Sub	Subsurface	Granite	Granite_Sub	LAC.Sub	March_2017	3/31/17	
+SRR9106103	NPMarch3SF	ITS	TBD	JTNP	JTNP_SF	Surface	Granite	Granite_SF	CLC	March_2017	3/31/17	
+SRR9106104	NPMarch3Sub	ITS	TBD	JTNP	JTNP_Sub	Subsurface	Granite	Granite_Sub	CLC.Sub	March_2017	3/31/17	
+SRR9106105	KELSO.RMC.SUB	ITS		KELSO	KELSO_Sub	Subsurface	Granite	Granite_Sub	RMC.Sub			
+SRR9106106	NPMarch5Sub	ITS	TBD	JTNP	JTNP_Sub	Subsurface	Granite	Granite_Sub	GLC.Sub	March_2017	3/31/17	
+AlphaA1.TR.1	AlphaA1.TR.1	ITS		AB	AB_Sub	Subsurface	Granite	Granite_Sub	SMC.Sub			
+AlphaB1.TR.2	AlphaB1.TR.2	ITS		AB		Surface	Granite	Granite_SF	SMC			
+AlphaB3.TR.2	AlphaB3.TR.2	ITS		AB		Surface	Granite	Granite_SF	SMC			
+AlphaB4.TR.1	AlphaB4.TR.1	ITS		AB		Surface	Granite	Granite_SF	SMC			
+AlphaB5.TR.2.1	AlphaB5.TR.2.1	ITS		AB		Surface	Granite	Granite_SF	SMC			
+AlphaB5.TR.2.2	AlphaB5.TR.2.2	ITS		AB		Surface	Granite	Granite_SF	SMC			
+AlphaC2.TR.2	AlphaC2.TR.2	ITS		AB		Surface	Granite	Granite_SF	SMC			
+AlphaC4.TR.2	AlphaC4.TR.2	ITS		AB		Surface	Granite	Granite_SF	SMC			
+BetaA3.TR.2	BetaA3.TR.2	ITS		ODLO		Subsurface	Granite	Granite_Sub	SMC.sub			
+BetaB1.TR.1	BetaB1.TR.1	ITS		ODLO		Surface	Granite	Granite_SF	SMC			
+BetaB2.TR.2	BetaB2.TR.2	ITS		ODLO		Surface	Granite	Granite_SF	SMC			
+BetaC1.TR.2	BetaC1.TR.2	ITS		ODLO		Surface	Granite	Granite_SF	SMC			
+BetaC2.TR.2	BetaC2.TR.2	ITS		ODLO		Surface	Granite	Granite_SF	SMC			
+GammaA5.TR.2	GammaA5.TR.2	ITS		CIMA		Subsurface	Granite	Granite_Sub	SMC.sub			
+GammaB1.TR.1	GammaB1.TR.1	ITS		CIMA		Surface	Volcanic	Volcanic_SF	SMC			
+GammaB4.TR.2	GammaB4.TR.2	ITS		CIMA		Surface	Volcanic	Volcanic_SF	SMC			
+GammaB5.TR.2	GammaB5.TR.2	ITS		CIMA		Surface	Volcanic	Volcanic_SF	SMC			
+GammaC2.TR.2.1	GammaC2.TR.2.1	ITS		CIMA		Surface	Volcanic	Volcanic_SF	SMC			
+GammaC2.TR.2.2	GammaC2.TR.2.2	ITS		CIMA		Surface	Volcanic	Volcanic_SF	SMC			
+GammaC3.TR.1	GammaC3.TR.1	ITS		CIMA		Surface	Volcanic	Volcanic_SF	SMC			
+GammaD4.TR.2	GammaD4.TR.2	ITS		CIMA		Surface	Volcanic	Volcanic_SF	dirt			
+GammaD5.TR.2	GammaD5.TR.2	ITS		CIMA		Surface	Volcanic	Volcanic_SF	dirt			

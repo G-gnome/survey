@@ -1,0 +1,12 @@
+Loading amptk/1.6
+  Loading requirement: usearch/10 mafft/7.505 fasttree/2.1.11
+/bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis/results/amptk /bigdata/stajichlab/shared/projects/BioCrusts/MossCrust/Mojave2020_reanalysis
+[08:46:08 AM]: OS: Rocky Linux 8.5, 64 cores, ~ 528 GB RAM. Python: 3.10.0
+[08:46:08 AM]: AMPtk v1.6.0, VSEARCH v2.22.1
+[08:46:08 AM]: Loading FASTA Records
+[08:46:08 AM]: 30,166 OTUs
+[08:46:08 AM]: Global alignment OTUs with usearch_global (VSEARCH) against ITS.udb
+[08:54:10 AM]: Classifying OTUs with SINTAX (VSEARCH)
+[08:56:04 AM]: Appending taxonomy to OTU table and OTUs
+[08:56:07 AM]: Generating phylogenetic tree (MAFFT/FastTree)
+slurmstepd-c17: error: *** JOB 12160104 ON c17 CANCELLED AT 2023-07-25T10:08:36 ***

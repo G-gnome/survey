@@ -1,0 +1,515 @@
+IQ-TREE 2.2.2.6 COVID-edition built May 27 2023
+
+Input file name: Mojave2020.Mort.muscle.fasaln.clipkit
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 893435
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 75 sequences with 955 nucleotide sites
+Number of constant sites: 451 (= 47.2251% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 451 (= 47.2251% of all sites)
+Number of parsimony informative sites: 339
+Number of distinct site patterns: 597
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TIM2+F+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TIM2+F+I+G4      -11785.986   23881.973 -  0.00162   23942.498 -   0.0314   24635.538 +    0.935
+TPM2u+F+I+G4     -11792.328   23892.657 - 7.74e-06   23952.332 -  0.00023   24641.360 +   0.0509
+TIM2+F+I+R3      -11780.776   23877.552 -   0.0148   23940.672 +   0.0781   24645.702 -   0.0058
+GTR+F+I+G4       -11784.589   23883.178 - 0.000885   23945.426 -  0.00725   24646.467 -  0.00396
+TN+F+I+G4        -11795.156   23898.312 - 4.58e-07   23957.987 - 1.36e-05   24647.016 -  0.00301
+TIM3+F+I+G4      -11793.859   23897.718 - 6.16e-07   23958.243 - 1.19e-05   24651.283 - 0.000356
+TPM2u+F+I+R3     -11787.043   23888.086 - 7.61e-05   23950.334 - 0.000623   24651.374 -  0.00034
+TIM+F+I+G4       -11793.984   23897.968 - 5.44e-07   23958.493 - 1.05e-05   24651.533 - 0.000314
+TVM+F+I+G4       -11791.050   23894.100 - 3.76e-06   23955.484 - 4.75e-05   24652.527 - 0.000191
+HKY+F+I+G4       -11801.866   23909.733 - 1.52e-09   23968.564 - 6.86e-08   24653.574 - 0.000113
+GTR+F+I+R3       -11779.099   23878.197 -   0.0107   23943.084 -   0.0234   24656.071 - 3.25e-05
+TN+F+I+R3        -11789.738   23893.475 - 5.14e-06   23955.723 - 4.21e-05   24656.764 -  2.3e-05
+GTR+F+I+R4       -11772.599   23869.197 +    0.962   23935.879 +    0.858   24656.795 - 2.26e-05
+TPM3u+F+I+G4     -11800.728   23909.456 - 1.74e-09   23969.131 - 5.16e-08   24658.160 - 1.14e-05
+K3Pu+F+I+G4      -11800.741   23909.483 - 1.72e-09   23969.158 -  5.1e-08   24658.186 - 1.13e-05
+TIM3+F+I+R3      -11788.213   23892.426 - 8.69e-06   23955.547 -  4.6e-05   24660.576 - 3.42e-06
+TIM+F+I+R3       -11788.564   23893.127 - 6.12e-06   23956.248 - 3.24e-05   24661.278 - 2.41e-06
+TVM+F+I+R3       -11785.467   23888.934 - 4.98e-05   23952.934 -  0.00017   24661.946 - 1.72e-06
+GTR+F+G4         -11796.155   23904.310 - 2.28e-08   23965.694 - 2.88e-07   24662.737 - 1.16e-06
+HKY+F+I+R3       -11796.411   23904.822 - 1.77e-08   23966.205 - 2.23e-07   24663.249 - 8.98e-07
+TPM3u+F+I+R3     -11795.134   23904.267 - 2.33e-08   23966.516 - 1.91e-07   24667.556 - 1.04e-07
+K3Pu+F+I+R3      -11795.283   23904.565 - 2.01e-08   23966.813 - 1.65e-07   24667.854 - 8.98e-08
+GTR+F+R8         -11770.375   23878.749 -  0.00811   23951.947 - 0.000278   24700.379 - 7.78e-15
+GTR+F+R9         -11769.668   23881.336 -  0.00222   23956.463 - 2.91e-05   24712.689 - 1.65e-17
+GTR+F+R7         -11783.567   23901.135 - 1.12e-07   23972.433 - 9.91e-09   24713.041 - 1.38e-17
+GTR+F+R6         -11791.203   23912.405 - 3.99e-10   23981.835 - 9.01e-11   24714.587 - 6.39e-18
+GTR+F+R5         -11805.247   23936.494 - 2.34e-15   24004.084 - 1.33e-15   24728.953 - 4.85e-21
+GTR+F+I+R2       -11827.184   23970.368 - 1.03e-22   24033.488 - 5.47e-22   24738.518 - 4.06e-23
+GTR+F+R4         -11833.873   23989.746 -  6.4e-27   24055.527 - 8.96e-27   24772.482 - 1.71e-30
+F81+F+I+G4       -11879.451   24062.902 - 8.33e-43   24120.897 - 5.72e-41   24801.882 - 7.07e-37
+SYM+I+G4         -11873.613   24055.225 - 3.87e-41   24114.900 - 1.15e-39   24803.929 - 2.54e-37
+TVMe+I+G4        -11878.608   24063.217 - 7.11e-43   24122.048 - 3.22e-41   24807.059 - 5.31e-38
+SYM+I+R3         -11865.939   24045.879 - 4.14e-39   24108.127 - 3.39e-38   24809.167 - 1.85e-38
+F81+F+I+R3       -11873.953   24057.907 - 1.01e-41   24118.433 - 1.96e-40   24811.472 - 5.85e-39
+TVMe+I+R3        -11871.083   24054.167 - 6.57e-41   24115.550 - 8.29e-40   24812.594 - 3.34e-39
+TIM2e+I+G4       -11899.500   24103.000 - 1.63e-51   24160.995 - 1.12e-49   24841.980 - 1.39e-45
+TPM2+I+G4        -11903.846   24109.693 - 5.75e-53   24166.859 - 5.99e-51   24843.811 - 5.56e-46
+GTR+F+R3         -11878.599   24075.197 - 1.78e-45   24139.197 - 6.08e-45   24848.209 - 6.16e-47
+TIM2e+I+R3       -11892.526   24095.051 -  8.7e-50   24155.577 - 1.69e-48   24848.617 - 5.03e-47
+TPM2+I+R3        -11896.803   24101.606 - 3.28e-51   24161.281 - 9.73e-50   24850.309 - 2.16e-47
+TIM3e+I+G4       -11923.434   24150.869 - 6.59e-62   24208.864 - 4.53e-60   24889.849 -  5.6e-56
+TPM3+I+G4        -11931.436   24164.872 -    6e-65   24222.038 - 6.24e-63   24898.990 - 5.79e-58
+TIM3e+I+R3       -11917.756   24145.512 - 9.59e-61   24206.037 - 1.86e-59   24899.077 - 5.55e-58
+TPM3+I+R3        -11925.936   24159.872 - 7.31e-64   24219.547 - 2.17e-62   24908.576 -  4.8e-60
+TIMe+I+G4        -11934.176   24172.353 - 1.42e-66   24230.348 - 9.79e-65   24911.333 - 1.21e-60
+K3P+I+G4         -11940.929   24183.859 - 4.52e-69   24241.025 -  4.7e-67   24917.977 - 4.36e-62
+TIMe+I+R3        -11928.488   24166.977 - 2.09e-65   24227.503 - 4.06e-64   24920.542 - 1.21e-62
+K3P+I+R3         -11935.500   24179.000 - 5.13e-68   24238.675 - 1.52e-66   24927.703 - 3.37e-64
+TNe+I+G4         -11947.499   24196.998 - 6.34e-72   24254.163 - 6.59e-70   24931.116 - 6.12e-65
+K2P+I+G4         -11954.295   24208.589 - 1.93e-74   24264.933 - 3.02e-72   24937.846 - 2.12e-66
+TNe+I+R3         -11941.551   24191.102 - 1.21e-70   24250.777 - 3.58e-69   24939.806 - 7.94e-67
+K2P+I+R3         -11948.603   24203.206 - 2.84e-73   24262.037 - 1.29e-71   24947.048 - 2.12e-68
+JC+I+G4          -12004.093   24306.186 - 1.24e-95   24361.714 - 2.92e-93   25030.581 - 1.54e-86
+JC+I+R3          -11998.621   24301.242 - 1.46e-94   24359.237 - 1.01e-92   25040.222 - 1.24e-88
+GTR+F+R2         -12029.067   24372.135 - 5.91e-110   24434.383 - 4.84e-109   25135.423 - 2.64e-109
+GTR+F+I          -12553.195   25418.390 -        0   25479.773 -        0   26176.817 -        0
+GTR+F            -13670.026   27650.051 -        0   27710.577 -        0   28403.617 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TIM2+F+I+G4
+
+Rate parameter R:
+
+  A-C: 1.4394
+  A-G: 2.1091
+  A-T: 1.4394
+  C-G: 1.0000
+  C-T: 2.9888
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2974
+  pi(C) = 0.1979
+  pi(G) = 0.189
+  pi(T) = 0.3157
+
+Rate matrix Q:
+
+  A   -0.9145    0.2289    0.3204    0.3651
+  C     0.344    -1.254    0.1519    0.7582
+  G     0.504     0.159   -0.9167    0.2537
+  T     0.344    0.4753    0.1519   -0.9712
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.2362
+Gamma shape alpha: 0.4617
+
+ Category  Relative_rate  Proportion
+  0         0              0.2362
+  1         0.03474        0.1909
+  2         0.2962         0.1909
+  3         1.035          0.1909
+  4         3.872          0.1909
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -11766.1156 (s.e. 486.9042)
+Unconstrained log-likelihood (without tree): -5436.1965
+Number of free parameters (#branches + #model parameters): 155
+Akaike information criterion (AIC) score: 23842.2313
+Corrected Akaike information criterion (AICc) score: 23902.7569
+Bayesian information criterion (BIC) score: 24595.7965
+
+Total tree length (sum of branch lengths): 9.9346
+Sum of internal branch lengths: 5.0610 (50.9434% of tree length)
+
+WARNING: 9 near-zero internal branches (<0.0010) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'ASV126.6971' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**ASV126.6971
+|
+|                                      +--Mortierella_histoplasmatoides_CBS_321.78
+|                                   +**| (0/55)
+|                                   |  +--Mortierella_rishikesha_CBS_652.68
+|                                +--| (10.7/31)
+|                                |  +--ASV7890.47
+|                             +--| (41.3/42)
+|                             |  +--Linnemannia_sclerotiella_CBS_529.68
+|                          +--| (90.1/48)
+|                          |  |  +--Linnemannia_gamsii_CBS_749.68
+|                          |  +--| (79.9/45)
+|                          |     |                          +--Modicella_albostipitata_PDD_96330
+|                          |     |                       +--| (8.3/93)
+|                          |     |                       |  +--ASV6702.56
+|                          |     |  +--------------------| (95.7/99)
+|                          |     |  |                    |                         +--ASV17349.6
+|                          |     |  |                    +-------------------------| (99.3/100)
+|                          |     |  |                                              +**ASV7634.105
+|                          |     +--| (8.4/52)
+|                          |        |     +--Linnemannia_camargensis_CBS_221.58
+|                          |        |  +--| (75.4/53)
+|                          |        |  |  |           +--Mortierella_wuyishanensis_CBS_370.95
+|                          |        |  |  |        +--| (50.3/97)
+|                          |        |  |  |        |  +--Linnemannia_nantahalensis_CBS_610.70
+|                          |        |  |  |     +--| (96.7/93)
+|                          |        |  |  |     |  +---Mortierella_sarnyensis_CBS_122.72
+|                          |        |  |  |  +--| (80.1/57)
+|                          |        |  |  |  |  +**ASV4588.92
+|                          |        |  |  +--| (80.6/56)
+|                          |        |  |     +**ASV7836.42
+|                          |        +**| (0/31)
+|                          |           +--Linnemannia_schmuckeri_CBS_295.59
+|                       +--| (61/53)
+|                       |  |  +--ASV27352.2
+|                       |  +--| (66.1/85)
+|                       |     |     +--ASV22891.6
+|                       |     |  +--| (32.9/68)
+|                       |     |  |  +--Linnemannia_acrotona_CBS_386.71
+|                       |     +--| (83.6/99)
+|                       |        +--Linnemannia_zychae_CBS_316.52
+|                    +--| (88.3/69)
+|                    |  +--ASV28019.3
+|                 +--| (91.1/74)
+|                 |  +--Linnemannia_cogitans_CBS_879.97
+|              +--| (59.9/58)
+|              |  |  +--ASV22373.6
+|              |  +--| (96.7/99)
+|              |     +--Linnemannia_hyalina_CBS_223.35
+|           +--| (99.4/95)
+|           |  +--Mortierella_armillariicola_CBS_914.73
+|        +--| (81.3/80)
+|        |  |           +--Necromortierella_dichotoma_CBS_221.35
+|        |  |        +--| (97.7/100)
+|        |  |        |  |           +--Mortierella_elongatula_CBS_488.70
+|        |  |        |  |        +--| (86.4/99)
+|        |  |        |  |        |  |  +--Gryganskiella_fimbricystis_CBS_943.70
+|        |  |        |  |        |  +--| (94.3/100)
+|        |  |        |  |        |     +--Mortierella_turficola_CBS_432.76
+|        |  |        |  |  +-----| (100/100)
+|        |  |        |  |  |     +--Gryganskiella_cystojenkinii_CBS_456.71
+|        |  |        |  +--| (97.1/100)
+|        |  |        |     |  +--Entomortierella_parvispora_CBS_311.52
+|        |  |        |     +--| (78.1/92)
+|        |  |        |        +--Entomortierella_basiparvispora_CBS_518.72
+|        |  |     +--| (80.1/95)
+|        |  |     |  +---Mortierella_microzygospora_CBS_880.97
+|        |  |  +--| (88.2/93)
+|        |  |  |  |                    +--ASV25298.5
+|        |  |  |  |                 +**| (0/46)
+|        |  |  |  |                 |  +--Mortierella_antarctica_CBS_609.70
+|        |  |  |  |              +--| (83.2/43)
+|        |  |  |  |              |  +--Mortierella_yunnanensis_KUMCC_20-0009
+|        |  |  |  |           +--| (76.2/36)
+|        |  |  |  |           |  |  +--ASV17161.29
+|        |  |  |  |           |  +--| (8.3/86)
+|        |  |  |  |           |     |  +**Linnemannia_amoeboidea_CBS_889.72
+|        |  |  |  |           |     +**| (0/86)
+|        |  |  |  |           |        +--ASV613.1286
+|        |  |  |  |        +--| (91.6/83)
+|        |  |  |  |        |  +--Mortierella_globalpina_CBS_360.70
+|        |  |  |  |     +**| (0/37)
+|        |  |  |  |     |  +**ASV524.1546
+|        |  |  |  |  +--| (99.6/100)
+|        |  |  |  |  |  |        +--ASV3469.145
+|        |  |  |  |  |  |     +**| (0/7)
+|        |  |  |  |  |  |     |  +--ASV22531.8
+|        |  |  |  |  |  |  +**| (0/38)
+|        |  |  |  |  |  |  |  |  +--ASV6707.39
+|        |  |  |  |  |  |  |  +**| (0/13)
+|        |  |  |  |  |  |  |     +**ASV475.1669
+|        |  |  |  |  |  +--| (81.6/54)
+|        |  |  |  |  |     +--ASV6380.63
+|        |  |  |  +--| (87.6/96)
+|        |  |  |     |          +--Mortierella_polygonia_CBS_685.71
+|        |  |  |     |       +--| (88.6/99)
+|        |  |  |     |       |  |  +--Mortierella_indohii_CBS_720.71
+|        |  |  |     |       |  +**| (0/91)
+|        |  |  |     |       |     +**ASV23068.6
+|        |  |  |     +-------| (100/100)
+|        |  |  |             +--Mortierella_hypsicladia_CBS_116202
+|        |  +--| (84.1/72)
+|        |     |             +--Podila_clonocystis_CBS_357.76
+|        |     |          +--| (23.1/58)
+|        |     |          |  +--Podila_epicladia_CBS_355.76
+|        |     |       +--| (83.6/91)
+|        |     |       |  +--Podila_horticola_CBS_305.52
+|        |     |  +----| (99.7/100)
+|        |     |  |    +--Podila_humilis_CBS_222.35
+|        |     +--| (73.7/66)
+|        |        |  +------Podila_epigama_CBS_489.70
+|        |        +--| (29.1/63)
+|        |           +---------Dissophora_globulifera_CBS_858.70
+|     +--| (94.3/96)
+|     |  |     +--Gamsiella_stylospora_CBS_211.32
+|     |  |  +--| (77.2/97)
+|     |  |  |  +-------Gamsiella_multidivaricata_CBS_227.78
+|     |  +--| (87.3/88)
+|     |     |     +--Dissophora_ornata_CBS_347.77
+|     |     |  +--| (95.5/100)
+|     |     |  |  +--Mortierella_angusta_CBS_293.61
+|     |     +--| (89.2/90)
+|     |        +--------------Lobosporangium_transversale_NRRL_3116
+|  +--| (87.6/96)
+|  |  |     +--Mortierella_multispora_KUMCC_20-0005
+|  |  |  +--| (94.6/97)
+|  |  |  |  +--ASV3650.139
+|  |  +--| (94.1/98)
+|  |     |     +----ASV4085.114
+|  |     |  +--| (83/98)
+|  |     |  |  |  +--Mortierella_paraensis_CBS_547.89
+|  |     |  |  +--| (47.5/41)
+|  |     |  |     +--Entomortierella_beljakovae_CBS_123.72
+|  |     +--| (90.6/95)
+|  |        |  +---Mortierella_formicae_WA_49853
+|  |        +--| (77/93)
+|  |           +------Mortierella_calciphila_WA_18944
++--| (87.2/97)
+|  +--Entomortierella_lignicola_CBS_207.37
+|
+|     +--Entomortierella_echinosphaera_CBS_575.75
+|  +--| (100/100)
+|  |  +--Mortierella_rhinolophicola_KUMCC_20-0008
++--| (77.3/89)
+   |  +--ASV22432.19
+   +--| (88.3/96)
+      |  +--Mortierella_gemmifera_CBS_134.45
+      +--| (82.2/77)
+         +--Mortierella_kuhlmanii_CBS_157.71
+
+Tree in newick format:
+
+(ASV126.6971:0.0000023721,(((((((((((((Mortierella_histoplasmatoides_CBS_321.78:0.0475759473,Mortierella_rishikesha_CBS_652.68:0.0190620581)0/55:0.0000021284,ASV7890.47:0.1055036352)10.7/31:0.0086995283,Linnemannia_sclerotiella_CBS_529.68:0.0252282530)41.3/42:0.0075887344,(Linnemannia_gamsii_CBS_749.68:0.0282714153,(((Modicella_albostipitata_PDD_96330:0.1022366901,ASV6702.56:0.0210293553)8.3/93:0.0939826247,(ASV17349.6:0.0044428266,ASV7634.105:0.0000019980)99.3/100:0.9887538454)95.7/99:0.7917563214,((Linnemannia_camargensis_CBS_221.58:0.0039550438,((((Mortierella_wuyishanensis_CBS_370.95:0.0086511744,Linnemannia_nantahalensis_CBS_610.70:0.0192461544)50.3/97:0.0334859829,Mortierella_sarnyensis_CBS_122.72:0.1637669738)96.7/93:0.0731838805,ASV4588.92:0.0000027463)80.1/57:0.0108538431,ASV7836.42:0.0000028596)80.6/56:0.0061222815)75.4/53:0.0027788876,Linnemannia_schmuckeri_CBS_295.59:0.0063202818)0/31:0.0000028516)8.4/52:0.0168786253)79.9/45:0.0062934926)90.1/48:0.0196433194,(ASV27352.2:0.0599292257,((ASV22891.6:0.0100919154,Linnemannia_acrotona_CBS_386.71:0.0177279275)32.9/68:0.0090937247,Linnemannia_zychae_CBS_316.52:0.0206043651)83.6/99:0.0162600731)66.1/85:0.0228263041)61/53:0.0147196335,ASV28019.3:0.1155077084)88.3/69:0.0323134693,Linnemannia_cogitans_CBS_879.97:0.0940678633)91.1/74:0.0358443426,(ASV22373.6:0.0137932100,Linnemannia_hyalina_CBS_223.35:0.0063967928)96.7/99:0.0500266713)59.9/58:0.0297315196,Mortierella_armillariicola_CBS_914.73:0.1206570270)99.4/95:0.1139658486,((((Necromortierella_dichotoma_CBS_221.35:0.0957768810,(((Mortierella_elongatula_CBS_488.70:0.0375489105,(Gryganskiella_fimbricystis_CBS_943.70:0.0087730853,Mortierella_turficola_CBS_432.76:0.0024721104)94.3/100:0.0294419932)86.4/99:0.0323772231,Gryganskiella_cystojenkinii_CBS_456.71:0.0725911759)100/100:0.2273849915,(Entomortierella_parvispora_CBS_311.52:0.0072417332,Entomortierella_basiparvispora_CBS_518.72:0.0431544857)78.1/92:0.0935190701)97.1/100:0.1142338045)97.7/100:0.1069398288,Mortierella_microzygospora_CBS_880.97:0.1778985740)80.1/95:0.0310187554,(((((((ASV25298.5:0.0287688821,Mortierella_antarctica_CBS_609.70:0.0628496011)0/46:0.0000026732,Mortierella_yunnanensis_KUMCC_20-0009:0.0252644574)83.2/43:0.0055326513,(ASV17161.29:0.0039777418,(Linnemannia_amoeboidea_CBS_889.72:0.0000029530,ASV613.1286:0.0474879793)0/86:0.0000021684)8.3/86:0.0084166147)76.2/36:0.0039046666,Mortierella_globalpina_CBS_360.70:0.0114837553)91.6/83:0.0117651609,ASV524.1546:0.0000022498)0/37:0.0000021349,(((ASV3469.145:0.0038091128,ASV22531.8:0.0038438849)0/7:0.0000009984,(ASV6707.39:0.0038273929,ASV475.1669:0.0000009984)0/13:0.0000020244)0/38:0.0000025098,ASV6380.63:0.0038499470)81.6/54:0.0038383232)99.6/100:0.1343229460,((Mortierella_polygonia_CBS_685.71:0.0258752040,(Mortierella_indohii_CBS_720.71:0.0142922156,ASV23068.6:0.0000020089)0/91:0.0000020930)88.6/99:0.0410898838,Mortierella_hypsicladia_CBS_116202:0.0269387139)100/100:0.3260746630)87.6/96:0.0460872592)88.2/93:0.0421778899,((((Podila_clonocystis_CBS_357.76:0.0083564092,Podila_epicladia_CBS_355.76:0.0091590738)23.1/58:0.0018443802,Podila_horticola_CBS_305.52:0.0255281078)83.6/91:0.0130043209,Podila_humilis_CBS_222.35:0.0116918295)99.7/100:0.1940079831,(Podila_epigama_CBS_489.70:0.2784135928,Dissophora_globulifera_CBS_858.70:0.3755533703)29.1/63:0.0772724952)73.7/66:0.0308391508)84.1/72:0.0446927636)81.3/80:0.0333959159,((Gamsiella_stylospora_CBS_211.32:0.1288866985,Gamsiella_multidivaricata_CBS_227.78:0.3271451320)77.2/97:0.0612917028,((Dissophora_ornata_CBS_347.77:0.0415510327,Mortierella_angusta_CBS_293.61:0.0942636846)95.5/100:0.0944365685,Lobosporangium_transversale_NRRL_3116:0.5894952325)89.2/90:0.0593463059)87.3/88:0.0453281729)94.3/96:0.0607774940,((Mortierella_multispora_KUMCC_20-0005:0.1257530732,ASV3650.139:0.1361504860)94.6/97:0.1316578348,((ASV4085.114:0.1886791489,(Mortierella_paraensis_CBS_547.89:0.0336629697,Entomortierella_beljakovae_CBS_123.72:0.0325961608)47.5/41:0.0205764321)83/98:0.0487412930,(Mortierella_formicae_WA_49853:0.1502517150,Mortierella_calciphila_WA_18944:0.2617865197)77/93:0.0273888503)90.6/95:0.0800237352)94.1/98:0.0841437727)87.6/96:0.0339052486,Entomortierella_lignicola_CBS_207.37:0.1096283264)87.2/97:0.0491643856,((Entomortierella_echinosphaera_CBS_575.75:0.0302636854,Mortierella_rhinolophicola_KUMCC_20-0008:0.1375668857)100/100:0.1413091651,(ASV22432.19:0.0189719790,(Mortierella_gemmifera_CBS_134.45:0.0214948222,Mortierella_kuhlmanii_CBS_157.71:0.0149074424)82.2/77:0.0135609964)88.3/96:0.0423112410)77.3/89:0.0290409342);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -11767.457743
+Robinson-Foulds distance between ML tree and consensus tree: 10
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--ASV126.6971
+|
+|                                      +--Mortierella_histoplasmatoides_CBS_321.78
+|                                   +--| (55)
+|                                   |  +--Mortierella_rishikesha_CBS_652.68
+|                                +--| (31)
+|                                |  +--ASV7890.47
+|                             +--| (42)
+|                             |  +--Linnemannia_sclerotiella_CBS_529.68
+|                          +--| (48)
+|                          |  |  +--Linnemannia_gamsii_CBS_749.68
+|                          |  +--| (45)
+|                          |     |                          +--Modicella_albostipitata_PDD_96330
+|                          |     |                       +--| (93)
+|                          |     |                       |  +--ASV6702.56
+|                          |     |  +--------------------| (99)
+|                          |     |  |                    |                         +--ASV17349.6
+|                          |     |  |                    +-------------------------| (100)
+|                          |     |  |                                              +--ASV7634.105
+|                          |     +--| (52)
+|                          |        |     +--Linnemannia_camargensis_CBS_221.58
+|                          |        |  +--| (53)
+|                          |        |  |  |           +--Mortierella_wuyishanensis_CBS_370.95
+|                          |        |  |  |        +--| (97)
+|                          |        |  |  |        |  +--Linnemannia_nantahalensis_CBS_610.70
+|                          |        |  |  |     +--| (93)
+|                          |        |  |  |     |  +---Mortierella_sarnyensis_CBS_122.72
+|                          |        |  |  |  +--| (57)
+|                          |        |  |  |  |  +--ASV4588.92
+|                          |        |  |  +--| (56)
+|                          |        |  |     +--ASV7836.42
+|                          |        +--| (31)
+|                          |           +--Linnemannia_schmuckeri_CBS_295.59
+|                       +--| (53)
+|                       |  |  +--ASV27352.2
+|                       |  +--| (85)
+|                       |     |     +--ASV22891.6
+|                       |     |  +--| (68)
+|                       |     |  |  +--Linnemannia_acrotona_CBS_386.71
+|                       |     +--| (99)
+|                       |        +--Linnemannia_zychae_CBS_316.52
+|                    +--| (69)
+|                    |  +--ASV28019.3
+|                 +--| (74)
+|                 |  +--Linnemannia_cogitans_CBS_879.97
+|              +--| (58)
+|              |  |  +--ASV22373.6
+|              |  +--| (99)
+|              |     +--Linnemannia_hyalina_CBS_223.35
+|           +--| (95)
+|           |  +--Mortierella_armillariicola_CBS_914.73
+|        +--| (80)
+|        |  |           +--Necromortierella_dichotoma_CBS_221.35
+|        |  |        +--| (100)
+|        |  |        |  |           +--Mortierella_elongatula_CBS_488.70
+|        |  |        |  |        +--| (99)
+|        |  |        |  |        |  |  +--Gryganskiella_fimbricystis_CBS_943.70
+|        |  |        |  |        |  +--| (100)
+|        |  |        |  |        |     +--Mortierella_turficola_CBS_432.76
+|        |  |        |  |  +-----| (100)
+|        |  |        |  |  |     +--Gryganskiella_cystojenkinii_CBS_456.71
+|        |  |        |  +--| (100)
+|        |  |        |     |  +--Entomortierella_parvispora_CBS_311.52
+|        |  |        |     +--| (92)
+|        |  |        |        +--Entomortierella_basiparvispora_CBS_518.72
+|        |  |     +--| (95)
+|        |  |     |  +---Mortierella_microzygospora_CBS_880.97
+|        |  |  +--| (93)
+|        |  |  |  |                 +--ASV25298.5
+|        |  |  |  |              +--| (46)
+|        |  |  |  |              |  +--Mortierella_antarctica_CBS_609.70
+|        |  |  |  |           +--| (43)
+|        |  |  |  |           |  +--Mortierella_yunnanensis_KUMCC_20-0009
+|        |  |  |  |        +--| (83)
+|        |  |  |  |        |  |     +--ASV17161.29
+|        |  |  |  |        |  |  +--| (86)
+|        |  |  |  |        |  |  |  |  +--Linnemannia_amoeboidea_CBS_889.72
+|        |  |  |  |        |  |  |  +--| (86)
+|        |  |  |  |        |  |  |     +--ASV613.1286
+|        |  |  |  |        |  +--| (43)
+|        |  |  |  |        |     +--Mortierella_globalpina_CBS_360.70
+|        |  |  |  |     +--| (46)
+|        |  |  |  |     |  |           +--ASV3469.145
+|        |  |  |  |     |  |        +--| (39)
+|        |  |  |  |     |  |        |  +--ASV6707.39
+|        |  |  |  |     |  |     +--| (40)
+|        |  |  |  |     |  |     |  +--ASV475.1669
+|        |  |  |  |     |  |  +--| (38)
+|        |  |  |  |     |  |  |  +--ASV22531.8
+|        |  |  |  |     |  +--| (54)
+|        |  |  |  |     |     +--ASV6380.63
+|        |  |  |  |  +--| (100)
+|        |  |  |  |  |  +--ASV524.1546
+|        |  |  |  +--| (96)
+|        |  |  |     |          +--Mortierella_polygonia_CBS_685.71
+|        |  |  |     |       +--| (99)
+|        |  |  |     |       |  |  +--Mortierella_indohii_CBS_720.71
+|        |  |  |     |       |  +--| (91)
+|        |  |  |     |       |     +--ASV23068.6
+|        |  |  |     +-------| (100)
+|        |  |  |             +--Mortierella_hypsicladia_CBS_116202
+|        |  +--| (72)
+|        |     |             +--Podila_clonocystis_CBS_357.76
+|        |     |          +--| (58)
+|        |     |          |  +--Podila_epicladia_CBS_355.76
+|        |     |       +--| (91)
+|        |     |       |  +--Podila_horticola_CBS_305.52
+|        |     |  +----| (100)
+|        |     |  |    +--Podila_humilis_CBS_222.35
+|        |     +--| (66)
+|        |        |  +------Podila_epigama_CBS_489.70
+|        |        +--| (63)
+|        |           +---------Dissophora_globulifera_CBS_858.70
+|     +--| (96)
+|     |  |     +--Gamsiella_stylospora_CBS_211.32
+|     |  |  +--| (97)
+|     |  |  |  +-------Gamsiella_multidivaricata_CBS_227.78
+|     |  +--| (88)
+|     |     |     +--Dissophora_ornata_CBS_347.77
+|     |     |  +--| (100)
+|     |     |  |  +--Mortierella_angusta_CBS_293.61
+|     |     +--| (90)
+|     |        +--------------Lobosporangium_transversale_NRRL_3116
+|  +--| (96)
+|  |  |     +--Mortierella_multispora_KUMCC_20-0005
+|  |  |  +--| (97)
+|  |  |  |  +--ASV3650.139
+|  |  +--| (98)
+|  |     |        +----ASV4085.114
+|  |     |     +--| (54)
+|  |     |     |  +--Mortierella_paraensis_CBS_547.89
+|  |     |  +--| (98)
+|  |     |  |  +--Entomortierella_beljakovae_CBS_123.72
+|  |     +--| (95)
+|  |        |  +---Mortierella_formicae_WA_49853
+|  |        +--| (93)
+|  |           +------Mortierella_calciphila_WA_18944
++--| (97)
+|  +--Entomortierella_lignicola_CBS_207.37
+|
+|     +--Entomortierella_echinosphaera_CBS_575.75
+|  +--| (100)
+|  |  +--Mortierella_rhinolophicola_KUMCC_20-0008
++--| (89)
+   |  +--ASV22432.19
+   +--| (96)
+      |  +--Mortierella_gemmifera_CBS_134.45
+      +--| (77)
+         +--Mortierella_kuhlmanii_CBS_157.71
+
+
+Consensus tree in newick format: 
+
+(ASV126.6971:0.0000023074,(((((((((((((Mortierella_histoplasmatoides_CBS_321.78:0.0476294959,Mortierella_rishikesha_CBS_652.68:0.0191045730)55:0.0000026408,ASV7890.47:0.1053818973)31:0.0087077384,Linnemannia_sclerotiella_CBS_529.68:0.0252724065)42:0.0075746968,(Linnemannia_gamsii_CBS_749.68:0.0283060461,(((Modicella_albostipitata_PDD_96330:0.1022059818,ASV6702.56:0.0210604435)93:0.0870725777,(ASV17349.6:0.0044406805,ASV7634.105:0.0000020239)100:0.9977509877)99:0.8033560587,((Linnemannia_camargensis_CBS_221.58:0.0039597493,((((Mortierella_wuyishanensis_CBS_370.95:0.0086584261,Linnemannia_nantahalensis_CBS_610.70:0.0192799868)97:0.0335320927,Mortierella_sarnyensis_CBS_122.72:0.1640871083)93:0.0732997191,ASV4588.92:0.0000020267)57:0.0108650884,ASV7836.42:0.0000020239)56:0.0061272645)53:0.0027833625,Linnemannia_schmuckeri_CBS_295.59:0.0063282888)31:0.0000027808)52:0.0169003016)45:0.0063162499)48:0.0196846077,(ASV27352.2:0.0598330436,((ASV22891.6:0.0100593417,Linnemannia_acrotona_CBS_386.71:0.0177570443)68:0.0091082823,Linnemannia_zychae_CBS_316.52:0.0206306443)99:0.0162874444)85:0.0228515627)53:0.0147422219,ASV28019.3:0.1152507617)69:0.0322162908,Linnemannia_cogitans_CBS_879.97:0.0943833663)74:0.0359398649,(ASV22373.6:0.0137579334,Linnemannia_hyalina_CBS_223.35:0.0064330236)99:0.0502649733)58:0.0300009463,Mortierella_armillariicola_CBS_914.73:0.1205142453)95:0.1145424797,((((Necromortierella_dichotoma_CBS_221.35:0.0957113377,(((Mortierella_elongatula_CBS_488.70:0.0375956755,(Gryganskiella_fimbricystis_CBS_943.70:0.0087806000,Mortierella_turficola_CBS_432.76:0.0024813108)100:0.0295084427)99:0.0325210346,Gryganskiella_cystojenkinii_CBS_456.71:0.0726700051)100:0.2290618596,(Entomortierella_parvispora_CBS_311.52:0.0072659215,Entomortierella_basiparvispora_CBS_518.72:0.0431993511)92:0.0928820027)100:0.1148238299)100:0.1055640160,Mortierella_microzygospora_CBS_880.97:0.1816891832)95:0.0315301351,((((((ASV25298.5:0.0279359886,Mortierella_antarctica_CBS_609.70:0.0625623622)46:0.0000024721,Mortierella_yunnanensis_KUMCC_20-0009:0.0263401448)43:0.0024873055,((ASV17161.29:0.0039760399,(Linnemannia_amoeboidea_CBS_889.72:0.0000023338,ASV613.1286:0.0474654605)86:0.0000029275)86:0.0099742987,Mortierella_globalpina_CBS_360.70:0.0136331961)43:0.0041003484)83:0.0123163276,((((ASV3469.145:0.0038094795,ASV6707.39:0.0038278845)39:0.0000020239,ASV475.1669:0.0000020239)40:0.0000020239,ASV22531.8:0.0038432540)38:0.0000020239,ASV6380.63:0.0038493229)54:0.0000020239)46:0.0037224577,ASV524.1546:0.0000020239)100:0.1321379656,((Mortierella_polygonia_CBS_685.71:0.0259104583,(Mortierella_indohii_CBS_720.71:0.0143025974,ASV23068.6:0.0000020239)91:0.0000022802)99:0.0382024363,Mortierella_hypsicladia_CBS_116202:0.0299506616)100:0.3269203310)96:0.0457486403)93:0.0407635115,((((Podila_clonocystis_CBS_357.76:0.0083706506,Podila_epicladia_CBS_355.76:0.0091653364)58:0.0018453909,Podila_horticola_CBS_305.52:0.0255366066)91:0.0129636845,Podila_humilis_CBS_222.35:0.0117705496)100:0.1959865521,(Podila_epigama_CBS_489.70:0.2797396098,Dissophora_globulifera_CBS_858.70:0.3757444268)63:0.0777139988)66:0.0298320631)72:0.0446339495)80:0.0333989571,((Gamsiella_stylospora_CBS_211.32:0.1281392345,Gamsiella_multidivaricata_CBS_227.78:0.3278780614)97:0.0631374793,((Dissophora_ornata_CBS_347.77:0.0419042238,Mortierella_angusta_CBS_293.61:0.0940720274)100:0.0936648554,Lobosporangium_transversale_NRRL_3116:0.5926153882)90:0.0593923643)88:0.0449911973)96:0.0607315689,((Mortierella_multispora_KUMCC_20-0005:0.1239722929,ASV3650.139:0.1378600808)97:0.1353000655,(((ASV4085.114:0.2056507281,Mortierella_paraensis_CBS_547.89:0.0074585155)54:0.0267123590,Entomortierella_beljakovae_CBS_123.72:0.0319638243)98:0.0629695882,(Mortierella_formicae_WA_49853:0.1507370192,Mortierella_calciphila_WA_18944:0.2648634076)93:0.0296952168)95:0.0803957063)98:0.0836176263)96:0.0338994824,Entomortierella_lignicola_CBS_207.37:0.1100219911)97:0.0489091968,((Entomortierella_echinosphaera_CBS_575.75:0.0300948021,Mortierella_rhinolophicola_KUMCC_20-0008:0.1380989275)100:0.1419192156,(ASV22432.19:0.0189339716,(Mortierella_gemmifera_CBS_134.45:0.0215025192,Mortierella_kuhlmanii_CBS_157.71:0.0149502725)77:0.0135774362)96:0.0422771935)89:0.0292304752);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t Mojave2020.Mort.muscle.fasaln.clipkit.treefile -m "TIM2{1.43943,2.10912,2.98885}+F{0.297378,0.197896,0.189043,0.315684}+I{0.236239}+G4{0.461718}" --length 955
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s Mojave2020.Mort.muscle.fasaln.clipkit --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s Mojave2020.Mort.muscle.fasaln.clipkit --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Jul 14 16:22:12 2023
+Total CPU time used: 118.805089 seconds (0h:1m:58s)
+Total wall-clock time used: 60.11473894 seconds (0h:1m:0s)
+

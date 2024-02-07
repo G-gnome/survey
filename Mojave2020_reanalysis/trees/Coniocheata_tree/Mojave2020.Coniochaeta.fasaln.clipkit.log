@@ -1,0 +1,729 @@
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Linux 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    i51 (AVX2, FMA3, 251 GB RAM)
+Command: iqtree2 -nt AUTO -s Mojave2020.Coniochaeta.fasaln.clipkit -alrt 1000 -bb 1000 -m MFP
+Seed:    256810 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Aug 23 12:33:30 2023
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file Mojave2020.Coniochaeta.fasaln.clipkit ... Fasta format detected
+Reading fasta file: done in 0.00215912 secs using 95.69% CPU
+NOTE: Change sequence name 'Chaetosphaeria innumera strain MR 1175 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence' -> Chaetosphaeria_innumera_strain_MR
+NOTE: Change sequence name 'Coniochaeta endophytica isolate AEA 9094 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence' -> Coniochaeta_endophytica_isolate_AEA
+NOTE: Change sequence name 'Coniochaeta africana culture-collection CBS:120868 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence' -> Coniochaeta_africana_culture-collection_CBS:120868
+NOTE: Change sequence name 'Coniochaeta prunicola culture-collection CBS:120875 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence' -> Coniochaeta_prunicola_culture-collection_CBS:120875
+NOTE: Change sequence name 'Coniochaeta prunicola culture-collection CBS:121445 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence' -> Coniochaeta_prunicola_culture-collection_CBS:121445
+NOTE: Change sequence name 'Coniochaeta gigantospora 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence' -> Coniochaeta_gigantospora_18S_ribosomal
+NOTE: Change sequence name 'Coniochaeta fodinicola strain FRL 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 26S ribosomal RNA gene, partial sequence' -> Coniochaeta_fodinicola_strain_FRL
+NOTE: Change sequence name 'Lecythophora sp. Kw448 genomic DNA containing 18S rRNA gene, ITS1, 5.8S rRNA gene, ITS2 and 28S rRNA gene, strain Kw448' -> Lecythophora_sp._Kw448_genomic
+NOTE: Change sequence name 'Coniochaeta canina strain R-4810 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence' -> Coniochaeta_canina_strain_R-4810
+NOTE: Change sequence name 'Lecythophora sp. UTHSC 01-20 genomic DNA containing 18S rRNA gene, ITS1, 5.8S rRNA gene, ITS2 and 28S rRNA gene, strain UTHSC 01-20 (1)' -> Lecythophora_sp._UTHSC_01-20
+NOTE: Change sequence name 'Coniochaeta cateniformis genomic DNA containing 18S rRNA gene, ITS1, 5.8S rRNA gene, ITS2 and 28S rRNA gene, strain UTHSC 01-1644' -> Coniochaeta_cateniformis_genomic_DNA
+NOTE: Change sequence name 'Lecythophora hoffmannii genomic DNA containing 18S rRNA gene, ITS1, 5.8S rRNA gene, ITS2 and 28S rRNA gene, strain CBS 245.38' -> Lecythophora_hoffmannii_genomic_DNA
+NOTE: Change sequence name 'Lecythophora luteoviridis genomic DNA containing 18S rRNA gene, ITS1, 5.8S rRNA gene, ITS2 and 28S rRNA gene, strain CBS 206.38' -> Lecythophora_luteoviridis_genomic_DNA
+NOTE: Change sequence name 'Lecythophora mutabilis genomic DNA containing 18S rRNA gene, ITS1, 5.8S rRNA gene, ITS2 and 28S rRNA gene, strain CBS 157.44' -> Lecythophora_mutabilis_genomic_DNA
+NOTE: Change sequence name 'Lecythophora fasciculata genomic DNA containing 18S rRNA gene, ITS1, 5.8S rRNA gene, ITS2 and 28S rRNA gene, strain CBS 205.38' -> Lecythophora_fasciculata_genomic_DNA
+NOTE: Change sequence name 'Coniochaeta lignicola CBS 267.33 ITS region; from TYPE material' -> Coniochaeta_lignicola_CBS_267.33
+NOTE: Change sequence name 'Coniochaeta euphorbiae strain 1001 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence' -> Coniochaeta_euphorbiae_strain_1001
+NOTE: Change sequence name 'Coniochaeta iranica strain 0806 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence' -> Coniochaeta_iranica_strain_0806
+NOTE: Change sequence name 'Coniochaeta cymbiformispora genes for 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, 28S ribosomal RNA, partial and complete sequence, strain: NBRC 32199' -> Coniochaeta_cymbiformispora_genes_for
+NOTE: Change sequence name 'Coniochaeta nepalica genes for 18S ribosomal RNA, internal transcribed spacer 1, 5.8S ribosomal RNA, internal transcribed spacer 2, 28S ribosomal RNA, partial and complete sequence, strain: NBRC 30584' -> Coniochaeta_nepalica_genes_for
+NOTE: Change sequence name 'Coniochaeta decumbens CBS 153.42 ITS region; from TYPE material' -> Coniochaeta_decumbens_CBS_153.42
+NOTE: Change sequence name 'Coniochaeta taeniospora strain LTA 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence' -> Coniochaeta_taeniospora_strain_LTA
+NOTE: Change sequence name 'Coniochaeta navarrae strain LTA3 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence' -> Coniochaeta_navarrae_strain_LTA3
+NOTE: Change sequence name 'Coniochaeta cephalothecoides strain L821 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence' -> Coniochaeta_cephalothecoides_strain_L821
+NOTE: Change sequence name 'Coniochaeta baysunika strain MFLUCC 17-0830 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence' -> Coniochaeta_baysunika_strain_MFLUCC
+NOTE: Change sequence name 'Coniochaeta acaciae strain MFLUCC 17-2298 18S ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence' -> Coniochaeta_acaciae_strain_MFLUCC
+NOTE: Change sequence name 'Coniochaeta coluteae strain MFLUCC 17-2299 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and 28S ribosomal RNA gene, partial sequence' -> Coniochaeta_coluteae_strain_MFLUCC
+NOTE: Change sequence name 'Coniochaeta cipronana CBS 144016 ITS region; from TYPE material' -> Coniochaeta_cipronana_CBS_144016
+NOTE: Change sequence name 'Coniochaeta rosae TASM 6127 ITS region; from TYPE material' -> Coniochaeta_rosae_TASM_6127
+NOTE: Change sequence name 'Coniochaeta discospora culture CBS:168.58 strain CBS 168.58 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA' -> Coniochaeta_discospora_culture_CBS:168.58
+NOTE: Change sequence name 'Coniochaeta ligniaria culture CBS:424.65 strain CBS 424.65 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA g' -> Coniochaeta_ligniaria_culture_CBS:424.65
+NOTE: Change sequence name 'Coniochaeta ellipsoidea culture CBS:137.68 strain CBS 137.68 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence' -> Coniochaeta_ellipsoidea_culture_CBS:137.68
+NOTE: Change sequence name 'Coniochaeta tetraspora culture CBS:139.68 strain CBS 139.68 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA' -> Coniochaeta_tetraspora_culture_CBS:139.68
+NOTE: Change sequence name 'Coniochaeta velutina culture CBS:981.68 strain CBS 981.68 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA ge' -> Coniochaeta_velutina_culture_CBS:981.68
+NOTE: Change sequence name 'Coniochaeta angustispora culture CBS:144.70 strain CBS 144.70 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RN' -> Coniochaeta_angustispora_culture_CBS:144.70
+NOTE: Change sequence name 'Coniochaeta savoryi culture CBS:725.74 strain CBS 725.74 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence' -> Coniochaeta_savoryi_culture_CBS:725.74
+NOTE: Change sequence name 'Coniochaeta extramundana culture CBS:247.77 strain CBS 247.77 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence' -> Coniochaeta_extramundana_culture_CBS:247.77
+NOTE: Change sequence name 'Coniochaeta polysperma culture CBS:669.77 strain CBS 669.77 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence' -> Coniochaeta_polysperma_culture_CBS:669.77
+NOTE: Change sequence name 'Coniochaeta punctulata culture CBS:159.80 strain CBS 159.80 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence' -> Coniochaeta_punctulata_culture_CBS:159.80
+NOTE: Change sequence name 'Coniochaeta arxii culture CBS:192.89 strain CBS 192.89 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence' -> Coniochaeta_arxii_culture_CBS:192.89
+NOTE: Change sequence name 'Coniochaeta cypraeaespora culture CBS:365.93 strain CBS 365.93 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence' -> Coniochaeta_cypraeaespora_culture_CBS:365.93
+NOTE: Change sequence name 'Coniochaeta ostrea CBS 507.70 ITS region; from TYPE material' -> Coniochaeta_ostrea_CBS_507.70
+NOTE: Change sequence name 'Coniochaeta verticillata CBS 816.71 ITS region; from TYPE material' -> Coniochaeta_verticillata_CBS_816.71
+NOTE: Change sequence name 'Coniochaeta boothii CBS 381.74 ITS region; from TYPE material' -> Coniochaeta_boothii_CBS_381.74
+NOTE: Change sequence name 'Coniochaeta discoidea CBS 158.80 ITS region; from TYPE material' -> Coniochaeta_discoidea_CBS_158.80
+NOTE: Change sequence name 'Coniochaeta marina culture MFLUCC:18-0408 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequ' -> Coniochaeta_marina_culture_MFLUCC:18-0408
+NOTE: Change sequence name 'Coniochaeta dendrobiicola isolate DLCCR7 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence' -> Coniochaeta_dendrobiicola_isolate_DLCCR7
+NOTE: Change sequence name 'Coniochaeta simbalensis NFCCI 4236 ITS region; from TYPE material' -> Coniochaeta_simbalensis_NFCCI_4236
+NOTE: Change sequence name 'Coniochaeta velutinosa strain Co29 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence' -> Coniochaeta_velutinosa_strain_Co29
+NOTE: Change sequence name 'Coniochaeta vineae KUMCC 17-0322 ITS region; from TYPE material' -> Coniochaeta_vineae_KUMCC_17-0322
+NOTE: Change sequence name 'Coniochaeta mongoliae isolate CS-09 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence' -> Coniochaeta_mongoliae_isolate_CS-09
+NOTE: Change sequence name 'Coniochaeta sinensis isolate CS-04 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence' -> Coniochaeta_sinensis_isolate_CS-04
+NOTE: Change sequence name 'Rosellinia ambigua voucher PAD S00027 internal transcribed spacer 1, partial sequence' -> Rosellinia_ambigua_voucher_PAD
+NOTE: Change sequence name 'Rosellinia chordicola voucher PAD S00030 internal transcribed spacer 1, partial sequence' -> Rosellinia_chordicola_voucher_PAD
+NOTE: Change sequence name 'Rosellinia subsimilis voucher PAD S00035 internal transcribed spacer 1, partial sequence' -> Rosellinia_subsimilis_voucher_PAD
+NOTE: Change sequence name 'Rosellinia geophila voucher PAD S00031 internal transcribed spacer 2, partial sequence' -> Rosellinia_geophila_voucher_PAD
+NOTE: Change sequence name 'Coniochaeta fibrosae isolate CX03C1 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence' -> Coniochaeta_fibrosae_isolate_CX03C1
+NOTE: Change sequence name 'Coniochaeta deborreae strain BE19_001008 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial seque' -> Coniochaeta_deborreae_strain_BE19_001008
+NOTE: Change sequence name 'Coniochaeta pulveracea strain CBS 114628 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial seque' -> Coniochaeta_pulveracea_strain_CBS
+NOTE: Change sequence name 'Coniochaeta sp. strain CBS 551.75 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence' -> Coniochaeta_sp._strain_CBS
+NOTE: Change sequence name 'Coniochaeta nivea voucher RLG Mycological Herbarium ARIZ-AK0926 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence' -> Coniochaeta_nivea_voucher_RLG
+NOTE: Change sequence name 'Coniochaeta elegans voucher RLG Mycological Herbarium ARIZ-FF0093 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence' -> Coniochaeta_elegans_voucher_RLG
+NOTE: Change sequence name 'Coniochaeta montana voucher RLG Mycological Herbarium ARIZ-SR0076 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence' -> Coniochaeta_montana_voucher_RLG
+NOTE: Change sequence name 'Coniochaeta rhopalochaeta CBS 109872 ITS region; from TYPE material' -> Coniochaeta_rhopalochaeta_CBS_109872
+NOTE: Change sequence name 'Coniochaeta palaoa voucher ARIZ:AEANC0604 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence' -> Coniochaeta_palaoa_voucher_ARIZ:AEANC0604
+NOTE: Change sequence name 'Coniochaeta sp. isolate PMML0158 internal transcribed spacer 1, partial sequence; 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence' -> Coniochaeta_sp._isolate_PMML0158
+NOTE: Change sequence name 'Coniochaeta sp. strain RGM_3301 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence' -> Coniochaeta_sp._strain_RGM_3301
+NOTE: Change sequence name 'Coniochaeta leucoplaca strain CBS 486.73 internal transcribed spacer 2 and large subunit ribosomal RNA gene, partial sequence' -> Coniochaeta_leucoplaca_strain_CBS
+NOTE: Change sequence name 'Coniochaeta hansenii strain CBS 885.68 5.8S ribosomal RNA gene, partial sequence; internal transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence' -> Coniochaeta_hansenii_strain_CBS
+NOTE: Change sequence name 'Sordaria hansenii strain RGM_3311 small subunit ribosomal RNA gene, partial sequence; internal transcribed spacer 1 and 5.8S ribosomal RNA gene, complete sequence; and internal transcribed spacer 2, partial sequence' -> Sordaria_hansenii_strain_RGM_3311
+NOTE: Change sequence name 'Xylaria necrophora CBS 146542 ITS region; from TYPE material' -> Xylaria_necrophora_CBS_146542
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00352216 secs using 745% CPU
+Alignment has 115 sequences with 1186 columns, 538 distinct patterns
+289 parsimony-informative, 185 singleton sites, 712 constant sites
+WARNING: Some sequence names are changed as follows:
+Coniochaeta_africana_culture-collection_CBS:120868 -> Coniochaeta_africana_culture-collection_CBS_120868
+Coniochaeta_prunicola_culture-collection_CBS:120875 -> Coniochaeta_prunicola_culture-collection_CBS_120875
+Coniochaeta_prunicola_culture-collection_CBS:121445 -> Coniochaeta_prunicola_culture-collection_CBS_121445
+Coniochaeta_discospora_culture_CBS:168.58 -> Coniochaeta_discospora_culture_CBS_168.58
+Coniochaeta_ligniaria_culture_CBS:424.65 -> Coniochaeta_ligniaria_culture_CBS_424.65
+Coniochaeta_ellipsoidea_culture_CBS:137.68 -> Coniochaeta_ellipsoidea_culture_CBS_137.68
+Coniochaeta_tetraspora_culture_CBS:139.68 -> Coniochaeta_tetraspora_culture_CBS_139.68
+Coniochaeta_velutina_culture_CBS:981.68 -> Coniochaeta_velutina_culture_CBS_981.68
+Coniochaeta_angustispora_culture_CBS:144.70 -> Coniochaeta_angustispora_culture_CBS_144.70
+Coniochaeta_savoryi_culture_CBS:725.74 -> Coniochaeta_savoryi_culture_CBS_725.74
+Coniochaeta_extramundana_culture_CBS:247.77 -> Coniochaeta_extramundana_culture_CBS_247.77
+Coniochaeta_polysperma_culture_CBS:669.77 -> Coniochaeta_polysperma_culture_CBS_669.77
+Coniochaeta_punctulata_culture_CBS:159.80 -> Coniochaeta_punctulata_culture_CBS_159.80
+Coniochaeta_arxii_culture_CBS:192.89 -> Coniochaeta_arxii_culture_CBS_192.89
+Coniochaeta_cypraeaespora_culture_CBS:365.93 -> Coniochaeta_cypraeaespora_culture_CBS_365.93
+Coniochaeta_marina_culture_MFLUCC:18-0408 -> Coniochaeta_marina_culture_MFLUCC_18-0408
+Coniochaeta_palaoa_voucher_ARIZ:AEANC0604 -> Coniochaeta_palaoa_voucher_ARIZ_AEANC0604
+
+                                                     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 6.10352e-05 secs using 545.6% CPU
+   1  ASV381.77                                             84.40%    passed     27.30%
+   2  ASV689.1147                                           82.55%    passed     87.58%
+   3  ASV1353.219                                           82.29%    passed     85.89%
+   4  ASV1919.311                                           80.86%    passed     44.34%
+   5  ASV2401.274                                           81.03%    passed     45.29%
+   6  ASV3294.191                                           82.63%    passed     86.49%
+   7  ASV3874.131                                           82.80%    passed     94.69%
+   8  ASV6750.46                                            84.40%    passed     24.61%
+   9  ASV7942.70                                            82.29%    passed     77.02%
+  10  ASV8333.56                                            81.62%    passed     67.96%
+  11  ASV8895.68                                            82.63%    passed     84.03%
+  12  ASV9354.47                                            81.03%    passed     83.42%
+  13  ASV11657.1                                            81.28%    passed     54.35%
+  14  ASV12614.34                                           81.62%    passed     65.01%
+  15  ASV14294.14                                           80.94%    passed     33.62%
+  16  ASV17043.11                                           82.29%    passed     77.02%
+  17  ASV18361.17                                           82.38%    passed     99.91%
+  18  ASV19828.11                                           81.03%    passed     70.26%
+  19  ASV20608.20                                           82.55%    passed     90.23%
+  20  ASV21445.5                                            81.03%    passed     72.17%
+  21  ASV22598.8                                            81.70%    passed     67.83%
+  22  ASV23565.8                                            82.29%    passed     79.06%
+  23  ASV24421.3                                            80.86%    passed     42.16%
+  24  ASV25093.2                                            82.55%    passed     83.44%
+  25  ASV26006.3                                            82.55%    passed     91.75%
+  26  ASV26148.5                                            82.04%    passed     27.65%
+  27  ASV27077.0                                            82.55%    passed     90.23%
+  28  ASV28452.0                                            84.15%    passed     91.93%
+  29  ASV29012.3                                            82.29%    passed     96.64%
+  30  ASV29807.18                                           82.63%    passed     89.08%
+  31  ASV30270.2                                            81.70%    passed     59.23%
+  32  Chaetosphaeria_innumera_strain_MR                     12.23%    failed      1.18%
+  33  Coniochaeta_endophytica_isolate_AEA                   51.60%    passed     91.54%
+  34  Coniochaeta_africana_culture-collection_CBS_120868    54.64%    passed     99.68%
+  35  Coniochaeta_prunicola_culture-collection_CBS_120875   54.72%    passed     91.51%
+  36  Coniochaeta_prunicola_culture-collection_CBS_121445   54.72%    passed     91.51%
+  37  Coniochaeta_gigantospora_18S_ribosomal                 2.78%    passed      7.03%
+  38  Coniochaeta_fodinicola_strain_FRL                     50.84%    passed     97.08%
+  39  Lecythophora_sp._Kw448_genomic                         5.14%    passed     33.22%
+  40  Coniochaeta_canina_strain_R-4810                      51.18%    passed     95.32%
+  41  Lecythophora_sp._UTHSC_01-20                          57.59%    passed     77.45%
+  42  Coniochaeta_cateniformis_genomic_DNA                  58.43%    passed     75.50%
+  43  Lecythophora_hoffmannii_genomic_DNA                   57.67%    passed     82.64%
+  44  Lecythophora_luteoviridis_genomic_DNA                 58.68%    passed     92.39%
+  45  Lecythophora_mutabilis_genomic_DNA                    58.68%    passed     93.37%
+  46  Lecythophora_fasciculata_genomic_DNA                  58.68%    passed     67.72%
+  47  Coniochaeta_lignicola_CBS_267.33                      58.77%    passed     95.34%
+  48  Coniochaeta_euphorbiae_strain_1001                    51.10%    passed     98.71%
+  49  Coniochaeta_iranica_strain_0806                       51.26%    passed     99.08%
+  50  Coniochaeta_cymbiformispora_genes_for                  5.82%    passed     29.47%
+  51  Coniochaeta_nepalica_genes_for                         6.41%    passed     28.98%
+  52  Coniochaeta_decumbens_CBS_153.42                      59.44%    passed     83.74%
+  53  Coniochaeta_taeniospora_strain_LTA                     3.29%    passed     37.68%
+  54  Coniochaeta_navarrae_strain_LTA3                       3.04%    passed     56.02%
+  55  Coniochaeta_cephalothecoides_strain_L821              52.36%    passed     92.20%
+  56  Coniochaeta_baysunika_strain_MFLUCC                   51.69%    passed     99.42%
+  57  Coniochaeta_acaciae_strain_MFLUCC                     51.26%    passed     95.78%
+  58  Coniochaeta_coluteae_strain_MFLUCC                    63.49%    passed     99.09%
+  59  Coniochaeta_cipronana_CBS_144016                      50.00%    passed     81.18%
+  60  Coniochaeta_rosae_TASM_6127                           51.94%    passed     95.46%
+  61  Coniochaeta_discospora_culture_CBS_168.58             50.08%    passed     98.64%
+  62  Coniochaeta_ligniaria_culture_CBS_424.65              51.69%    passed     79.83%
+  63  Coniochaeta_ellipsoidea_culture_CBS_137.68            59.87%    passed     58.53%
+  64  Coniochaeta_tetraspora_culture_CBS_139.68             52.45%    passed     94.88%
+  65  Coniochaeta_velutina_culture_CBS_981.68               51.69%    passed     98.58%
+  66  Coniochaeta_angustispora_culture_CBS_144.70           51.60%    passed     98.60%
+  67  Coniochaeta_savoryi_culture_CBS_725.74                58.26%    passed     88.55%
+  68  Coniochaeta_extramundana_culture_CBS_247.77           58.60%    passed     79.33%
+  69  Coniochaeta_polysperma_culture_CBS_669.77             57.84%    passed     83.34%
+  70  Coniochaeta_punctulata_culture_CBS_159.80             59.95%    passed     95.67%
+  71  Coniochaeta_arxii_culture_CBS_192.89                  59.44%    passed      7.34%
+  72  Coniochaeta_cypraeaespora_culture_CBS_365.93          59.70%    passed      5.27%
+  73  Coniochaeta_ostrea_CBS_507.70                         57.17%    passed     63.29%
+  74  Coniochaeta_verticillata_CBS_816.71                   56.83%    passed     57.62%
+  75  Coniochaeta_boothii_CBS_381.74                        59.36%    passed     79.70%
+  76  Coniochaeta_discoidea_CBS_158.80                      58.18%    passed     86.15%
+  77  Coniochaeta_marina_culture_MFLUCC_18-0408             48.90%    passed     85.84%
+  78  Coniochaeta_dendrobiicola_isolate_DLCCR7              61.97%    passed     90.07%
+  79  Coniochaeta_simbalensis_NFCCI_4236                    55.90%    passed     97.49%
+  80  Coniochaeta_velutinosa_strain_Co29                    57.08%    passed     96.98%
+  81  Coniochaeta_vineae_KUMCC_17-0322                      58.18%    passed     96.60%
+  82  Coniochaeta_mongoliae_isolate_CS-09                   52.70%    passed     68.79%
+  83  Coniochaeta_sinensis_isolate_CS-04                    54.47%    passed     55.71%
+  84  Rosellinia_ambigua_voucher_PAD                        85.08%    passed     76.48%
+  85  Rosellinia_chordicola_voucher_PAD                     85.75%    passed     76.83%
+  86  Rosellinia_subsimilis_voucher_PAD                     85.08%    passed     53.30%
+  87  Rosellinia_geophila_voucher_PAD                       86.34%    passed     79.56%
+  88  Coniochaeta_fibrosae_isolate_CX03C1                   53.96%    passed     69.12%
+  89  Coniochaeta_deborreae_strain_BE19_001008              53.63%    passed     67.61%
+  90  Coniochaeta_pulveracea_strain_CBS                     56.66%    passed     87.24%
+  91  Coniochaeta_sp._strain_CBS                            53.54%    passed     74.89%
+  92  Coniochaeta_nivea_voucher_RLG                         63.32%    passed     95.82%
+  93  Coniochaeta_elegans_voucher_RLG                       63.32%    passed     90.55%
+  94  Coniochaeta_montana_voucher_RLG                       63.32%    passed     93.45%
+  95  Coniochaeta_rhopalochaeta_CBS_109872                  54.13%    passed     82.06%
+  96  Coniochaeta_palaoa_voucher_ARIZ_AEANC0604             62.73%    passed     76.29%
+  97  Coniochaeta_sp._isolate_PMML0158                      71.42%    passed     58.20%
+  98  Coniochaeta_sp._strain_RGM_3301                       49.58%    passed     86.74%
+  99  Coniochaeta_leucoplaca_strain_CBS                     75.55%    passed     67.45%
+ 100  Coniochaeta_hansenii_strain_CBS                       69.48%    passed     88.79%
+ 101  Sordaria_hansenii_strain_RGM_3311                     54.72%    passed     26.05%
+ 102  Coniochaeta_sp_A1                                     55.14%    passed     77.90%
+ 103  Coniochaeta_sp_A2                                     57.50%    passed     70.32%
+ 104  Coniochaeta_sp_A3                                     54.72%    passed     71.54%
+ 105  Coniochaeta_sp_A4                                     55.06%    passed     76.95%
+ 106  Coniochaeta_sp_A6                                     56.32%    passed      5.68%
+ 107  Coniochaeta_sp_B5                                     58.35%    passed     81.28%
+ 108  Coniochaeta_sp_B6                                     55.31%    passed     76.85%
+ 109  Coniochaeta_sp_B7                                     54.38%    passed     68.80%
+ 110  Coniochaeta_sp_B8                                     54.89%    passed     73.65%
+ 111  Coniochaeta_sp_B9                                     54.38%    passed     78.37%
+ 112  Coniochaeta_sp_C1                                     54.81%    passed     66.39%
+ 113  Coniochaeta_polymorpha_D2                             54.38%    passed     54.86%
+ 114  Coniochaeta_sp_H3                                     56.58%    passed     76.19%
+ 115  Xylaria_necrophora_CBS_146542                         54.13%    failed      0.03%
+WARNING: 105 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                 61.30%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Coniochaeta_prunicola_culture-collection_CBS_121445 is identical to Coniochaeta_prunicola_culture-collection_CBS_120875 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.0006001 secs using 675.6% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.020 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+61 trees examined
+Threads: 1 / Time: 8.085 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -17116
+Threads: 2 / Time: 5.794 sec / Speedup: 1.395 / Efficiency: 70% / LogL: -17116
+Threads: 3 / Time: 5.207 sec / Speedup: 1.553 / Efficiency: 52% / LogL: -17116
+Threads: 4 / Time: 4.944 sec / Speedup: 1.635 / Efficiency: 41% / LogL: -17116
+Determining AUTO threadcount: done in 24.0323 secs using 231.7% CPU
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.144209 secs using 298.3% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -9351.345
+Optimal log-likelihood: -9351.124
+Rate parameters:  A-C: 1.51901  A-G: 1.89219  A-T: 1.21883  C-G: 1.04631  C-T: 4.65485  G-T: 1.00000
+Base frequencies:  A: 0.243  C: 0.265  G: 0.269  T: 0.223
+Proportion of invariable sites: 0.270
+Gamma shape alpha: 0.687
+Parameters optimization took 1 rounds (0.052 sec)
+Time for fast ML tree search: 0.445 seconds
+
+NOTE: ModelFinder requires 22 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 1186) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         9969.465     235 20408.931    20525.689    21602.341
+  2  GTR+F+I       9601.928     236 19675.857    19793.732    20874.345
+  3  GTR+F+G4      9357.311     236 19186.621    19304.497    20385.110
+  4  GTR+F+I+G4    9350.864     237 19175.728    19294.728    20379.295
+  5  GTR+F+R2      9388.150     237 19250.299    19369.299    20453.866
+  6  GTR+F+R3      9330.732     239 19139.463    19260.732    20353.187
+  7  GTR+F+R4      9330.697     241 19143.393    19266.957    20367.273
+ 14  GTR+F+I+R2    9358.717     238 19193.434    19313.565    20402.079
+ 15  GTR+F+I+R3    9333.986     240 19147.973    19270.385    20366.775
+ 16  GTR+F+I+R4    9332.775     242 19149.550    19274.271    20378.509
+ 28  SYM+R3        9339.261     236 19150.522    19268.398    20349.011
+ 50  TVM+F+R3      9377.398     238 19230.796    19350.927    20439.441
+ 72  TVMe+R3       9376.694     235 19223.388    19340.146    20416.798
+ 94  TIM3+F+R3     9337.030     237 19148.060    19267.060    20351.627
+116  TIM3e+R3      9342.694     234 19153.388    19269.034    20341.720
+138  TIM2+F+R3     9331.321     237 19136.641    19255.641    20340.208
+160  TIM2e+R3      9343.148     234 19154.296    19269.943    20342.628
+182  TIM+F+R3      9336.629     237 19147.257    19266.257    20350.824
+204  TIMe+R3       9345.768     234 19159.536    19275.183    20347.868
+226  TPM3u+F+R3    9383.709     236 19239.417    19357.293    20437.906
+248  TPM3+R3       9379.729     233 19225.459    19340.001    20408.712
+270  TPM2u+F+R3    9378.841     236 19229.681    19347.557    20428.170
+292  TPM2+R3       9381.449     233 19228.898    19343.440    20412.152
+314  K3Pu+F+R3     9383.915     236 19239.831    19357.706    20438.319
+336  K3P+R3        9383.591     233 19233.183    19347.725    20416.436
+358  TN+F+R3       9337.516     236 19147.032    19264.908    20345.521
+380  TNe+R3        9346.394     233 19158.787    19273.329    20342.041
+402  HKY+F+R3      9384.826     235 19239.652    19356.410    20433.063
+424  K2P+R3        9384.278     232 19232.555    19345.999    20410.731
+446  F81+F+R3      9533.946     234 19535.892    19651.539    20724.224
+468  JC+R3         9529.222     231 19520.443    19632.795    20693.540
+Akaike Information Criterion:           TIM2+F+R3
+Corrected Akaike Information Criterion: TIM2+F+R3
+Bayesian Information Criterion:         TIM2+F+R3
+Best-fit model: TIM2+F+R3 chosen according to BIC
+
+All model information printed to Mojave2020.Coniochaeta.fasaln.clipkit.model.gz
+CPU time for ModelFinder: 81.505 seconds (0h:1m:21s)
+Wall-clock time for ModelFinder: 32.649 seconds (0h:0m:32s)
+Generating 1000 samples for ultrafast bootstrap (seed: 256810)...
+
+NOTE: 8 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -9331.321
+Optimal log-likelihood: -9331.283
+Rate parameters:  A-C: 1.37629  A-G: 1.89479  A-T: 1.37629  C-G: 1.00000  C-T: 4.63823  G-T: 1.00000
+Base frequencies:  A: 0.243  C: 0.265  G: 0.269  T: 0.223
+Site proportion and rates:  (0.626,0.147) (0.265,1.424) (0.108,4.898)
+Parameters optimization took 1 rounds (0.050 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0170751 secs using 298.5% CPU
+Computing ML distances took 0.017251 sec (of wall-clock time) 0.051490 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000206947 secs using 314.6% CPU
+Constructing RapidNJ tree: done in 0.0022161 secs using 222.5% CPU
+Computing RapidNJ tree took 0.002488 sec (of wall-clock time) 0.007681 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -10073.710
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1.398 second
+Computing log-likelihood of 98 initial trees ... 0.985 seconds
+Current best score: -9331.283
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.115772 secs using 296.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -9330.586
+Optimizing NNI: done in 0.380574 secs using 289.8% CPU
+Optimizing NNI: done in 0.353178 secs using 290.3% CPU
+Optimizing NNI: done in 0.379513 secs using 291.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -9322.424
+Optimizing NNI: done in 0.359667 secs using 289.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -9321.046
+Optimizing NNI: done in 0.331903 secs using 295% CPU
+Optimizing NNI: done in 0.331677 secs using 292.6% CPU
+Optimizing NNI: done in 0.327868 secs using 291.1% CPU
+Optimizing NNI: done in 0.390308 secs using 291.2% CPU
+Optimizing NNI: done in 0.319595 secs using 290.9% CPU
+Iteration 10 / LogL: -9333.179 / Time: 0h:0m:6s
+Optimizing NNI: done in 0.452653 secs using 293.5% CPU
+Optimizing NNI: done in 0.32742 secs using 294.7% CPU
+Optimizing NNI: done in 0.341653 secs using 288.5% CPU
+Optimizing NNI: done in 0.306594 secs using 291.9% CPU
+Optimizing NNI: done in 0.355171 secs using 291.1% CPU
+Optimizing NNI: done in 0.461461 secs using 291.6% CPU
+Optimizing NNI: done in 0.32278 secs using 291% CPU
+Optimizing NNI: done in 0.351357 secs using 295.3% CPU
+Optimizing NNI: done in 0.418289 secs using 293.5% CPU
+Optimizing NNI: done in 0.512489 secs using 291.8% CPU
+Iteration 20 / LogL: -9336.865 / Time: 0h:0m:9s
+Finish initializing candidate tree set (19)
+Current best tree score: -9321.046 / CPU time: 9.773
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.342584 secs using 294.1% CPU
+Optimizing NNI: done in 0.29323 secs using 288.5% CPU
+Optimizing NNI: done in 0.268061 secs using 292.4% CPU
+Optimizing NNI: done in 0.188114 secs using 298.2% CPU
+Optimizing NNI: done in 0.330646 secs using 295.1% CPU
+Optimizing NNI: done in 0.341283 secs using 293.4% CPU
+Optimizing NNI: done in 0.553964 secs using 291.5% CPU
+Optimizing NNI: done in 0.307395 secs using 294.1% CPU
+Optimizing NNI: done in 0.302503 secs using 295% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -9319.757
+Optimizing NNI: done in 0.292288 secs using 298.6% CPU
+Iteration 30 / LogL: -9321.657 / Time: 0h:0m:13s (0h:0m:45s left)
+Optimizing NNI: done in 0.341987 secs using 295.5% CPU
+Optimizing NNI: done in 0.465939 secs using 293.7% CPU
+Optimizing NNI: done in 0.351153 secs using 294.7% CPU
+Optimizing NNI: done in 0.445087 secs using 292.9% CPU
+Optimizing NNI: done in 0.350589 secs using 294.9% CPU
+Optimizing NNI: done in 0.31992 secs using 291.8% CPU
+Optimizing NNI: done in 0.497922 secs using 292.9% CPU
+Optimizing NNI: done in 0.358707 secs using 291.4% CPU
+Optimizing NNI: done in 0.377459 secs using 294.3% CPU
+Optimizing NNI: done in 0.325369 secs using 289.7% CPU
+Iteration 40 / LogL: -9321.053 / Time: 0h:0m:17s (0h:0m:39s left)
+Optimizing NNI: done in 0.291074 secs using 297.3% CPU
+Optimizing NNI: done in 0.279647 secs using 293.4% CPU
+Optimizing NNI: done in 0.330113 secs using 290.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -9315.742
+Optimizing NNI: done in 0.296259 secs using 294.6% CPU
+Optimizing NNI: done in 0.247493 secs using 290.6% CPU
+Optimizing NNI: done in 0.365519 secs using 293.4% CPU
+Optimizing NNI: done in 0.280472 secs using 296.1% CPU
+Optimizing NNI: done in 0.265489 secs using 298.5% CPU
+Optimizing NNI: done in 0.262738 secs using 294.8% CPU
+Optimizing NNI: done in 0.310106 secs using 293.2% CPU
+Iteration 50 / LogL: -9320.243 / Time: 0h:0m:20s (0h:0m:38s left)
+Log-likelihood cutoff on original alignment: -9358.345
+Optimizing NNI: done in 0.340554 secs using 294.3% CPU
+Optimizing NNI: done in 0.332762 secs using 292.9% CPU
+Optimizing NNI: done in 0.262049 secs using 294.9% CPU
+Optimizing NNI: done in 0.186179 secs using 298.6% CPU
+Optimizing NNI: done in 0.286892 secs using 292.8% CPU
+Optimizing NNI: done in 0.328638 secs using 292.9% CPU
+Optimizing NNI: done in 0.346068 secs using 290.5% CPU
+Optimizing NNI: done in 0.276907 secs using 294.4% CPU
+Optimizing NNI: done in 0.240277 secs using 297.8% CPU
+Optimizing NNI: done in 0.273417 secs using 293.6% CPU
+Iteration 60 / LogL: -9316.987 / Time: 0h:0m:23s (0h:0m:33s left)
+Optimizing NNI: done in 0.340053 secs using 297.7% CPU
+Optimizing NNI: done in 0.35606 secs using 294% CPU
+Optimizing NNI: done in 0.218411 secs using 297.7% CPU
+Optimizing NNI: done in 0.342164 secs using 293.7% CPU
+Optimizing NNI: done in 0.309608 secs using 292.9% CPU
+Optimizing NNI: done in 0.330488 secs using 293.9% CPU
+Optimizing NNI: done in 0.161914 secs using 298.6% CPU
+Optimizing NNI: done in 0.293022 secs using 297.5% CPU
+Optimizing NNI: done in 0.33512 secs using 294.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 69: -9315.640
+Optimizing NNI: done in 0.191165 secs using 298.5% CPU
+Iteration 70 / LogL: -9369.269 / Time: 0h:0m:26s (0h:0m:38s left)
+Optimizing NNI: done in 0.272237 secs using 295.4% CPU
+Optimizing NNI: done in 0.279992 secs using 294.4% CPU
+Optimizing NNI: done in 0.275585 secs using 297.6% CPU
+Optimizing NNI: done in 0.329862 secs using 291.7% CPU
+Optimizing NNI: done in 0.247321 secs using 297.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 75: -9315.162
+Optimizing NNI: done in 0.299822 secs using 295.2% CPU
+Optimizing NNI: done in 0.228362 secs using 298.2% CPU
+Optimizing NNI: done in 0.489397 secs using 294.5% CPU
+Optimizing NNI: done in 0.269608 secs using 297.5% CPU
+Optimizing NNI: done in 0.326249 secs using 292.1% CPU
+Iteration 80 / LogL: -9315.726 / Time: 0h:0m:29s (0h:0m:35s left)
+Optimizing NNI: done in 0.302371 secs using 294.6% CPU
+Optimizing NNI: done in 0.317561 secs using 297.3% CPU
+Optimizing NNI: done in 0.34793 secs using 293.6% CPU
+Optimizing NNI: done in 0.275748 secs using 290.3% CPU
+Optimizing NNI: done in 0.283489 secs using 293% CPU
+Optimizing NNI: done in 0.31915 secs using 295.2% CPU
+Optimizing NNI: done in 0.345647 secs using 291.3% CPU
+Optimizing NNI: done in 0.329044 secs using 296.3% CPU
+Optimizing NNI: done in 0.202244 secs using 299% CPU
+Optimizing NNI: done in 0.347141 secs using 294.1% CPU
+Iteration 90 / LogL: -9316.367 / Time: 0h:0m:33s (0h:0m:31s left)
+Optimizing NNI: done in 0.32806 secs using 295.2% CPU
+Optimizing NNI: done in 0.281897 secs using 294.4% CPU
+Optimizing NNI: done in 0.298355 secs using 295.3% CPU
+Optimizing NNI: done in 0.259782 secs using 295.9% CPU
+Optimizing NNI: done in 0.284597 secs using 295.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 95: -9315.025
+Optimizing NNI: done in 0.256895 secs using 292.8% CPU
+Optimizing NNI: done in 0.312085 secs using 294.5% CPU
+Optimizing NNI: done in 0.325019 secs using 293.2% CPU
+Optimizing NNI: done in 0.317963 secs using 295.8% CPU
+Optimizing NNI: done in 0.37898 secs using 291.8% CPU
+Iteration 100 / LogL: -9325.045 / Time: 0h:0m:36s (0h:0m:34s left)
+Log-likelihood cutoff on original alignment: -9358.345
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Optimizing NNI: done in 0.328297 secs using 296.3% CPU
+Optimizing NNI: done in 0.331664 secs using 293.9% CPU
+Optimizing NNI: done in 0.367013 secs using 292.7% CPU
+Optimizing NNI: done in 0.300181 secs using 293.7% CPU
+Optimizing NNI: done in 0.235651 secs using 296.1% CPU
+Optimizing NNI: done in 0.348659 secs using 293% CPU
+Optimizing NNI: done in 0.341521 secs using 296% CPU
+Optimizing NNI: done in 0.232348 secs using 296.6% CPU
+Optimizing NNI: done in 0.309858 secs using 296.1% CPU
+Optimizing NNI: done in 0.288088 secs using 292.1% CPU
+Iteration 110 / LogL: -9316.260 / Time: 0h:0m:39s (0h:0m:32s left)
+Optimizing NNI: done in 0.314756 secs using 294.2% CPU
+Optimizing NNI: done in 0.292861 secs using 291.5% CPU
+Optimizing NNI: done in 0.192288 secs using 298.1% CPU
+Optimizing NNI: done in 0.298457 secs using 292.7% CPU
+Optimizing NNI: done in 0.345716 secs using 292.3% CPU
+Optimizing NNI: done in 0.313067 secs using 293.6% CPU
+Optimizing NNI: done in 0.251166 secs using 296.7% CPU
+Optimizing NNI: done in 0.335604 secs using 295.3% CPU
+Optimizing NNI: done in 0.278476 secs using 295.1% CPU
+Optimizing NNI: done in 0.257346 secs using 297.5% CPU
+Iteration 120 / LogL: -9315.648 / Time: 0h:0m:42s (0h:0m:28s left)
+Optimizing NNI: done in 0.187476 secs using 295.5% CPU
+Optimizing NNI: done in 0.229474 secs using 297.8% CPU
+Optimizing NNI: done in 0.361397 secs using 293% CPU
+Optimizing NNI: done in 0.225998 secs using 297.4% CPU
+Optimizing NNI: done in 0.342313 secs using 292.6% CPU
+Optimizing NNI: done in 0.540716 secs using 292.8% CPU
+Optimizing NNI: done in 0.292495 secs using 294.6% CPU
+Optimizing NNI: done in 0.350334 secs using 296.5% CPU
+Optimizing NNI: done in 0.316524 secs using 292.7% CPU
+Optimizing NNI: done in 0.299116 secs using 294.6% CPU
+Iteration 130 / LogL: -9316.331 / Time: 0h:0m:46s (0h:0m:25s left)
+Optimizing NNI: done in 0.320434 secs using 294.6% CPU
+Optimizing NNI: done in 0.316569 secs using 294.6% CPU
+Optimizing NNI: done in 0.268101 secs using 293.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 133: -9314.927
+Optimizing NNI: done in 0.343303 secs using 295.7% CPU
+Optimizing NNI: done in 0.286065 secs using 297.8% CPU
+Optimizing NNI: done in 0.321804 secs using 293.7% CPU
+Optimizing NNI: done in 0.203748 secs using 298.6% CPU
+Optimizing NNI: done in 0.309616 secs using 292.6% CPU
+Optimizing NNI: done in 0.318873 secs using 294.2% CPU
+Optimizing NNI: done in 0.195821 secs using 298% CPU
+Iteration 140 / LogL: -9363.611 / Time: 0h:0m:49s (0h:0m:32s left)
+Optimizing NNI: done in 0.272207 secs using 293.8% CPU
+Optimizing NNI: done in 0.373749 secs using 295.6% CPU
+Optimizing NNI: done in 0.375403 secs using 293% CPU
+Optimizing NNI: done in 0.285531 secs using 295.5% CPU
+Optimizing NNI: done in 0.306001 secs using 294.9% CPU
+Optimizing NNI: done in 0.219069 secs using 296.7% CPU
+Optimizing NNI: done in 0.243241 secs using 292.1% CPU
+Optimizing NNI: done in 0.296096 secs using 294.6% CPU
+Optimizing NNI: done in 0.30173 secs using 297.9% CPU
+Optimizing NNI: done in 0.334821 secs using 293.6% CPU
+Iteration 150 / LogL: -9320.287 / Time: 0h:0m:52s (0h:0m:29s left)
+Log-likelihood cutoff on original alignment: -9357.321
+Optimizing NNI: done in 0.223206 secs using 297.6% CPU
+Optimizing NNI: done in 0.361027 secs using 294% CPU
+Optimizing NNI: done in 0.265872 secs using 294.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 153: -9314.761
+Optimizing NNI: done in 0.346421 secs using 295.1% CPU
+Optimizing NNI: done in 0.269468 secs using 294.7% CPU
+Optimizing NNI: done in 0.227235 secs using 297.4% CPU
+Optimizing NNI: done in 0.250682 secs using 296.2% CPU
+Optimizing NNI: done in 0.311087 secs using 292.2% CPU
+Optimizing NNI: done in 0.318001 secs using 293.6% CPU
+Optimizing NNI: done in 0.326777 secs using 291.9% CPU
+Iteration 160 / LogL: -9320.188 / Time: 0h:0m:55s (0h:0m:32s left)
+Optimizing NNI: done in 0.366858 secs using 295.9% CPU
+Optimizing NNI: done in 0.30514 secs using 294.5% CPU
+Optimizing NNI: done in 0.384222 secs using 293.6% CPU
+Optimizing NNI: done in 0.347912 secs using 291.8% CPU
+Optimizing NNI: done in 0.320922 secs using 296.1% CPU
+Optimizing NNI: done in 0.247533 secs using 293.4% CPU
+Optimizing NNI: done in 0.256629 secs using 294.7% CPU
+Optimizing NNI: done in 0.201535 secs using 298.3% CPU
+Optimizing NNI: done in 0.291378 secs using 295.8% CPU
+Optimizing NNI: done in 0.300333 secs using 296% CPU
+Iteration 170 / LogL: -9315.735 / Time: 0h:0m:58s (0h:0m:28s left)
+Optimizing NNI: done in 0.186878 secs using 298.5% CPU
+Optimizing NNI: done in 0.323461 secs using 291.2% CPU
+Optimizing NNI: done in 0.223632 secs using 293.7% CPU
+Optimizing NNI: done in 0.334619 secs using 294.5% CPU
+Optimizing NNI: done in 0.356538 secs using 296.5% CPU
+Optimizing NNI: done in 0.3245 secs using 293.1% CPU
+Optimizing NNI: done in 0.34179 secs using 293.5% CPU
+Optimizing NNI: done in 0.351827 secs using 292.4% CPU
+Optimizing NNI: done in 0.329781 secs using 297.1% CPU
+Optimizing NNI: done in 0.30909 secs using 293.8% CPU
+Iteration 180 / LogL: -9314.763 / Time: 0h:1m:2s (0h:0m:25s left)
+Optimizing NNI: done in 0.294077 secs using 295.4% CPU
+Optimizing NNI: done in 0.210369 secs using 296% CPU
+Optimizing NNI: done in 0.317734 secs using 296.1% CPU
+Optimizing NNI: done in 0.270881 secs using 296.8% CPU
+Optimizing NNI: done in 0.319957 secs using 293.3% CPU
+Optimizing NNI: done in 0.392059 secs using 293.5% CPU
+Optimizing NNI: done in 0.368718 secs using 293.8% CPU
+Optimizing NNI: done in 0.285797 secs using 297.4% CPU
+Optimizing NNI: done in 0.286182 secs using 293.1% CPU
+Optimizing NNI: done in 0.267091 secs using 294.9% CPU
+Iteration 190 / LogL: -9315.719 / Time: 0h:1m:5s (0h:0m:21s left)
+Optimizing NNI: done in 0.31248 secs using 294.5% CPU
+Optimizing NNI: done in 0.344325 secs using 295.2% CPU
+Optimizing NNI: done in 0.309176 secs using 293.1% CPU
+Optimizing NNI: done in 0.327298 secs using 294.5% CPU
+Optimizing NNI: done in 0.246114 secs using 297.5% CPU
+Optimizing NNI: done in 0.301619 secs using 294% CPU
+BETTER TREE FOUND at iteration 196: -9314.754
+Optimizing NNI: done in 0.222094 secs using 297.4% CPU
+Optimizing NNI: done in 0.3448 secs using 292.2% CPU
+Optimizing NNI: done in 0.331607 secs using 294.1% CPU
+Optimizing NNI: done in 0.292424 secs using 292.5% CPU
+Iteration 200 / LogL: -9320.147 / Time: 0h:1m:8s (0h:0m:33s left)
+Log-likelihood cutoff on original alignment: -9357.082
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Optimizing NNI: done in 0.336663 secs using 294.4% CPU
+Optimizing NNI: done in 0.256294 secs using 297.1% CPU
+Optimizing NNI: done in 0.294744 secs using 292.9% CPU
+Optimizing NNI: done in 0.280354 secs using 294.3% CPU
+Optimizing NNI: done in 0.304264 secs using 295.7% CPU
+Optimizing NNI: done in 0.171296 secs using 297.1% CPU
+Optimizing NNI: done in 0.292877 secs using 293.2% CPU
+Optimizing NNI: done in 0.15645 secs using 298.1% CPU
+Optimizing NNI: done in 0.30358 secs using 293.5% CPU
+Optimizing NNI: done in 0.302797 secs using 293.4% CPU
+Iteration 210 / LogL: -9330.878 / Time: 0h:1m:11s (0h:0m:30s left)
+Optimizing NNI: done in 0.314369 secs using 294.6% CPU
+Optimizing NNI: done in 0.20199 secs using 298% CPU
+Optimizing NNI: done in 0.219127 secs using 297.3% CPU
+Optimizing NNI: done in 0.301737 secs using 293.4% CPU
+Optimizing NNI: done in 0.31575 secs using 293.5% CPU
+Optimizing NNI: done in 0.206319 secs using 298.3% CPU
+Optimizing NNI: done in 0.387201 secs using 294.1% CPU
+Optimizing NNI: done in 0.283342 secs using 294.5% CPU
+Optimizing NNI: done in 0.306903 secs using 292.2% CPU
+Optimizing NNI: done in 0.337978 secs using 292.5% CPU
+Iteration 220 / LogL: -9318.244 / Time: 0h:1m:14s (0h:0m:27s left)
+Optimizing NNI: done in 0.264569 secs using 294.5% CPU
+Optimizing NNI: done in 0.303986 secs using 297.6% CPU
+Optimizing NNI: done in 0.279291 secs using 292.2% CPU
+Optimizing NNI: done in 0.359475 secs using 294.5% CPU
+Optimizing NNI: done in 0.312006 secs using 294.6% CPU
+Optimizing NNI: done in 0.30311 secs using 296.5% CPU
+Optimizing NNI: done in 0.246159 secs using 297.6% CPU
+Optimizing NNI: done in 0.260488 secs using 295.3% CPU
+Optimizing NNI: done in 0.291934 secs using 298.2% CPU
+Optimizing NNI: done in 0.29074 secs using 292.5% CPU
+Iteration 230 / LogL: -9315.315 / Time: 0h:1m:17s (0h:0m:23s left)
+Optimizing NNI: done in 0.370097 secs using 295.1% CPU
+Optimizing NNI: done in 0.324041 secs using 294.4% CPU
+Optimizing NNI: done in 0.226612 secs using 298.6% CPU
+Optimizing NNI: done in 0.3134 secs using 291% CPU
+UPDATE BEST LOG-LIKELIHOOD: -9314.752
+Optimizing NNI: done in 0.341458 secs using 294.1% CPU
+UPDATE BEST LOG-LIKELIHOOD: -9314.751
+Optimizing NNI: done in 0.317374 secs using 294% CPU
+Optimizing NNI: done in 0.279271 secs using 294% CPU
+Optimizing NNI: done in 0.318705 secs using 294.9% CPU
+Optimizing NNI: done in 0.355325 secs using 293.6% CPU
+Optimizing NNI: done in 0.31872 secs using 295.3% CPU
+Iteration 240 / LogL: -9323.791 / Time: 0h:1m:21s (0h:0m:20s left)
+Optimizing NNI: done in 0.328917 secs using 295.4% CPU
+Optimizing NNI: done in 0.26872 secs using 298.6% CPU
+Optimizing NNI: done in 0.354225 secs using 291.7% CPU
+Optimizing NNI: done in 0.272515 secs using 295% CPU
+Optimizing NNI: done in 0.292008 secs using 293.5% CPU
+Optimizing NNI: done in 0.311167 secs using 293.2% CPU
+Optimizing NNI: done in 0.31017 secs using 294.8% CPU
+Optimizing NNI: done in 0.279099 secs using 295.5% CPU
+Optimizing NNI: done in 0.375304 secs using 295.8% CPU
+Optimizing NNI: done in 0.367368 secs using 292.2% CPU
+Iteration 250 / LogL: -9318.000 / Time: 0h:1m:24s (0h:0m:16s left)
+Log-likelihood cutoff on original alignment: -9357.082
+Optimizing NNI: done in 0.246544 secs using 294.7% CPU
+Optimizing NNI: done in 0.253432 secs using 294% CPU
+Optimizing NNI: done in 0.324736 secs using 293.5% CPU
+Optimizing NNI: done in 0.336861 secs using 297.1% CPU
+Optimizing NNI: done in 0.190169 secs using 296.9% CPU
+Optimizing NNI: done in 0.286532 secs using 294.5% CPU
+Optimizing NNI: done in 0.33469 secs using 296% CPU
+Optimizing NNI: done in 0.24 secs using 293.7% CPU
+Optimizing NNI: done in 0.252388 secs using 293.6% CPU
+Optimizing NNI: done in 0.364683 secs using 294% CPU
+Iteration 260 / LogL: -9314.752 / Time: 0h:1m:27s (0h:0m:13s left)
+Optimizing NNI: done in 0.281622 secs using 297.3% CPU
+Optimizing NNI: done in 0.271866 secs using 294.5% CPU
+Optimizing NNI: done in 0.32692 secs using 292% CPU
+Optimizing NNI: done in 0.283413 secs using 293% CPU
+Optimizing NNI: done in 0.290031 secs using 292.2% CPU
+Optimizing NNI: done in 0.352911 secs using 294.2% CPU
+Optimizing NNI: done in 0.281055 secs using 292.8% CPU
+Optimizing NNI: done in 0.3293 secs using 295.6% CPU
+Optimizing NNI: done in 0.341566 secs using 294.6% CPU
+Optimizing NNI: done in 0.294468 secs using 295.7% CPU
+Iteration 270 / LogL: -9325.257 / Time: 0h:1m:31s (0h:0m:10s left)
+Optimizing NNI: done in 0.33766 secs using 290.8% CPU
+Optimizing NNI: done in 0.285631 secs using 294.9% CPU
+Optimizing NNI: done in 0.327602 secs using 293.2% CPU
+Optimizing NNI: done in 0.305516 secs using 298.2% CPU
+Optimizing NNI: done in 0.319635 secs using 294.6% CPU
+Optimizing NNI: done in 0.321472 secs using 290.7% CPU
+Optimizing NNI: done in 0.259038 secs using 296.4% CPU
+Optimizing NNI: done in 0.261482 secs using 293.8% CPU
+Optimizing NNI: done in 0.359351 secs using 292.9% CPU
+Optimizing NNI: done in 0.313874 secs using 291.8% CPU
+Iteration 280 / LogL: -9314.752 / Time: 0h:1m:34s (0h:0m:6s left)
+Optimizing NNI: done in 0.269755 secs using 295.6% CPU
+Optimizing NNI: done in 0.307384 secs using 289.9% CPU
+Optimizing NNI: done in 0.323502 secs using 294.1% CPU
+Optimizing NNI: done in 0.316179 secs using 292.7% CPU
+Optimizing NNI: done in 0.364062 secs using 293.2% CPU
+Optimizing NNI: done in 0.352133 secs using 292.2% CPU
+Optimizing NNI: done in 0.355201 secs using 294.7% CPU
+Optimizing NNI: done in 0.237893 secs using 297.4% CPU
+Optimizing NNI: done in 0.378024 secs using 294.5% CPU
+Optimizing NNI: done in 0.345916 secs using 294.1% CPU
+Iteration 290 / LogL: -9324.724 / Time: 0h:1m:38s (0h:0m:3s left)
+Optimizing NNI: done in 0.342746 secs using 294% CPU
+Optimizing NNI: done in 0.283659 secs using 291.3% CPU
+Optimizing NNI: done in 0.310444 secs using 298.6% CPU
+Optimizing NNI: done in 0.366589 secs using 294.5% CPU
+Optimizing NNI: done in 0.331197 secs using 293.5% CPU
+Optimizing NNI: done in 0.350136 secs using 291.8% CPU
+Optimizing NNI: done in 0.286576 secs using 294.9% CPU
+TREE SEARCH COMPLETED AFTER 297 ITERATIONS / Time: 0h:1m:40s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -9314.751
+Optimal log-likelihood: -9314.749
+Rate parameters:  A-C: 1.38390  A-G: 1.84458  A-T: 1.38390  C-G: 1.00000  C-T: 4.56161  G-T: 1.00000
+Base frequencies:  A: 0.243  C: 0.265  G: 0.269  T: 0.223
+Site proportion and rates:  (0.638,0.145) (0.260,1.497) (0.101,5.105)
+Parameters optimization took 1 rounds (0.061 sec)
+BEST SCORE FOUND : -9314.749
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.709 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file Mojave2020.Coniochaeta.fasaln.clipkit.splits.nex
+Total tree length: 3.478
+
+Total number of iterations: 297
+CPU time used for tree search: 290.667 sec (0h:4m:50s)
+Wall-clock time used for tree search: 100.277 sec (0h:1m:40s)
+Total CPU time used: 294.229 sec (0h:4m:54s)
+Total wall-clock time used: 101.552 sec (0h:1m:41s)
+
+Computing bootstrap consensus tree...
+Reading input file Mojave2020.Coniochaeta.fasaln.clipkit.splits.nex...
+115 taxa and 914 splits.
+Consensus tree written to Mojave2020.Coniochaeta.fasaln.clipkit.contree
+Reading input trees file Mojave2020.Coniochaeta.fasaln.clipkit.contree
+Log-likelihood of consensus tree: -9315.113
+
+Analysis results written to: 
+  IQ-TREE report:                Mojave2020.Coniochaeta.fasaln.clipkit.iqtree
+  Maximum-likelihood tree:       Mojave2020.Coniochaeta.fasaln.clipkit.treefile
+  Likelihood distances:          Mojave2020.Coniochaeta.fasaln.clipkit.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Mojave2020.Coniochaeta.fasaln.clipkit.splits.nex
+  Consensus tree:                Mojave2020.Coniochaeta.fasaln.clipkit.contree
+  Screen log file:               Mojave2020.Coniochaeta.fasaln.clipkit.log
+
+Date and Time: Wed Aug 23 12:35:44 2023
