@@ -31,6 +31,8 @@ library(data.table)
 library(tidyr)
 library(tidyverse)
 library(multcompView)
+library(ggtree)
+library(treeio)
 ```
 
 ###STEP2: Import Mapping file (metadate file)
@@ -108,7 +110,7 @@ To construct phyloseq object, otu table, taxonomy table, and sampleData are requ
 Construct Phyloseq object called "Physeq"
 
 ```{r warning=FALSE}
-physeq = phyloseq(OTU,TAX,sampleData)
+physeq = phyloseq(OTU,TAX,sampleData,tree)
 ```
 
 Check phyloseq object
@@ -261,9 +263,52 @@ taxcom_layer_pl
 dev.off()
 ```
 
+```{r}
+physeq.prune.rarefy.Glomeromycetes = subset_taxa(physeq.prune.rarefy, Genus == "Coniosporium")
+physeq.prune.rarefy.Glomeromycetes
+```
 
 
 
+```{r}
+p1 <- plot_tree(physeq.prune.rarefy.Glomeromycetes, color="Crust_type", shape="Site", label.tips="OTU", size="abundance", plot.margin=0.3)
+p1
+```
+```{r}
+
+otu_table(physeq.prune.rarefy.Glomeromycetes)
+
+```
+
+```{r}
+
+phy_tree(physeq.prune.rarefy.Glomeromycetes)
+
+# Plot the modified tree
+p2 <- ggtree(phy_tree(physeq.prune.rarefy.Glomeromycetes), layout="rectangular") +
+  geom_tiplab(size=2, color="black")
+p2
+```
+```{r}
+# Define the number of colors you want
+nb.cols <- 21
+mycolors <- colorRampPalette(brewer.pal(10, "Set3"))(nb.cols)
+# Create a ggplot with 21 colors
+# Use scale_fill_manual
+
+pal <- wes_palette("Zissou1", 100, type = "continuous")
+
+```
+
+```{r}
+# Create heatmap
+p_heatmap <- gheatmap(p2, (otu_table(physeq.prune.rarefy.Glomeromycetes)), width=1.5, offset=0.3, 
+                      legend_title="Relative Abundance", colnames_position="bottom", 
+                      colnames_angle=45, colnames_offset_y=0, hjust=1, font.size=1) +
+  scale_fill_gradientn("Relative abundance", colours = pal) +
+  scale_y_continuous(limits=c(0, 60)) + theme_tree(legend.position="right")
+plot(p_heatmap)
+```
 
 
 
