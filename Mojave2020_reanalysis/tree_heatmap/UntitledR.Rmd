@@ -1,0 +1,106 @@
+---
+title: "ITS Mojave heatmap"
+author: "Kian Kelly, adapted from Mark Yacoub:(https://github.com/myacoub005/Bd_pangenome_M36_TreeCounts)"
+date: "Updated on March 6 2024"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r warning=FALSE, message=FALSE}
+library(rvcheck)
+library(ggplot2)
+library(ggtree)
+library(treeio)
+library(ape)
+library(ggstance)
+library(ggtreeExtra)
+library(RColorBrewer)
+library(wesanderson)
+```
+
+```{r}
+# Create heatmap
+otu_table <- read.table("Mojave2020_KKelly202307.otu_table.txt", header=TRUE, sep="\t", row.names = 1)
+#head(otu_table)
+```
+
+```{r}
+tree <- read.tree("Mojave2020.Glomero.muscle.fasaln.clipkit.treefile")
+tree$node.label
+```
+
+```{r}
+tipnames <- tree$tip.label
+tipnames <- gsub("\\.\\d+$", "", tipnames)
+tipnames
+```
+
+```{r}
+to_drop <- setdiff(tipnames, rownames(otu_table))
+to_drop
+```
+
+```{r}
+#rooted_tree <- root(tree, outgroup = "Mortierella_globalpina")
+tree_final <- drop.tip(tree, to_drop)
+```
+
+```{r}
+otu_tableFilter <- filter(otu_table,rownames(otu_table) %in% tipnames)
+#head(otu_tableFilter)
+```
+
+```{r}
+taxaCounts = data.frame(otu_tableFilter)
+head(taxaCounts)
+```
+
+```{r}
+otu_tableCount = as.matrix(otu_tableFilter)
+head(otu_tableCount)
+```
+
+```{r}
+# Define the number of colors you want
+nb.cols <- 21
+mycolors <- colorRampPalette(brewer.pal(10, "Set3"))(nb.cols)
+# Create a ggplot with 21 colors
+# Use scale_fill_manual
+
+pal <- wes_palette("Zissou1", 100, type = "continuous")
+
+```
+
+```{r}
+# Modify the tip labels to remove anything after the decimal point
+tip_labels <- gsub("\\..*", "", tree_final$tip.label)
+
+# Assign the modified tip labels back to the tree object
+tree_final$tip.label <- tip_labels
+
+# Plot the modified tree
+p1 <- ggtree(tree_final, layout="rectangular") +
+  geom_tiplab(size=2, color="black")
+
+plot(p1)
+```
+
+```{r}
+# Create heatmap
+p_heatmap <- gheatmap(p1, otu_tableCount, width=1.5, offset=0.3, 
+                      legend_title="Relative Abundance", colnames_position="bottom", 
+                      colnames_angle=45, colnames_offset_y=0, hjust=1, font.size=1) +
+  scale_fill_gradientn("Relative abundance", colours = pal) +
+  scale_y_continuous(limits=c(0, 60)) + theme_tree(legend.position="right")
+plot(p_heatmap)
+```
+
+```{r}
+
+# Save the heatmap as a file
+ggsave("heatmap.png", plot = p_heatmap, width = 8, height = 6)
+
+```
