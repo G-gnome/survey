@@ -33,6 +33,8 @@ library(tidyverse)
 library(multcompView)
 library(ggtree)
 library(treeio)
+library(devtools)
+library(MicEco)
 ```
 
 ###STEP2: Import Mapping file (metadate file)
@@ -162,6 +164,251 @@ physeq.prune.rarefy = rarefy_even_depth(physeq.prune, sample.size = 7909, replac
 physeq.prune.rarefy
 ```
 
+##Tree for Glom
+
+```{r}
+physeq.prune.rarefy.Glomeromycetes = subset_taxa(physeq.prune.rarefy, Class == "Glomeromycetes")
+physeq.prune.rarefy.Glomeromycetes
+```
+```{r}
+physeq.prune.rarefy.Cryptococcus = subset_taxa(physeq.prune.rarefy, Genus == "Rhodotorula")
+physeq.prune.rarefy.Cryptococcus
+```
+
+
+```{r}
+p1 <- plot_tree(physeq.prune.rarefy.Glomeromycetes, color="Crust_type", shape="Site", label.tips="Genus", size="abundance", plot.margin=0.3)
+p1
+```
+
+```{r}
+p1 <- plot_tree(physeq.prune.rarefy.Glomeromycetes, color="Crust_type", shape="Site", label.tips="Genus", size="abundance", plot.margin=0.3)
+p1
+```
+
+```{r}
+
+tax_table(physeq.prune.rarefy.Glomeromycetes)
+
+```
+
+```{r}
+
+phy_tree(physeq.prune.rarefy.Glomeromycetes)
+
+
+
+# Plot the modified tree
+p2 <- ggtree(phy_tree(physeq.prune.rarefy.Glomeromycetes), layout="rectangular") +
+  geom_tiplab(size=2, color="black")
+p2
+
+tips <- p2$tip.label
+
+```
+```{r}
+# Define the number of colors you want
+nb.cols <- 21
+mycolors <- colorRampPalette(brewer.pal(10, "Set3"))(nb.cols)
+# Create a ggplot with 21 colors
+# Use scale_fill_manual
+
+pal <- wes_palette("Zissou1", 100, type = "continuous")
+
+```
+
+
+```{r}
+# Create heatmap
+
+p_heatmap <- gheatmap(p2, (otu_table(physeq.prune.rarefy.Glomeromycetes)), width=1.5, offset=0.3, 
+                      legend_title="Relative Abundance", colnames_position="bottom", 
+                      colnames_angle=45, colnames_offset_y=0, hjust=1, font.size=1) +
+  scale_fill_gradientn("Relative abundance", colours = pal) +
+  scale_y_continuous(limits=c(0, 40)) + theme_tree(legend.position="right")
+plot(p_heatmap)
+
+#find 
+```
+```{r}
+
+# Extract species names from the taxonomy table
+species_names <- tax_table(physeq.prune.rarefy.Glomeromycetes)[, "Genus"]
+
+species_names[is.na(species_names)] <- "Unknown AMF"
+
+
+# Get the tip labels (ASV IDs) from the phylogenetic tree
+tip_labels <- phy_tree(physeq.prune.rarefy.Glomeromycetes)$tip.label
+
+# Match ASV IDs with species names and replace tip labels
+new_tip_labels <- species_names[match(tip_labels, rownames(species_names))]
+
+new_tip_labels
+```
+```{r}
+
+object <- phy_tree(physeq.prune.rarefy.Glomeromycetes)
+
+tiplabels <- object$tip.label
+
+new_tip_labels <- paste(tiplabels, new_tip_labels, sep = " ")
+
+object$tip.label <- new_tip_labels
+
+object
+```
+
+```{r}
+
+# Plot the modified tree with species names as tip labels
+p3 <- ggtree(object, layout="rectangular") +
+  geom_tiplab(size=2, color="black")
+
+
+p3
+```
+```{r}
+physeq.prune.rarefy.Glomeromycetes
+```
+
+```{r}
+# Get the OTU table
+otu_table <- otu_table(physeq.prune.rarefy.Glomeromycetes)
+
+species_names[is.na(species_names)] <- "Unknown Glomeromycete"
+
+# Replace row names in the OTU table with species names
+rownames(otu_table) <- new_tip_labels
+
+# Get the sample data from the phyloseq object
+sample_data <- as.data.frame(sample_data(physeq.prune.rarefy.Glomeromycetes))
+
+# Extract the variables you want to use as column names (e.g., soil type, site)
+column_names <- paste(sample_data$Crust_type, sample_data$Site, sep = " ")
+
+
+
+log_otu_table <- log10(otu_table + 1)  # Adding 1 to avoid log(0)
+
+# Replace column names in the OTU table
+colnames(log_otu_table) <- column_names
+
+colnames(log_otu_table) <- make.unique(colnames(log_otu_table))
+
+
+p_heatmap <- gheatmap(p3, log_otu_table, width=1.5, offset=0.3, 
+                      legend_title="Relative Abundance", colnames_position="bottom", 
+                      colnames_angle=45, colnames_offset_y=0, hjust=1, font.size=1.5) +
+  scale_fill_gradientn("Relative abundance", colours = pal) +
+  scale_y_continuous(limits=c(-2, 32)) + theme_tree(legend.position="right")
+plot(p_heatmap)
+```
+
+```{r}
+
+# Save the heatmap as a file
+ggsave("glomeromycete.png", plot = p_heatmap, width = 8, height = 6)
+
+```
+
+
+
+```{r}
+
+# Extract species names from the taxonomy table
+species_names <- tax_table(physeq.prune.rarefy.Cryptococcus)[, "Species"]
+
+species_names[is.na(species_names)] <- "Unknown Rhodotorula sp."
+
+# Get the tip labels (ASV IDs) from the phylogenetic tree
+tip_labels <- phy_tree(physeq.prune.rarefy.Cryptococcus)$tip.label
+
+# Match ASV IDs with species names and replace tip labels
+new_tip_labels <- species_names[match(tip_labels, rownames(species_names))]
+
+new_tip_labels
+```
+```{r}
+
+object <- phy_tree(physeq.prune.rarefy.Cryptococcus)
+
+tiplabels <- object$tip.label
+
+new_tip_labels <- paste(tiplabels, new_tip_labels, sep = " ")
+
+object$tip.label <- new_tip_labels
+
+object
+```
+
+```{r}
+
+# Plot the modified tree with species names as tip labels
+p3 <- ggtree(object, layout="rectangular") +
+  geom_tiplab(size=2, color="black")
+
+p3
+```
+```{r}
+
+# Get the OTU table
+otu_table <- otu_table(physeq.prune.rarefy.Cryptococcus)
+
+# Replace row names in the OTU table with species names
+rownames(otu_table) <- new_tip_labels
+
+# Take the log10 of the OTU table values
+log_otu_table <- log10(otu_table + 1)  # Adding 1 to avoid log(0)
+
+# Replace column names in the OTU table
+colnames(log_otu_table) <- column_names
+
+colnames(log_otu_table) <- make.unique(colnames(log_otu_table))
+
+p_heatmap <- gheatmap(p3, log_otu_table, width=1.5, offset=0.2, 
+                      legend_title="Relative Abundance", colnames_position="bottom", 
+                      colnames_angle=45, colnames_offset_y=0, hjust=1, font.size=1.5) +
+  scale_fill_gradientn("Relative abundance", colours = pal) +
+  scale_y_continuous(limits=c(-3, 27)) + theme_tree(legend.position="right")
+plot(p_heatmap)
+```
+
+```{r}
+
+# Save the heatmap as a file
+ggsave("Rhodo.png", plot = p_heatmap, width = 8, height = 6)
+
+```
+
+
+```{r}
+
+ps_venn(physeq.prune.rarefy, "Crust_type", quantities = list(type=c("counts"), font = 1), labels = list(cex = 1.5), col = "black", fill = c("red","blue","green","violet"))
+
+```
+
+```{r}
+
+ps_venn(physeq.prune.rarefy, "Site", quantities = list(type=c("counts"), font = 1), labels = list(cex = 1.5), col = "black", fill = c("red","blue","green","violet"), relative = TRUE)
+
+```
+```{r}
+
+ps_pheatmap(
+  physeq.prune.rarefy,
+  annot_samp = NULL,
+  annot_taxa = NULL,
+  relative = TRUE,
+  log10 = TRUE,
+  tax_agg = NULL,
+  order_taxa = TRUE,
+  min_samples = 1,
+  min_reads = 1,
+  min_abundance = 0,
+  label_rank = NULL,
+  color = c("black", viridis::viridis(10)),)
+```
 ##Subset for black yeast
 
 
